@@ -1,8 +1,31 @@
 # How to build Ivan Miranda's CNC machine
 
+This guide goes through all the steps of building Ivan Miranda's 3d-printed CNC machine and is a complement to Ivan's Youtube-videos:
+
+1. Original video: [https://www.youtube.com/watch?v=_atw3e0nIrg](https://www.youtube.com/watch?v=_atw3e0nIrg)
+2. Updates with geared stepper motors etc: [https://www.youtube.com/watch?v=qpjf5D3WngY](https://www.youtube.com/watch?v=qpjf5D3WngY)
+3. Updating to metal parts: [https://www.youtube.com/watch?v=RDnGvhdGFEY](https://www.youtube.com/watch?v=RDnGvhdGFEY)
+
+It follows the first and second video quite strict, while only using the added vertical beams from the third video.
+
+## License
+The following license is included when buying Ivan Miranda's blueprints of the CNC machine:
+
+```
+Everything that is in these files that I produced myself, apart from reselling the files, is allowed.
+You can print and sell parts, sell machines, sell courses to build the machine. Modify the parts and post 
+them for free, as long as you don’t sell the files and keep this license on everything you make with the 
+files and credit me, we’re good. No DRM or anything, you are even allowed to repost the files as long as 
+they’re kept free. Why buy this then? To support me and keep me encouraged to do more projects like this. 
+```
+
+Ivan does an amazing job putting these DIY builds together. I've posted his STL-files in this repository to simplify the build, but PLEASE buy his blueprints here: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc). It's only $25 and helps him to continue build and share his awesome projects.
+
 ## Parts
 
 ### 3d-printed parts
+
+
 
 ### Nuts
 
@@ -34,7 +57,7 @@
 | 10mm, 20mm, 2mm | X      | ![10_mm_20_mm_2_mm_washers](./images/parts/washers_10_mm_20_mm_2_mm.jpg) | X                                      |
 
 ### Beams
-All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles.
+All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles using a miter saw.
 
 | Type              | Amount | Image                                                                  | Used for                               |
 |-------------------|--------|------------------------------------------------------------------------|----------------------------------------|
@@ -47,6 +70,6 @@ All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles.
 
 | Type      | Amount | Image                                                                | Used for                               |
 |-----------|--------|----------------------------------------------------------------------|----------------------------------------|
-| M5 140 mm | X      | ![M5_140_mm_threaded_rod](./images/parts/threaded_rod_M5_140_mm.jpg) | X                                      |
-| M8 12 mm  | X      | ![M8_120_mm_threaded_rod](./images/parts/threaded_rod_M8_120_mm.jpg) | X                                      |
-| M8 717 mm | X      | ![M8_717_mm_threaded_rod](./images/parts/threaded_rod_M8_717_mm.jpg) | X                                      |
+| M5 140 mm | 2      | ![M5_140_mm_threaded_rod](./images/parts/threaded_rod_M5_140_mm.jpg) | Keep bridge beams together             |
+| M8 12 mm  | 8      | ![M8_120_mm_threaded_rod](./images/parts/threaded_rod_M8_120_mm.jpg) | Keep upper and lower frames together   |
+| M8 717 mm | X      | ![M8_717_mm_threaded_rod](./images/parts/threaded_rod_M8_717_mm.jpg) | Keep frames together                   |
