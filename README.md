@@ -27,12 +27,12 @@ Ivan does an amazing job putting these DIY builds together. I've posted his STL-
 
 #### Left side plates
 
-| Item no. | Type                             | Amount | Image                                                                                    | STL link                                                      | Used for          |
-|----------|----------------------------------|--------|------------------------------------------------------------------------------------------|---------------------------------------------------------------|-------------------|
-| SP_001   | Left side plate                  | 1      | ![left_plate](./images/3dprinted_parts/left_plate.jpg)                                   | [LEFT_PLATE.stl](./stl_files/side_plates/left/LEFT_PLATE.stl) | Lock bridge beams |
-| SP_002   | Left side plate upper front clip | 1      | ![left_plate_upper_front_clip](./images/3dprinted_parts/left_plate_upper_front_clip.jpg) |                                                               | Lock bridge beams |
-| SP_003   | Left side plate lower front clip | 1      | ![left_plate_lower_front_clip](./images/3dprinted_parts/left_plate_lower_front_clip.jpg) |                                                               | Lock bridge beams |
-| SP_004   | Left side plate back clip        | 1      | ![left_plate_back_plate](./images/3dprinted_parts/left_plate_back_plate.jpg)             |                                                               | Lock bridge beams |
+| Item no. | Type                             | Amount | Image                                                                                    | STL link                                                                                                | Used for          |
+|----------|----------------------------------|--------|------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-------------------|
+| SP_001   | Left side plate                  | 1      | ![left_plate](./images/3dprinted_parts/left_plate.jpg)                                   | [LEFT\_PLATE.stl](./stl_files/side_plates/left/LEFT_PLATE.stl)                                          | Lock bridge beams |
+| SP_002   | Left side plate upper front clip | 1      | ![left_plate_upper_front_clip](./images/3dprinted_parts/left_plate_upper_front_clip.jpg) | [LEFT\_PLATE\_UPPER\_FRONT\_CLIP.stl](./stl_files/side_plates/left/LEFT_PLATE_UPPER_FRONT_CLIP.stl)\\   | Lock bridge beams |
+| SP_003   | Left side plate lower front clip | 1      | ![left_plate_lower_front_clip](./images/3dprinted_parts/left_plate_lower_front_clip.jpg) | [LEFT\_PLATE\_LOWER\_FRONT\_CLIP.stl](./stl_files/side_plates/left/LEFT\_PLATE\_LOWER\_FRONT\_CLIP.stl) | Lock bridge beams |
+| SP_004   | Left side plate back clip        | 1      | ![left_plate_back_clip](./images/3dprinted_parts/left_plate_back_clip.jpg)               | [LEFT\_PLATE\_BACK\_CLIP.stl](./stl_files/side_plates/left/LEFT_PLATE_BACK_CLIP.stl)                    | Lock bridge beams |
 
 ### Other parts
 
