@@ -130,3 +130,46 @@ All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles using 
 | M5 140 mm | 2      | ![M5_140_mm_threaded_rod](./images/parts/threaded_rod_M5_140_mm.jpg) | Keep bridge beams together             |
 | M8 12 mm  | 8      | ![M8_120_mm_threaded_rod](./images/parts/threaded_rod_M8_120_mm.jpg) | Keep upper and lower frames together   |
 | M8 717 mm | X      | ![M8_717_mm_threaded_rod](./images/parts/threaded_rod_M8_717_mm.jpg) | Keep frames together                   |
+
+## Build the CNC machine
+This section covers how all the parts is put together to build the CNC machine. 
+
+All the measurements, distances etc can be found in the main project Fusion 360 CAD design that is included when buying Ivan's blueprints. The blueprints can be bought here for just \$25: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc)
+
+### Build the main frame
+
+#### Cut out holes in the 900 mm profiles
+The main frame consists of two separate frames, the lower and the upper frame. The two frames are keep everything together using threaded rods, washers and nuts. To enable the threaded rods to slide through the aluminium profiles, holes needed to be drilled.
+
+First, a marker was used to indicate where all the holes were going. This was done by using a set square and a penn. A bradawl and a hammer was then used to make indentations at the center of the holes.
+
+![holes_main_frame_1](./images/build/frame/holes_main_frame_1.jpg)
+
+A 9 mm drill-bit and a bench drill was used to drill the holes.
+
+![holes_main_frame_1](./images/build/frame/holes_main_frame_2.jpg)
+
+![holes_main_frame_1](./images/build/frame/holes_main_frame_3.jpg)
+
+To be able to access the nuts and tight them with a socket wrench, some holes (facing outwards) needed to be enlarged. This was done by first marking all the holes that should be enlarged.
+
+![holes_main_frame_1](./images/build/frame/holes_main_frame_4.jpg)
+
+A step drill was then used to enlarge the holes holes to 20 mm. A tip is to measure the size of your socket wrench and keep the holes as small as possible, while you're still able to tight the nuts. Too be able to see which step you're aiming for on the step drill, attach a small piece of masking tape on the step above.
+
+![holes_main_frame_1](./images/build/frame/holes_main_frame_5.jpg)
+
+![holes_main_frame_1](./images/build/frame/holes_main_frame_6.jpg)
+
+![holes_main_frame_1](./images/build/frame/holes_main_frame_7.jpg)
+
+![holes_main_frame_1](./images/build/frame/holes_main_frame_8.jpg)
+
+Smooth out the rought edges with a round metal file.
+
+![holes_main_frame_1](./images/build/frame/holes_main_frame_9.jpg)
+
+![holes_main_frame_1](./images/build/frame/holes_main_frame_10.jpg)
+
+![holes_main_frame_1](./images/build/frame/holes_main_frame_11.jpg)
+
