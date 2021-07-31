@@ -45,13 +45,14 @@ Ivan does an amazing job putting these DIY builds together. I've posted his STL-
 
 #### Router
 
-| Item no. | Type            | Amount | Image                                                            | STL link                                                        | Used for                   |
-|----------|-----------------|--------|------------------------------------------------------------------|-----------------------------------------------------------------|----------------------------|
-| RO_001   | Carriage        | 1      | ![carriage](./images/3dprinted_parts/carriage.jpg)               | [CARRIAGE.stl](./stl_files/router/CARRIAGE.stl)                 | Lock router in place       |
-| RO_002   | Router bracket  | 1      | ![router_bracket](./images/3dprinted_parts/router_bracket.jpg)   | [ROUTER\_BRACKET.stl](./stl_files/router/ROUTER_BRACKET.stl)    | Lock router in place       |
-| RO_003   | Vaccum funnel   | 1      | ![vaccum_funnel](./images/3dprinted_parts/vaccum_funnel.jpg)     | [VACUUM\_FUNNEL.stl](./stl_files/router/VACUUM_FUNNEL.stl)      | Vaccum funnel              |
-| RO_004   | Vertical slider | 1      | ![vertical_slider](./images/3dprinted_parts/vertical_slider.jpg) | [VERTICAL\_SLIDER.stl](./stl_files/router/VERTICAL\_SLIDER.stl) | Vertical slider for router |
-| RO_005   | Z motor mount   | 1      | ![z_motor_mount](./images/3dprinted_parts/z_motor_mount.jpg)     | [Z\_MOTOR\_MOUNT.stl](./stl_files/router/Z_MOTOR_MOUNT.stl)     | Mount z motor to carriage  |
+| Item no. | Type             | Amount | Image                                                              | STL link                                                          | Used for                    |
+|----------|------------------|--------|--------------------------------------------------------------------|-------------------------------------------------------------------|-----------------------------|
+| RO_001   | Carriage         | 1      | ![carriage](./images/3dprinted_parts/carriage.jpg)                 | [CARRIAGE.stl](./stl_files/router/CARRIAGE.stl)                   | Lock router in place        |
+| RO_002   | Router bracket   | 1      | ![router_bracket](./images/3dprinted_parts/router_bracket.jpg)     | [ROUTER\_BRACKET.stl](./stl_files/router/ROUTER_BRACKET.stl)      | Lock router in place        |
+| RO_003   | Vaccum funnel    | 1      | ![vaccum_funnel](./images/3dprinted_parts/vaccum_funnel.jpg)       | [VACUUM\_FUNNEL.stl](./stl_files/router/VACUUM_FUNNEL.stl)        | Lock vaccum close to router |
+| RO_004   | Vertical slider  | 1      | ![vertical_slider](./images/3dprinted_parts/vertical_slider.jpg)   | [VERTICAL\_SLIDER.stl](./stl_files/router/VERTICAL\_SLIDER.stl)   | Vertical slider for router  |
+| RO_005   | Z motor mount    | 1      | ![z_motor_mount](./images/3dprinted_parts/z_motor_mount.jpg)       | [Z\_MOTOR\_MOUNT.stl](./stl_files/router/Z_MOTOR_MOUNT.stl)       | Mount z motor to carriage   |
+| RO_006   | Vaccum hose ring | 1      | ![vaccum_hose_ring](./images/3dprinted_parts/vaccum_hose_ring.jpg) | [VACUUM\_HOSE\_RING.stl](./stl_files/router/VACUUM_HOSE_RING.stl) | Lock vaccum to carriage     |
 
 ### Other parts
 
