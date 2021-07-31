@@ -22,8 +22,22 @@ they’re kept free. Why buy this then? To support me and keep me encouraged to 
 Ivan does an amazing job putting these DIY builds together. I've posted his STL-files in this repository to simplify the build, but PLEASE buy his blueprints here: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc). It's only $25 and helps him to continue build and share his awesome projects.
 
 ## Parts
+The following chapter goes through all the parts needed to build the CNC machine. There are two sub-sections:
+
+* `3d-printed parts` - All parts that you need to 3d-print
+* `Other parts` - All the parts that you need to buy
+
+Each table includes:
+
+* `Item no.` - Item number used to identify the part later in the guide
+* `Type` - Name of the part
+* `Amount` - Number of units needed
+* `Image` - Image of the part
+* `(STL link)` - Link to the stl-file if there is any
+* `Used for` - Where it's used in the CNC machine
 
 ### 3d-printed parts
+All the parts below needs to be 3d-printed. The tables include links to the STL-files.
 
 #### Left side plates
 
@@ -68,6 +82,7 @@ Ivan does an amazing job putting these DIY builds together. I've posted his STL-
 | BT_008   | X axis front clip       | 1      | ![x_axis_front_clip](./images/3dprinted_parts/belt_tensioner/x_axis/x_axis_front_clip.jpg)                   | [Y\_AXIS\_X\_AXIS\_FRONT\_CLIP.stl](./stl_files/belt_tensioner/x_axis/X_AXIS_FRONT_CLIP.stl)                   | Lock x-axis belt       |
 
 ### Other parts
+All the parts below needs to be bought or cut out.
 
 #### Nuts
 
