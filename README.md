@@ -43,6 +43,16 @@ Ivan does an amazing job putting these DIY builds together. I've posted his STL-
 | RP_003   | Right side plate lower front clip | 1      | ![right_plate_lower_front_clip](./images/3dprinted_parts/right_plate_lower_front_clip.jpg) | [RIGHT\_PLATE\_LOWER\_FRONT\_CLIP.stl](./stl_files/side_plates/right/RIGHT_PLATE_LOWER_FRONT_CLIP.stl) | Lock bridge beams |
 | RP_004   | Right plate back clip.jpg         | 1      | ![right_plate_back_plate_back_clip](./images/3dprinted_parts/right_plate_back_clip.jpg)    | [RIGHT\_PLATE\_BACK\_CLIP.stl](./stl_files/side_plates/right/RIGHT_PLATE_BACK_CLIP.stl)                | Lock bridge beams |
 
+#### Router
+
+| Item no. | Type            | Amount | Image                                                           | STL link                                                                | Used for                   |
+|----------|-----------------|--------|-----------------------------------------------------------------|-------------------------------------------------------------------------|----------------------------|
+| RO_001   | Carriage        | 1      | ![carriage](./images/3dprinted_parts/carriage.jpg)              | [CARRIAGE.stl](./stl_files/side_plates/right/CARRIAGE.stl)              | Lock router in place       |
+| RO_002   | Router bracket  | 1      | ![router_bracket](./images/3dprinted_parts/router_bracket.jpg)  | [ROUTER\_BRACKET.stl](./stl_files/side_plates/right/ROUTER_BRACKET.stl) | Lock router in place       |
+| RO_003   | Vaccum funnel   | 1      | ![vaccum_funnel](./images/3dprinted_parts/vaccum_funnel.jpg)    | [VACUUM\_FUNNEL.stl](./stl_files/side_plates/right/VACUUM_FUNNEL.stl)   | Vaccum funnel              |
+| RO_004   | Vertical slider | 1      | ![vertical_slider](./images/3dprinted_parts/vertical_slider.jpg | [VERTICAL\_SLIDER](./stl_files/side_plates/right/VERTICAL\_SLIDER.stl)  | Vertical slider for router |
+| RO_005   | Z motor mount   | 1      | ![z_motor_mount]()                                              | [Z\_MOTOR\_MOUNT](./stl_files/side_plates/right/Z_MOTOR_MOUNT.stl)      | Mount z motor to carriage  |
+
 ### Other parts
 
 #### Nuts
