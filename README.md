@@ -129,7 +129,7 @@ All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles using 
 |-----------|--------|----------------------------------------------------------------------|----------------------------------------|
 | M5 140 mm | 2      | ![M5_140_mm_threaded_rod](./images/parts/threaded_rod_M5_140_mm.jpg) | Keep bridge beams together             |
 | M8 12 mm  | 8      | ![M8_120_mm_threaded_rod](./images/parts/threaded_rod_M8_120_mm.jpg) | Keep upper and lower frames together   |
-| M8 717 mm | X      | ![M8_717_mm_threaded_rod](./images/parts/threaded_rod_M8_717_mm.jpg) | Keep frames together                   |
+| M8 717 mm | 4      | ![M8_717_mm_threaded_rod](./images/parts/threaded_rod_M8_717_mm.jpg) | Keep frames together                   |
 
 #### Others
 
@@ -149,7 +149,7 @@ All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles using 
 | OT_012   | MGN12H rail 200 mm               | 2      | ![MGN12H_rail_200_mm](./images/parts/MGN12H_rail_200_mm.jpg)   | To move Z axis             |
 | OT_013   | MGN12H block                     | 12     | ![MGN12H_rail_block](./images/parts/MGN12H_rail_block.jpg)     | To move all axis           |
 | OT_014   | Cable chain 1 meter              | 2      | ![cable_chain_1000_mm](./images/parts/cable_chain_1000_mm.jpg) | Encapsulate cables         |
-| OT_015   | 698zz bearing                    | 12     | ![698zz_bearing](./images/parts/698zz_bearing.jpg)             | Ilders for HTD5M belt      |
+| OT_015   | 698zz bearing                    | 18     | ![698zz_bearing](./images/parts/698zz_bearing.jpg)             | Ilders for HTD5M belt      |
 
 ## Build the CNC machine
 This section covers how all the parts is put together to build the CNC machine. 
@@ -161,7 +161,7 @@ All the measurements, distances etc can be found in the main project Fusion 360 
 #### Cut out holes in the 900 mm profiles
 The main frame consists of two separate frames, the lower and the upper frame. The two frames are keep everything together using threaded rods, washers and nuts. To enable the threaded rods to slide through the aluminium profiles, holes needed to be drilled.
 
-First, a marker was used to indicate where all the holes were going. This was done by using a set square and a penn. A bradawl and a hammer was then used to make indentations at the center of the holes.
+First, a marker was used to indicate where all the holes were going. This was done by using a set square and a penn. A bradawl and a hammer were then used to make indentations at the center of the holes.
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_1.jpg)
 
@@ -195,9 +195,13 @@ Smooth out the rought edges with a round metal file.
 
 #### Attach rails to 900 mm profiles
 
-Before the upper and lower frames were assembled, two 600 mm rails were attached to the longer 900 mm aluminium profiles of the upper frame. They need to be attached to the sides facing outwards and be aligned above the three vertical beams. A tip is to place all the profiles as they should go to make sure that you're attaching the rails to the correct faces (see the red boxes on the below image).
+Before the upper and lower frames were assembled, two 600 mm rails were attached to the longer 900 mm aluminium profiles of the upper frame. They need to be attached to the sides facing outwards and be attached above the three vertical beams (connecting the lower and upper frame). A tip is to place all the profiles as they should go to make sure that you're attaching the rails to the correct faces (see the red boxes on the below image).
 
 ![rails_main_frame_1](./images/build/frame/rails_main_frame_1.jpg)
+
+![rails_main_frame_0](./images/build/frame/rails_main_frame_0.jpg)
+
+Three 3d-printed support tools were used to center the rails on the profiles. A 57 mm wood block were cut out and used to attach the rails at the same distance from the ends. The rails were then clamped to the profiles.
 
 ![rails_main_frame_2](./images/build/frame/rails_main_frame_2.jpg)
 
@@ -206,6 +210,8 @@ Before the upper and lower frames were assembled, two 600 mm rails were attached
 ![rails_main_frame_4](./images/build/frame/rails_main_frame_4.jpg)
 
 ![rails_main_frame_5](./images/build/frame/rails_main_frame_5.jpg)
+
+A bradawl and a hammer were then used to make indentations at the center of the holes. Cutting fluid were applied and a 2 mm drill was used to drill all the holes.
 
 ![rails_main_frame_6](./images/build/frame/rails_main_frame_6.jpg)
 
@@ -219,9 +225,13 @@ Before the upper and lower frames were assembled, two 600 mm rails were attached
 
 ![rails_main_frame_11](./images/build/frame/rails_main_frame_11.jpg)
 
+Cutting fluid was then applied once more on the drilled holes and a M3 drill tap was used to create threads in the holes.
+
 ![rails_main_frame_12](./images/build/frame/rails_main_frame_12.jpg)
 
 ![rails_main_frame_13](./images/build/frame/rails_main_frame_13.jpg)
+
+Finally, the rails were attached using 20 mm M3 screws.
 
 ![rails_main_frame_14](./images/build/frame/rails_main_frame_14.jpg)
 
@@ -231,13 +241,17 @@ Before the upper and lower frames were assembled, two 600 mm rails were attached
 
 ![rails_main_frame_17](./images/build/frame/rails_main_frame_17.jpg)
 
-#### Assemble frames
+#### Assemble upper and lower frames
+
+The frames were interlocked using the longer 717 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts.
+
+The profiles were first placed in their correct place and clamps were used to keep the profiles aligned. I used jointed spanner to lock everything in place, but you can also use two socket wrenches. Just make sure that the bits fit into the drilled holes.
 
 ![assemble_frames_1](./images/build/frame/assemble_frames_1.jpg)
 
-![assemble_frames_2](./images/build/frame/assemble_frames_2.jpg)
-
 ![assemble_frames_3](./images/build/frame/assemble_frames_3.jpg)
+
+![assemble_frames_2](./images/build/frame/assemble_frames_2.jpg)
 
 ![assemble_frames_4](./images/build/frame/assemble_frames_4.jpg)
 
@@ -247,15 +261,21 @@ Before the upper and lower frames were assembled, two 600 mm rails were attached
 
 ![assemble_frames_7](./images/build/frame/assemble_frames_7.jpg)
 
-![assemble_frames_8](./images/build/frame/assemble_frames_8.jpg)
+#### Interlock upper and lower frames
+
+All the aluminium profiles were first placed in their correct place. The horizontal aluminium bridge beams and clamps were then used to align the frames on top of each other.
 
 ![assemble_frames_9](./images/build/frame/assemble_frames_9.jpg)
 
 ![assemble_frames_10](./images/build/frame/assemble_frames_10.jpg)
 
-![assemble_frames_11](./images/build/frame/assemble_frames_11.jpg)
+The 120 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts were then used to interlock the upper and lower frames, with the 80 mm vertical aluminium profiles in between.
+
+![assemble_frames_8](./images/build/frame/assemble_frames_8.jpg)
 
 ![assemble_frames_12](./images/build/frame/assemble_frames_12.jpg)
+
+![assemble_frames_11](./images/build/frame/assemble_frames_11.jpg)
 
 ![assemble_frames_13](./images/build/frame/assemble_frames_13.jpg)
 
