@@ -579,6 +579,8 @@ Before the upper and lower frames were assembled, two 600 mm rails were attached
 
 ![assemble_carriage_39](./images/build/frame/assemble_carriage_39.jpg)
 
+![assemble_carriage_39](./images/build/frame/assemble_carriage_39_0.jpg)
+
 ![assemble_carriage_40](./images/build/frame/assemble_carriage_40.jpg)
 
 ![assemble_carriage_41](./images/build/frame/assemble_carriage_41.jpg)
