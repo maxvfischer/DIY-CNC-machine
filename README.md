@@ -175,7 +175,7 @@ To be able to access the nuts and tight them with a socket wrench, some holes (f
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_4.jpg)
 
-A step drill was then used to enlarge the holes holes to 20 mm. A tip is to measure the size of your socket wrench and keep the holes as small as possible, while you're still able to tight the nuts. Too be able to see which step you're aiming for on the step drill, attach a small piece of masking tape on the step above.
+A step drill was then used to enlarge the holes holes to 20 mm. A tip is to measure the size of your socket wrench and keep the holes as small as possible, while you're still able to tight the nuts. To be able to see which step you're aiming for on the step drill, attach a small piece of masking tape on the step above.
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_5.jpg)
 
@@ -194,6 +194,8 @@ Smooth out the rought edges with a round metal file.
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_11.jpg)
 
 #### Attach rails to 900 mm profiles
+
+Before the upper and lower frames were assembled, two 600 mm rails were attached to the longer 900 mm aluminium profiles of the upper frame. They need to be attached to the sides facing outwards and be aligned above the three vertical beams. A tip is to place all the profiles as they should go to make sure that you're attaching the rails to the correct faces (see the red boxes on the below image).
 
 ![rails_main_frame_1](./images/build/frame/rails_main_frame_1.jpg)
 
@@ -493,4 +495,130 @@ Smooth out the rought edges with a round metal file.
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_17.jpg)
 
 
+#### Attach bearings, acme nut and rails to carriage
 
+![assemble_carriage_1](./images/build/frame/assemble_carriage_1.jpg)
+
+![assemble_carriage_2](./images/build/frame/assemble_carriage_2.jpg)
+
+![assemble_carriage_3](./images/build/frame/assemble_carriage_3.jpg)
+
+![assemble_carriage_4](./images/build/frame/assemble_carriage_4.jpg)
+
+![assemble_carriage_5](./images/build/frame/assemble_carriage_5.jpg)
+
+![assemble_carriage_6](./images/build/frame/assemble_carriage_6.jpg)
+
+![assemble_carriage_7](./images/build/frame/assemble_carriage_7.jpg)
+
+![assemble_carriage_8](./images/build/frame/assemble_carriage_8.jpg)
+
+![assemble_carriage_9](./images/build/frame/assemble_carriage_9.jpg)
+
+![assemble_carriage_10](./images/build/frame/assemble_carriage_10.jpg)
+
+![assemble_carriage_11](./images/build/frame/assemble_carriage_11.jpg)
+
+![assemble_carriage_12](./images/build/frame/assemble_carriage_12.jpg)
+
+![assemble_carriage_13](./images/build/frame/assemble_carriage_13.jpg)
+
+#### Attach acme rod and blocks
+
+![assemble_carriage_14](./images/build/frame/assemble_carriage_14.jpg)
+
+![assemble_carriage_15](./images/build/frame/assemble_carriage_15.jpg)
+
+![assemble_carriage_16](./images/build/frame/assemble_carriage_16.jpg)
+
+![assemble_carriage_17](./images/build/frame/assemble_carriage_17.jpg)
+
+![assemble_carriage_18](./images/build/frame/assemble_carriage_18.jpg)
+
+![assemble_carriage_19](./images/build/frame/assemble_carriage_19.jpg)
+
+![assemble_carriage_20](./images/build/frame/assemble_carriage_20.jpg)
+
+![assemble_carriage_21](./images/build/frame/assemble_carriage_21.jpg)
+
+#### Attach Z motor mount and X axis cable chain
+
+![assemble_carriage_22](./images/build/frame/assemble_carriage_22.jpg)
+
+![assemble_carriage_23](./images/build/frame/assemble_carriage_23.jpg)
+
+![assemble_carriage_24](./images/build/frame/assemble_carriage_24.jpg)
+
+![assemble_carriage_25](./images/build/frame/assemble_carriage_25.jpg)
+
+![assemble_carriage_26](./images/build/frame/assemble_carriage_26.jpg)
+
+![assemble_carriage_27](./images/build/frame/assemble_carriage_27.jpg)
+
+![assemble_carriage_28](./images/build/frame/assemble_carriage_28.jpg)
+
+![assemble_carriage_29](./images/build/frame/assemble_carriage_29.jpg)
+
+![assemble_carriage_30](./images/build/frame/assemble_carriage_30.jpg)
+
+![assemble_carriage_31](./images/build/frame/assemble_carriage_31.jpg)
+
+![assemble_carriage_32](./images/build/frame/assemble_carriage_32.jpg)
+
+![assemble_carriage_33](./images/build/frame/assemble_carriage_33.jpg)
+
+![assemble_carriage_34](./images/build/frame/assemble_carriage_34.jpg)
+
+![assemble_carriage_35](./images/build/frame/assemble_carriage_35.jpg)
+
+![assemble_carriage_36](./images/build/frame/assemble_carriage_36.jpg)
+
+![assemble_carriage_37](./images/build/frame/assemble_carriage_37.jpg)
+
+![assemble_carriage_38](./images/build/frame/assemble_carriage_38.jpg)
+
+![assemble_carriage_39](./images/build/frame/assemble_carriage_39.jpg)
+
+![assemble_carriage_40](./images/build/frame/assemble_carriage_40.jpg)
+
+![assemble_carriage_41](./images/build/frame/assemble_carriage_41.jpg)
+
+![assemble_carriage_42](./images/build/frame/assemble_carriage_42.jpg)
+
+![assemble_carriage_43](./images/build/frame/assemble_carriage_43.jpg)
+
+![assemble_carriage_44](./images/build/frame/assemble_carriage_44.jpg)
+
+![assemble_carriage_45](./images/build/frame/assemble_carriage_45.jpg)
+
+![assemble_carriage_46](./images/build/frame/assemble_carriage_46.jpg)
+
+![assemble_carriage_47](./images/build/frame/assemble_carriage_47.jpg)
+
+![assemble_carriage_48](./images/build/frame/assemble_carriage_48.jpg)
+
+![assemble_carriage_49](./images/build/frame/assemble_carriage_49.jpg)
+
+![assemble_carriage_50](./images/build/frame/assemble_carriage_50.jpg)
+
+![assemble_carriage_51](./images/build/frame/assemble_carriage_51.jpg)
+
+![assemble_carriage_52](./images/build/frame/assemble_carriage_52.jpg)
+
+![assemble_carriage_53](./images/build/frame/assemble_carriage_53.jpg)
+
+![assemble_carriage_54](./images/build/frame/assemble_carriage_54.jpg)
+
+![assemble_carriage_55](./images/build/frame/assemble_carriage_55.jpg)
+
+![assemble_carriage_56](./images/build/frame/assemble_carriage_56.jpg)
+
+![assemble_carriage_57](./images/build/frame/assemble_carriage_57.jpg)
+
+![assemble_carriage_58](./images/build/frame/assemble_carriage_58.jpg)
+
+![assemble_carriage_59](./images/build/frame/assemble_carriage_59.jpg)
+
+![assemble_carriage_60](./images/build/frame/assemble_carriage_60.jpg)
+
+![assemble_carriage_61](./images/build/frame/assemble_carriage_61.jpg)
