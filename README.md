@@ -695,10 +695,130 @@ The stepper motors were then inserted into the large holes on the side plates, f
 
 #### Solder stepper motor cables
 
-##### Y-axis
+##### Y-axis 1
 
+![solder_steppers_y_axis_1](./images/build/frame/solder_steppers_y_axis_1.jpg)
+
+![solder_steppers_y_axis_2](./images/build/frame/solder_steppers_y_axis_2.jpg)
+
+![solder_steppers_y_axis_3](./images/build/frame/solder_steppers_y_axis_3.jpg)
+
+![solder_steppers_y_axis_4](./images/build/frame/solder_steppers_y_axis_4.jpg)
+
+![solder_steppers_y_axis_5](./images/build/frame/solder_steppers_y_axis_5.jpg)
+
+![solder_steppers_y_axis_6](./images/build/frame/solder_steppers_y_axis_6.jpg)
+
+![solder_steppers_y_axis_7](./images/build/frame/solder_steppers_y_axis_7.jpg)
+
+![solder_steppers_y_axis_8](./images/build/frame/solder_steppers_y_axis_8.jpg)
+
+![solder_steppers_y_axis_9](./images/build/frame/solder_steppers_y_axis_9.jpg)
+
+![solder_steppers_y_axis_10](./images/build/frame/solder_steppers_y_axis_10.jpg)
+
+![solder_steppers_y_axis_10_1](./images/build/frame/solder_steppers_y_axis_10_1.jpg)
+
+##### Y-axis 2
+
+![solder_steppers_y_axis_11](./images/build/frame/solder_steppers_y_axis_11.jpg)
+
+![solder_steppers_y_axis_12](./images/build/frame/solder_steppers_y_axis_12.jpg)
+
+![solder_steppers_y_axis_13](./images/build/frame/solder_steppers_y_axis_13.jpg)
+
+![solder_steppers_y_axis_14](./images/build/frame/solder_steppers_y_axis_14.jpg)
+
+![solder_steppers_y_axis_15](./images/build/frame/solder_steppers_y_axis_15.jpg)
+
+![solder_steppers_y_axis_16](./images/build/frame/solder_steppers_y_axis_16.jpg)
+
+![solder_steppers_y_axis_17](./images/build/frame/solder_steppers_y_axis_17.jpg)
+
+![solder_steppers_y_axis_18](./images/build/frame/solder_steppers_y_axis_18.jpg)
+
+![solder_steppers_y_axis_19](./images/build/frame/solder_steppers_y_axis_19.jpg)
+
+![solder_steppers_y_axis_20](./images/build/frame/solder_steppers_y_axis_20.jpg)
 
 ##### X-axis
 
+![solder_steppers_x_axis_1.jpg](./images/build/frame/solder_steppers_x_axis_1.jpg)
+
+![solder_steppers_x_axis_2.jpg](./images/build/frame/solder_steppers_x_axis_2.jpg)
+
+![solder_steppers_x_axis_3.jpg](./images/build/frame/solder_steppers_x_axis_3.jpg)
+
+![solder_steppers_x_axis_4.jpg](./images/build/frame/solder_steppers_x_axis_4.jpg)
+
+![solder_steppers_x_axis_5.jpg](./images/build/frame/solder_steppers_x_axis_5.jpg)
+
+![solder_steppers_x_axis_6.jpg](./images/build/frame/solder_steppers_x_axis_6.jpg)
+
+![solder_steppers_x_axis_7.jpg](./images/build/frame/solder_steppers_x_axis_7.jpg)
+
+![solder_steppers_x_axis_8.jpg](./images/build/frame/solder_steppers_x_axis_8.jpg)
 
 ##### Z axis
+
+![solder_steppers_z_axis_1.jpg](./images/build/frame/solder_steppers_z_axis_1.jpg)
+
+![solder_steppers_z_axis_2.jpg](./images/build/frame/solder_steppers_z_axis_2.jpg)
+
+![solder_steppers_z_axis_3.jpg](./images/build/frame/solder_steppers_z_axis_3.jpg)
+
+![solder_steppers_z_axis_4.jpg](./images/build/frame/solder_steppers_z_axis_4.jpg)
+
+![solder_steppers_z_axis_5.jpg](./images/build/frame/solder_steppers_z_axis_5.jpg)
+
+![solder_steppers_z_axis_6.jpg](./images/build/frame/solder_steppers_z_axis_6.jpg)
+
+![solder_steppers_z_axis_7.jpg](./images/build/frame/solder_steppers_z_axis_7.jpg)
+
+![solder_steppers_z_axis_8.jpg](./images/build/frame/solder_steppers_z_axis_8.jpg)
+
+![solder_steppers_z_axis_9.jpg](./images/build/frame/solder_steppers_z_axis_9.jpg)
+
+![solder_steppers_z_axis_9.jpg](./images/build/frame/solder_steppers_z_axis_10.jpg)
+
+#### Stepper motor cable management
+
+![stepper_motor_cable_management_1](./images/build/frame/stepper_motor_cable_management_1.jpg)
+
+![stepper_motor_cable_management_2](./images/build/frame/stepper_motor_cable_management_2.jpg)
+
+![stepper_motor_cable_management_3](./images/build/frame/stepper_motor_cable_management_3.jpg)
+
+![stepper_motor_cable_management_4](./images/build/frame/stepper_motor_cable_management_4.jpg)
+
+![stepper_motor_cable_management_5](./images/build/frame/stepper_motor_cable_management_5.jpg)
+
+![stepper_motor_cable_management_6](./images/build/frame/stepper_motor_cable_management_6.jpg)
+
+![stepper_motor_cable_management_7](./images/build/frame/stepper_motor_cable_management_7.jpg)
+
+![stepper_motor_cable_management_8](./images/build/frame/stepper_motor_cable_management_8.jpg)
+
+![stepper_motor_cable_management_9](./images/build/frame/stepper_motor_cable_management_9.jpg)
+
+![stepper_motor_cable_management_10](./images/build/frame/stepper_motor_cable_management_10.jpg)
+
+![stepper_motor_cable_management_11](./images/build/frame/stepper_motor_cable_management_11.jpg)
+
+![stepper_motor_cable_management_12](./images/build/frame/stepper_motor_cable_management_12.jpg)
+
+![stepper_motor_cable_management_13](./images/build/frame/stepper_motor_cable_management_13.jpg)
+
+![stepper_motor_cable_management_14](./images/build/frame/stepper_motor_cable_management_14.jpg)
+
+![stepper_motor_cable_management_15](./images/build/frame/stepper_motor_cable_management_15.jpg)
+
+![stepper_motor_cable_management_16](./images/build/frame/stepper_motor_cable_management_16.jpg)
+
+![stepper_motor_cable_management_17](./images/build/frame/stepper_motor_cable_management_17.jpg)
+
+![stepper_motor_cable_management_18](./images/build/frame/stepper_motor_cable_management_18.jpg)
+
+![stepper_motor_cable_management_19](./images/build/frame/stepper_motor_cable_management_19.jpg)
+
+
