@@ -281,9 +281,15 @@ The 120 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts were the
 
 #### Attach side plates
 
+Before attaching the side plates, the MGN12H blocks were added back onto the rails, two on each side. Be careful when sliding them onto the rails, there are multiple small bearing balls that easily fall out of the block.
+
+The left and right side plates where then attached to the blocks using 20 mm M3 screws. Make sure to attach the plates on the correct side (see images below).
+
 ![assemble_side_plates_1](./images/build/frame/assemble_side_plates_1.jpg)
 
 ![assemble_side_plates_2](./images/build/frame/assemble_side_plates_2.jpg)
+
+I had to redesign the left side plate and reprint it later in the build. Therefore, the left side plate seen in the upcoming images look a bit different than the one used (see next image for the left side plate used).
 
 ![assemble_side_plates_3](./images/build/frame/assemble_side_plates_3.jpg)
 
@@ -297,7 +303,9 @@ The 120 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts were the
 
 ![assemble_side_plates_8](./images/build/frame/assemble_side_plates_8.jpg)
 
-#### Attach motors on side plate
+#### Attach motors, idlers and pulleys on side plates
+
+Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 6 (10 mm x 8 mm x 2 mm) washers (3 on each side of the bearings). Two idlers were then attached to each side plate using two M8 nuts.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_1.jpg)
 
@@ -313,9 +321,13 @@ The 120 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts were the
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_7.jpg)
 
+To attach the stepper motors to the side plates, the 4 M3 screws locking the gear box onto the motor were removed. 
+
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_8.jpg)
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_9.jpg)
+
+The stepper motors were then inserted into the large holes on the side plates, facing inwards. 4 40 mm M3 screws were used to lock each stepper motor onto the side plates. Remember to attach the motors so that the cables are facing in the direction of 
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_10.jpg)
 
@@ -644,3 +656,49 @@ The 120 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts were the
 ![assemble_carriage_60](./images/build/frame/assemble_carriage_60.jpg)
 
 ![assemble_carriage_61](./images/build/frame/assemble_carriage_61.jpg)
+
+#### Attach Y axis cable chain
+
+![assemble_cable_support_y_axis_1](./images/build/frame/assemble_cable_support_y_axis_1.jpg)
+
+![assemble_cable_support_y_axis_2](./images/build/frame/assemble_cable_support_y_axis_2.jpg)
+
+![assemble_cable_support_y_axis_3](./images/build/frame/assemble_cable_support_y_axis_3.jpg)
+
+![assemble_cable_support_y_axis_4](./images/build/frame/assemble_cable_support_y_axis_4.jpg)
+
+![assemble_cable_support_y_axis_5](./images/build/frame/assemble_cable_support_y_axis_5.jpg)
+
+![assemble_cable_support_y_axis_6](./images/build/frame/assemble_cable_support_y_axis_6.jpg)
+
+![assemble_cable_support_y_axis_7](./images/build/frame/assemble_cable_support_y_axis_7.jpg)
+
+![assemble_cable_support_y_axis_8](./images/build/frame/assemble_cable_support_y_axis_8.jpg)
+
+![assemble_cable_support_y_axis_9](./images/build/frame/assemble_cable_support_y_axis_9.jpg)
+
+![assemble_cable_support_y_axis_10](./images/build/frame/assemble_cable_support_y_axis_10.jpg)
+
+![assemble_cable_support_y_axis_11](./images/build/frame/assemble_cable_support_y_axis_11.jpg)
+
+![assemble_cable_support_y_axis_12](./images/build/frame/assemble_cable_support_y_axis_12.jpg)
+
+![assemble_cable_support_y_axis_13](./images/build/frame/assemble_cable_support_y_axis_13.jpg)
+
+![assemble_cable_support_y_axis_14](./images/build/frame/assemble_cable_support_y_axis_14.jpg)
+
+![assemble_cable_support_y_axis_15](./images/build/frame/assemble_cable_support_y_axis_15.jpg)
+
+![assemble_cable_support_y_axis_16](./images/build/frame/assemble_cable_support_y_axis_16.jpg)
+
+![assemble_cable_support_y_axis_17](./images/build/frame/assemble_cable_support_y_axis_17.jpg)
+
+#### Solder stepper motor cables
+
+##### Y-axis
+
+
+##### X-axis
+
+
+##### Z axis
