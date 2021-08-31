@@ -829,6 +829,169 @@ The two smaller 200 mm MGN12H rails were then attached to the back of the vertic
 
 ![solder_steppers_z_axis_9.jpg](./images/build/frame/solder_steppers_z_axis_10.jpg)
 
+#### Attach endstops and endstop cables
+
+#### X axis (max)
+
+![attach_endstoppers_x_axis_1](./images/build/frame/attach_endstoppers_x_axis_1.jpg)
+
+![attach_endstoppers_x_axis_2](./images/build/frame/attach_endstoppers_x_axis_2.jpg)
+
+![attach_endstoppers_x_axis_3](./images/build/frame/attach_endstoppers_x_axis_3.jpg)
+
+![attach_endstoppers_x_axis_4](./images/build/frame/attach_endstoppers_x_axis_4.jpg)
+
+![attach_endstoppers_x_axis_5](./images/build/frame/attach_endstoppers_x_axis_5.jpg)
+
+![attach_endstoppers_x_axis_7](./images/build/frame/attach_endstoppers_x_axis_7.jpg)
+
+![attach_endstoppers_x_axis_8](./images/build/frame/attach_endstoppers_x_axis_8.jpg)
+
+![attach_endstoppers_x_axis_9](./images/build/frame/attach_endstoppers_x_axis_9.jpg)
+
+![attach_endstoppers_x_axis_10](./images/build/frame/attach_endstoppers_x_axis_10.jpg)
+
+![attach_endstoppers_x_axis_11](./images/build/frame/attach_endstoppers_x_axis_11.jpg)
+
+![attach_endstoppers_x_axis_12](./images/build/frame/attach_endstoppers_x_axis_12.jpg)
+
+![attach_endstoppers_x_axis_13](./images/build/frame/attach_endstoppers_x_axis_13.jpg)
+
+![attach_endstoppers_x_axis_14](./images/build/frame/attach_endstoppers_x_axis_14.jpg)
+
+![attach_endstoppers_x_axis_15](./images/build/frame/attach_endstoppers_x_axis_15.jpg)
+
+![attach_endstoppers_x_axis_16](./images/build/frame/attach_endstoppers_x_axis_16.jpg)
+
+![attach_endstoppers_x_axis_17](./images/build/frame/attach_endstoppers_x_axis_17.jpg)
+
+![attach_endstoppers_x_axis_18](./images/build/frame/attach_endstoppers_x_axis_18.jpg)
+
+![attach_endstoppers_x_axis_19](./images/build/frame/attach_endstoppers_x_axis_19.jpg)
+
+![attach_endstoppers_x_axis_20](./images/build/frame/attach_endstoppers_x_axis_20.jpg)
+
+![attach_endstoppers_x_axis_21](./images/build/frame/attach_endstoppers_x_axis_21.jpg)
+
+![attach_endstoppers_x_axis_22](./images/build/frame/attach_endstoppers_x_axis_22.jpg)
+
+![attach_endstoppers_x_axis_23](./images/build/frame/attach_endstoppers_x_axis_23.jpg)
+
+![attach_endstoppers_x_axis_24](./images/build/frame/attach_endstoppers_x_axis_24.jpg)
+
+![attach_endstoppers_x_axis_25](./images/build/frame/attach_endstoppers_x_axis_25.jpg)
+
+![attach_endstoppers_x_axis_26](./images/build/frame/attach_endstoppers_x_axis_26.jpg)
+
+![attach_endstoppers_x_axis_27](./images/build/frame/attach_endstoppers_x_axis_27.jpg)
+
+![attach_endstoppers_x_axis_28](./images/build/frame/attach_endstoppers_x_axis_28.jpg)
+
+![attach_endstoppers_x_axis_29](./images/build/frame/attach_endstoppers_x_axis_29.jpg)
+
+![attach_endstoppers_x_axis_30](./images/build/frame/attach_endstoppers_x_axis_30.jpg)
+
+![attach_endstoppers_x_axis_31](./images/build/frame/attach_endstoppers_x_axis_31.jpg)
+
+#### X axis (min)
+
+![attach_endstoppers_x_axis_32_0](./images/build/frame/attach_endstoppers_x_axis_32_0.jpg)
+
+![attach_endstoppers_x_axis_32_1](./images/build/frame/attach_endstoppers_x_axis_32_1.jpg)
+
+![attach_endstoppers_x_axis_32_2](./images/build/frame/attach_endstoppers_x_axis_32_2.jpg)
+
+![attach_endstoppers_x_axis_32](./images/build/frame/attach_endstoppers_x_axis_32.jpg)
+
+![attach_endstoppers_x_axis_33](./images/build/frame/attach_endstoppers_x_axis_33.jpg)
+
+![attach_endstoppers_x_axis_34](./images/build/frame/attach_endstoppers_x_axis_34.jpg)
+
+![attach_endstoppers_x_axis_35](./images/build/frame/attach_endstoppers_x_axis_35.jpg)
+
+![attach_endstoppers_x_axis_36](./images/build/frame/attach_endstoppers_x_axis_36.jpg)
+
+![attach_endstoppers_x_axis_37](./images/build/frame/attach_endstoppers_x_axis_37.jpg)
+
+![attach_endstoppers_x_axis_38](./images/build/frame/attach_endstoppers_x_axis_38.jpg)
+
+![attach_endstoppers_x_axis_39](./images/build/frame/attach_endstoppers_x_axis_39.jpg)
+
+#### Y axis (max)
+
+![attach_endstoppers_y_axis_1](./images/build/frame/attach_endstoppers_y_axis_1.jpg)
+
+![attach_endstoppers_y_axis_2](./images/build/frame/attach_endstoppers_y_axis_2.jpg)
+
+![attach_endstoppers_y_axis_3](./images/build/frame/attach_endstoppers_y_axis_3.jpg)
+
+![attach_endstoppers_y_axis_4](./images/build/frame/attach_endstoppers_y_axis_4.jpg)
+
+![attach_endstoppers_y_axis_5](./images/build/frame/attach_endstoppers_y_axis_5.jpg)
+
+![attach_endstoppers_y_axis_6](./images/build/frame/attach_endstoppers_y_axis_6.jpg)
+
+![attach_endstoppers_y_axis_7](./images/build/frame/attach_endstoppers_y_axis_7.jpg)
+
+![attach_endstoppers_y_axis_8](./images/build/frame/attach_endstoppers_y_axis_8.jpg)
+
+![attach_endstoppers_y_axis_9](./images/build/frame/attach_endstoppers_y_axis_9.jpg)
+
+![attach_endstoppers_y_axis_10](./images/build/frame/attach_endstoppers_y_axis_10.jpg)
+
+![attach_endstoppers_y_axis_11](./images/build/frame/attach_endstoppers_y_axis_11.jpg)
+
+![attach_endstoppers_y_axis_12](./images/build/frame/attach_endstoppers_y_axis_12.jpg)
+
+![attach_endstoppers_y_axis_13](./images/build/frame/attach_endstoppers_y_axis_13.jpg)
+
+![attach_endstoppers_y_axis_14](./images/build/frame/attach_endstoppers_y_axis_14.jpg)
+
+![attach_endstoppers_y_axis_15](./images/build/frame/attach_endstoppers_y_axis_15.jpg)
+
+![attach_endstoppers_y_axis_16](./images/build/frame/attach_endstoppers_y_axis_16.jpg)
+
+![attach_endstoppers_y_axis_17](./images/build/frame/attach_endstoppers_y_axis_17.jpg)
+
+![attach_endstoppers_y_axis_18](./images/build/frame/attach_endstoppers_y_axis_18.jpg)
+
+![attach_endstoppers_y_axis_19](./images/build/frame/attach_endstoppers_y_axis_19.jpg)
+
+![attach_endstoppers_y_axis_20](./images/build/frame/attach_endstoppers_y_axis_20.jpg)
+
+![attach_endstoppers_y_axis_21](./images/build/frame/attach_endstoppers_y_axis_21.jpg)
+
+![attach_endstoppers_y_axis_22](./images/build/frame/attach_endstoppers_y_axis_22.jpg)
+
+![attach_endstoppers_y_axis_23](./images/build/frame/attach_endstoppers_y_axis_23.jpg)
+
+![attach_endstoppers_y_axis_24](./images/build/frame/attach_endstoppers_y_axis_24.jpg)
+
+#### Y axis (min)
+
+![attach_endstoppers_y_axis_25](./images/build/frame/attach_endstoppers_y_axis_25.jpg)
+
+![attach_endstoppers_y_axis_26](./images/build/frame/attach_endstoppers_y_axis_26.jpg)
+
+![attach_endstoppers_y_axis_27](./images/build/frame/attach_endstoppers_y_axis_27.jpg)
+
+![attach_endstoppers_y_axis_28](./images/build/frame/attach_endstoppers_y_axis_28.jpg)
+
+![attach_endstoppers_y_axis_29](./images/build/frame/attach_endstoppers_y_axis_29.jpg)
+
+![attach_endstoppers_y_axis_30](./images/build/frame/attach_endstoppers_y_axis_30.jpg)
+
+![attach_endstoppers_y_axis_31](./images/build/frame/attach_endstoppers_y_axis_31.jpg)
+
+![attach_endstoppers_y_axis_32](./images/build/frame/attach_endstoppers_y_axis_32.jpg)
+
+![attach_endstoppers_y_axis_33](./images/build/frame/attach_endstoppers_y_axis_33.jpg)
+
+![attach_endstoppers_y_axis_34](./images/build/frame/attach_endstoppers_y_axis_34.jpg)
+
+![attach_endstoppers_y_axis_35](./images/build/frame/attach_endstoppers_y_axis_35.jpg)
+
+
 #### Stepper motor cable management
 
 ![stepper_motor_cable_management_1](./images/build/frame/stepper_motor_cable_management_1.jpg)
@@ -872,10 +1035,10 @@ The two smaller 200 mm MGN12H rails were then attached to the back of the vertic
 
 ### Install CNC software on Arduino Uno
 
-The software used in this project to control the CNC machine is called `grbl`. It's an open source and high performance g-code-parser and CNC milling controller that can run on a straight Arduino.
+The software used in this project to control the CNC machine is called `grbl`. It's an open source and high performance g-code-parser and CNC milling controller that can run on a straight Arduino. To be able to install the software on the Arduino, you will need a computer.
 
 #### Install Arduino Software (IDE)
-To be able to install `grbl` on the Arduino, the `Arduino Software (IDE)` was first installed. This program is used to upload code to the Arduino. Download the program from this website and follow the instructions: 
+To be able to install `grbl` on the Arduino, the `Arduino Software (IDE)` needs to be installed on your computer. This program is used to upload code to the Arduino. Download the program from this website and follow the instructions: 
 
 [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
 
@@ -884,9 +1047,60 @@ When starting the program, you should see something similar to this:
 ![install_software_1](./images/build/frame/install_software_1.jpg)
 
 #### Install `grbl`
-After installing the Arduino Software, the latest stable version of `grbl` was downloaded from here (zip-version): 
+After installing the Arduino Software, the latest stable version of `grbl` was downloaded (as zip-format) from their official GitHub release page: 
 
 [https://github.com/gnea/grbl/releases](https://github.com/gnea/grbl/releases)
 
-The zip-file was then unzipped.
+After unzipping the file, you should see something similar to this in the folder:
 
+![install_software_2](./images/build/frame/install_software_2.jpg)
+
+Now, open the `Arduino Software (IDE)` and click `Sketch > Include Library > Add .ZIP Library...` in the top menu:
+
+![install_software_3](./images/build/frame/install_software_3.jpg)
+
+You should see a pop-up similar to this:
+
+![install_software_4](./images/build/frame/install_software_4.jpg)
+
+Find the unzipped folder, open it and choose the folder `grbl`. After choosing the folder, you should see a text below the editor saying `Library added to your libraries. Check "Include library" menu`.
+
+Next, connect the Arduino to your computer. It should fire up right away as it uses the computer as a power source.
+
+![install_software_5](./images/build/frame/install_software_5.jpg)
+
+![install_software_6](./images/build/frame/install_software_6.jpg)
+
+![install_software_7](./images/build/frame/install_software_7.jpg)
+
+To let the IDE know where to upload the software, we first need to set the correct serial port and board. To set the serial port, find the correct one under `Tools > Port > SOMETHINGSOMETHING (Arduino Uno)`.
+
+![install_software_8](./images/build/frame/install_software_8.jpg)
+
+To set the board, find "Arduino Uno" under `Tools > Board > Arduino Uno`.
+
+![install_software_8_1](./images/build/frame/install_software_8_1.jpg)
+
+
+To test if you've chosen the correct board and serial port, compile the template code by clicking on the check mark in the top left corner. When compiling is done, click the right-pointing arrow to upload the code to the Arduino. If successfull, you should see a text saying `Done uploading` below the editor.
+
+![install_software_9](./images/build/frame/install_software_9.jpg)
+
+![install_software_10](./images/build/frame/install_software_10.jpg)
+
+It's now time to upload `grbl` to the Arduino. To do this, click `File > Open` in the top menu:
+
+![install_software_11](./images/build/frame/install_software_11.jpg)
+
+This should open a pop-up window. Find the downloaded folder and open `grbl/examples/grblUpload/grblUpload.ino`:
+
+![install_software_12](./images/build/frame/install_software_12.jpg)
+
+A new editor should pop-up:
+
+![install_software_13](./images/build/frame/install_software_13.jpg)
+
+Similar as before, compile the code by clicking on the check mark. When done, upload the code to the Arduino by clicking on the right-pointing arrow. This should only take a couple of seconds. `grbl` is now installed on the Arduino!
+
+
+### Connect power to Arduino
