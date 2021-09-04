@@ -580,6 +580,8 @@ Before attaching the carriage to the bridge beams, two KFL08 rod bearing were at
 
 #### Attach carriage to bridge beams
 
+The carriage was attached to the four MGN12H blocks on the bridge beams, using 25 mm M3 bolts.
+
 ![attach_carriage_to_beams_1](./images/build/frame/attach_carriage_to_beams_1.jpg)
 
 ![attach_carriage_to_beams_2](./images/build/frame/attach_carriage_to_beams_2.jpg)
@@ -589,6 +591,8 @@ Before attaching the carriage to the bridge beams, two KFL08 rod bearing were at
 ![attach_carriage_to_beams_4](./images/build/frame/attach_carriage_to_beams_4.jpg)
 
 #### Attach motor, idlers and pulley to carriage
+
+The belt idlers were attached to the carriage in the same way as to the side plates. Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 6 (10 mm x 8 mm x 2 mm) washers (3 on each side of the bearings). The two idlers were then attached to the carriage using two M8 nuts.
 
 ![attach_idlers_motor_to_carriage_1](./images/build/frame/attach_idlers_motor_to_carriage_1.jpg)
 
@@ -600,17 +604,23 @@ Before attaching the carriage to the bridge beams, two KFL08 rod bearing were at
 
 ![attach_idlers_motor_to_carriage_5](./images/build/frame/attach_idlers_motor_to_carriage_5.jpg)
 
+To attach the stepper motor to the carriage, the 4 M3 screws locking the gear box onto the motor were removed.
+
 ![attach_idlers_motor_to_carriage_6](./images/build/frame/attach_idlers_motor_to_carriage_6.jpg)
 
 ![attach_idlers_motor_to_carriage_7](./images/build/frame/attach_idlers_motor_to_carriage_7.jpg)
 
 ![attach_idlers_motor_to_carriage_8](./images/build/frame/attach_idlers_motor_to_carriage_8.jpg)
 
+The stepper motor was then inserted into the large holes on the carriage, facing towards the bridge beams/idlers. x4 40 mm M3 screws and x4 M3 washers were used to lock the stepper motor onto the carriage. The motor should be attached so that the cables are facing upwards.
+
 ![attach_idlers_motor_to_carriage_9](./images/build/frame/attach_idlers_motor_to_carriage_9.jpg)
 
 ![attach_idlers_motor_to_carriage_10](./images/build/frame/attach_idlers_motor_to_carriage_10.jpg)
 
 ![attach_idlers_motor_to_carriage_11](./images/build/frame/attach_idlers_motor_to_carriage_11.jpg)
+
+The HTD5M timing pulley was attached to the motor shaft using set screws.
 
 ![attach_idlers_motor_to_carriage_12](./images/build/frame/attach_idlers_motor_to_carriage_12.jpg)
 
