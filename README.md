@@ -564,7 +564,6 @@ The bridge beams were then inserted into the slots on the side plates once more,
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_17.jpg)
 
-
 #### Attach bearings to carriage
 
 Before attaching the carriage to the bridge beams, two KFL08 rod bearing were attached on the top and the bottom of the carriage using 20 mm M5 bolts and M5 locknuts.
@@ -578,6 +577,62 @@ Before attaching the carriage to the bridge beams, two KFL08 rod bearing were at
 ![assemble_carriage_4](./images/build/frame/assemble_carriage_4.jpg)
 
 ![assemble_carriage_5](./images/build/frame/assemble_carriage_5.jpg)
+
+#### Attach carriage to bridge beams
+
+![attach_carriage_to_beams_1](./images/build/frame/attach_carriage_to_beams_1.jpg)
+
+![attach_carriage_to_beams_2](./images/build/frame/attach_carriage_to_beams_2.jpg)
+
+![attach_carriage_to_beams_3](./images/build/frame/attach_carriage_to_beams_3.jpg)
+
+![attach_carriage_to_beams_4](./images/build/frame/attach_carriage_to_beams_4.jpg)
+
+#### Attach motor, idlers and pulley to carriage
+
+![attach_idlers_motor_to_carriage_1](./images/build/frame/attach_idlers_motor_to_carriage_1.jpg)
+
+![attach_idlers_motor_to_carriage_2](./images/build/frame/attach_idlers_motor_to_carriage_2.jpg)
+
+![attach_idlers_motor_to_carriage_3](./images/build/frame/attach_idlers_motor_to_carriage_3.jpg)
+
+![attach_idlers_motor_to_carriage_4](./images/build/frame/attach_idlers_motor_to_carriage_4.jpg)
+
+![attach_idlers_motor_to_carriage_5](./images/build/frame/attach_idlers_motor_to_carriage_5.jpg)
+
+![attach_idlers_motor_to_carriage_6](./images/build/frame/attach_idlers_motor_to_carriage_6.jpg)
+
+![attach_idlers_motor_to_carriage_7](./images/build/frame/attach_idlers_motor_to_carriage_7.jpg)
+
+![attach_idlers_motor_to_carriage_8](./images/build/frame/attach_idlers_motor_to_carriage_8.jpg)
+
+![attach_idlers_motor_to_carriage_9](./images/build/frame/attach_idlers_motor_to_carriage_9.jpg)
+
+![attach_idlers_motor_to_carriage_10](./images/build/frame/attach_idlers_motor_to_carriage_10.jpg)
+
+![attach_idlers_motor_to_carriage_11](./images/build/frame/attach_idlers_motor_to_carriage_11.jpg)
+
+![attach_idlers_motor_to_carriage_12](./images/build/frame/attach_idlers_motor_to_carriage_12.jpg)
+
+![attach_idlers_motor_to_carriage_13](./images/build/frame/attach_idlers_motor_to_carriage_13.jpg)
+
+#### Attach X axis belt
+
+![attach_x_axis_belt_1](./images/build/frame/attach_x_axis_belt_1.jpg)
+
+![attach_x_axis_belt_2](./images/build/frame/attach_x_axis_belt_2.jpg)
+
+![attach_x_axis_belt_3](./images/build/frame/attach_x_axis_belt_3.jpg)
+
+![attach_x_axis_belt_4](./images/build/frame/attach_x_axis_belt_4.jpg)
+
+![attach_x_axis_belt_5](./images/build/frame/attach_x_axis_belt_5.jpg)
+
+![attach_x_axis_belt_6](./images/build/frame/attach_x_axis_belt_6.jpg)
+
+![attach_x_axis_belt_7](./images/build/frame/attach_x_axis_belt_7.jpg)
+
+![attach_x_axis_belt_8](./images/build/frame/attach_x_axis_belt_8.jpg)
 
 #### Attach acme nut and rails to carriage slider
 
@@ -605,17 +660,17 @@ The two smaller 200 mm MGN12H rails were then attached to the back of the vertic
 
 #### Attach acme rod and blocks
 
-![assemble_carriage_14](./images/build/frame/assemble_carriage_14.jpg)
-
-![assemble_carriage_15](./images/build/frame/assemble_carriage_15.jpg)
-
-![assemble_carriage_16](./images/build/frame/assemble_carriage_16.jpg)
-
 ![assemble_carriage_17](./images/build/frame/assemble_carriage_17.jpg)
 
 ![assemble_carriage_18](./images/build/frame/assemble_carriage_18.jpg)
 
 ![assemble_carriage_19](./images/build/frame/assemble_carriage_19.jpg)
+
+![assemble_carriage_14](./images/build/frame/assemble_carriage_14.jpg)
+
+![assemble_carriage_15](./images/build/frame/assemble_carriage_15.jpg)
+
+![assemble_carriage_16](./images/build/frame/assemble_carriage_16.jpg)
 
 ![assemble_carriage_20](./images/build/frame/assemble_carriage_20.jpg)
 
@@ -740,6 +795,28 @@ The two smaller 200 mm MGN12H rails were then attached to the back of the vertic
 ![assemble_cable_support_y_axis_16](./images/build/frame/assemble_cable_support_y_axis_16.jpg)
 
 ![assemble_cable_support_y_axis_17](./images/build/frame/assemble_cable_support_y_axis_17.jpg)
+
+#### Attach Z stepper motor, pulleys and belt
+
+![attach_z_stepper_pulleys_belt_1](./images/build/frame/attach_z_stepper_pulleys_belt_1.jpg)
+
+![attach_z_stepper_pulleys_belt_2](./images/build/frame/attach_z_stepper_pulleys_belt_2.jpg)
+
+![attach_z_stepper_pulleys_belt_3](./images/build/frame/attach_z_stepper_pulleys_belt_3.jpg)
+
+![attach_z_stepper_pulleys_belt_4](./images/build/frame/attach_z_stepper_pulleys_belt_4.jpg)
+
+![attach_z_stepper_pulleys_belt_5](./images/build/frame/attach_z_stepper_pulleys_belt_5.jpg)
+
+![attach_z_stepper_pulleys_belt_6](./images/build/frame/attach_z_stepper_pulleys_belt_6.jpg)
+
+![attach_z_stepper_pulleys_belt_7](./images/build/frame/attach_z_stepper_pulleys_belt_7.jpg)
+
+![attach_z_stepper_pulleys_belt_8](./images/build/frame/attach_z_stepper_pulleys_belt_8.jpg)
+
+![attach_z_stepper_pulleys_belt_9](./images/build/frame/attach_z_stepper_pulleys_belt_9.jpg)
+
+![attach_z_stepper_pulleys_belt_10](./images/build/frame/attach_z_stepper_pulleys_belt_10.jpg)
 
 #### Solder stepper motor cables
 
