@@ -628,6 +628,10 @@ The HTD5M timing pulley was attached to the motor shaft using set screws.
 
 #### Attach X axis belt
 
+The HTD5M belt was first inserted into the fixed belt tensioner using a flat screw driver. It was then stretched along the aluminium profile, below the first idler, around the timing pulley, below the second idler and all the way to the other side.
+
+The belt was cut at an appropriate length and inserted into the belt tensioner using a flat screw driver.
+
 ![attach_x_axis_belt_1](./images/build/frame/attach_x_axis_belt_1.jpg)
 
 ![attach_x_axis_belt_2](./images/build/frame/attach_x_axis_belt_2.jpg)
@@ -638,9 +642,13 @@ The HTD5M timing pulley was attached to the motor shaft using set screws.
 
 ![attach_x_axis_belt_5](./images/build/frame/attach_x_axis_belt_5.jpg)
 
+The belt tensioner was then attached to the side plate using a fully threaded M8 bolt, M8 locknut and (20mm x 10mm x 2mm) washer. The M8 bolt in the image is not fully threaded as I lost the one I was suppose to use, so please ignore :)
+
 ![attach_x_axis_belt_6](./images/build/frame/attach_x_axis_belt_6.jpg)
 
 ![attach_x_axis_belt_7](./images/build/frame/attach_x_axis_belt_7.jpg)
+
+Make sure that the belt is not too loose and not too tight.
 
 ![attach_x_axis_belt_8](./images/build/frame/attach_x_axis_belt_8.jpg)
 
@@ -1118,6 +1126,106 @@ The two smaller 200 mm MGN12H rails were then attached to the back of the vertic
 ![stepper_motor_cable_management_18](./images/build/frame/stepper_motor_cable_management_18.jpg)
 
 ![stepper_motor_cable_management_19](./images/build/frame/stepper_motor_cable_management_19.jpg)
+
+### Connect main electronic box
+
+![connect_main_electronic_box_1](./images/build/frame/connect_main_electronic_box_1.jpg)
+
+![connect_main_electronic_box_2](./images/build/frame/connect_main_electronic_box_2.jpg)
+
+![connect_main_electronic_box_3](./images/build/frame/connect_main_electronic_box_3.jpg)
+
+![connect_main_electronic_box_4](./images/build/frame/connect_main_electronic_box_4.jpg)
+
+![connect_main_electronic_box_5](./images/build/frame/connect_main_electronic_box_5.jpg)
+
+![connect_main_electronic_box_6](./images/build/frame/connect_main_electronic_box_6.jpg)
+
+![connect_main_electronic_box_7](./images/build/frame/connect_main_electronic_box_7.jpg)
+
+![connect_main_electronic_box_8](./images/build/frame/connect_main_electronic_box_8.jpg)
+
+![connect_main_electronic_box_9](./images/build/frame/connect_main_electronic_box_9.jpg)
+
+![connect_main_electronic_box_10](./images/build/frame/connect_main_electronic_box_10.jpg)
+
+![connect_main_electronic_box_11](./images/build/frame/connect_main_electronic_box_11.jpg)
+
+![connect_main_electronic_box_12](./images/build/frame/connect_main_electronic_box_12.jpg)
+
+![connect_main_electronic_box_13](./images/build/frame/connect_main_electronic_box_13.jpg)
+
+![connect_main_electronic_box_14](./images/build/frame/connect_main_electronic_box_14.jpg)
+
+![connect_main_electronic_box_15](./images/build/frame/connect_main_electronic_box_15.jpg)
+
+![connect_main_electronic_box_16](./images/build/frame/connect_main_electronic_box_16.jpg)
+
+![connect_main_electronic_box_17](./images/build/frame/connect_main_electronic_box_17.jpg)
+
+![connect_main_electronic_box_18](./images/build/frame/connect_main_electronic_box_18.jpg)
+
+![connect_main_electronic_box_19](./images/build/frame/connect_main_electronic_box_19.jpg)
+
+![connect_main_electronic_box_20](./images/build/frame/connect_main_electronic_box_20.jpg)
+
+![connect_main_electronic_box_21](./images/build/frame/connect_main_electronic_box_21.jpg)
+
+![connect_main_electronic_box_22](./images/build/frame/connect_main_electronic_box_22.jpg)
+
+![connect_main_electronic_box_23](./images/build/frame/connect_main_electronic_box_23.jpg)
+
+![connect_main_electronic_box_24](./images/build/frame/connect_main_electronic_box_24.jpg)
+
+![connect_main_electronic_box_25](./images/build/frame/connect_main_electronic_box_25.jpg)
+
+![connect_main_electronic_box_26](./images/build/frame/connect_main_electronic_box_26.jpg)
+
+![connect_main_electronic_box_27](./images/build/frame/connect_main_electronic_box_27.jpg)
+
+![connect_main_electronic_box_28](./images/build/frame/connect_main_electronic_box_28.jpg)
+
+![connect_main_electronic_box_29](./images/build/frame/connect_main_electronic_box_29.jpg)
+
+![connect_main_electronic_box_30](./images/build/frame/connect_main_electronic_box_30.jpg)
+
+![connect_main_electronic_box_31](./images/build/frame/connect_main_electronic_box_31.jpg)
+
+![connect_main_electronic_box_32](./images/build/frame/connect_main_electronic_box_32.jpg)
+
+![connect_main_electronic_box_33](./images/build/frame/connect_main_electronic_box_33.jpg)
+
+![connect_main_electronic_box_34](./images/build/frame/connect_main_electronic_box_34.jpg)
+
+![connect_main_electronic_box_35](./images/build/frame/connect_main_electronic_box_35.jpg)
+
+### Connect fans and LED
+
+![attach_fans_led_1](./images/build/frame/attach_fans_led_1.jpg)
+
+![attach_fans_led_2](./images/build/frame/attach_fans_led_2.jpg)
+
+![attach_fans_led_3](./images/build/frame/attach_fans_led_3.jpg)
+
+![attach_fans_led_4](./images/build/frame/attach_fans_led_4.jpg)
+
+![attach_fans_led_5](./images/build/frame/attach_fans_led_5.jpg)
+
+![attach_fans_led_6](./images/build/frame/attach_fans_led_6.jpg)
+
+![attach_fans_led_7](./images/build/frame/attach_fans_led_7.jpg)
+
+![attach_fans_led_8](./images/build/frame/attach_fans_led_8.jpg)
+
+![attach_fans_led_9](./images/build/frame/attach_fans_led_9.jpg)
+
+![attach_fans_led_10](./images/build/frame/attach_fans_led_10.jpg)
+
+![attach_fans_led_11](./images/build/frame/attach_fans_led_11.jpg)
+
+![attach_fans_led_12](./images/build/frame/attach_fans_led_12.jpg)
+
+![attach_fans_led_13](./images/build/frame/attach_fans_led_13.jpg)
 
 
 ### Install CNC software on Arduino Uno
