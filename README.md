@@ -1,5 +1,3 @@
-# How to build Ivan Miranda's CNC machine
-
 This guide goes through all the steps of building Ivan Miranda's 3d-printed CNC machine and is a complement to Ivan's Youtube-videos:
 
 1. Original video: [https://www.youtube.com/watch?v=_atw3e0nIrg](https://www.youtube.com/watch?v=_atw3e0nIrg)
@@ -8,7 +6,10 @@ This guide goes through all the steps of building Ivan Miranda's 3d-printed CNC 
 
 It follows the first and second video quite strict, while only using the added vertical beams from the third video.
 
-## License
+# Table of content
+.....
+
+# License
 The following license is included when buying Ivan Miranda's blueprints of the CNC machine:
 
 ```
@@ -21,7 +22,7 @@ they’re kept free. Why buy this then? To support me and keep me encouraged to 
 
 Ivan does an amazing job putting these DIY builds together. I've posted his STL-files in this repository to simplify the build, but PLEASE buy his blueprints here: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc). It's only $25 and helps him to continue build and share his awesome projects.
 
-## Parts
+# Parts (bill of materials)
 The following chapter goes through all the parts needed to build the CNC machine. There are two sub-sections:
 
 * `3d-printed parts` - All parts that you need to 3d-print
@@ -36,10 +37,10 @@ Each table includes:
 * `(STL link)` - Link to the stl-file if there is any
 * `Used for` - Where it's used in the CNC machine
 
-### 3d-printed parts
+## 3d-printed parts
 All the parts below needs to be 3d-printed. The tables include links to the STL-files.
 
-#### Left side plates
+### Left side plates
 
 | Item no. | Type                             | Amount | Image                                                                                            | STL link                                                                                                | Used for          |
 |----------|----------------------------------|--------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-------------------|
@@ -48,7 +49,7 @@ All the parts below needs to be 3d-printed. The tables include links to the STL-
 | SP_003   | Left side plate lower front clip | 1      | ![left_plate_lower_front_clip](./images/3dprinted_parts/side_plates/left/left_plate_lower_front_clip.jpg)         | [LEFT\_PLATE\_LOWER\_FRONT\_CLIP.stl](./stl_files/side_plates/left/LEFT\_PLATE\_LOWER\_FRONT\_CLIP.stl) | Lock bridge beams |
 | SP_004   | Left side plate back clip        | 1      | ![left_plate_back_plate_back_clip](./images/3dprinted_parts/side_plates/left/left_plate_back_plate_back_clip.jpg) | [LEFT\_PLATE\_BACK\_CLIP.stl](./stl_files/side_plates/left/LEFT_PLATE_BACK_CLIP.stl)                    | Lock bridge beams |
 
-#### Right side plate
+### Right side plate
 
 | Item no. | Type                              | Amount | Image                                                                                      | STL link                                                                                               | Used for          |
 |----------|-----------------------------------|--------|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------|
@@ -57,7 +58,7 @@ All the parts below needs to be 3d-printed. The tables include links to the STL-
 | RP_003   | Right side plate lower front clip | 1      | ![right_plate_lower_front_clip](./images/3dprinted_parts/side_plates/right/right_plate_lower_front_clip.jpg) | [RIGHT\_PLATE\_LOWER\_FRONT\_CLIP.stl](./stl_files/side_plates/right/RIGHT_PLATE_LOWER_FRONT_CLIP.stl) | Lock bridge beams |
 | RP_004   | Right plate back clip.jpg         | 1      | ![right_plate_back_plate_back_clip](./images/3dprinted_parts/side_plates/right/right_plate_back_clip.jpg)    | [RIGHT\_PLATE\_BACK\_CLIP.stl](./stl_files/side_plates/right/RIGHT_PLATE_BACK_CLIP.stl)                | Lock bridge beams |
 
-#### Router
+### Router
 
 | Item no. | Type             | Amount | Image                                                              | STL link                                                          | Used for                    |
 |----------|------------------|--------|--------------------------------------------------------------------|-------------------------------------------------------------------|-----------------------------|
@@ -68,7 +69,7 @@ All the parts below needs to be 3d-printed. The tables include links to the STL-
 | RO_005   | Z motor mount    | 1      | ![z_motor_mount](./images/3dprinted_parts/router/z_motor_mount.jpg)       | [Z\_MOTOR\_MOUNT.stl](./stl_files/router/Z_MOTOR_MOUNT.stl)       | Mount z motor to carriage   |
 | RO_006   | Vaccum hose ring | 1      | ![vaccum_hose_ring](./images/3dprinted_parts/router/vaccum_hose_ring.jpg) | [VACUUM\_HOSE\_RING.stl](./stl_files/router/VACUUM_HOSE_RING.stl) | Lock vaccum to carriage     |
 
-#### Belt tensioners
+### Belt tensioners
 
 | Item no. | Type                    | Amount | Image                                                                                                        | STL link                                                                                                       | Used for               |
 |----------|-------------------------|--------|--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------|
@@ -81,10 +82,10 @@ All the parts below needs to be 3d-printed. The tables include links to the STL-
 | BT_007   | X axis back clip        | 1      | ![x_axis_back_clip](./images/3dprinted_parts/belt_tensioner/x_axis/x_axis_back_clip.jpg)                     | [Y\_AXIS\_X\_AXIS\_BACK\_CLIP.stl](./stl_files/belt_tensioner/x_axis/X_AXIS_BACK_CLIP.stl)                     | Lock x-axis belt       |
 | BT_008   | X axis front clip       | 1      | ![x_axis_front_clip](./images/3dprinted_parts/belt_tensioner/x_axis/x_axis_front_clip.jpg)                   | [Y\_AXIS\_X\_AXIS\_FRONT\_CLIP.stl](./stl_files/belt_tensioner/x_axis/X_AXIS_FRONT_CLIP.stl)                   | Lock x-axis belt       |
 
-### Other parts
+## Other parts
 All the parts below needs to be bought or cut out.
 
-#### Nuts
+### Nuts
 
 | Type    | Amount | Image                                  | Used for                               |
 |---------|--------|----------------------------------------|----------------------------------------|
@@ -92,7 +93,7 @@ All the parts below needs to be bought or cut out.
 | M6 nuts | X      | ![m6_nuts](./images/parts/nuts_M6.jpg) | X                                      |
 | M8 nuts | X      | ![m8_nuts](./images/parts/nuts_M8.jpg) | X                                      |
 
-#### Screws
+### Screws
 
 | Type     | Amount | Image                                                 | Used for                               |
 |----------|--------|-------------------------------------------------------|----------------------------------------|
@@ -106,14 +107,14 @@ All the parts below needs to be bought or cut out.
 | M6 70 mm | X      | ![m6_70_mm_screws](./images/parts/screw_M6_70_mm.jpg) | X                                      |
 | M8 80 mm | X      | ![m8_80_mm_screws](./images/parts/screw_M8_80_mm.jpg) | X                                      |
 
-#### Washers
+### Washers
 
 | Type            | Amount | Image                                                                    | Used for                               |
 |-----------------|--------|--------------------------------------------------------------------------|----------------------------------------|
 | M3              | X      | ![m3_washers](./images/parts/washers_M3.jpg)                             | X                                      |
 | 10mm, 20mm, 2mm | X      | ![10_mm_20_mm_2_mm_washers](./images/parts/washers_10_mm_20_mm_2_mm.jpg) | X                                      |
 
-#### Beams
+### Beams
 All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles using a miter saw.
 
 | Type              | Amount | Image                                                                  | Used for                               |
@@ -123,7 +124,7 @@ All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles using 
 | Right/Left 900 mm | 4      | ![beams_right_left_900_mm](./images/parts/beams_right_left_900_mm.jpg) | X                                      |
 | Bridge 803 mm     | 3      | ![beams_bridge_803_mm](./images/parts/beams_bridge_803_mm.jpg)         | X                                      |
 
-#### Threaded rods
+### Threaded rods
 
 | Type      | Amount | Image                                                                | Used for                               |
 |-----------|--------|----------------------------------------------------------------------|----------------------------------------|
@@ -131,7 +132,7 @@ All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles using 
 | M8 12 mm  | 8      | ![M8_120_mm_threaded_rod](./images/parts/threaded_rod_M8_120_mm.jpg) | Keep upper and lower frames together   |
 | M8 717 mm | 4      | ![M8_717_mm_threaded_rod](./images/parts/threaded_rod_M8_717_mm.jpg) | Keep frames together                   |
 
-#### Others
+### Others
 
 | Item no. | Type                             | Amount | Image                                                          | Used for                   |
 |----------|----------------------------------|--------|----------------------------------------------------------------|----------------------------|
@@ -151,31 +152,31 @@ All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles using 
 | OT_014   | Cable chain 1 meter              | 2      | ![cable_chain_1000_mm](./images/parts/cable_chain_1000_mm.jpg) | Encapsulate cables         |
 | OT_015   | 698zz bearing                    | 18     | ![698zz_bearing](./images/parts/698zz_bearing.jpg)             | Ilders for HTD5M belt      |
 
-## Build the CNC machine
+# Build the CNC machine
 This section covers how all the parts is put together to build the CNC machine. 
 
 All the measurements, distances etc can be found in the main project Fusion 360 CAD design that is included when buying Ivan's blueprints. The blueprints can be bought here for just \$25: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc)
 
-### Build the main frame
+## Main frame
 
-#### Cut out holes in the 900 mm profiles
-The main frame consists of two separate frames, the lower and the upper frame. The two frames are keep everything together using threaded rods, washers and nuts. To enable the threaded rods to slide through the aluminium profiles, holes needed to be drilled.
+### Cut out holes in the 900 mm profiles
+The main frame consists of two separate frames, the lower and the upper frame. The two frames are kept together using threaded rods, washers and nuts. To enable the threaded rods to slide through the aluminium profiles, holes needed to be drilled.
 
-First, a marker was used to indicate where all the holes were going. This was done by using a set square and a penn. A bradawl and a hammer were then used to make indentations at the center of the holes.
+First, a sharpie was used to indicate where all the holes were going. This was done by using a set square and a penn. A bradawl and a hammer were then used to make indentations at the center of the holes.
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_1.jpg)
 
-A 9 mm drill-bit and a bench drill was used to drill the holes.
+A 9 mm drill-bit and a bench drill was used to drill the holes straight through the profiles.
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_2.jpg)
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_3.jpg)
 
-To be able to access the nuts and tight them with a socket wrench, some holes (facing outwards) needed to be enlarged. This was done by first marking all the holes that should be enlarged.
+To be able to access the nuts and tight them with a socket wrench, some holes (facing outwards) needed to be enlarged. A sharpie was used to mark all the holes that needed to be enlarged.
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_4.jpg)
 
-A step drill was then used to enlarge the holes holes to 20 mm. A tip is to measure the size of your socket wrench and keep the holes as small as possible, while you're still able to tight the nuts. To be able to see which step you're aiming for on the step drill, attach a small piece of masking tape on the step above.
+A step drill was then used to enlarge the holes holes to 20 mm. A tip is to measure the size of your socket wrench and keep the holes as small as possible, while you're still able to tighten the nuts. To be able to see which step you're aiming for on the step drill, attach a small piece of masking tape on the step above.
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_5.jpg)
 
@@ -185,7 +186,7 @@ A step drill was then used to enlarge the holes holes to 20 mm. A tip is to meas
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_8.jpg)
 
-Smooth out the rought edges with a round metal file.
+The edges were finally smoothed out using a round metal file.
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_9.jpg)
 
@@ -193,15 +194,17 @@ Smooth out the rought edges with a round metal file.
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_11.jpg)
 
-#### Attach rails to 900 mm profiles
+### Attach rails to 900 mm profiles
 
-Before the upper and lower frames were assembled, two 600 mm rails were attached to the longer 900 mm aluminium profiles of the upper frame. They need to be attached to the sides facing outwards and be attached above the three vertical beams (connecting the lower and upper frame). A tip is to place all the profiles as they should go to make sure that you're attaching the rails to the correct faces (see the red boxes on the below image).
+Before the upper and lower frames were assembled, two 600 mm MGN12H rails were attached to the 900 mm aluminium profiles of the **upper** frame. They were attached to the sides facing outwards and above the three 80 mm vertical beams (connecting the lower and upper frame). A tip is to place all the profiles as they should go to make sure that you're attaching the rails to the correct faces (see the red boxes on the image below). Also, be very careful when removing the MGN12H blocks from the rails.
+
+![attach_rails_to_beams_2](./images/build/frame/attach_rails_to_beams_2.jpg)
 
 ![rails_main_frame_1](./images/build/frame/rails_main_frame_1.jpg)
 
 ![rails_main_frame_0](./images/build/frame/rails_main_frame_0.jpg)
 
-Three 3d-printed support tools were used to center the rails on the profiles. A 57 mm wood block were cut out and used to attach the rails at the same distance from the ends. The rails were then clamped to the profiles.
+Three 3d-printed support tools were used to center the rails on the profiles. A 57 mm wood block were cut out and used to attach the rails at the same distance from the end of the profiles. The rails were then clamped to the profiles.
 
 ![rails_main_frame_2](./images/build/frame/rails_main_frame_2.jpg)
 
@@ -241,11 +244,11 @@ Finally, the rails were attached using 20 mm M3 screws.
 
 ![rails_main_frame_17](./images/build/frame/rails_main_frame_17.jpg)
 
-#### Assemble upper and lower frames
+### Assemble upper and lower frames
 
-The frames were interlocked using the longer 717 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts.
+The two frames were assembled using the longer 717 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts.
 
-The profiles were first placed in their correct place and clamps were used to keep the profiles aligned. I used jointed spanner to lock everything in place, but you can also use two socket wrenches. Just make sure that the bits fit into the drilled holes.
+The profiles were first placed in their correct place and clamps were used to keep the profiles aligned. I used two jointed spanners (one one each side) to lock everything in place, but you can also use two socket wrenches. Just make sure that the bits fit into the drilled holes.
 
 ![assemble_frames_1](./images/build/frame/assemble_frames_1.jpg)
 
@@ -261,9 +264,9 @@ The profiles were first placed in their correct place and clamps were used to ke
 
 ![assemble_frames_7](./images/build/frame/assemble_frames_7.jpg)
 
-#### Interlock upper and lower frames
+### Interlock upper and lower frames
 
-All the aluminium profiles were first placed in their correct place. The horizontal aluminium bridge beams and clamps were then used to align the frames on top of each other.
+The upper and lower frames and the 80 mm vertical aluminium beams were first layed out in their correct place. The 803 mm horizontal bridge beams and clamps were then used to align the frames on top of each other.
 
 ![assemble_frames_9](./images/build/frame/assemble_frames_9.jpg)
 
@@ -279,9 +282,9 @@ The 120 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts were the
 
 ![assemble_frames_13](./images/build/frame/assemble_frames_13.jpg)
 
-#### Attach side plates
+### Attach side plates
 
-Before attaching the side plates, the MGN12H blocks were added back onto the rails, two on each side. Be careful when sliding them onto the rails, there are multiple small bearing balls that easily fall out of the block.
+Before attaching the side plates, the MGN12H blocks were added back onto the rails, two on each side. Be careful when sliding them onto the rails, there are multiple small bearing balls that easily fall out of the blocks.
 
 The left and right side plates where then attached to the blocks using 20 mm M3 screws. Make sure to attach the plates on the correct side (see images below).
 
@@ -289,7 +292,7 @@ The left and right side plates where then attached to the blocks using 20 mm M3 
 
 ![assemble_side_plates_2](./images/build/frame/assemble_side_plates_2.jpg)
 
-I had to redesign the left side plate and reprint it later in the build. Therefore, the left side plate seen in the upcoming images look a bit different than the one used (see next image for the left side plate used).
+I had to redesign the left side plate and reprint it later in the build (after the images were taken). Therefore, the left side plate seen in the upcoming images look a bit different than the one used (see next image for the left side plate used).
 
 ![assemble_side_plates_3](./images/build/frame/assemble_side_plates_3.jpg)
 
@@ -303,7 +306,7 @@ I had to redesign the left side plate and reprint it later in the build. Therefo
 
 ![assemble_side_plates_8](./images/build/frame/assemble_side_plates_8.jpg)
 
-#### Attach motors, idlers and pulleys on side plates
+#### Attach motors, idlers and pulleys to side plates
 
 Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 6 (10 mm x 8 mm x 2 mm) washers (3 on each side of the bearings). Two idlers were then attached to each side plate using two M8 nuts.
 
