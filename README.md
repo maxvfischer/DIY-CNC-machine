@@ -306,9 +306,9 @@ I had to redesign the left side plate and reprint it later in the build (after t
 
 ![assemble_side_plates_8](./images/build/frame/assemble_side_plates_8.jpg)
 
-#### Attach motors, idlers and pulleys to side plates
+### Attach motors, idlers and pulleys to side plates
 
-Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 6 (10 mm x 8 mm x 2 mm) washers (3 on each side of the bearings). Two idlers were then attached to each side plate using two M8 nuts.
+Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 6 (10 mm x 8 mm x 2 mm) washers (3 on each side of the bearings). Two idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_1.jpg)
 
@@ -330,7 +330,7 @@ To attach the stepper motors to the side plates, the 4 M3 screws locking the gea
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_9.jpg)
 
-The stepper motors were then inserted into the large holes on the side plates, facing inwards. 4 40 mm M3 screws were used to lock each stepper motor onto the side plates. The motors should be attached so that the cables are facing in the direction of the two bridge beams.
+The stepper motors were then inserted into the large holes on the side plates, facing inwards. 4 40 mm M3 screws and 4 M3 washers were used to lock each stepper motor to the side plates (I forgot to add the washers in the images below, therefore they're not visible). The motors should be attached so that the cables are facing in the direction of the two bridge beams.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_10.jpg)
 
@@ -352,9 +352,9 @@ The HTD5M timing pulleys were attached to the motor shaft using set screws.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_18.jpg)
 
-#### Attach belt tensioners and end-stop mounts
+### Attach Y-axis belt tensioners and end-stop mounts
 
-The fixed belt tensioners were attached to the longer aluminium profiles of the upper frame with M5 screws. When aligning the tensioners, make sure that the "belt opening" is pointing in the direction of the rails. Similar to before, bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
+Two fixed belt tensioners were attached to the longer aluminium profiles of the upper frame using M5 screws. When aligning the fixed belt tensioners, make sure that the "belt opening" is pointing in the direction of the rails. Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
 
 ![attach_tensioners_and_belts_12](./images/build/frame/attach_tensioners_and_belts_12.jpg)
 
@@ -370,7 +370,7 @@ The fixed belt tensioners were attached to the longer aluminium profiles of the 
 
 ![attach_tensioners_and_belts_18](./images/build/frame/attach_tensioners_and_belts_18.jpg)
 
-The belt tension sliders were attached on the opposite side of the fixed belt tensioners, ontop if the aluminium profile. To get them aligned at the exact same place on both sides, a 100 mm distance was cut out and a flat support was clamped to the inner side of the profile. The same drill and tap size were used as for the fixed belt tensioners. Make sure that the belt tension sliders are pointing outwards.
+The belt tension sliders were attached on the opposite side of the fixed belt tensioners, ontop of the aluminium profile. To get them aligned at the exact same place on both sides, a 100 mm distance was cut out and a flat support was clamped to the inner side of the profile. The same drill and tap size were used as for the fixed belt tensioners (4mm drill, M5 drill tap). Make sure that the belt tension sliders are pointing outwards.
 
 ![attach_tensioners_and_belts_19](./images/build/frame/attach_tensioners_and_belts_19.jpg)
 
@@ -390,7 +390,7 @@ The belt tension sliders were attached on the opposite side of the fixed belt te
 
 ![attach_tensioners_and_belts_27](./images/build/frame/attach_tensioners_and_belts_27.jpg)
 
-The end-stop mounts were then attached to the same side as the belt tension sliders, facing outwards and aligned with the rails. 
+The end-stop mounts were then attached to the same side as the belt tension sliders using M5 screws, facing outwards and aligned with the rails. 
 
 ![attach_tensioners_and_belts_1](./images/build/frame/attach_tensioners_and_belts_1.jpg)
 
@@ -414,13 +414,13 @@ The end-stop mounts were then attached to the same side as the belt tension slid
 
 ![attach_tensioners_and_belts_11](./images/build/frame/attach_tensioners_and_belts_11.jpg)
 
-The belt tensioners were attached to the belt tension sliders using fully threaded M8 bolts, M8 locknuts and (20mm x 10mm x 2mm) washers.
+The belt tensioners were attached to the belt tension sliders using fully threaded M8 screws, M8 locknuts and (20mm x 10mm x 2mm) washers.
 
 ![attach_tensioners_and_belts_28](./images/build/frame/attach_tensioners_and_belts_28.jpg)
 
 ![attach_tensioners_and_belts_29](./images/build/frame/attach_tensioners_and_belts_29.jpg)
 
-#### Add belts
+### Add HTD5M belts
 
 The HTD5M belt was first inserted into one of the fixed belt tensioners using a flat screw driver. It was then stretched along the aluminium profile, below the first idler, around the timing pulley, below the second idler and all the way to the belt tensioner.
 
@@ -452,11 +452,11 @@ Make sure that the belt is not too loose and not too tight.
 
 ![attach_tensioners_and_belts_41](./images/build/frame/attach_tensioners_and_belts_41.jpg)
 
-Repeat on the other side as well.
+Repeat on the other side.
 
-#### Attach rails to bridge beams
+### Attach rails to bridge beams
 
-The last two 600 mm MGN12H rails were attached to two of the 803 mm bridge beams. First, the MGN12H blocks were carefully removed from the rails.
+The last two 600 mm MGN12H rails were attached to two of the 803 mm aluminium bridge beams. First, the MGN12H blocks were carefully removed from the rails.
 
 ![attach_rails_to_beams_1](./images/build/frame/attach_rails_to_beams_1.jpg)
 
@@ -464,7 +464,7 @@ The last two 600 mm MGN12H rails were attached to two of the 803 mm bridge beams
 
 The same 100 mm distance used to align the belt tension sliders were used to align the rails. Because they will be off center by 3 mm, make sure that you later attach the bridge beams so that the rails line up. 
 
-The same 3d-printed support tools used to align the rails on the 900 mm aluminium profiles were used here as well. Everything was clamped into position. The holes were drilled and tapped in the same was as for the 900 mm rails. A bradawl and a hammer were used to make indentations and a 2 mm drill and a M3 drill tap was used to make the screw holes.
+The same 3d-printed support tools used to align the rails on the 900 mm aluminium profiles were used here as well. Everything was clamped into position. A bradawl and a hammer were used to make indentations, a 2 mm drill and a M3 drill tap was used to make the screw holes.
 
 ![attach_rails_to_beams_3](./images/build/frame/attach_rails_to_beams_3.jpg)
 
