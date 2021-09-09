@@ -324,13 +324,13 @@ Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearin
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_7.jpg)
 
-To attach the stepper motors to the side plates, the 4 M3 screws locking the gear box onto the motor were removed. Save these as they will be used later on to attach the power supply and Arduino.
+To attach the stepper motors to the side plates, the 4 M3 screws locking the gear box to the motor were removed. Save these as they will be used later on to attach the power supply and Arduino.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_8.jpg)
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_9.jpg)
 
-The stepper motors were then inserted into the large holes on the side plates, facing inwards. 4 40 mm M3 screws and 4 M3 washers were used to lock each stepper motor to the side plates (I forgot to add the washers in the images below, therefore they're not visible). The motors should be attached so that the cables are facing in the direction of the two bridge beams.
+The stepper motors were then inserted into the large holes on the side plates, facing inwards. 4 40 mm M3 screws and 4 M3 washers were used to lock each stepper motor to the side plates (I forgot to add the washers in the images below, therefore they're not visible). The motors should be attached so that the cables are facing in the direction of the two bridge beams (i.e. the longer vertical surface of the side plates).
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_10.jpg)
 
@@ -354,7 +354,7 @@ The HTD5M timing pulleys were attached to the motor shaft using set screws.
 
 ### Attach Y-axis belt tensioners and end-stop mounts
 
-Two fixed belt tensioners were attached to the longer aluminium profiles of the upper frame using M5 screws. When aligning the fixed belt tensioners, make sure that the "belt opening" is pointing in the direction of the rails. Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
+Fixed belt tensioners were attached to the longer aluminium profiles of the upper frame using M5 screws. When aligning the fixed belt tensioners, make sure that the "belt opening" is pointing in the direction of the rails (one fixed belt tensioner for each rail). Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
 
 ![attach_tensioners_and_belts_12](./images/build/frame/attach_tensioners_and_belts_12.jpg)
 
@@ -414,7 +414,7 @@ The end-stop mounts were then attached to the same side as the belt tension slid
 
 ![attach_tensioners_and_belts_11](./images/build/frame/attach_tensioners_and_belts_11.jpg)
 
-The belt tensioners were attached to the belt tension sliders using fully threaded M8 screws, M8 locknuts and (20mm x 10mm x 2mm) washers.
+The belt tensioners were loosely attached to the belt tension sliders using fully threaded M8 screws, M8 locknuts and (20mm x 10mm x 2mm) washers.
 
 ![attach_tensioners_and_belts_28](./images/build/frame/attach_tensioners_and_belts_28.jpg)
 
@@ -456,15 +456,15 @@ Repeat on the other side.
 
 ### Attach rails to bridge beams
 
-The last two 600 mm MGN12H rails were attached to two of the 803 mm aluminium bridge beams. First, the MGN12H blocks were carefully removed from the rails.
+The last two 600 mm MGN12H rails were attached to two of the 803 mm aluminium bridge beams (used for the X-axis). First, the MGN12H blocks were carefully removed from the rails.
 
 ![attach_rails_to_beams_1](./images/build/frame/attach_rails_to_beams_1.jpg)
 
 ![attach_rails_to_beams_2](./images/build/frame/attach_rails_to_beams_2.jpg)
 
-The same 100 mm distance used to align the belt tension sliders were used to align the rails. Because they will be off center by 3 mm, make sure that you later attach the bridge beams so that the rails line up. 
+The same 100 mm distance used to align the belt tension sliders were used to align the rails. Because they will be off center by 3 mm, make sure that you later attach the bridge beams to the side plates in a way so	 the rails line up. 
 
-The same 3d-printed support tools used to align the rails on the 900 mm aluminium profiles were used here as well. Everything was clamped into position. A bradawl and a hammer were used to make indentations, a 2 mm drill and a M3 drill tap was used to make the screw holes.
+The same 3d-printed support tools used to align the rails on the 900 mm aluminium profiles were used here as well. Everything was clamped into position. A bradawl and a hammer were used to make indentations and a 2 mm drill and a M3 drill tap was used to make the screw holes.
 
 ![attach_rails_to_beams_3](./images/build/frame/attach_rails_to_beams_3.jpg)
 
@@ -494,9 +494,9 @@ The rails were finally attached using 20 mm M3 screws and the rail blocks were g
 
 ![attach_rails_to_beams_15](./images/build/frame/attach_rails_to_beams_15.jpg)
 
-#### Attach fixed tensioner and end-stop blocker to the lower bridge beam
+#### Attach fixed tensioner and end-stop mount to the lower bridge beam
 
-The fixed tensioner and end-stop blocker were attached to the lower bridge beam in the same fashion as with the 900 mm aluminium rails. They were attached with M5 screws. When aligning the fixed tensioner, make sure that the "belt opening" is pointing in the direction of the rail. A bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
+The fixed tensioner and end-stop mount were attached to the lower bridge beam in the same fashion as on the 900 mm aluminium profiles, using M5 screws. When aligning the fixed tensioner, make sure that the "belt opening" is pointing in the direction of the rail. A bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
 
 ![attach_tensioners_to_beams_1](./images/build/frame/attach_tensioners_to_beams_1.jpg)
 
@@ -523,9 +523,9 @@ The fixed tensioner and end-stop blocker were attached to the lower bridge beam 
 ![attach_tensioners_to_beams_12](./images/build/frame/attach_tensioners_to_beams_12.jpg)
 
 
-#### Attach beams to side plates
+#### Attach bridge beams to side plates
 
-All three bridge beams were then inserted into the slots on the side plates. Make sure that the two beams with the rails are on top of each other, with the rails pointing outwards. Also, make sure that you insert them in the correct orientation, so that the rails are lined up (due to the rails being slightly off center).
+All three bridge beams were then inserted into the slots on the side plates. Make sure that the two beams with the rails are on top of each other, with the rails pointing outwards. Also, make sure that you insert them in the correct orientation, so that the rails are lined up (due to the rails being 3 mm off center).
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_1.jpg)
 
@@ -535,7 +535,7 @@ All three bridge beams were then inserted into the slots on the side plates. Mak
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_4.jpg)
 
-When the bridge beams were aligned, the blockers were placed in their correct place and a sharpie was used to mark the center of the holes. Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes.
+When the bridge beams were aligned, the blockers were placed in their correct place and a sharpie was used to mark the center of the holes to be drilled. Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes.
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_5.jpg)
 
@@ -551,7 +551,7 @@ A 7 mm drill bit was used to drill the holes. As these holes were going straight
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_10.jpg)
 
-The bridge beams were then inserted into the slots on the side plates once more, along with all the blockers. A 140 mm threaded M5 rod was inserted through the bottom two beams and a 60 mm M5 bolt was inserted through the top bridge beam. They were then tightened using M5 nuts.
+The bridge beams were then inserted into the slots on the side plates once more, along with all the blockers. A 140 mm threaded M5 rod was inserted through the bottom two beams and a 60 mm M5 bolt was inserted through the top bridge beam. It was all tightened using M5 nuts.
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_11.jpg)
 
