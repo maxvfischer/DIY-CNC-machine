@@ -420,7 +420,7 @@ The belt tensioners were loosely attached to the belt tension sliders using full
 
 ![attach_tensioners_and_belts_29](./images/build/frame/attach_tensioners_and_belts_29.jpg)
 
-### Add HTD5M belts
+### Add Y-axis HTD5M belts
 
 The HTD5M belt was first inserted into one of the fixed belt tensioners using a flat screw driver. It was then stretched along the aluminium profile, below the first idler, around the timing pulley, below the second idler and all the way to the belt tensioner.
 
@@ -551,7 +551,7 @@ A 7 mm drill bit was used to drill the holes. As these holes were going straight
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_10.jpg)
 
-The bridge beams were then inserted into the slots on the side plates once more, along with all the blockers. A 140 mm threaded M5 rod was inserted through the bottom two beams and a 60 mm M5 bolt was inserted through the top bridge beam. It was all tightened using M5 nuts.
+The bridge beams were then inserted into the slots on the side plates once more, along with all the blockers. A 140 mm threaded M5 rod was inserted through the bottom two beams and a 60 mm M5 screws was inserted through the top bridge beam. It was all tightened using M5 nuts.
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_11.jpg)
 
@@ -569,7 +569,7 @@ The bridge beams were then inserted into the slots on the side plates once more,
 
 #### Attach bearings to carriage
 
-Before attaching the carriage to the bridge beams, two KFL08 rod bearing were attached on the top and the bottom of the carriage using 20 mm M5 bolts and M5 locknuts.
+Before attaching the carriage to the bridge beams, two KFL08 rod bearings were attached on the top and the bottom of the carriage (inside) using 20 mm M5 screws and M5 locknuts. A tip is to temporarily use the acme rod (used in an upcoming step) to vertically align the two bearings.
 
 ![assemble_carriage_1](./images/build/frame/assemble_carriage_1.jpg)
 
@@ -583,7 +583,7 @@ Before attaching the carriage to the bridge beams, two KFL08 rod bearing were at
 
 #### Attach carriage to bridge beams
 
-The carriage was attached to the four MGN12H blocks on the bridge beams, using 25 mm M3 bolts.
+The carriage was attached to the four MGN12H blocks on the bridge beams, using 25 mm M3 screws.
 
 ![attach_carriage_to_beams_1](./images/build/frame/attach_carriage_to_beams_1.jpg)
 
@@ -595,7 +595,7 @@ The carriage was attached to the four MGN12H blocks on the bridge beams, using 2
 
 #### Attach motor, idlers and pulley to carriage
 
-The belt idlers were attached to the carriage in the same way as to the side plates. Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 6 (10 mm x 8 mm x 2 mm) washers (3 on each side of the bearings). The two idlers were then attached to the carriage using two M8 nuts.
+The two belt idlers were attached to the carriage in the same way as to the side plates. Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 6 (10 mm x 8 mm x 2 mm) washers (3 on each side of the bearings). The two idlers were then attached to the carriage using two M8 nuts. Make sure that the bearings are spinning freely.
 
 ![attach_idlers_motor_to_carriage_1](./images/build/frame/attach_idlers_motor_to_carriage_1.jpg)
 
@@ -607,7 +607,7 @@ The belt idlers were attached to the carriage in the same way as to the side pla
 
 ![attach_idlers_motor_to_carriage_5](./images/build/frame/attach_idlers_motor_to_carriage_5.jpg)
 
-To attach the stepper motor to the carriage, the 4 M3 screws locking the gear box onto the motor were removed.
+To attach the stepper motor to the carriage, the 4 M3 screws locking the gear box to the motor were removed.
 
 ![attach_idlers_motor_to_carriage_6](./images/build/frame/attach_idlers_motor_to_carriage_6.jpg)
 
@@ -615,7 +615,7 @@ To attach the stepper motor to the carriage, the 4 M3 screws locking the gear bo
 
 ![attach_idlers_motor_to_carriage_8](./images/build/frame/attach_idlers_motor_to_carriage_8.jpg)
 
-The stepper motor was then inserted into the large holes on the carriage, facing towards the bridge beams/idlers. x4 40 mm M3 screws and x4 M3 washers were used to lock the stepper motor onto the carriage. The motor should be attached so that the cables are facing upwards.
+The stepper motor was then inserted into the large hole on the carriage, facing towards the bridge beams/idlers. 4 40 mm M3 screws and 4 M3 washers were used to lock the stepper motor onto the carriage. The motor should be attached so that the cables are facing upwards.
 
 ![attach_idlers_motor_to_carriage_9](./images/build/frame/attach_idlers_motor_to_carriage_9.jpg)
 
@@ -629,7 +629,7 @@ The HTD5M timing pulley was attached to the motor shaft using set screws.
 
 ![attach_idlers_motor_to_carriage_13](./images/build/frame/attach_idlers_motor_to_carriage_13.jpg)
 
-#### Attach X axis belt
+#### Add X-axis HTD5M belt
 
 The HTD5M belt was first inserted into the fixed belt tensioner using a flat screw driver. It was then stretched along the aluminium profile, below the first idler, around the timing pulley, below the second idler and all the way to the other side.
 
@@ -645,7 +645,7 @@ The belt was cut at an appropriate length and inserted into the belt tensioner u
 
 ![attach_x_axis_belt_5](./images/build/frame/attach_x_axis_belt_5.jpg)
 
-The belt tensioner was then attached to the side plate using a fully threaded M8 bolt, M8 locknut and (20mm x 10mm x 2mm) washer. The M8 bolt in the image is not fully threaded as I lost the one I was suppose to use, so please ignore :)
+The belt tensioner was then attached to the side plate using a fully threaded M8 screw, a M8 locknut and a (20mm x 10mm x 2mm) washer. The M8 screw in the image is not fully threaded as I lost the one I was suppose to use and had to use another one, so please ignore :)
 
 ![attach_x_axis_belt_6](./images/build/frame/attach_x_axis_belt_6.jpg)
 
@@ -657,7 +657,7 @@ Make sure that the belt is not too loose and not too tight.
 
 #### Attach acme nut and rails to carriage slider
 
-An acme nut was inserted from the outside, into the the center hole at the top of the vertical carriage slider. It was locked in place using 4 25 mm M3 bolts.
+An acme nut was inserted from the outside, into the the center hole at the top of the vertical carriage slider. It was locked in place using 4 25 mm M3 screws.
 
 ![assemble_carriage_6](./images/build/frame/assemble_carriage_6_0.jpg)
 
@@ -667,7 +667,7 @@ An acme nut was inserted from the outside, into the the center hole at the top o
 
 ![assemble_carriage_8](./images/build/frame/assemble_carriage_8.jpg)
 
-The two smaller 200 mm MGN12H rails were then attached to the back of the vertical carriage slider, by first carefully removing the two MGN12H blocks from each rail. After that, the rails were screwed in place on the back of the vertical carriage slider using 20 mm M3 bolts. The MGN12H blocks were then slided back on and each end were blocked using tape. 
+The two smaller 200 mm MGN12H rails were then attached to the back of the vertical carriage slider. First, the MGN12H blocks were carefully removed from each rail. After that, the rails were screwed in place on the back of the vertical carriage slider using 20 mm M3 screws. The MGN12H blocks were then slided back on and each end were blocked using tape. 
 
 ![assemble_carriage_9](./images/build/frame/assemble_carriage_9.jpg)
 
@@ -679,7 +679,9 @@ The two smaller 200 mm MGN12H rails were then attached to the back of the vertic
 
 ![assemble_carriage_13](./images/build/frame/assemble_carriage_13.jpg)
 
-#### Attach acme rod and blocks
+#### Attach acme rod and vertical slider to carriage
+
+To attach the vertical slider to the carriage, 25 mm M3 screws were first inserted into the holes on the carriage. You might need to "open up" the holes using a narrow tool (depending on the direction you 3d-printed the carriage).
 
 ![assemble_carriage_17](./images/build/frame/assemble_carriage_17.jpg)
 
@@ -687,11 +689,15 @@ The two smaller 200 mm MGN12H rails were then attached to the back of the vertic
 
 ![assemble_carriage_19](./images/build/frame/assemble_carriage_19.jpg)
 
+The acme rod was then inserted through the two KFL08 rod bearings and the acme nut, and the set screws on the bearings were tightened.
+
 ![assemble_carriage_14](./images/build/frame/assemble_carriage_14.jpg)
 
 ![assemble_carriage_15](./images/build/frame/assemble_carriage_15.jpg)
 
 ![assemble_carriage_16](./images/build/frame/assemble_carriage_16.jpg)
+
+The vertical slider was finally attached to the carriage by attaching the 25 mm M3 screws to the MGN12H blocks on the vertical slider.
 
 ![assemble_carriage_20](./images/build/frame/assemble_carriage_20.jpg)
 
