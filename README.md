@@ -703,9 +703,13 @@ The vertical slider was finally attached to the carriage by attaching the 25 mm 
 
 ![assemble_carriage_21](./images/build/frame/assemble_carriage_21.jpg)
 
-#### Attach Z motor mount and X axis cable chain
+#### Attach Z motor mount and X-axis cable chain
+
+The first step was to find a good length of the X-axis cable chain. To simplify this process, the X-axis belt was removed to easier move the carriage along the X-axis.
 
 ![assemble_carriage_22](./images/build/frame/assemble_carriage_22.jpg)
+
+The Z motor mount and the X-axis cable chain mount were then assembled using 3 25 mm M4 screws, 3 M4 nuts and 3 (8mm x 4mm x 0.5mm) washers.
 
 ![assemble_carriage_23](./images/build/frame/assemble_carriage_23.jpg)
 
@@ -721,6 +725,10 @@ The vertical slider was finally attached to the carriage by attaching the 25 mm 
 
 ![assemble_carriage_29](./images/build/frame/assemble_carriage_29.jpg)
 
+![assemble_carriage_30](./images/build/frame/assemble_carriage_30_1.jpg)
+
+They Z motor mount was then attached to the carriage using 2 80 mm M8 screws, 2 M8 nuts and 2 (20mm x 10mm x 2mm) washers. The vaccum mount was also inserted and attached to the right-side M8 screw. Please ignore the timing pulley attached to the acme rod in some of the images, it will be attached in a later step.
+
 ![assemble_carriage_30](./images/build/frame/assemble_carriage_30.jpg)
 
 ![assemble_carriage_31](./images/build/frame/assemble_carriage_31.jpg)
@@ -733,15 +741,19 @@ The vertical slider was finally attached to the carriage by attaching the 25 mm 
 
 ![assemble_carriage_35](./images/build/frame/assemble_carriage_35.jpg)
 
+A 1 meter cable chain were then clamped to the cable chain mount and to the back-side bridge beam. The carriage was then moved as far to the sides as possible. It's important that the chain doesn't touch any of the side plates when moved. In my case, I had to remove 3 links from the cable chain to get a good length of the chain.
+
 ![assemble_carriage_36](./images/build/frame/assemble_carriage_36.jpg)
 
 ![assemble_carriage_37](./images/build/frame/assemble_carriage_37.jpg)
 
 ![assemble_carriage_38](./images/build/frame/assemble_carriage_38.jpg)
 
+![assemble_carriage_39](./images/build/frame/assemble_carriage_39_0.jpg)
+
 ![assemble_carriage_39](./images/build/frame/assemble_carriage_39.jpg)
 
-![assemble_carriage_39](./images/build/frame/assemble_carriage_39_0.jpg)
+The Z motor mount and cable chain mount were then disassembled and the cable chain was properly attached to the cable chain mount using 2 25 mm M4 screws, 2 M4 nuts and 2 (8mm x 4mm x 0.5mm) washers.
 
 ![assemble_carriage_40](./images/build/frame/assemble_carriage_40.jpg)
 
@@ -751,6 +763,8 @@ The vertical slider was finally attached to the carriage by attaching the 25 mm 
 
 ![assemble_carriage_43](./images/build/frame/assemble_carriage_43.jpg)
 
+The Z motor mount and cable chain mount were then assembled again and attached to the carriage in the same fashion as before.
+
 ![assemble_carriage_44](./images/build/frame/assemble_carriage_44.jpg)
 
 ![assemble_carriage_45](./images/build/frame/assemble_carriage_45.jpg)
@@ -759,9 +773,13 @@ The vertical slider was finally attached to the carriage by attaching the 25 mm 
 
 ![assemble_carriage_47](./images/build/frame/assemble_carriage_47.jpg)
 
+The carriage was move all the way to the right side plate and the cable chain was clamped to the back-side bridge beam.
+
 ![assemble_carriage_48](./images/build/frame/assemble_carriage_48.jpg)
 
 ![assemble_carriage_49](./images/build/frame/assemble_carriage_49.jpg)
+
+A bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid were applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The cable chain was then attached to the bridge beam using 2 25 mm M4 screws.
 
 ![assemble_carriage_50](./images/build/frame/assemble_carriage_50.jpg)
 
@@ -784,6 +802,8 @@ The vertical slider was finally attached to the carriage by attaching the 25 mm 
 ![assemble_carriage_59](./images/build/frame/assemble_carriage_59.jpg)
 
 ![assemble_carriage_60](./images/build/frame/assemble_carriage_60.jpg)
+
+Finally, the X-axis belt was reattached and tightened.
 
 ![assemble_carriage_61](./images/build/frame/assemble_carriage_61.jpg)
 
