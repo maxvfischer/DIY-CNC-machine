@@ -807,7 +807,10 @@ Finally, the X-axis belt was reattached and tightened.
 
 ![assemble_carriage_61](./images/build/frame/assemble_carriage_61.jpg)
 
-#### Attach Y axis cable chain
+#### Attach Y-axis cable chain
+
+The Y-axis cable chain was attached using two supports. The first support (with screw holes to attach the cable chain) was clamped to the left side of the lower frame and aligned with the last vertial beam. A bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The support was then attached to the lower frame using 2 20 mm M5 screws.
+
 
 ![assemble_cable_support_y_axis_1](./images/build/frame/assemble_cable_support_y_axis_1.jpg)
 
@@ -819,7 +822,13 @@ Finally, the X-axis belt was reattached and tightened.
 
 ![assemble_cable_support_y_axis_5](./images/build/frame/assemble_cable_support_y_axis_5.jpg)
 
+The second support was only attached to the lower frame for the cable chain to rest on. I aligned and attached it at the center between the second and third vertical beam. Make sure that it does not go below the bottom frame!
+
+In the same way as the first support, a bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The support was then attached to the lower frame using 2 20 mm M5 screws.
+
 ![assemble_cable_support_y_axis_6](./images/build/frame/assemble_cable_support_y_axis_6.jpg)
+
+![assemble_cable_support_y_axis_6](./images/build/frame/assemble_cable_support_y_axis_6_1.jpg)
 
 ![assemble_cable_support_y_axis_7](./images/build/frame/assemble_cable_support_y_axis_7.jpg)
 
@@ -830,6 +839,8 @@ Finally, the X-axis belt was reattached and tightened.
 ![assemble_cable_support_y_axis_10](./images/build/frame/assemble_cable_support_y_axis_10.jpg)
 
 ![assemble_cable_support_y_axis_11](./images/build/frame/assemble_cable_support_y_axis_11.jpg)
+
+The Y-axis cable chain was then attached to the left side plate and lower frame support using 4 25 mm M4 screws, 4 M4 nuts and 4 (8mm x 4mm x 0.5mm) washers.
 
 ![assemble_cable_support_y_axis_12](./images/build/frame/assemble_cable_support_y_axis_12.jpg)
 
