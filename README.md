@@ -308,21 +308,29 @@ I had to redesign the left side plate and reprint it later in the build (after t
 
 ### Attach motors, idlers and pulleys to side plates
 
-Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 6 (10 mm x 8 mm x 2 mm) washers (3 on each side of the bearings). Two idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
+Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 4 (10 mm x 8 mm x 2 mm) washers (1 closest to the idler blocker and 3 closest to the side plate). Two idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_1.jpg)
 
-![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_2.jpg)
+![attach_side_plate_motors_2](./images/build/frame/attach_side_plate_motors_2.jpg)
 
-![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_3.jpg)
+As I designed and added the idler blocker later on in the build, some of the images doesn't have it and they also have 3 washers instead of 1 washer closest to the screw head. I left these images anyways in the guide so you can see how it looks when you attach the idlers, but please ignore the wrong number of washers. Also ignore all the other things around the idlers in the upcoming 2 images, they are taken later on in the build.
 
-![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_4.jpg)
+![attach_side_plate_motors_3_0](./images/build/frame/attach_side_plate_motors_3_0.jpg)
 
-![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_5.jpg)
+![attach_side_plate_motors_3_1](./images/build/frame/attach_side_plate_motors_3_1.jpg)
 
-![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_6.jpg)
+Should be idler blockers and a different number of washers in the upcoming images.
 
-![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_7.jpg)
+![attach_side_plate_motors_3](./images/build/frame/attach_side_plate_motors_3.jpg)
+
+![attach_side_plate_motors_4](./images/build/frame/attach_side_plate_motors_4.jpg)
+
+![attach_side_plate_motors_5](./images/build/frame/attach_side_plate_motors_5.jpg)
+
+![attach_side_plate_motors_6](./images/build/frame/attach_side_plate_motors_6.jpg)
+
+![attach_side_plate_motors_7](./images/build/frame/attach_side_plate_motors_7.jpg)
 
 To attach the stepper motors to the side plates, the 4 M3 screws locking the gear box to the motor were removed. Save these as they will be used later on to attach the power supply and Arduino.
 
@@ -522,7 +530,6 @@ The fixed tensioner and end-stop mount were attached to the lower bridge beam in
 
 ![attach_tensioners_to_beams_12](./images/build/frame/attach_tensioners_to_beams_12.jpg)
 
-
 #### Attach bridge beams to side plates
 
 All three bridge beams were then inserted into the slots on the side plates. Make sure that the two beams with the rails are on top of each other, with the rails pointing outwards. Also, make sure that you insert them in the correct orientation, so that the rails are lined up (due to the rails being 3 mm off center).
@@ -595,11 +602,17 @@ The carriage was attached to the four MGN12H blocks on the bridge beams, using 2
 
 #### Attach motor, idlers and pulley to carriage
 
-The two belt idlers were attached to the carriage in the same way as to the side plates. Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 6 (10 mm x 8 mm x 2 mm) washers (3 on each side of the bearings). The two idlers were then attached to the carriage using two M8 nuts. Make sure that the bearings are spinning freely.
+Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 4 (10 mm x 8 mm x 2 mm) washers (1 closest to the idler blocker and 3 closest to the side plate). Two idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
 
-![attach_idlers_motor_to_carriage_1](./images/build/frame/attach_idlers_motor_to_carriage_1.jpg)
+![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_1.jpg)
 
-![attach_idlers_motor_to_carriage_2](./images/build/frame/attach_idlers_motor_to_carriage_2.jpg)
+![attach_side_plate_motors_2](./images/build/frame/attach_side_plate_motors_2.jpg)
+
+As I designed and added the idler blocker later on in the build, some of the images doesn't have it and they also have 3 washers instead of 1 washer closest to the screw head. I left these images anyways in the guide so you can see how it looks when you attach the idlers, but please ignore the wrong number of washers. Also ignore all the other things around the idlers in the upcoming image, they are taken later on in the build.
+
+![attach_idlers_motor_to_carriage_3](./images/build/frame/attach_idlers_motor_to_carriage_2.jpg)
+
+Should be idler blockers and a different number of washers in the upcoming images.
 
 ![attach_idlers_motor_to_carriage_3](./images/build/frame/attach_idlers_motor_to_carriage_3.jpg)
 
@@ -1084,8 +1097,6 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 
 ![attach_endstoppers_y_axis_15](./images/build/frame/attach_endstoppers_y_axis_15.jpg)
 
-![attach_endstoppers_y_axis_16](./images/build/frame/attach_endstoppers_y_axis_16.jpg)
-
 ![attach_endstoppers_y_axis_17](./images/build/frame/attach_endstoppers_y_axis_17.jpg)
 
 ![attach_endstoppers_y_axis_18](./images/build/frame/attach_endstoppers_y_axis_18.jpg)
@@ -1101,6 +1112,8 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 ![attach_endstoppers_y_axis_23](./images/build/frame/attach_endstoppers_y_axis_23.jpg)
 
 ![attach_endstoppers_y_axis_24](./images/build/frame/attach_endstoppers_y_axis_24.jpg)
+
+![attach_endstoppers_y_axis_16](./images/build/frame/attach_endstoppers_y_axis_16.jpg)
 
 #### Y axis (min)
 
@@ -1126,6 +1139,47 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 
 ![attach_endstoppers_y_axis_35](./images/build/frame/attach_endstoppers_y_axis_35.jpg)
 
+#### Z axis (max)
+
+![attach_endstoppers_z_axis_1](./images/build/frame/attach_endstoppers_z_axis_1.jpg)
+
+![attach_endstoppers_z_axis_2](./images/build/frame/attach_endstoppers_z_axis_2.jpg)
+
+![attach_endstoppers_z_axis_3](./images/build/frame/attach_endstoppers_z_axis_3.jpg)
+
+![attach_endstoppers_z_axis_4](./images/build/frame/attach_endstoppers_z_axis_4.jpg)
+
+![attach_endstoppers_z_axis_5](./images/build/frame/attach_endstoppers_z_axis_5.jpg)
+
+![attach_endstoppers_z_axis_6](./images/build/frame/attach_endstoppers_z_axis_6.jpg)
+
+![attach_endstoppers_z_axis_7](./images/build/frame/attach_endstoppers_z_axis_7.jpg)
+
+![attach_endstoppers_z_axis_8](./images/build/frame/attach_endstoppers_z_axis_8.jpg)
+
+![attach_endstoppers_z_axis_9](./images/build/frame/attach_endstoppers_z_axis_9.jpg)
+
+![attach_endstoppers_z_axis_10](./images/build/frame/attach_endstoppers_z_axis_10.jpg)
+
+![attach_endstoppers_z_axis_11](./images/build/frame/attach_endstoppers_z_axis_11.jpg)
+
+![attach_endstoppers_z_axis_12](./images/build/frame/attach_endstoppers_z_axis_12.jpg)
+
+![attach_endstoppers_z_axis_13](./images/build/frame/attach_endstoppers_z_axis_13.jpg)
+
+![attach_endstoppers_z_axis_14](./images/build/frame/attach_endstoppers_z_axis_14.jpg)
+
+![attach_endstoppers_z_axis_15](./images/build/frame/attach_endstoppers_z_axis_15.jpg)
+
+![attach_endstoppers_z_axis_16](./images/build/frame/attach_endstoppers_z_axis_16.jpg)
+
+![attach_endstoppers_z_axis_17](./images/build/frame/attach_endstoppers_z_axis_17.jpg)
+
+![attach_endstoppers_z_axis_18](./images/build/frame/attach_endstoppers_z_axis_18.jpg)
+
+![attach_endstoppers_z_axis_19](./images/build/frame/attach_endstoppers_z_axis_19.jpg)
+
+![attach_endstoppers_z_axis_20](./images/build/frame/attach_endstoppers_z_axis_20.jpg)
 
 #### Stepper motor cable management
 
@@ -1268,9 +1322,9 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 ![attach_fans_led_13](./images/build/frame/attach_fans_led_13.jpg)
 
 
-### Install CNC software on Arduino Uno
+### Install CNC software (grbl) on Arduino Uno
 
-The software used in this project to control the CNC machine is called `grbl`. It's an open source and high performance g-code-parser and CNC milling controller that can run on a straight Arduino. To be able to install the software on the Arduino, you will need a computer.
+The software used in this project to control the CNC machine is called `grbl`. It's an open source and high performance g-code-parser and CNC milling controller that can run on a straight Arduino Uno. To be able to install the software on the Arduino, you will need a computer.
 
 #### Install Arduino Software (IDE)
 To be able to install `grbl` on the Arduino, the `Arduino Software (IDE)` needs to be installed on your computer. This program is used to upload code to the Arduino. Download the program from this website and follow the instructions: 
@@ -1289,6 +1343,20 @@ After installing the Arduino Software, the latest stable version of `grbl` was d
 After unzipping the file, you should see something similar to this in the folder:
 
 ![install_software_2](./images/build/frame/install_software_2.jpg)
+
+Before `grbl` was loaded into the `Arduino Software (IDE)`, a minor adjustment had to be done to `grbl's` config file, `config.h`. The reason for this is because when `gbrl` released v1.1, it changed the pin used by the Z endstopper. If this isn't done, the Z endstopper won't be recognized by `grbl`. To tell `grbl` that we want to use the old way of accessing the Z endstopper, a specific variable in the `config.h` was commented out. 
+
+The config `grbl/config.h` was opened in a text editor and the line were the variable `VARIABLE_SPINDLE` is set was commented out by adding two slashes (//) at the beginning of the line (see the last line):
+
+```
+// Enables variable spindle output voltage for different RPM values. On the Arduino Uno, the spindle
+// enable pin will output 5V for maximum RPM with 256 intermediate levels and 0V when disabled.
+// NOTE: IMPORTANT for Arduino Unos! When enabled, the Z-limit pin D11 and spindle enable pin D12 switch!
+// The hardware PWM output on pin D11 is required for variable spindle output voltages.
+// #define VARIABLE_SPINDLE // <-- THIS SHOULD BE COMMENTED OUT!!
+```
+
+Save `config.h`.
 
 Now, open the `Arduino Software (IDE)` and click `Sketch > Include Library > Add .ZIP Library...` in the top menu:
 
