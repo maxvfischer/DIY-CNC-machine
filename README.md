@@ -470,7 +470,7 @@ The last two 600 mm MGN12H rails were attached to two of the 803 mm aluminium br
 
 ![attach_rails_to_beams_2](./images/build/frame/attach_rails_to_beams_2.jpg)
 
-The same 100 mm distance used to align the belt tension sliders were used to align the rails. Because they will be off center by 3 mm, make sure that you later attach the bridge beams to the side plates in a way so	 the rails line up. 
+The same 100 mm distance used to align the belt tension sliders were used to align the rails. Because they will be off center by 3 mm, make sure that you later attach the bridge beams to the side plates in a way so the rails line up. 
 
 The same 3d-printed support tools used to align the rails on the 900 mm aluminium profiles were used here as well. Everything was clamped into position. A bradawl and a hammer were used to make indentations and a 2 mm drill and a M3 drill tap was used to make the screw holes.
 
@@ -792,7 +792,7 @@ The carriage was move all the way to the right side plate and the cable chain wa
 
 ![assemble_carriage_49](./images/build/frame/assemble_carriage_49.jpg)
 
-A bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid were applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The cable chain was then attached to the bridge beam using 2 25 mm M4 screws.
+A bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The cable chain was then attached to the bridge beam using 2 25 mm M4 screws.
 
 ![assemble_carriage_50](./images/build/frame/assemble_carriage_50.jpg)
 
@@ -822,7 +822,7 @@ Finally, the X-axis belt was reattached and tightened.
 
 #### Attach Y-axis cable chain
 
-The Y-axis cable chain was attached using two supports. The first support (with screw holes to attach the cable chain) was clamped to the left side of the lower frame and aligned with the last vertial beam. A bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The support was then attached to the lower frame using 2 20 mm M5 screws.
+The Y-axis cable chain was attached using two supports. The first support (with screw holes to attach the cable chain) was clamped to the left side of the lower frame and aligned with the last vertial beam. A bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The support was then attached to the lower frame using 2 20 mm M5 screws.
 
 
 ![assemble_cable_support_y_axis_1](./images/build/frame/assemble_cable_support_y_axis_1.jpg)
@@ -837,7 +837,7 @@ The Y-axis cable chain was attached using two supports. The first support (with 
 
 The second support was only attached to the lower frame for the cable chain to rest on. I aligned and attached it at the center between the second and third vertical beam. Make sure that it does not go below the bottom frame!
 
-In the same way as the first support, a bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The support was then attached to the lower frame using 2 20 mm M5 screws.
+In the same way as the first support, a bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The support was then attached to the lower frame using 2 20 mm M5 screws.
 
 ![assemble_cable_support_y_axis_6](./images/build/frame/assemble_cable_support_y_axis_6.jpg)
 
@@ -906,13 +906,13 @@ AWG22 cables of matching colors were used when increasing the length of the step
 3. The colors of the stepper cables and the AWG22 cables were matched up and the stripped ends of the cables were twisted around each other.
 4. The twisted cables where then locked in a steady position by a "third hand".
 5. Soldering grease was applied to the twisted cables and the cables were soldered together.
-6. 4 shrinking tubes (one per cable) were shrinked around the now soldered twisted cables, covering the soldering.
-7. A handful of larger shrinking tubes were shrinked around all 4 wires to keep them together.
+6. 4 shrinking tubes (one per cable) were shrunk around the now soldered twisted cables, covering the soldering.
+7. A handful of larger shrinking tubes were shrunk around all 4 wires to keep them together.
 8. Finally, the cables were marked using tape and a penn, indicating which stepper motor the cables belonged to. This is important as it will help a lot later on, when the stepper motors are connected to the Arduino.
 
 ##### Y-axis 1
 
-The cables of the first Y-axis stepper motor was cut at a length so that they reached through the lower front bridge beam (see red arrow on the next image) and through the Y-axis cable chain going to the front of the CNC machine.
+The extended cables of the first Y-axis stepper motor was cut at a length so that they reached through the lower front bridge beam (see red arrow on the next image) and through the Y-axis cable chain going to the front of the CNC machine.
 
 ![solder_steppers_y_axis_1](./images/build/frame/solder_steppers_y_axis_1.jpg)
 
@@ -938,7 +938,7 @@ The cables of the first Y-axis stepper motor was cut at a length so that they re
 
 ##### Y-axis 2
 
-The cables of the second Y-axis stepper motor was cut at a length so that they reached through the Y-axis cable chain going to the front of the CNC machine.
+The extended cables of the second Y-axis stepper motor was cut at a length so that they reached through the Y-axis cable chain going to the front of the CNC machine.
 
 ![solder_steppers_y_axis_11](./images/build/frame/solder_steppers_y_axis_11.jpg)
 
@@ -962,7 +962,9 @@ The cables of the second Y-axis stepper motor was cut at a length so that they r
 
 ##### X-axis
 
-I ran out of AWG22 cables when soldering the X-axis stepper motor cables, therefore you will see different type of cables in the upcoming images. Because of this, I had to insert the shrinking tubes before I soldered the cables. Please disregard this and follow the instructions above.
+I ran out of AWG22 cables when soldering the X-axis stepper motor cables, therefore you will see different type of cables in the upcoming images. Because of this, I had to insert the shrinking tubes before I soldered the cables. Please disregard this and follow the previous instructions.
+
+The extended cables of the X-axis stepper motor was cut at a length so that they reached up and behind the Z-axis stepper motor, through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine.
 
 ![solder_steppers_x_axis_1.jpg](./images/build/frame/solder_steppers_x_axis_1.jpg)
 
@@ -982,9 +984,9 @@ I ran out of AWG22 cables when soldering the X-axis stepper motor cables, theref
 
 ##### Z-axis
 
-The non-geared NEMA17 motor used for the Z-axis did have a removable cable, in contrast to the 1:19 geared NEMA17 motors that had fixed cables. 
+The non-geared NEMA17 motor used for the Z-axis had a removable cable, in contrast to the 1:19 geared NEMA17 motors that had non-removable cables. The first step was therefore to connect the cables to the NEMA17 motor and cut of the connector on the other side using a scissor. Otherwise, the same procedure was followed as for the other motors.
 
-The cables were connected to the NEMA17 motor and the connection on the other end was cut of using a scissor. Otherwise, the same procedure was followed as for the other motors.
+The extended cables of the Z-axis stepper motor was cut at a length so that they reached through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine.
 
 ![solder_steppers_z_axis_1.jpg](./images/build/frame/solder_steppers_z_axis_1.jpg)
 
@@ -1006,9 +1008,13 @@ The cables were connected to the NEMA17 motor and the connection on the other en
 
 ![solder_steppers_z_axis_9.jpg](./images/build/frame/solder_steppers_z_axis_10.jpg)
 
-#### Attach endstops and endstop cables
+#### Attach end-stops and end-stop cables
+
+End-stoppers are important, as they do not only enable you to home the CNC machine, but they also limit the CNC machine from moving past what is physically possible. When the end-stoppers are triggered, an alarm is fired and the machine automatically stops.
 
 #### X axis (max)
+
+A microswitch was attached to the X-axis max end-stop mount using 2 10mm M3 screws.
 
 ![attach_endstoppers_x_axis_1](./images/build/frame/attach_endstoppers_x_axis_1.jpg)
 
@@ -1018,9 +1024,15 @@ The cables were connected to the NEMA17 motor and the connection on the other en
 
 ![attach_endstoppers_x_axis_4](./images/build/frame/attach_endstoppers_x_axis_4.jpg)
 
+The end-stop mount was then pushed against the backside of the top bridge beam, which enabled the end-stop to trigger on the Z-axis stepper motor. The X-axis (carriage) was then moved to its maximum position and the end-stop mount was positioned in a way so that the end-stop triggered just before the X-axis reached its maximum position.
+
+Please ignore the flexible conduit/hose in the next two images, it will be added in an upcoming step.
+
 ![attach_endstoppers_x_axis_5](./images/build/frame/attach_endstoppers_x_axis_5.jpg)
 
 ![attach_endstoppers_x_axis_7](./images/build/frame/attach_endstoppers_x_axis_7.jpg)
+
+The end-stop mount was then clamped to the upper bridge beam and a small drill (-2 mm) was used to carefully make indentations at the center of the holes. The end-stop mount was then removed. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The end-stop mount was then attached to the upper bridge beam using 2 40 mm M5 screws.
 
 ![attach_endstoppers_x_axis_8](./images/build/frame/attach_endstoppers_x_axis_8.jpg)
 
@@ -1040,11 +1052,15 @@ The cables were connected to the NEMA17 motor and the connection on the other en
 
 ![attach_endstoppers_x_axis_16](./images/build/frame/attach_endstoppers_x_axis_16.jpg)
 
+One black and one red 0.75 mm^2 cable was cut out at a length so that they reached from the X-axis max end-stop to the right side plate, through the top bridge beam and through the Y-axis cable chain to the front of the CNC machine. A handful of shrinking tubes were shrunk around the cables to keep them together.
+
 ![attach_endstoppers_x_axis_17](./images/build/frame/attach_endstoppers_x_axis_17.jpg)
 
 ![attach_endstoppers_x_axis_18](./images/build/frame/attach_endstoppers_x_axis_18.jpg)
 
 ![attach_endstoppers_x_axis_19](./images/build/frame/attach_endstoppers_x_axis_19.jpg)
+
+One end of the cables were taped together and inserted through the upper bridge beam to the side plate on the other side.
 
 ![attach_endstoppers_x_axis_20](./images/build/frame/attach_endstoppers_x_axis_20.jpg)
 
@@ -1052,11 +1068,15 @@ The cables were connected to the NEMA17 motor and the connection on the other en
 
 ![attach_endstoppers_x_axis_22](./images/build/frame/attach_endstoppers_x_axis_22.jpg)
 
+A flexible conduit/hose was then cut out and the other side of the cables were inserted through the conduit. The flexible conduit was then inserted ~50 mm into the upper bridge beam and the other side was attached to the outside of the upper bridge beam using cable ties.
+
 ![attach_endstoppers_x_axis_23](./images/build/frame/attach_endstoppers_x_axis_23.jpg)
 
 ![attach_endstoppers_x_axis_24](./images/build/frame/attach_endstoppers_x_axis_24.jpg)
 
 ![attach_endstoppers_x_axis_25](./images/build/frame/attach_endstoppers_x_axis_25.jpg)
+
+The end of the cables were stripped and twisted. Two 2.8 mm spade connectors were then attached to the stripped cables using a plier. The red cable were then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
 
 ![attach_endstoppers_x_axis_26](./images/build/frame/attach_endstoppers_x_axis_26.jpg)
 
@@ -1067,6 +1087,8 @@ The cables were connected to the NEMA17 motor and the connection on the other en
 ![attach_endstoppers_x_axis_29](./images/build/frame/attach_endstoppers_x_axis_29.jpg)
 
 ![attach_endstoppers_x_axis_30](./images/build/frame/attach_endstoppers_x_axis_30.jpg)
+
+Finally, the open end of the cables were marked using tape and a penn, indicating which end-stop the cables belonged to. This is important as it will help a lot later on, when the end-stops are connected to the Arduino.
 
 ![attach_endstoppers_x_axis_31](./images/build/frame/attach_endstoppers_x_axis_31.jpg)
 
@@ -1210,7 +1232,7 @@ The cables were connected to the NEMA17 motor and the connection on the other en
 
 ![attach_endstoppers_z_axis_20](./images/build/frame/attach_endstoppers_z_axis_20.jpg)
 
-#### Stepper motor cable management
+#### Stepper motor and end-stop cable management
 
 ![stepper_motor_cable_management_1](./images/build/frame/stepper_motor_cable_management_1.jpg)
 
