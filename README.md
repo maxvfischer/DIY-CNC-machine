@@ -869,6 +869,10 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 
 #### Attach Z stepper motor, pulleys and belt
 
+The NEMA17 stepper motor was attached to the Z-axis motor mount using 4 10mm M3 screws and 4 M3 washers. Make sure that the motor cable connector is pointing in the same direction as the opening of the X-axis cable chain.
+
+The smaller GT2 timing pulley was then attached to the motor shaft and the larger GT2 timing pulley was attached to the acme rod. Both were locked in place using set screws. Make sure that they line up. 
+
 ![attach_z_stepper_pulleys_belt_1](./images/build/frame/attach_z_stepper_pulleys_belt_1.jpg)
 
 ![attach_z_stepper_pulleys_belt_2](./images/build/frame/attach_z_stepper_pulleys_belt_2.jpg)
@@ -881,6 +885,8 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 
 ![attach_z_stepper_pulleys_belt_6](./images/build/frame/attach_z_stepper_pulleys_belt_6.jpg)
 
+The GT2 timing belt was looped around both timing pulleys and stretched. Before tightning the M3 screws and locking the motor into place, make sure that the belt is not too loose and not too tight. 
+
 ![attach_z_stepper_pulleys_belt_7](./images/build/frame/attach_z_stepper_pulleys_belt_7.jpg)
 
 ![attach_z_stepper_pulleys_belt_8](./images/build/frame/attach_z_stepper_pulleys_belt_8.jpg)
@@ -889,9 +895,24 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 
 ![attach_z_stepper_pulleys_belt_10](./images/build/frame/attach_z_stepper_pulleys_belt_10.jpg)
 
-#### Solder stepper motor cables
+#### Extend and solder stepper motor cables
+
+All 4 stepper motors (x2 Y-axis, x1 X-axis and x1 Z-axis) get their power and movement instructions from the Arduino + CNC shield that in a later step will be attached in the small electronic box. Therefore, the stepper motor cables needed to be extended to reach through the cable chains all the way to the front of the machine, where the small electronic box will be located.
+
+AWG22 cables of matching colors were used when increasing the length of the stepper motor cables. The same process was used for all the motors:
+
+1. The amount of cables needed to reach all the way to the electronic box was approximated and cut. Make sure to have an extra ~300 mm of cables from the point where the cables exits the Y-axis cable chain, as this will be needed to reach the small electronic box.
+2. The ends of the stepper cables and the AWG22 cables were stripped using a wire stripper.
+3. The colors of the stepper cables and the AWG22 cables were matched up and the stripped ends of the cables were twisted around each other.
+4. The twisted cables where then locked in a steady position by a "third hand".
+5. Soldering grease was applied to the twisted cables and the cables were soldered together.
+6. 4 shrinking tubes (one per cable) were shrinked around the now soldered twisted cables, covering the soldering.
+7. A handful of larger shrinking tubes were shrinked around all 4 wires to keep them together.
+8. Finally, the cables were marked using tape and a penn, indicating which stepper motor the cables belonged to. This is important as it will help a lot later on, when the stepper motors are connected to the Arduino.
 
 ##### Y-axis 1
+
+The cables of the first Y-axis stepper motor was cut at a length so that they reached through the lower front bridge beam (see red arrow on the next image) and through the Y-axis cable chain going to the front of the CNC machine.
 
 ![solder_steppers_y_axis_1](./images/build/frame/solder_steppers_y_axis_1.jpg)
 
@@ -917,6 +938,8 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 
 ##### Y-axis 2
 
+The cables of the second Y-axis stepper motor was cut at a length so that they reached through the Y-axis cable chain going to the front of the CNC machine.
+
 ![solder_steppers_y_axis_11](./images/build/frame/solder_steppers_y_axis_11.jpg)
 
 ![solder_steppers_y_axis_12](./images/build/frame/solder_steppers_y_axis_12.jpg)
@@ -939,6 +962,8 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 
 ##### X-axis
 
+I ran out of AWG22 cables when soldering the X-axis stepper motor cables, therefore you will see different type of cables in the upcoming images. Because of this, I had to insert the shrinking tubes before I soldered the cables. Please disregard this and follow the instructions above.
+
 ![solder_steppers_x_axis_1.jpg](./images/build/frame/solder_steppers_x_axis_1.jpg)
 
 ![solder_steppers_x_axis_2.jpg](./images/build/frame/solder_steppers_x_axis_2.jpg)
@@ -955,7 +980,11 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 
 ![solder_steppers_x_axis_8.jpg](./images/build/frame/solder_steppers_x_axis_8.jpg)
 
-##### Z axis
+##### Z-axis
+
+The non-geared NEMA17 motor used for the Z-axis did have a removable cable, in contrast to the 1:19 geared NEMA17 motors that had fixed cables. 
+
+The cables were connected to the NEMA17 motor and the connection on the other end was cut of using a scissor. Otherwise, the same procedure was followed as for the other motors.
 
 ![solder_steppers_z_axis_1.jpg](./images/build/frame/solder_steppers_z_axis_1.jpg)
 
