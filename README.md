@@ -1222,13 +1222,21 @@ A flexible conduit/hose was cut out and the cables were inserted through the con
 
 ![attach_endstoppers_y_axis_35](./images/build/frame/attach_endstoppers_y_axis_35.jpg)
 
-#### Z axis (max)
+#### Z-axis (max)
+
+The main purpose of the Z-axis max end-stop is, apart from homing the machine, to limit the CNC machine from moving past what the length of the rails allow. As the MGN12H blocks contains a lot of small bearing balls, there's a high risk of them falling out if the blocks move past the rail.
+
+To reduce the complexity and amount of cables, I chose not to include a Z-axis min end-stop, as you are likely to mill straight through your waste board before there's a risk of moving past the Z-axis min limit. But if you want to add a Z-axis min end-stop, just repeat the process in this section with the new switch flipped around.
+
+First, the carriage was moved upwards to its maximum point, where the blocks are just about to move past the rails. The Z-axis end-stop trigger was then pressed against the outside of the vertical carriage slider and a sharpie was used to mark the center of the holes.
 
 ![attach_endstoppers_z_axis_1](./images/build/frame/attach_endstoppers_z_axis_1.jpg)
 
 ![attach_endstoppers_z_axis_2](./images/build/frame/attach_endstoppers_z_axis_2.jpg)
 
 ![attach_endstoppers_z_axis_3](./images/build/frame/attach_endstoppers_z_axis_3.jpg)
+
+A 2.5 mm drill was used to drill the holes into the vertical carriage slider. A tip is to mark the drill depth needed using tape. The Z-axis end-stop trigger was then attached to the vertical carriage slider using 2 10 mm M3 screws.
 
 ![attach_endstoppers_z_axis_4](./images/build/frame/attach_endstoppers_z_axis_4.jpg)
 
@@ -1238,9 +1246,13 @@ A flexible conduit/hose was cut out and the cables were inserted through the con
 
 ![attach_endstoppers_z_axis_7](./images/build/frame/attach_endstoppers_z_axis_7.jpg)
 
+A microswitch was pressed against the carriage and positioned and aligned to be triggered by the current state of the Z-axis end-stop trigger.
+
 ![attach_endstoppers_z_axis_8](./images/build/frame/attach_endstoppers_z_axis_8.jpg)
 
 ![attach_endstoppers_z_axis_9](./images/build/frame/attach_endstoppers_z_axis_9.jpg)
+
+A 2.5 mm drill was used to drill the first hole into the carriage and the microswitch was attached to the carriage using 1 10 mm M3 screw. After the microswitch was locked into position, the second hole was drilled and the second 10 mm M3 screw was attached.
 
 ![attach_endstoppers_z_axis_10](./images/build/frame/attach_endstoppers_z_axis_10.jpg)
 
