@@ -1012,7 +1012,9 @@ The extended cables of the Z-axis stepper motor was cut at a length so that they
 
 End-stoppers are important, as they do not only enable you to home the CNC machine, but they also limit the CNC machine from moving past what is physically possible. When the end-stoppers are triggered, an alarm is fired and the machine automatically stops.
 
-#### X axis (max)
+The cables used for end-stops were 0.75 mm^2.
+
+#### X-axis (max)
 
 A microswitch was attached to the X-axis max end-stop mount using 2 10mm M3 screws.
 
@@ -1052,7 +1054,7 @@ The end-stop mount was then clamped to the upper bridge beam and a small drill (
 
 ![attach_endstoppers_x_axis_16](./images/build/frame/attach_endstoppers_x_axis_16.jpg)
 
-One black and one red 0.75 mm^2 cable was cut out at a length so that they reached from the X-axis max end-stop to the right side plate, through the top bridge beam and through the Y-axis cable chain to the front of the CNC machine. A handful of shrinking tubes were shrunk around the cables to keep them together.
+One black and one red 0.75 mm^2 cable were cut out at a length so that they reached from the X-axis max end-stop to the right side plate, through the top bridge beam and through the Y-axis cable chain to the front of the CNC machine. A handful of shrinking tubes were shrunk around the cables to keep them together.
 
 ![attach_endstoppers_x_axis_17](./images/build/frame/attach_endstoppers_x_axis_17.jpg)
 
@@ -1092,7 +1094,9 @@ Finally, the open end of the cables were marked using tape and a penn, indicatin
 
 ![attach_endstoppers_x_axis_31](./images/build/frame/attach_endstoppers_x_axis_31.jpg)
 
-#### X axis (min)
+#### X-axis (min)
+
+A microswitch was attached to the X-axis min end-stop mount using 2 10mm M3 screws.
 
 ![attach_endstoppers_x_axis_32_0](./images/build/frame/attach_endstoppers_x_axis_32_0.jpg)
 
@@ -1100,13 +1104,17 @@ Finally, the open end of the cables were marked using tape and a penn, indicatin
 
 ![attach_endstoppers_x_axis_32_2](./images/build/frame/attach_endstoppers_x_axis_32_2.jpg)
 
+One black and one red 0.75 mm^2 cable were cut out at a length so that they reached from the X-axis min end-stop, around the left side plate, through the Y-axis cable chain to the front of the CNC machine. A handful of shrinking tubes were shrunk around the cables to keep them together.
+
 ![attach_endstoppers_x_axis_32](./images/build/frame/attach_endstoppers_x_axis_32.jpg)
 
 ![attach_endstoppers_x_axis_33](./images/build/frame/attach_endstoppers_x_axis_33.jpg)
 
 ![attach_endstoppers_x_axis_34](./images/build/frame/attach_endstoppers_x_axis_34.jpg)
 
-![attach_endstoppers_x_axis_35](./images/build/frame/attach_endstoppers_x_axis_35.jpg)
+The end of the cables were stripped and twisted. Two 2.8 mm spade connectors were then attached to the stripped cables using a plier. The red cable were then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
+
+The cables were initially strapped around the lower front bridge beam (seen in the first two images), but as it turned out it blocked the belt tensioner. So they were instead strapped around the M8 tensioner screw, using a cable tie. 
 
 ![attach_endstoppers_x_axis_36](./images/build/frame/attach_endstoppers_x_axis_36.jpg)
 
@@ -1114,9 +1122,13 @@ Finally, the open end of the cables were marked using tape and a penn, indicatin
 
 ![attach_endstoppers_x_axis_38](./images/build/frame/attach_endstoppers_x_axis_38.jpg)
 
+Finally, the open end of the cables were marked using tape and a penn, indicating which end-stop the cables belonged to.
+
 ![attach_endstoppers_x_axis_39](./images/build/frame/attach_endstoppers_x_axis_39.jpg)
 
-#### Y axis (max)
+#### Y-axis (max)
+
+The Y-axis max end-stop mount was clamped to the inner side of the upper frame and a sharpie was used to indicate the center of the holes. Note that this end-stop mount can probably be redesigned to gain an extra ~10 mm of Y-axis movement, something I will probably do in the future.
 
 ![attach_endstoppers_y_axis_1](./images/build/frame/attach_endstoppers_y_axis_1.jpg)
 
@@ -1125,6 +1137,8 @@ Finally, the open end of the cables were marked using tape and a penn, indicatin
 ![attach_endstoppers_y_axis_3](./images/build/frame/attach_endstoppers_y_axis_3.jpg)
 
 ![attach_endstoppers_y_axis_4](./images/build/frame/attach_endstoppers_y_axis_4.jpg)
+
+A bradawl and a hammer were then used to make indentations at the center of the holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The end-stop mount was then attached to the inside of the upper frame using 2 20 mm M5 screws.
 
 ![attach_endstoppers_y_axis_5](./images/build/frame/attach_endstoppers_y_axis_5.jpg)
 
@@ -1142,11 +1156,15 @@ Finally, the open end of the cables were marked using tape and a penn, indicatin
 
 ![attach_endstoppers_y_axis_12](./images/build/frame/attach_endstoppers_y_axis_12.jpg)
 
+One black and one red 0.75 mm^2 cable were cut out at a length so that they reached from the Y-axis max end-stop and through the 900 mm aluminium profile of the upper frame to the front of the CNC machine.
+
 ![attach_endstoppers_y_axis_13](./images/build/frame/attach_endstoppers_y_axis_13.jpg)
 
 ![attach_endstoppers_y_axis_14](./images/build/frame/attach_endstoppers_y_axis_14.jpg)
 
 ![attach_endstoppers_y_axis_15](./images/build/frame/attach_endstoppers_y_axis_15.jpg)
+
+A microswitch was attached to the Y-axis max end-stop mount using 2 10mm M3 screws.
 
 ![attach_endstoppers_y_axis_17](./images/build/frame/attach_endstoppers_y_axis_17.jpg)
 
@@ -1154,25 +1172,37 @@ Finally, the open end of the cables were marked using tape and a penn, indicatin
 
 ![attach_endstoppers_y_axis_19](./images/build/frame/attach_endstoppers_y_axis_19.jpg)
 
+A flexible conduit/hose was then cut out and the cables were inserted through the conduit. The flexible conduit was then inserted ~50 mm into the 900 mm aluminium profile of the upper frame. The other side was bent around and attached to the outside of the upper frame using cable ties.
+
 ![attach_endstoppers_y_axis_20](./images/build/frame/attach_endstoppers_y_axis_20.jpg)
 
 ![attach_endstoppers_y_axis_21](./images/build/frame/attach_endstoppers_y_axis_21.jpg)
 
 ![attach_endstoppers_y_axis_22](./images/build/frame/attach_endstoppers_y_axis_22.jpg)
 
+The end of the cables were stripped and twisted. Two 2.8 mm spade connectors were then attached to the stripped cables using a plier. The red cable were then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
+
 ![attach_endstoppers_y_axis_23](./images/build/frame/attach_endstoppers_y_axis_23.jpg)
 
 ![attach_endstoppers_y_axis_24](./images/build/frame/attach_endstoppers_y_axis_24.jpg)
 
+Finally, the open end of the cables were marked using tape and a penn, indicating which end-stop the cables belonged to.
+
 ![attach_endstoppers_y_axis_16](./images/build/frame/attach_endstoppers_y_axis_16.jpg)
 
-#### Y axis (min)
+#### Y-axis (min)
+
+A microswitch was attached to the Y-axis min end-stop mount using 2 10mm M3 screws.
 
 ![attach_endstoppers_y_axis_25](./images/build/frame/attach_endstoppers_y_axis_25.jpg)
 
 ![attach_endstoppers_y_axis_26](./images/build/frame/attach_endstoppers_y_axis_26.jpg)
 
 ![attach_endstoppers_y_axis_27](./images/build/frame/attach_endstoppers_y_axis_27.jpg)
+
+One black and one red 0.75 mm^2 cable were cut out at a length so that they reached from the Y-axis min end-stop and to the front of the CNC machine.
+
+The end of the cables were stripped and twisted. Two 2.8 mm spade connectors were then attached to the stripped cables using a plier. The red cable were then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
 
 ![attach_endstoppers_y_axis_28](./images/build/frame/attach_endstoppers_y_axis_28.jpg)
 
@@ -1182,11 +1212,13 @@ Finally, the open end of the cables were marked using tape and a penn, indicatin
 
 ![attach_endstoppers_y_axis_31](./images/build/frame/attach_endstoppers_y_axis_31.jpg)
 
-![attach_endstoppers_y_axis_32](./images/build/frame/attach_endstoppers_y_axis_32.jpg)
+A flexible conduit/hose was cut out and the cables were inserted through the conduit. The flexible conduit was attached to the outside of the upper frame using cable ties.
 
 ![attach_endstoppers_y_axis_33](./images/build/frame/attach_endstoppers_y_axis_33.jpg)
 
 ![attach_endstoppers_y_axis_34](./images/build/frame/attach_endstoppers_y_axis_34.jpg)
+
+![attach_endstoppers_y_axis_32](./images/build/frame/attach_endstoppers_y_axis_32.jpg)
 
 ![attach_endstoppers_y_axis_35](./images/build/frame/attach_endstoppers_y_axis_35.jpg)
 
