@@ -912,7 +912,7 @@ AWG22 cables of matching colors were used when increasing the length of the step
 
 ##### Y-axis 1
 
-The extended cables of the first Y-axis stepper motor was cut at a length so that they reached through the lower front bridge beam (see red arrow on the next image) and through the Y-axis cable chain going to the front of the CNC machine.
+The extended cables of the first Y-axis stepper motor were cut at a length so that they reached through the lower front bridge beam (see red arrow on the next image) and through the Y-axis cable chain going to the front of the CNC machine.
 
 ![solder_steppers_y_axis_1](./images/build/frame/solder_steppers_y_axis_1.jpg)
 
@@ -938,7 +938,7 @@ The extended cables of the first Y-axis stepper motor was cut at a length so tha
 
 ##### Y-axis 2
 
-The extended cables of the second Y-axis stepper motor was cut at a length so that they reached through the Y-axis cable chain going to the front of the CNC machine.
+The extended cables of the second Y-axis stepper motor were cut at a length so that they reached through the Y-axis cable chain going to the front of the CNC machine.
 
 ![solder_steppers_y_axis_11](./images/build/frame/solder_steppers_y_axis_11.jpg)
 
@@ -964,7 +964,7 @@ The extended cables of the second Y-axis stepper motor was cut at a length so th
 
 I ran out of AWG22 cables when soldering the X-axis stepper motor cables, therefore you will see different type of cables in the upcoming images. Because of this, I had to insert the shrinking tubes before I soldered the cables. Please disregard this and follow the previous instructions.
 
-The extended cables of the X-axis stepper motor was cut at a length so that they reached up and behind the Z-axis stepper motor, through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine.
+The extended cables of the X-axis stepper motor were cut at a length so that they reached up and behind the Z-axis stepper motor, through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine.
 
 ![solder_steppers_x_axis_1.jpg](./images/build/frame/solder_steppers_x_axis_1.jpg)
 
@@ -986,7 +986,7 @@ The extended cables of the X-axis stepper motor was cut at a length so that they
 
 The non-geared NEMA17 motor used for the Z-axis had a removable cable, in contrast to the 1:19 geared NEMA17 motors that had non-removable cables. The first step was therefore to connect the cables to the NEMA17 motor and cut of the connector on the other side using a scissor. Otherwise, the same procedure was followed as for the other motors.
 
-The extended cables of the Z-axis stepper motor was cut at a length so that they reached through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine.
+The extended cables of the Z-axis stepper motor were cut at a length so that they reached through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine.
 
 ![solder_steppers_z_axis_1.jpg](./images/build/frame/solder_steppers_z_axis_1.jpg)
 
@@ -1260,11 +1260,15 @@ A 2.5 mm drill was used to drill the first hole into the carriage and the micros
 
 ![attach_endstoppers_z_axis_12](./images/build/frame/attach_endstoppers_z_axis_12.jpg)
 
+One black and one red 0.75 mm^2 cable were cut at a length so that they reached over the top bridge beam, through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine. A handful of shrinking tubes were shrunk around the cables to keep them together.
+
 ![attach_endstoppers_z_axis_13](./images/build/frame/attach_endstoppers_z_axis_13.jpg)
 
 ![attach_endstoppers_z_axis_14](./images/build/frame/attach_endstoppers_z_axis_14.jpg)
 
 ![attach_endstoppers_z_axis_15](./images/build/frame/attach_endstoppers_z_axis_15.jpg)
+
+The end of the cables were stripped and twisted. Two 2.8 mm spade connectors were then attached to the stripped cables using a plier. The red cable were then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
 
 ![attach_endstoppers_z_axis_16](./images/build/frame/attach_endstoppers_z_axis_16.jpg)
 
@@ -1272,27 +1276,53 @@ A 2.5 mm drill was used to drill the first hole into the carriage and the micros
 
 ![attach_endstoppers_z_axis_18](./images/build/frame/attach_endstoppers_z_axis_18.jpg)
 
+The cables were strapped around the M8 screw keeping the Z motor mount attached to the carriage, using a cable tie.
+
+Finally, the open end of the cables were marked using tape and a penn, indicating which end-stop the cables belonged to.
+
 ![attach_endstoppers_z_axis_19](./images/build/frame/attach_endstoppers_z_axis_19.jpg)
 
 ![attach_endstoppers_z_axis_20](./images/build/frame/attach_endstoppers_z_axis_20.jpg)
 
 #### Stepper motor and end-stop cable management
 
-![stepper_motor_cable_management_1](./images/build/frame/stepper_motor_cable_management_1.jpg)
+To keep a nice structure of all the cables, cable socks and flexible conduits/hoses were used.
 
-![stepper_motor_cable_management_2](./images/build/frame/stepper_motor_cable_management_2.jpg)
+##### Y-axis steppers and X-axis end-stops
+
+First, the cables from the right-side Y-axis stepper motor were inserted into a small flexible conduit and pushed through the lower bridge beam closest to the carriage.
+
+![stepper_motor_cable_management_1](./images/build/frame/stepper_motor_cable_management_1.jpg)
 
 ![stepper_motor_cable_management_3](./images/build/frame/stepper_motor_cable_management_3.jpg)
 
 ![stepper_motor_cable_management_4](./images/build/frame/stepper_motor_cable_management_4.jpg)
 
-![stepper_motor_cable_management_5](./images/build/frame/stepper_motor_cable_management_5.jpg)
+The cables from the two Y-axis steppers and the two X-axis end-stops were bundled together into the same cable sock. 
 
 ![stepper_motor_cable_management_6](./images/build/frame/stepper_motor_cable_management_6.jpg)
 
-![stepper_motor_cable_management_7](./images/build/frame/stepper_motor_cable_management_7.jpg)
+![stepper_motor_cable_management_6_1](./images/build/frame/stepper_motor_cable_management_6_1.jpg)
 
-![stepper_motor_cable_management_8](./images/build/frame/stepper_motor_cable_management_8.jpg)
+![stepper_motor_cable_management_6_2](./images/build/frame/stepper_motor_cable_management_6_2.jpg)
+
+![stepper_motor_cable_management_5](./images/build/frame/stepper_motor_cable_management_5.jpg)
+
+![stepper_motor_cable_management_6_3](./images/build/frame/stepper_motor_cable_management_6_3.jpg)
+
+To simplify pushing the cables through the cable chain, the cables were taped together, leaving no loose ends to get stuck in the chain. This was needed as the cables were longer than the cable sock (to reach all the way to the small electronic box in the front of the CNC machine).
+
+A cable tie was used to close the entrence of the cable sock.
+
+![stepper_motor_cable_management_6_4](./images/build/frame/stepper_motor_cable_management_6_4.jpg)
+
+![stepper_motor_cable_management_6_5](./images/build/frame/stepper_motor_cable_management_6_5.jpg)
+
+![stepper_motor_cable_management_6_6](./images/build/frame/stepper_motor_cable_management_6_6.jpg)
+
+##### X-axis stepper, Z-axis stepper and Z-axis end-stop
+
+First, the cables from the X-axis stepper motor were inserted into a flexible conduit. The conduit was then bent over the upper bridge beam, strapped to the vaccum mount and Z motor mount, and then pushed behind the Z-axis stepper motor.
 
 ![stepper_motor_cable_management_9](./images/build/frame/stepper_motor_cable_management_9.jpg)
 
@@ -1302,19 +1332,33 @@ A 2.5 mm drill was used to drill the first hole into the carriage and the micros
 
 ![stepper_motor_cable_management_12](./images/build/frame/stepper_motor_cable_management_12.jpg)
 
+The cables from the X-axis stepper, Z-axis stepper and the Z-axis end-stop were bundled together into the same cable sock. The cable sock was cut at a length so that it reached through the X-axis cable chain, around the left side-plate and through the Y-axis cable chain.
+
+To simplify pushing the cables through the cable chains, the cables were taped together, leaving no loose ends to get stuck in the cable chains. This was needed as the cables were longer than the cable sock (to reach all the way to the small electronic box in the front of the CNC machine).
+
+A cable tie was used to close the entrence of the cable sock.
+
 ![stepper_motor_cable_management_13](./images/build/frame/stepper_motor_cable_management_13.jpg)
 
-![stepper_motor_cable_management_14](./images/build/frame/stepper_motor_cable_management_14.jpg)
+![stepper_motor_cable_management_13_1](./images/build/frame/stepper_motor_cable_management_13_1.jpg)
 
-![stepper_motor_cable_management_15](./images/build/frame/stepper_motor_cable_management_15.jpg)
+![stepper_motor_cable_management_13_2](./images/build/frame/stepper_motor_cable_management_13_2.jpg)
 
-![stepper_motor_cable_management_16](./images/build/frame/stepper_motor_cable_management_16.jpg)
+![stepper_motor_cable_management_13_3](./images/build/frame/stepper_motor_cable_management_13_3.jpg)
 
-![stepper_motor_cable_management_17](./images/build/frame/stepper_motor_cable_management_17.jpg)
+![stepper_motor_cable_management_13_4](./images/build/frame/stepper_motor_cable_management_13_4.jpg)
 
-![stepper_motor_cable_management_18](./images/build/frame/stepper_motor_cable_management_18.jpg)
+![stepper_motor_cable_management_13_5](./images/build/frame/stepper_motor_cable_management_13_5.jpg)
 
-![stepper_motor_cable_management_19](./images/build/frame/stepper_motor_cable_management_19.jpg)
+![stepper_motor_cable_management_13_6](./images/build/frame/stepper_motor_cable_management_13_6.jpg)
+
+![stepper_motor_cable_management_13_7](./images/build/frame/stepper_motor_cable_management_13_7.jpg)
+
+![stepper_motor_cable_management_13_8](./images/build/frame/stepper_motor_cable_management_13_8.jpg)
+
+A cable tie was used to strap the cable sock to the left side-plate.
+
+![stepper_motor_cable_management_13_9](./images/build/frame/stepper_motor_cable_management_13_9.jpg)
 
 ### Connect main electronic box
 
