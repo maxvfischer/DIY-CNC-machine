@@ -194,7 +194,7 @@ The edges were finally smoothed out using a round metal file.
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_11.jpg)
 
-### Attach rails to 900 mm profiles
+### Rails to 900 mm profiles
 
 Before the upper and lower frames were assembled, two 600 mm MGN12H rails were attached to the 900 mm aluminium profiles of the **upper** frame. They were attached to the sides facing outwards and above the three 80 mm vertical beams (connecting the lower and upper frame). A tip is to place all the profiles as they should go to make sure that you're attaching the rails to the correct faces (see the red boxes on the image below). Also, be very careful when removing the MGN12H blocks from the rails.
 
@@ -282,7 +282,7 @@ The 120 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts were the
 
 ![assemble_frames_13](./images/build/frame/assemble_frames_13.jpg)
 
-### Attach side plates
+### Side plates to upper frame
 
 Before attaching the side plates, the MGN12H blocks were added back onto the rails, two on each side. Be careful when sliding them onto the rails, there are multiple small bearing balls that easily fall out of the blocks.
 
@@ -306,7 +306,7 @@ I had to redesign the left side plate and reprint it later in the build (after t
 
 ![assemble_side_plates_8](./images/build/frame/assemble_side_plates_8.jpg)
 
-### Attach motors, idlers and pulleys to side plates
+### Motors, idlers and pulleys to side plates
 
 Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 4 (10 mm x 8 mm x 2 mm) washers (1 closest to the idler blocker and 3 closest to the side plate). Two idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
 
@@ -360,7 +360,7 @@ The HTD5M timing pulleys were attached to the motor shaft using set screws.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_18.jpg)
 
-### Attach Y-axis belt tensioners and end-stop mounts
+### Y-axis belt tensioners and end-stop mounts
 
 Fixed belt tensioners were attached to the longer aluminium profiles of the upper frame using M5 screws. When aligning the fixed belt tensioners, make sure that the "belt opening" is pointing in the direction of the rails (one fixed belt tensioner for each rail). Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
 
@@ -428,7 +428,7 @@ The belt tensioners were loosely attached to the belt tension sliders using full
 
 ![attach_tensioners_and_belts_29](./images/build/frame/attach_tensioners_and_belts_29.jpg)
 
-### Add Y-axis HTD5M belts
+### Y-axis HTD5M belts
 
 The HTD5M belt was first inserted into one of the fixed belt tensioners using a flat screw driver. It was then stretched along the aluminium profile, below the first idler, around the timing pulley, below the second idler and all the way to the belt tensioner.
 
@@ -462,7 +462,7 @@ Make sure that the belt is not too loose and not too tight.
 
 Repeat on the other side.
 
-### Attach rails to bridge beams
+### Rails to bridge beams
 
 The last two 600 mm MGN12H rails were attached to two of the 803 mm aluminium bridge beams (used for the X-axis). First, the MGN12H blocks were carefully removed from the rails.
 
@@ -502,7 +502,7 @@ The rails were finally attached using 20 mm M3 screws and the rail blocks were g
 
 ![attach_rails_to_beams_15](./images/build/frame/attach_rails_to_beams_15.jpg)
 
-#### Attach fixed tensioner and end-stop mount to the lower bridge beam
+### X-axis tensioner and end-stop mount to lower bridge beam
 
 The fixed tensioner and end-stop mount were attached to the lower bridge beam in the same fashion as on the 900 mm aluminium profiles, using M5 screws. When aligning the fixed tensioner, make sure that the "belt opening" is pointing in the direction of the rail. A bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
 
@@ -530,7 +530,7 @@ The fixed tensioner and end-stop mount were attached to the lower bridge beam in
 
 ![attach_tensioners_to_beams_12](./images/build/frame/attach_tensioners_to_beams_12.jpg)
 
-#### Attach bridge beams to side plates
+### Bridge beams to side plates
 
 All three bridge beams were then inserted into the slots on the side plates. Make sure that the two beams with the rails are on top of each other, with the rails pointing outwards. Also, make sure that you insert them in the correct orientation, so that the rails are lined up (due to the rails being 3 mm off center).
 
@@ -574,7 +574,7 @@ The bridge beams were then inserted into the slots on the side plates once more,
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_17.jpg)
 
-#### Attach bearings to carriage
+### Rod bearings to carriage
 
 Before attaching the carriage to the bridge beams, two KFL08 rod bearings were attached on the top and the bottom of the carriage (inside) using 20 mm M5 screws and M5 locknuts. A tip is to temporarily use the acme rod (used in an upcoming step) to vertically align the two bearings.
 
@@ -588,7 +588,7 @@ Before attaching the carriage to the bridge beams, two KFL08 rod bearings were a
 
 ![assemble_carriage_5](./images/build/frame/assemble_carriage_5.jpg)
 
-#### Attach carriage to bridge beams
+### Carriage to bridge beams
 
 The carriage was attached to the four MGN12H blocks on the bridge beams, using 25 mm M3 screws.
 
@@ -600,7 +600,7 @@ The carriage was attached to the four MGN12H blocks on the bridge beams, using 2
 
 ![attach_carriage_to_beams_4](./images/build/frame/attach_carriage_to_beams_4.jpg)
 
-#### Attach motor, idlers and pulley to carriage
+### Motor, idlers and pulley to carriage
 
 Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 4 (10 mm x 8 mm x 2 mm) washers (1 closest to the idler blocker and 3 closest to the side plate). Two idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
 
@@ -642,7 +642,7 @@ The HTD5M timing pulley was attached to the motor shaft using set screws.
 
 ![attach_idlers_motor_to_carriage_13](./images/build/frame/attach_idlers_motor_to_carriage_13.jpg)
 
-#### Add X-axis HTD5M belt
+### X-axis HTD5M belt
 
 The HTD5M belt was first inserted into the fixed belt tensioner using a flat screw driver. It was then stretched along the aluminium profile, below the first idler, around the timing pulley, below the second idler and all the way to the other side.
 
@@ -668,7 +668,7 @@ Make sure that the belt is not too loose and not too tight.
 
 ![attach_x_axis_belt_8](./images/build/frame/attach_x_axis_belt_8.jpg)
 
-#### Attach acme nut and rails to carriage slider
+### Acme nut and rails to carriage slider
 
 An acme nut was inserted from the outside, into the the center hole at the top of the vertical carriage slider. It was locked in place using 4 25 mm M3 screws.
 
@@ -692,7 +692,7 @@ The two smaller 200 mm MGN12H rails were then attached to the back of the vertic
 
 ![assemble_carriage_13](./images/build/frame/assemble_carriage_13.jpg)
 
-#### Attach acme rod and vertical slider to carriage
+### Acme rod and vertical slider to carriage
 
 To attach the vertical slider to the carriage, 25 mm M3 screws were first inserted into the holes on the carriage. You might need to "open up" the holes using a narrow tool (depending on the direction you 3d-printed the carriage).
 
@@ -716,7 +716,7 @@ The vertical slider was finally attached to the carriage by attaching the 25 mm 
 
 ![assemble_carriage_21](./images/build/frame/assemble_carriage_21.jpg)
 
-#### Attach Z motor mount and X-axis cable chain
+### Z motor mount and X-axis cable chain
 
 The first step was to find a good length of the X-axis cable chain. To simplify this process, the X-axis belt was removed to easier move the carriage along the X-axis.
 
@@ -820,7 +820,7 @@ Finally, the X-axis belt was reattached and tightened.
 
 ![assemble_carriage_61](./images/build/frame/assemble_carriage_61.jpg)
 
-#### Attach Y-axis cable chain
+### Y-axis cable chain
 
 The Y-axis cable chain was attached using two supports. The first support (with screw holes to attach the cable chain) was clamped to the left side of the lower frame and aligned with the last vertial beam. A bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The support was then attached to the lower frame using 2 20 mm M5 screws.
 
@@ -867,7 +867,7 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 
 ![assemble_cable_support_y_axis_17](./images/build/frame/assemble_cable_support_y_axis_17.jpg)
 
-#### Attach Z stepper motor, pulleys and belt
+### Z stepper motor, pulleys and belt
 
 The NEMA17 stepper motor was attached to the Z-axis motor mount using 4 10mm M3 screws and 4 M3 washers. Make sure that the motor cable connector is pointing in the same direction as the opening of the X-axis cable chain.
 
@@ -895,7 +895,7 @@ The GT2 timing belt was looped around both timing pulleys and stretched. Before 
 
 ![attach_z_stepper_pulleys_belt_10](./images/build/frame/attach_z_stepper_pulleys_belt_10.jpg)
 
-#### Extend and solder stepper motor cables
+### Extend and solder stepper motor cables
 
 All 4 stepper motors (x2 Y-axis, x1 X-axis and x1 Z-axis) get their power and movement instructions from the Arduino + CNC shield that in a later step will be attached in the small electronic box. Therefore, the stepper motor cables needed to be extended to reach through the cable chains all the way to the front of the machine, where the small electronic box will be located.
 
@@ -910,7 +910,7 @@ AWG22 cables of matching colors were used when increasing the length of the step
 7. A handful of larger shrinking tubes were shrunk around all 4 wires to keep them together.
 8. Finally, the cables were marked using tape and a penn, indicating which stepper motor the cables belonged to. This is important as it will help a lot later on, when the stepper motors are connected to the Arduino.
 
-##### Y-axis 1
+#### Y-axis 1
 
 The extended cables of the first Y-axis stepper motor were cut at a length so that they reached through the lower front bridge beam (see red arrow on the next image) and through the Y-axis cable chain going to the front of the CNC machine.
 
@@ -936,7 +936,7 @@ The extended cables of the first Y-axis stepper motor were cut at a length so th
 
 ![solder_steppers_y_axis_10_1](./images/build/frame/solder_steppers_y_axis_10_1.jpg)
 
-##### Y-axis 2
+#### Y-axis 2
 
 The extended cables of the second Y-axis stepper motor were cut at a length so that they reached through the Y-axis cable chain going to the front of the CNC machine.
 
@@ -960,7 +960,7 @@ The extended cables of the second Y-axis stepper motor were cut at a length so t
 
 ![solder_steppers_y_axis_20](./images/build/frame/solder_steppers_y_axis_20.jpg)
 
-##### X-axis
+#### X-axis
 
 I ran out of AWG22 cables when soldering the X-axis stepper motor cables, therefore you will see different type of cables in the upcoming images. Because of this, I had to insert the shrinking tubes before I soldered the cables. Please disregard this and follow the previous instructions.
 
@@ -982,7 +982,7 @@ The extended cables of the X-axis stepper motor were cut at a length so that the
 
 ![solder_steppers_x_axis_8.jpg](./images/build/frame/solder_steppers_x_axis_8.jpg)
 
-##### Z-axis
+#### Z-axis
 
 The non-geared NEMA17 motor used for the Z-axis had a removable cable, in contrast to the 1:19 geared NEMA17 motors that had non-removable cables. The first step was therefore to connect the cables to the NEMA17 motor and cut of the connector on the other side using a scissor. Otherwise, the same procedure was followed as for the other motors.
 
@@ -1008,7 +1008,7 @@ The extended cables of the Z-axis stepper motor were cut at a length so that the
 
 ![solder_steppers_z_axis_9.jpg](./images/build/frame/solder_steppers_z_axis_10.jpg)
 
-#### Attach end-stops and end-stop cables
+### End-stops and end-stop cables
 
 End-stoppers are important, as they do not only enable you to home the CNC machine, but they also limit the CNC machine from moving past what is physically possible. When the end-stoppers are triggered, an alarm is fired and the machine automatically stops.
 
@@ -1284,11 +1284,11 @@ Finally, the open end of the cables were marked using tape and a penn, indicatin
 
 ![attach_endstoppers_z_axis_20](./images/build/frame/attach_endstoppers_z_axis_20.jpg)
 
-#### Stepper motor and end-stop cable management
+### Stepper motor and end-stop cable management
 
 To keep a nice structure of all the cables, cable socks and flexible conduits/hoses were used.
 
-##### Y-axis steppers and X-axis end-stops
+#### Y-axis steppers and X-axis end-stops
 
 First, the cables from the right-side Y-axis stepper motor were inserted into a small flexible conduit and pushed through the lower bridge beam closest to the carriage.
 
@@ -1320,7 +1320,7 @@ A cable tie was used to close the entrence of the cable sock.
 
 ![stepper_motor_cable_management_6_6](./images/build/frame/stepper_motor_cable_management_6_6.jpg)
 
-##### X-axis stepper, Z-axis stepper and Z-axis end-stop
+#### X-axis stepper, Z-axis stepper and Z-axis end-stop
 
 First, the cables from the X-axis stepper motor were inserted into a flexible conduit. The conduit was then bent over the upper bridge beam, strapped to the vaccum mount and Z motor mount, and then pushed behind the Z-axis stepper motor.
 
