@@ -306,7 +306,7 @@ I had to redesign the left side plate and reprint it later in the build (after t
 
 ![assemble_side_plates_8](./images/build/frame/assemble_side_plates_8.jpg)
 
-### Motors, idlers and pulleys to side plates
+### Y-axis motors, idlers and pulleys to side plates
 
 Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 4 (10 mm x 8 mm x 2 mm) washers (1 closest to the idler blocker and 3 closest to the side plate). Two idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
 
@@ -600,7 +600,7 @@ The carriage was attached to the four MGN12H blocks on the bridge beams, using 2
 
 ![attach_carriage_to_beams_4](./images/build/frame/attach_carriage_to_beams_4.jpg)
 
-### Motor, idlers and pulley to carriage
+### X-axis motor, idlers and pulley to carriage
 
 Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 4 (10 mm x 8 mm x 2 mm) washers (1 closest to the idler blocker and 3 closest to the side plate). Two idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
 
@@ -1362,17 +1362,25 @@ A cable tie was used to strap the cable sock to the left side-plate.
 
 ### Connect main electronic box
 
+**NOTE: THIS PART INCLUDES WIRING OF HIGH VOLTAGE ELECTRICITY THAT CAN BE LETHAL IF NOT DONE PROPERLY. THE COLORS OF THE CABLES CAN VARY DEPENDING ON REGION/COUNTRY. BEFORE YOU CONNECT THE POWER CORD TO THE POWER OUTLET, YOU MUST CONSULT WITH A LICENSED ELECTRICIAN TO MAKE SURE THAT EVERYTHING IS PROPERLY WIRED AND THAT IT IS IN LINE WITH YOUR LOCAL LEGISLATIONS.**
+
+The 200W power supply was attached to the back panel of the larger electronic box using the small M3 screws unscrewed from the geared stepper motors.
+
 ![connect_main_electronic_box_1](./images/build/frame/connect_main_electronic_box_1.jpg)
 
 ![connect_main_electronic_box_2](./images/build/frame/connect_main_electronic_box_2.jpg)
 
 ![connect_main_electronic_box_3](./images/build/frame/connect_main_electronic_box_3.jpg)
 
+The C14 connector and the emergency stop switch were inserted into the holes on the front plate of the large electronic box.
+
 ![connect_main_electronic_box_4](./images/build/frame/connect_main_electronic_box_4.jpg)
 
 ![connect_main_electronic_box_5](./images/build/frame/connect_main_electronic_box_5.jpg)
 
 ![connect_main_electronic_box_6](./images/build/frame/connect_main_electronic_box_6.jpg)
+
+A small brown wire was cut out and the ends were stripped and twisted. Two 4.8 mm spade connectors were then attached to the stripped cables using a plier. The space connectors were connected between **10** and **1A** on the back side of the C14 connector.
 
 ![connect_main_electronic_box_7](./images/build/frame/connect_main_electronic_box_7.jpg)
 
@@ -1382,19 +1390,31 @@ A cable tie was used to strap the cable sock to the left side-plate.
 
 ![connect_main_electronic_box_10](./images/build/frame/connect_main_electronic_box_10.jpg)
 
+A longer brown wire was cut out to reach between **L** on the C14 connector and **13** on the emergency stop switch. The ends were stripped and twisted. A 4.8 mm spade connector was attached to the side connected to the C14 connector and a 6.3 mm space connector was attached to the side connected to the emergency stop switch. The spade connectors were then connected.
+
 ![connect_main_electronic_box_11](./images/build/frame/connect_main_electronic_box_11.jpg)
 
 ![connect_main_electronic_box_12](./images/build/frame/connect_main_electronic_box_12.jpg)
 
 ![connect_main_electronic_box_13](./images/build/frame/connect_main_electronic_box_13.jpg)
 
+Two short and one longer blue cable were cut out at an appropriate length and the ends of the cables were stripped and twisted.
+
 ![connect_main_electronic_box_14](./images/build/frame/connect_main_electronic_box_14.jpg)
+
+Two 4.8 mm spade connector were attached to one of the sides of each shorter cable and the other sides were inserted and locked into a 3-way Wago 221-413.
 
 ![connect_main_electronic_box_15](./images/build/frame/connect_main_electronic_box_15.jpg)
 
 ![connect_main_electronic_box_16](./images/build/frame/connect_main_electronic_box_16.jpg)
 
+A 6.3 mm space connector was attached to one side of the longer blue cable and the other side were inserted and locked into the 3-way Wago 221-413.
+
+I didn't have access to the correct colors of all the spade connectors, so I followed the appropriate color scheme of the cables instead. Please ignore that there's a red space connector attached to the blue wire.
+
 ![connect_main_electronic_box_17](./images/build/frame/connect_main_electronic_box_17.jpg)
+
+The shorter blue wires were connected to **N** and ****
 
 ![connect_main_electronic_box_18](./images/build/frame/connect_main_electronic_box_18.jpg)
 
