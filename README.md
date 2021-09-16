@@ -1380,7 +1380,7 @@ The C14 connector and the emergency stop switch were inserted into the holes on 
 
 ![connect_main_electronic_box_6](./images/build/frame/connect_main_electronic_box_6.jpg)
 
-A small brown wire was cut out and the ends were stripped and twisted. Two 4.8 mm spade connectors were then attached to the stripped cables using a plier. The space connectors were connected between **10** and **1A** on the back side of the C14 connector.
+A small brown wire was cut out and the ends were stripped and twisted. Two 4.8 mm spade connectors were then attached to the stripped wire using a plier. The space connectors were connected between **10** and **1A** on the back side of the C14 connector.
 
 ![connect_main_electronic_box_7](./images/build/frame/connect_main_electronic_box_7.jpg)
 
@@ -1398,27 +1398,29 @@ A longer brown wire was cut out to reach between **L** on the C14 connector and 
 
 ![connect_main_electronic_box_13](./images/build/frame/connect_main_electronic_box_13.jpg)
 
-Two short and one longer blue cable were cut out at an appropriate length and the ends of the cables were stripped and twisted.
+Two short and one longer blue wire were cut out at an appropriate length and the ends of the wires were stripped and twisted.
 
 ![connect_main_electronic_box_14](./images/build/frame/connect_main_electronic_box_14.jpg)
 
-Two 4.8 mm spade connector were attached to one of the sides of each shorter cable and the other sides were inserted and locked into a 3-way Wago 221-413.
+Two 4.8 mm spade connector were attached to one of the sides of each shorter wire and the other sides were inserted and locked into a 3-way Wago 221-413.
 
 ![connect_main_electronic_box_15](./images/build/frame/connect_main_electronic_box_15.jpg)
 
 ![connect_main_electronic_box_16](./images/build/frame/connect_main_electronic_box_16.jpg)
 
-A 6.3 mm space connector was attached to one side of the longer blue cable and the other side were inserted and locked into the 3-way Wago 221-413.
+A 6.3 mm space connector was attached to one side of the longer blue wire and the other side were inserted and locked into the 3-way Wago 221-413.
 
-I didn't have access to the correct colors of all the spade connectors, so I followed the appropriate color scheme of the cables instead. Please ignore that there's a red space connector attached to the blue wire.
+I didn't have access to the correct colors of all the spade connectors, so I followed the appropriate color scheme of the wires instead. Please ignore if there's a mismatch between the wire color and the spade connector color.
 
 ![connect_main_electronic_box_17](./images/build/frame/connect_main_electronic_box_17.jpg)
 
-The shorter blue wires were connected to **N** and ****
+The shorter blue wires were connected to **N** and **XX** on the C14 connector. The longer blue wire was connected to **23** spade connector on the emergency stop switch.
 
 ![connect_main_electronic_box_18](./images/build/frame/connect_main_electronic_box_18.jpg)
 
 ![connect_main_electronic_box_19](./images/build/frame/connect_main_electronic_box_19.jpg)
+
+One brown and one blue wire were cut out to reach between the emergency stop switch and the power supply's input terminals. The wires were stripped. Two 6.3 mm space connectors were attached to one side and two ring terminals were attached to the other side. The blue wire's spade connector was connected to **24** on the emergency stop switch. The brown wire's spade connector was connected to **14** on the emergency stop switch.
 
 ![connect_main_electronic_box_20](./images/build/frame/connect_main_electronic_box_20.jpg)
 
@@ -1426,13 +1428,25 @@ The shorter blue wires were connected to **N** and ****
 
 ![connect_main_electronic_box_22](./images/build/frame/connect_main_electronic_box_22.jpg)
 
+A small green/yellow wire was cut out to reach between the C14 connector and the power supply's input terminals. The wire was stripped, a 4.8 mm spade connector was attached to one side and a ring terminal was attached to the other side. The spade connector was then attached to **⏚** (ground) on the C14 connector.
+
 ![connect_main_electronic_box_23](./images/build/frame/connect_main_electronic_box_23.jpg)
 
 ![connect_main_electronic_box_24](./images/build/frame/connect_main_electronic_box_24.jpg)
 
+The ring terminals were then connected to the power supply's input terminals:
+
+* Brown -> AC/L
+* Blue -> AC/N
+* Green/Yellow -> **⏚** (ground)
+
 ![connect_main_electronic_box_25](./images/build/frame/connect_main_electronic_box_25.jpg)
 
 ![connect_main_electronic_box_26](./images/build/frame/connect_main_electronic_box_26.jpg)
+
+Power was connected to the C14 connector and multimeter was used to verify that the power supply outputted 12V.
+
+![connect_main_electronic_box_26](./images/build/frame/connect_main_electronic_box_24_1.jpg)
 
 ![connect_main_electronic_box_27](./images/build/frame/connect_main_electronic_box_27.jpg)
 
