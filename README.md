@@ -1362,7 +1362,7 @@ A cable tie was used to strap the cable sock to the left side-plate.
 
 ### Connect main electronic box
 
-**NOTE: THIS PART INCLUDES WIRING OF HIGH VOLTAGE ELECTRICITY THAT CAN BE LETHAL IF NOT DONE PROPERLY. THE COLORS OF THE CABLES CAN VARY DEPENDING ON REGION/COUNTRY. BEFORE YOU CONNECT THE POWER CORD TO THE POWER OUTLET, YOU MUST CONSULT WITH A LICENSED ELECTRICIAN TO MAKE SURE THAT EVERYTHING IS PROPERLY WIRED AND THAT IT IS IN LINE WITH YOUR LOCAL LEGISLATIONS.**
+**NOTE: THIS PART INCLUDES WIRING OF HIGH VOLTAGE ELECTRICITY THAT CAN BE LETHAL IF NOT DONE PROPERLY. THE COLORS OF THE CABLES CAN VARY DEPENDING ON REGION/COUNTRY AND YOUR COMPONENTS/PINOUT NUMBERS MIGHT LOOK DIFFERENT. BEFORE YOU CONNECT THE POWER CORD TO THE POWER OUTLET, YOU MUST CONSULT WITH A LICENSED ELECTRICIAN TO MAKE SURE THAT EVERYTHING IS PROPERLY WIRED AND THAT IT IS IN LINE WITH YOUR LOCAL LEGISLATIONS.**
 
 The 200W power supply was attached to the back panel of the larger electronic box using the small M3 screws unscrewed from the geared stepper motors.
 
@@ -1410,17 +1410,17 @@ Two 4.8 mm spade connector were attached to one of the sides of each shorter wir
 
 A 6.3 mm space connector was attached to one side of the longer blue wire and the other side were inserted and locked into the 3-way Wago 221-413.
 
-I didn't have access to the correct colors of all the spade connectors, so I followed the appropriate color scheme of the wires instead. Please ignore if there's a mismatch between the wire color and the spade connector color.
+I didn't have access to matching colors of all the spade connectors, so I followed the appropriate color scheme of the wires instead. So please ignore if there's a mismatch between the wire color and the spade connector color in the upcoming images.
 
 ![connect_main_electronic_box_17](./images/build/frame/connect_main_electronic_box_17.jpg)
 
-The shorter blue wires were connected to **N** and **XX** on the C14 connector. The longer blue wire was connected to **23** spade connector on the emergency stop switch.
+The shorter blue wires were connected to **N** and **XX** on the C14 connector. The longer blue wire was connected to **23** on the emergency stop switch.
 
 ![connect_main_electronic_box_18](./images/build/frame/connect_main_electronic_box_18.jpg)
 
 ![connect_main_electronic_box_19](./images/build/frame/connect_main_electronic_box_19.jpg)
 
-One brown and one blue wire were cut out to reach between the emergency stop switch and the power supply's input terminals. The wires were stripped. Two 6.3 mm space connectors were attached to one side and two ring terminals were attached to the other side. The blue wire's spade connector was connected to **24** on the emergency stop switch. The brown wire's spade connector was connected to **14** on the emergency stop switch.
+One brown and one blue wire were cut out to reach between the emergency stop switch and the power supply's input terminals. The ends of the wires were stripped and twisted. Two 6.3 mm space connectors were attached to one side of the wires and two ring terminals were attached to the other side. The blue wire's spade connector was connected to **24** on the emergency stop switch. The brown wire's spade connector was connected to **14** on the emergency stop switch.
 
 ![connect_main_electronic_box_20](./images/build/frame/connect_main_electronic_box_20.jpg)
 
@@ -1428,13 +1428,13 @@ One brown and one blue wire were cut out to reach between the emergency stop swi
 
 ![connect_main_electronic_box_22](./images/build/frame/connect_main_electronic_box_22.jpg)
 
-A small green/yellow wire was cut out to reach between the C14 connector and the power supply's input terminals. The wire was stripped, a 4.8 mm spade connector was attached to one side and a ring terminal was attached to the other side. The spade connector was then attached to **⏚** (ground) on the C14 connector.
+A small green/yellow wire was cut out to reach between the C14 connector and the power supply's input terminals. The end of the wire was stripped and twisted, a 4.8 mm spade connector was attached to one side and a ring terminal was attached to the other side. The spade connector was then attached to **⏚** (ground) on the C14 connector.
 
 ![connect_main_electronic_box_23](./images/build/frame/connect_main_electronic_box_23.jpg)
 
 ![connect_main_electronic_box_24](./images/build/frame/connect_main_electronic_box_24.jpg)
 
-The ring terminals were then connected to the power supply's input terminals:
+The three ring terminals were then connected to the power supply's input terminals in the following way:
 
 * Brown -> AC/L
 * Blue -> AC/N
@@ -1444,13 +1444,17 @@ The ring terminals were then connected to the power supply's input terminals:
 
 ![connect_main_electronic_box_26](./images/build/frame/connect_main_electronic_box_26.jpg)
 
-Power was connected to the C14 connector and multimeter was used to verify that the power supply outputted 12V.
+Power was connected to the C14 connector (read [this](#connect-main-electronic-box) note before connecting the power) and a multimeter was used to verify that the power supply outputted 12V. The multimeter was also used to verify that the C14 connector worked properly (cut power when using the switch) and that the emergency stop switch worked propertly (cut power when pushed. Also that it remains off when C14 connector is switched off and on again).
 
 ![connect_main_electronic_box_26](./images/build/frame/connect_main_electronic_box_24_1.jpg)
+
+The emergency stop switch was attached to the front plate using two 20 mm M4 screws, two M4 nuts and two (9 mm, 4 mm, 1 mm) washers.
 
 ![connect_main_electronic_box_27](./images/build/frame/connect_main_electronic_box_27.jpg)
 
 ![connect_main_electronic_box_28](./images/build/frame/connect_main_electronic_box_28.jpg)
+
+Shrink tubes were cut out at an appropriate length, one for each spade connector. Each spade connector was then temporarily removed and inserted into its shrink tube, before attached back again. The shrink tubes were then shrunk around all the spade connectors.
 
 ![connect_main_electronic_box_29](./images/build/frame/connect_main_electronic_box_29.jpg)
 
@@ -1460,13 +1464,19 @@ Power was connected to the C14 connector and multimeter was used to verify that 
 
 ![connect_main_electronic_box_32](./images/build/frame/connect_main_electronic_box_32.jpg)
 
+### Prepare power to steppers and connect fans and LED
+
+To prepare the power for the stepper motors, one black and one red wire were cut out (approx. 300 mm long) to reach between the 12V terminals on the power supply and the small electronic box containing the Arduino and CNC shield. One side of each wire was then stripped and twisted, and ring terminals were attached. 
+
+The red wire was connected to the **V+** and the black wire was connected to **V-**.
+
 ![connect_main_electronic_box_33](./images/build/frame/connect_main_electronic_box_33.jpg)
 
 ![connect_main_electronic_box_34](./images/build/frame/connect_main_electronic_box_34.jpg)
 
 ![connect_main_electronic_box_35](./images/build/frame/connect_main_electronic_box_35.jpg)
 
-### Connect fans and LED
+A 40x40 mm 12V fan was attached to the back side of the large electronic box's front panel, using 4 10 mm M3 screws. The fan was attached to blow air out of the box.
 
 ![attach_fans_led_1](./images/build/frame/attach_fans_led_1.jpg)
 
@@ -1474,11 +1484,15 @@ Power was connected to the C14 connector and multimeter was used to verify that 
 
 ![attach_fans_led_3](./images/build/frame/attach_fans_led_3.jpg)
 
+A 12V red LED was inserted into the small ~8 mm hole on the front of the large electronic box's front panel.
+
 ![attach_fans_led_4](./images/build/frame/attach_fans_led_4.jpg)
 
 ![attach_fans_led_5](./images/build/frame/attach_fans_led_5.jpg)
 
 ![attach_fans_led_6](./images/build/frame/attach_fans_led_6.jpg)
+
+The second 40x40 mm 12V fan was attached to the back side of the small electronic box's front panel, using 4 10 mm M3 screws.
 
 ![attach_fans_led_7](./images/build/frame/attach_fans_led_7.jpg)
 
@@ -1486,14 +1500,19 @@ Power was connected to the C14 connector and multimeter was used to verify that 
 
 ![attach_fans_led_9](./images/build/frame/attach_fans_led_9.jpg)
 
+The loose wires of the two fans and the LED were stripped and twisted together, black together and red together. Then all three black wires were attached into the same ring terminal and all three red wires were attached into the same ring terminal.
+
 ![attach_fans_led_10](./images/build/frame/attach_fans_led_10.jpg)
 
 ![attach_fans_led_11](./images/build/frame/attach_fans_led_11.jpg)
 
 ![attach_fans_led_12](./images/build/frame/attach_fans_led_12.jpg)
 
+The red wires were finally connected to the **V+** and the black wire was connected to **V-**.
+
 ![attach_fans_led_13](./images/build/frame/attach_fans_led_13.jpg)
 
+The power was once more connected to the C14 connector (read [this](#connect-main-electronic-box) note before connecting the power) to verify that both fans were spinning and that the red LED was emitting light. 
 
 ### Install CNC software (grbl) on Arduino Uno
 
