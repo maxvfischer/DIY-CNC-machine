@@ -1360,11 +1360,151 @@ A cable tie was used to strap the cable sock to the left side-plate.
 
 ![stepper_motor_cable_management_13_9](./images/build/frame/stepper_motor_cable_management_13_9.jpg)
 
-### Connect main electronic box
+### Attach router to carriage
+
+![attach_router_to_carriage_1](./images/build/frame/attach_router_to_carriage_1.jpg)
+
+![attach_router_to_carriage_2](./images/build/frame/attach_router_to_carriage_2.jpg)
+
+![attach_router_to_carriage_3](./images/build/frame/attach_router_to_carriage_3.jpg)
+
+![attach_router_to_carriage_4](./images/build/frame/attach_router_to_carriage_4.jpg)
+
+![attach_router_to_carriage_5](./images/build/frame/attach_router_to_carriage_5.jpg)
+
+![attach_router_to_carriage_6](./images/build/frame/attach_router_to_carriage_6.jpg)
+
+![attach_router_to_carriage_7](./images/build/frame/attach_router_to_carriage_7.jpg)
+
+### Router cable management
+
+![router_cable_management_1](./images/build/frame/router_cable_management_1.jpg)
+
+![router_cable_management_2](./images/build/frame/router_cable_management_2.jpg)
+
+![router_cable_management_3](./images/build/frame/router_cable_management_3.jpg)
+
+![router_cable_management_4](./images/build/frame/router_cable_management_4.jpg)
+
+![router_cable_management_5](./images/build/frame/router_cable_management_5.jpg)
+
+![router_cable_management_6](./images/build/frame/router_cable_management_6.jpg)
+
+![router_cable_management_7](./images/build/frame/router_cable_management_7.jpg)
+
+![router_cable_management_8](./images/build/frame/router_cable_management_8.jpg)
+
+![router_cable_management_9](./images/build/frame/router_cable_management_9.jpg)
+
+![router_cable_management_10](./images/build/frame/router_cable_management_10.jpg)
+
+![router_cable_management_11](./images/build/frame/router_cable_management_11.jpg)
+
+![router_cable_management_12](./images/build/frame/router_cable_management_12.jpg)
+
+![router_cable_management_13](./images/build/frame/router_cable_management_13.jpg)
+
+![router_cable_management_14](./images/build/frame/router_cable_management_14.jpg)
+
+![router_cable_management_15](./images/build/frame/router_cable_management_15.jpg)
+
+![router_cable_management_16](./images/build/frame/router_cable_management_16.jpg)
+
+![router_cable_management_17](./images/build/frame/router_cable_management_17.jpg)
+
+![router_cable_management_18](./images/build/frame/router_cable_management_18.jpg)
+
+![router_cable_management_19](./images/build/frame/router_cable_management_19.jpg)
+
+![router_cable_management_20](./images/build/frame/router_cable_management_20.jpg)
+
+![router_cable_management_21](./images/build/frame/router_cable_management_21.jpg)
+
+![router_cable_management_22](./images/build/frame/router_cable_management_22.jpg)
+
+![router_cable_management_23](./images/build/frame/router_cable_management_23.jpg)
+
+![router_cable_management_24](./images/build/frame/router_cable_management_24.jpg)
+
+### Attach electronics boxes
+
+Two electronic boxes were attached to the front side of the CNC machine, a large box to encapsulate the power supply and a small box to encapsulate the Arduino and the CNC shield.
+
+#### Small electronic box
+
+![attach_small_electronic_box_1](./images/build/frame/attach_small_electronic_box_1.jpg)
+
+![attach_small_electronic_box_2](./images/build/frame/attach_small_electronic_box_2.jpg)
+
+![attach_small_electronic_box_3](./images/build/frame/attach_small_electronic_box_3.jpg)
+
+![attach_small_electronic_box_4](./images/build/frame/attach_small_electronic_box_4.jpg)
+
+![attach_small_electronic_box_5](./images/build/frame/attach_small_electronic_box_5.jpg)
+
+![attach_small_electronic_box_6](./images/build/frame/attach_small_electronic_box_6.jpg)
+
+![attach_small_electronic_box_7](./images/build/frame/attach_small_electronic_box_7.jpg)
+
+![attach_small_electronic_box_8](./images/build/frame/attach_small_electronic_box_8.jpg)
+
+![attach_small_electronic_box_9](./images/build/frame/attach_small_electronic_box_9.jpg)
+
+![attach_small_electronic_box_10](./images/build/frame/attach_small_electronic_box_10.jpg)
+
+![attach_small_electronic_box_11](./images/build/frame/attach_small_electronic_box_11.jpg)
+
+![attach_small_electronic_box_12](./images/build/frame/attach_small_electronic_box_12.jpg)
+
+![attach_small_electronic_box_13](./images/build/frame/attach_small_electronic_box_13.jpg)
+
+![attach_small_electronic_box_14](./images/build/frame/attach_small_electronic_box_14.jpg)
+
+![attach_small_electronic_box_15](./images/build/frame/attach_small_electronic_box_15.jpg)
+
+![attach_small_electronic_box_16](./images/build/frame/attach_small_electronic_box_16.jpg)
+
+#### Large electronic box
+
+![attach_large_electronic_box_1](./images/build/frame/attach_large_electronic_box_1.jpg)
+
+![attach_large_electronic_box_1_1](./images/build/frame/attach_large_electronic_box_1_1.jpg)
+
+![attach_large_electronic_box_2](./images/build/frame/attach_large_electronic_box_2.jpg)
+
+![attach_large_electronic_box_3](./images/build/frame/attach_large_electronic_box_3.jpg)
+
+![attach_large_electronic_box_4](./images/build/frame/attach_large_electronic_box_4.jpg)
+
+![attach_large_electronic_box_5](./images/build/frame/attach_large_electronic_box_5.jpg)
+
+![attach_large_electronic_box_6](./images/build/frame/attach_large_electronic_box_6.jpg)
+
+![attach_large_electronic_box_7](./images/build/frame/attach_large_electronic_box_7.jpg)
+
+![attach_large_electronic_box_8](./images/build/frame/attach_large_electronic_box_8.jpg)
+
+![attach_large_electronic_box_9](./images/build/frame/attach_large_electronic_box_9.jpg)
+
+![attach_large_electronic_box_10](./images/build/frame/attach_large_electronic_box_10.jpg)
+
+![attach_large_electronic_box_11](./images/build/frame/attach_large_electronic_box_11.jpg)
+
+![attach_large_electronic_box_12](./images/build/frame/attach_large_electronic_box_12.jpg)
+
+![attach_large_electronic_box_13](./images/build/frame/attach_large_electronic_box_13.jpg)
+
+![attach_large_electronic_box_14](./images/build/frame/attach_large_electronic_box_14.jpg)
+
+![attach_large_electronic_box_15](./images/build/frame/attach_large_electronic_box_15.jpg)
+
+### Connect large electronic box
 
 **NOTE: THIS PART INCLUDES WIRING OF HIGH VOLTAGE ELECTRICITY THAT CAN BE LETHAL IF NOT DONE PROPERLY. THE COLORS OF THE CABLES CAN VARY DEPENDING ON REGION/COUNTRY AND YOUR COMPONENTS/PINOUT NUMBERS MIGHT LOOK DIFFERENT. BEFORE YOU CONNECT THE POWER CORD TO THE POWER OUTLET, YOU MUST CONSULT WITH A LICENSED ELECTRICIAN TO MAKE SURE THAT EVERYTHING IS PROPERLY WIRED AND THAT IT IS IN LINE WITH YOUR LOCAL LEGISLATIONS.**
 
-The 200W power supply was attached to the back panel of the larger electronic box using the small M3 screws unscrewed from the geared stepper motors.
+The large electronic box was detached from the frame.
+
+The 200W power supply was then attached to the back panel of the larger electronic box using the small M3 screws unscrewed from the geared stepper motors.
 
 ![connect_main_electronic_box_1](./images/build/frame/connect_main_electronic_box_1.jpg)
 
@@ -1372,7 +1512,7 @@ The 200W power supply was attached to the back panel of the larger electronic bo
 
 ![connect_main_electronic_box_3](./images/build/frame/connect_main_electronic_box_3.jpg)
 
-The C14 connector and the emergency stop switch were inserted into the holes on the front plate of the large electronic box.
+The C14 connector and the emergency stop switch were inserted into the holes on the front plate of the large electronic box. 
 
 ![connect_main_electronic_box_4](./images/build/frame/connect_main_electronic_box_4.jpg)
 
@@ -1454,6 +1594,14 @@ The emergency stop switch was attached to the front plate using two 20 mm M4 scr
 
 ![connect_main_electronic_box_28](./images/build/frame/connect_main_electronic_box_28.jpg)
 
+The C14 connector was attached to the front plate using super glue. A cloth was used to remove excess glue.
+
+![connect_main_electronic_box_28_1](./images/build/frame/connect_main_electronic_box_28_1.jpg)
+
+![connect_main_electronic_box_28_2](./images/build/frame/connect_main_electronic_box_28_2.jpg)
+
+![connect_main_electronic_box_28_3](./images/build/frame/connect_main_electronic_box_28_3.jpg)
+
 Shrink tubes were cut out at an appropriate length, one for each spade connector. Each spade connector was then temporarily removed and inserted into its shrink tube, before attached back again. The shrink tubes were then shrunk around all the spade connectors.
 
 ![connect_main_electronic_box_29](./images/build/frame/connect_main_electronic_box_29.jpg)
@@ -1492,7 +1640,7 @@ A 12V red LED was inserted into the small ~8 mm hole on the front of the large 
 
 ![attach_fans_led_6](./images/build/frame/attach_fans_led_6.jpg)
 
-The second 40x40 mm 12V fan was attached to the back side of the small electronic box's front panel, using 4 10 mm M3 screws.
+The second 40x40 mm 12V fan was attached to the back side of the small electronic box's front panel, using 4 10 mm M3 screws. A short flexible conduit reaching between the two eletronic boxces was cut out and the wires from the fan were inserted through it.
 
 ![attach_fans_led_7](./images/build/frame/attach_fans_led_7.jpg)
 
@@ -1500,19 +1648,92 @@ The second 40x40 mm 12V fan was attached to the back side of the small electroni
 
 ![attach_fans_led_9](./images/build/frame/attach_fans_led_9.jpg)
 
+![attach_fans_led_9](./images/build/frame/attach_fans_led_9_1.jpg)
+
 The loose wires of the two fans and the LED were stripped and twisted together, black together and red together. Then all three black wires were attached into the same ring terminal and all three red wires were attached into the same ring terminal.
 
 ![attach_fans_led_10](./images/build/frame/attach_fans_led_10.jpg)
 
 ![attach_fans_led_11](./images/build/frame/attach_fans_led_11.jpg)
 
-![attach_fans_led_12](./images/build/frame/attach_fans_led_12.jpg)
+![attach_fans_led_11](./images/build/frame/attach_fans_led_12.jpg)
 
-The red wires were finally connected to the **V+** and the black wire was connected to **V-**.
+The red wires (red ring terminal) were finally connected to the **V+** and the black wires (blue ring terminal) were connected to **V-**.
 
 ![attach_fans_led_13](./images/build/frame/attach_fans_led_13.jpg)
 
-The power was once more connected to the C14 connector (read [this](#connect-main-electronic-box) note before connecting the power) to verify that both fans were spinning and that the red LED was emitting light. 
+The 12V power wires intended for the stepper motors were inserted through the same short flexible conduit as the fan wires.
+
+![attach_fans_led_14](./images/build/frame/attach_fans_led_14.jpg)
+
+Two 3d-printed strain relief halves were inserted into the hole on the side of the large electronic box facing the small electronic box. The large box was then carefully closed and attached to the upper and lower frame again. It's really important that you don't have to force it closed. If that's the case you need to move some cables for it to close smoothly.
+
+![attach_fans_led_15](./images/build/frame/attach_fans_led_15.jpg)
+
+![attach_fans_led_16](./images/build/frame/attach_fans_led_16.jpg)
+
+![attach_fans_led_17](./images/build/frame/attach_fans_led_17.jpg)
+
+![attach_fans_led_18](./images/build/frame/attach_fans_led_18.jpg)
+
+### Assemble stepper motor drivers and tune VRef
+
+One small heatsink was attached to each stepper driver.
+
+![vref_stepper_drivers_1](./images/build/frame/vref_stepper_drivers_1.jpg)
+
+![vref_stepper_drivers_2](./images/build/frame/vref_stepper_drivers_2.jpg)
+
+Before the stepper motors were connected to the CNC shield, the stepper motor drivers' VRef needed to be tuned. The VRef regulates the voltage from the stepper driver to the stepper motor. If the VRefs are set to high, it can damage the stepper motors.
+
+The CNC shield was first attached to the Arduino Uno.
+
+![vref_stepper_drivers_3](./images/build/frame/vref_stepper_drivers_3.jpg)
+
+![vref_stepper_drivers_4](./images/build/frame/vref_stepper_drivers_4.jpg)
+
+![vref_stepper_drivers_5](./images/build/frame/vref_stepper_drivers_5.jpg)
+
+![vref_stepper_drivers_6](./images/build/frame/vref_stepper_drivers_6.jpg)
+
+![vref_stepper_drivers_7](./images/build/frame/vref_stepper_drivers_7.jpg)
+
+![vref_stepper_drivers_8](./images/build/frame/vref_stepper_drivers_8.jpg)
+
+![vref_stepper_drivers_9](./images/build/frame/vref_stepper_drivers_9.jpg)
+
+![vref_stepper_drivers_10](./images/build/frame/vref_stepper_drivers_10.jpg)
+
+### Attach Arduino and solder USB connection
+
+![arduino_and_usb_1](./images/build/frame/arduino_and_usb_1.jpg)
+
+![arduino_and_usb_2](./images/build/frame/arduino_and_usb_2.jpg)
+
+![arduino_and_usb_3](./images/build/frame/arduino_and_usb_3.jpg)
+
+![arduino_and_usb_4](./images/build/frame/arduino_and_usb_4.jpg)
+
+![arduino_and_usb_5](./images/build/frame/arduino_and_usb_5.jpg)
+
+![arduino_and_usb_6](./images/build/frame/arduino_and_usb_6.jpg)
+
+![arduino_and_usb_7](./images/build/frame/arduino_and_usb_7.jpg)
+
+![arduino_and_usb_8](./images/build/frame/arduino_and_usb_8.jpg)
+
+![arduino_and_usb_9](./images/build/frame/arduino_and_usb_9.jpg)
+
+![arduino_and_usb_10](./images/build/frame/arduino_and_usb_10.jpg)
+
+![arduino_and_usb_11](./images/build/frame/arduino_and_usb_11.jpg)
+
+![arduino_and_usb_12](./images/build/frame/arduino_and_usb_12.jpg)
+
+![arduino_and_usb_13](./images/build/frame/arduino_and_usb_13.jpg)
+
+![arduino_and_usb_14](./images/build/frame/arduino_and_usb_14.jpg)
+
 
 ### Install CNC software (grbl) on Arduino Uno
 
