@@ -22,6 +22,8 @@ they’re kept free. Why buy this then? To support me and keep me encouraged to 
 
 Ivan does an amazing job putting these DIY builds together. I've posted his STL-files in this repository to simplify the build, but PLEASE buy his blueprints here: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc). It's only $25 and helps him to continue build and share his awesome projects.
 
+TODO: ADD NEEDED TOOLS (multimeter etc).
+
 # Parts (bill of materials)
 The following chapter goes through all the parts needed to build the CNC machine. There are two sub-sections:
 
@@ -1678,13 +1680,13 @@ Two 3d-printed strain relief halves were inserted into the hole on the side of t
 
 ### Assemble stepper motor drivers and tune VRef
 
-One small heatsink was attached to each stepper driver.
+One small heatsink was attached to each DRV8825 stepper driver.
 
 ![vref_stepper_drivers_1](./images/build/frame/vref_stepper_drivers_1.jpg)
 
 ![vref_stepper_drivers_2](./images/build/frame/vref_stepper_drivers_2.jpg)
 
-Before the stepper motors were connected to the CNC shield, the stepper motor drivers' VRef needed to be tuned. The VRef regulates the voltage from the stepper driver to the stepper motor. If the VRefs are set to high, it can damage the stepper motors.
+Before the stepper motors were connected to the CNC shield, the stepper motor drivers' VRef needed to be tuned. The VRef regulates the voltage from the stepper driver to the stepper motor. If the VRefs are set to high, it can damage the stepper motors by supplying to much voltage.
 
 The CNC shield was first attached to the Arduino Uno.
 
@@ -1692,13 +1694,39 @@ The CNC shield was first attached to the Arduino Uno.
 
 ![vref_stepper_drivers_4](./images/build/frame/vref_stepper_drivers_4.jpg)
 
+The four stepper drivers were then attached to the CNC shield, one for each axis (X, Y, Z) and one for the mirrored Y-axis (A). The stepper drivers were inserted so that the "EN" pins on the stepper drivers aligned with the EN female input on the CNC shield.
+
 ![vref_stepper_drivers_5](./images/build/frame/vref_stepper_drivers_5.jpg)
 
 ![vref_stepper_drivers_6](./images/build/frame/vref_stepper_drivers_6.jpg)
 
 ![vref_stepper_drivers_7](./images/build/frame/vref_stepper_drivers_7.jpg)
 
+A USB cable was connected to the Arduino Uno and to a computer to supply the Arduino with power. 
+
+The power wires connected to the 12v power supply were connected to the CNC shield:
+
+* Red cable -> **+**
+* Black cable -> **-**
+
+Power was then added to the system by inserting a C13 cable into the C14 connector on the front panel of the large electronic box.
+
 ![vref_stepper_drivers_8](./images/build/frame/vref_stepper_drivers_8.jpg)
+
+A multimeter was then used to regulate the VRef on each stepper driver. The equation to calculate the VRef differs depending on the stepper driver. The DRV8825 stepper drivers are using the following equation:
+
+![vref_stepper_drivers_8_1](./images/build/frame/vref_stepper_drivers_8_1.png)
+
+By checking the `I_{max}` in the technical specification for each stepper motor, the following VRefs were calculated for each stepper driver:
+
+| Stepper driver  | I_{max} | VRef           |
+|-----------------|---------|----------------|
+| X               | 1.68A   | 1.68/2 = 0.84V |
+| Y               | 1.68A   | 1.68/2 = 0.84V |
+| A (mirrored Y)  | 1.68A   | 1.68/2 = 0.84V |
+| Z               | 1.68A   | 1.68/2 = 0.84V |
+
+To measure the VRef of each stepper driver, the red test probe was connected to the screw on top of the stepper driver, and the black test probe was connected to the second bottom left pin (GND). The screw was then rotated to adjust the VRef to the appropriate voltage (0.84V).
 
 ![vref_stepper_drivers_9](./images/build/frame/vref_stepper_drivers_9.jpg)
 
@@ -1706,25 +1734,52 @@ The CNC shield was first attached to the Arduino Uno.
 
 ### Attach Arduino and solder USB connection
 
+The CNC shield was removed from the Arduino and the Arduino was attached to the back plate of the small electronic box using the small M3 screws unscrewed from the geared stepper motors. The USB cable was left inserted in the Arduino, as there was no space to insert it afterwards.
+
 ![arduino_and_usb_1](./images/build/frame/arduino_and_usb_1.jpg)
 
 ![arduino_and_usb_2](./images/build/frame/arduino_and_usb_2.jpg)
 
 ![arduino_and_usb_3](./images/build/frame/arduino_and_usb_3.jpg)
 
+The end of the USB cable was cut and stripped, showing the following 4 wires inside:
+
+| Color | Type      |
+|-------|-----------|
+| Red   | VCC (+5V) |
+| White | Data -    |
+| Green | Data +    |
+| Black | GND       |
+
+Each wire was stripped and twisted.
+
+![arduino_and_usb_3_1](./images/build/frame/arduino_and_usb_3_1.jpg)
+
+A female USB-A was inserted into the front plate of the small electronic box. By using a soldering iron, solder/filler metal was first added to each pin on the female USB-A before attaching the wires, to simplify the soldering. 
+
 ![arduino_and_usb_4](./images/build/frame/arduino_and_usb_4.jpg)
 
-![arduino_and_usb_5](./images/build/frame/arduino_and_usb_5.jpg)
+![arduino_and_usb_4](./images/build/frame/arduino_and_usb_4_1.jpg)
 
-![arduino_and_usb_6](./images/build/frame/arduino_and_usb_6.jpg)
+4 small shrink tubes were cut out and the wires were inserted into the shrink tubes. 
 
 ![arduino_and_usb_7](./images/build/frame/arduino_and_usb_7.jpg)
 
 ![arduino_and_usb_8](./images/build/frame/arduino_and_usb_8.jpg)
 
+To know which wire to solder to which pin, the following schema was used. The schema illustrates when looking straight into the female USB-A, with the flat surface at the top and the internal USB pins pointing downwards. As the pins goes straight through the connector, it's possible to map it to the pins on the back.
+
+![arduino_and_usb_6_1](./images/build/frame/arduino_and_usb_6_1.jpg)
+
+![arduino_and_usb_6](./images/build/frame/arduino_and_usb_6.jpg)
+
+When the correct pin-wire-mapping was found, the wires were soldered one by one, by placing the stripped wires on the pins and then pressing the solder iron onto the tip of the wires. As filler metal had already been applied to the pins, no extra filler metal had to be added. The shrink tubes were then shrunk around the wires.
+
 ![arduino_and_usb_9](./images/build/frame/arduino_and_usb_9.jpg)
 
 ![arduino_and_usb_10](./images/build/frame/arduino_and_usb_10.jpg)
+
+Finally, a 3d-printed block was glued to the female USB-A connector and the back of the front panel to lock it into place.
 
 ![arduino_and_usb_11](./images/build/frame/arduino_and_usb_11.jpg)
 
@@ -1734,6 +1789,69 @@ The CNC shield was first attached to the Arduino Uno.
 
 ![arduino_and_usb_14](./images/build/frame/arduino_and_usb_14.jpg)
 
+### Stepper and end-stop cable management to small electronic box
+
+![steppers_to_cnc_shield_1](./images/build/frame/steppers_to_cnc_shield_1.jpg)
+
+![steppers_to_cnc_shield_2](./images/build/frame/steppers_to_cnc_shield_2.jpg)
+
+![steppers_to_cnc_shield_3](./images/build/frame/steppers_to_cnc_shield_3.jpg)
+
+![steppers_to_cnc_shield_4](./images/build/frame/steppers_to_cnc_shield_4.jpg)
+
+![steppers_to_cnc_shield_5](./images/build/frame/steppers_to_cnc_shield_5.jpg)
+
+![steppers_to_cnc_shield_6](./images/build/frame/steppers_to_cnc_shield_6.jpg)
+
+![steppers_to_cnc_shield_7](./images/build/frame/steppers_to_cnc_shield_7.jpg)
+
+![steppers_to_cnc_shield_8](./images/build/frame/steppers_to_cnc_shield_8.jpg)
+
+![steppers_to_cnc_shield_9](./images/build/frame/steppers_to_cnc_shield_9.jpg)
+
+![steppers_to_cnc_shield_10](./images/build/frame/steppers_to_cnc_shield_10.jpg)
+
+![steppers_to_cnc_shield_11](./images/build/frame/steppers_to_cnc_shield_11.jpg)
+
+### Connect stepper cables to CNC shield
+
+![steppers_to_cnc_shield_12](./images/build/frame/steppers_to_cnc_shield_12.jpg)
+
+![steppers_to_cnc_shield_13](./images/build/frame/steppers_to_cnc_shield_13.jpg)
+
+![steppers_to_cnc_shield_14](./images/build/frame/steppers_to_cnc_shield_14.jpg)
+
+![steppers_to_cnc_shield_15](./images/build/frame/steppers_to_cnc_shield_15.jpg)
+
+![steppers_to_cnc_shield_16](./images/build/frame/steppers_to_cnc_shield_16.jpg)
+
+![steppers_to_cnc_shield_17](./images/build/frame/steppers_to_cnc_shield_17.jpg)
+
+![steppers_to_cnc_shield_18](./images/build/frame/steppers_to_cnc_shield_18.jpg)
+
+![steppers_to_cnc_shield_19](./images/build/frame/steppers_to_cnc_shield_19.jpg)
+
+![steppers_to_cnc_shield_20](./images/build/frame/steppers_to_cnc_shield_20.jpg)
+
+![steppers_to_cnc_shield_21](./images/build/frame/steppers_to_cnc_shield_21.jpg)
+
+![steppers_to_cnc_shield_22](./images/build/frame/steppers_to_cnc_shield_22.jpg)
+
+![steppers_to_cnc_shield_23](./images/build/frame/steppers_to_cnc_shield_23.jpg)
+
+### Connect end-stops to CNC shield
+
+![endstops_to_cnc_shield_1](./images/build/frame/endstops_to_cnc_shield_1.jpg)
+
+![endstops_to_cnc_shield_2](./images/build/frame/endstops_to_cnc_shield_2.jpg)
+
+![endstops_to_cnc_shield_3](./images/build/frame/endstops_to_cnc_shield_3.jpg)
+
+![endstops_to_cnc_shield_4](./images/build/frame/endstops_to_cnc_shield_4.jpg)
+
+![endstops_to_cnc_shield_5](./images/build/frame/endstops_to_cnc_shield_5.jpg)
+
+![endstops_to_cnc_shield_6](./images/build/frame/endstops_to_cnc_shield_6.jpg)
 
 ### Install CNC software (grbl) on Arduino Uno
 
