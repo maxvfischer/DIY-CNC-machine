@@ -1732,6 +1732,27 @@ To measure the VRef of each stepper driver, the red test probe was connected to 
 
 ![vref_stepper_drivers_10](./images/build/frame/vref_stepper_drivers_10.jpg)
 
+### Set microstepping
+
+Microstepping is a way to control the stepper motors in a smoother way and at a higher resolution, but usually at a lower speed and torque. 
+
+The 6 pins (M0, M1, M2) underneath the stepper drivers were used to set the microstepping for each motor. By shorting the pins in certain combinations, different type of microstepping can be achieved (**0** indicates no shorting, **1** indicates shorting):
+
+| Microstepping | M0 | M1 | M2 |
+|---------------|----|----|----|
+| Full-step     | 0  | 0  | 0  |
+| 1/2           | 1  | 0  | 0  |
+| 1/4           | 0  | 1  | 0  |
+| 1/8           | 1  | 1  | 0  |
+| 1/16          | 0  | 0  | 1  |
+| 1/32          | 1  | 0  | 1  |
+
+The 4 stepper drivers were carefully removed. The microstepping was set to `1/16` for each motor by shorting the two `M2` pins using jumpers. The stepper drivers were then carefully inserted back again.
+
+![set_microstepping_1](./images/build/frame/set_microstepping_1.jpg)
+
+![set_microstepping_2](./images/build/frame/set_microstepping_2.jpg)
+
 ### Attach Arduino and solder USB connection
 
 The CNC shield was removed from the Arduino and the Arduino was attached to the back plate of the small electronic box using the small M3 screws unscrewed from the geared stepper motors. The USB cable was left inserted in the Arduino, as there was no space to insert it afterwards.
