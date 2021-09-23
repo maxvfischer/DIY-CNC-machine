@@ -216,7 +216,7 @@ Three 3d-printed support tools were used to center the rails on the profiles. A 
 
 ![rails_main_frame_5](./images/build/frame/rails_main_frame_5.jpg)
 
-A bradawl and a hammer were then used to make indentations at the center of the holes. Cutting fluid were applied and a 2 mm drill was used to drill all the holes.
+A bradawl and a hammer were then used to make indentations at the center of the holes. Cutting fluid was applied and a 2 mm drill was used to drill all the holes.
 
 ![rails_main_frame_6](./images/build/frame/rails_main_frame_6.jpg)
 
@@ -364,7 +364,7 @@ The HTD5M timing pulleys were attached to the motor shaft using set screws.
 
 ### Y-axis belt tensioners and end-stop mounts
 
-Fixed belt tensioners were attached to the longer aluminium profiles of the upper frame using M5 screws. When aligning the fixed belt tensioners, make sure that the "belt opening" is pointing in the direction of the rails (one fixed belt tensioner for each rail). Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
+Fixed belt tensioners were attached to the longer aluminium profiles of the upper frame using M5 screws. When aligning the fixed belt tensioners, make sure that the "belt opening" is pointing in the direction of the rails (one fixed belt tensioner for each rail). Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
 
 ![attach_tensioners_and_belts_12](./images/build/frame/attach_tensioners_and_belts_12.jpg)
 
@@ -506,7 +506,7 @@ The rails were finally attached using 20 mm M3 screws and the rail blocks were g
 
 ### X-axis tensioner and end-stop mount to lower bridge beam
 
-The fixed tensioner and end-stop mount were attached to the lower bridge beam in the same fashion as on the 900 mm aluminium profiles, using M5 screws. When aligning the fixed tensioner, make sure that the "belt opening" is pointing in the direction of the rail. A bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid were applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
+The fixed tensioner and end-stop mount were attached to the lower bridge beam in the same fashion as on the 900 mm aluminium profiles, using M5 screws. When aligning the fixed tensioner, make sure that the "belt opening" is pointing in the direction of the rail. A bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
 
 ![attach_tensioners_to_beams_1](./images/build/frame/attach_tensioners_to_beams_1.jpg)
 
@@ -1364,6 +1364,10 @@ A cable tie was used to strap the cable sock to the left side-plate.
 
 ### Attach router to carriage
 
+A Makita RT0700C**J** trimming router was used as I was not able to get my hands on the Makita RT0700C that Ivan was recommending. To my knowledge, the RT0700C**J** is just an upgraded European version of the RT0700C, with the same dimensions.
+
+The trimming router was locked in place by using the router bracket, 4 40 mm M5 screws, 4 M5 nuts and 4 (10mm x 5mm x 1mm) washers.
+
 ![attach_router_to_carriage_1](./images/build/frame/attach_router_to_carriage_1.jpg)
 
 ![attach_router_to_carriage_2](./images/build/frame/attach_router_to_carriage_2.jpg)
@@ -1372,19 +1376,27 @@ A cable tie was used to strap the cable sock to the left side-plate.
 
 ![attach_router_to_carriage_4](./images/build/frame/attach_router_to_carriage_4.jpg)
 
-![attach_router_to_carriage_5](./images/build/frame/attach_router_to_carriage_5.jpg)
-
 ![attach_router_to_carriage_6](./images/build/frame/attach_router_to_carriage_6.jpg)
 
 ![attach_router_to_carriage_7](./images/build/frame/attach_router_to_carriage_7.jpg)
 
 ### Router cable management
 
+**NOTE: THIS PART INCLUDES WIRING OF HIGH VOLTAGE ELECTRICITY THAT CAN BE LETHAL IF NOT DONE PROPERLY. THE COLORS OF THE CABLES CAN VARY DEPENDING ON REGION/COUNTRY AND YOUR COMPONENTS/PINOUT NUMBERS MIGHT LOOK DIFFERENT. BEFORE YOU CONNECT THE POWER CORD TO THE POWER OUTLET, YOU MUST CONSULT WITH A LICENSED ELECTRICIAN TO MAKE SURE THAT EVERYTHING IS PROPERLY WIRED AND THAT IT IS IN LINE WITH YOUR LOCAL LEGISLATIONS.**
+
+To be able to easily replace the trimming router in the future, a power plug and socket were added.
+
+![router_cable_management_23](./images/build/frame/router_cable_management_23.jpg)
+
+First, the power cord was cut and stripped at an appropriate length to reach behind the X-axis cable chain mount. A flexible conduit was cut out at an appropriate length and the power cord closest to the router was inserted into the conduit. The end of the power cord and the inside wires were then stripped and twisted.
+
 ![router_cable_management_1](./images/build/frame/router_cable_management_1.jpg)
 
 ![router_cable_management_2](./images/build/frame/router_cable_management_2.jpg)
 
 ![router_cable_management_3](./images/build/frame/router_cable_management_3.jpg)
+
+The power plug was opened up and the wires were connected. The built-in strain relief was then tightened around the cable before the plug was closed again.
 
 ![router_cable_management_4](./images/build/frame/router_cable_management_4.jpg)
 
@@ -1395,6 +1407,8 @@ A cable tie was used to strap the cable sock to the left side-plate.
 ![router_cable_management_7](./images/build/frame/router_cable_management_7.jpg)
 
 ![router_cable_management_8](./images/build/frame/router_cable_management_8.jpg)
+
+The rest of the power cord was inserted through the Y-axis cable chain, around the left side-plate (under the cable tie) and through the X-axis cable chain. Getting the power cord through the X-axis cable chain was quite tricky due to the friction of the rubber cable. A cable tie was therefore attached to the top of the cable and used to pull the cable through the cable chain.
 
 ![router_cable_management_9](./images/build/frame/router_cable_management_9.jpg)
 
@@ -1410,19 +1424,25 @@ A cable tie was used to strap the cable sock to the left side-plate.
 
 ![router_cable_management_15](./images/build/frame/router_cable_management_15.jpg)
 
-![router_cable_management_16](./images/build/frame/router_cable_management_16.jpg)
+The power cord was pulled through the cable chains and adjusted to an appropriate length to reach behind the X-axis cable chain mount. The end of the cable and the inside wires were then stripped and twisted.
 
 ![router_cable_management_17](./images/build/frame/router_cable_management_17.jpg)
 
-![router_cable_management_18](./images/build/frame/router_cable_management_18.jpg)
-
 ![router_cable_management_19](./images/build/frame/router_cable_management_19.jpg)
+
+The power socket was opened and the wires were attached to the terminals inside. The built-in strain relief was then tightened around the cable before the socket was closed again.
+
+![router_cable_management_16](./images/build/frame/router_cable_management_16.jpg)
+
+![router_cable_management_18](./images/build/frame/router_cable_management_18.jpg)
 
 ![router_cable_management_20](./images/build/frame/router_cable_management_20.jpg)
 
 ![router_cable_management_21](./images/build/frame/router_cable_management_21.jpg)
 
 ![router_cable_management_22](./images/build/frame/router_cable_management_22.jpg)
+
+The plug and socket were connected and strapped to the back of the X-axis cable chain mount using cable ties. The flexible conduit with the router power cord inside was strapped to the stepper motor conduit. Make sure that it doesn't touch and drag along the upper bridge beam.
 
 ![router_cable_management_23](./images/build/frame/router_cable_management_23.jpg)
 
@@ -1434,11 +1454,17 @@ Two electronic boxes were attached to the front side of the CNC machine, a large
 
 #### Small electronic box
 
+The small electronic box consisted of 4 parts. The two middle parts were clamped together on the front-left side of the frame, closest to the Y-axis cable chain. A finger was used to feel that the two parts were perfectly lined up.
+
+Make sure to have enought space on the left side of the box for the all the stepper wires, end-stop wires and router power cable to enter the box (the vertical beam might block if you attach it too far to the left).
+
 ![attach_small_electronic_box_1](./images/build/frame/attach_small_electronic_box_1.jpg)
 
 ![attach_small_electronic_box_2](./images/build/frame/attach_small_electronic_box_2.jpg)
 
 ![attach_small_electronic_box_3](./images/build/frame/attach_small_electronic_box_3.jpg)
+
+The front-middle part was attached first. A small 2 mm drill was used to make indentations at the center of the holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The front-middle and front part was then attached to the frame using 4 40 mm M4 screws.
 
 ![attach_small_electronic_box_4](./images/build/frame/attach_small_electronic_box_4.jpg)
 
@@ -1453,6 +1479,10 @@ Two electronic boxes were attached to the front side of the CNC machine, a large
 ![attach_small_electronic_box_9](./images/build/frame/attach_small_electronic_box_9.jpg)
 
 ![attach_small_electronic_box_10](./images/build/frame/attach_small_electronic_box_10.jpg)
+
+To attach the back-middle part, the whole CNC machine had to be pushed partly over the edge of the working table to be able to drill on the inside of the frame. It was then firmly clamped to the table.
+
+The back-middle part was again clamped to the frame and aligned with the now attached front-middle part. A small 2 mm drill was used to make indentations at the center of the holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The back-middle and back part was then attached to the frame using 4 25 mm M4 screws.
 
 ![attach_small_electronic_box_11](./images/build/frame/attach_small_electronic_box_11.jpg)
 
