@@ -1766,13 +1766,13 @@ By checking the `I_{max}` in the technical specification for each stepper motor,
 | A (mirrored Y)  | 1.68A   | 1.68/2 = 0.84V |
 | Z               | 1.68A   | 1.68/2 = 0.84V |
 
-To measure the VRef of each stepper driver, the red test probe was connected to the screw on top of the stepper driver, and the black test probe was connected to the second bottom left pin (GND). The screw was then rotated to adjust the VRef to the appropriate voltage (0.84V).
+To measure the VRef of each stepper driver, the red test probe was connected to the screw on top of the stepper driver, and the black test probe was connected to the second bottom left pin (GND). The screw was then rotated to adjust the VRef to the appropriate voltage (~0.84V).
 
 ![vref_stepper_drivers_9](./images/build/frame/vref_stepper_drivers_9.jpg)
 
 ![vref_stepper_drivers_10](./images/build/frame/vref_stepper_drivers_10.jpg)
 
-### Attach Arduino and solder USB connection
+### Attach Arduino and solder USB cable
 
 The CNC shield was removed from the Arduino and the Arduino was attached to the back plate of the small electronic box using the small M3 screws unscrewed from the geared stepper motors. The USB cable was left inserted in the Arduino, as there was no space to insert it afterwards.
 
@@ -1831,9 +1831,15 @@ Finally, a 3d-printed block was glued to the female USB-A connector and the back
 
 ### Stepper and end-stop cable management to small electronic box
 
+The CNC shield was attached to the Arduino and 6 3d-printed strain relief halves were inserted into the holes on the sides of the small electronic box.
+
 ![steppers_to_cnc_shield_1](./images/build/frame/steppers_to_cnc_shield_1.jpg)
 
 ![steppers_to_cnc_shield_2](./images/build/frame/steppers_to_cnc_shield_2.jpg)
+
+Two flexible conduits were cut out to reach between the end of the Y-axis cable chain and the two holes in the small box. A hole was then drilled in the upper flexible conduit for the Y-axis end-stop wires. To do this, the upper flexible conduit was placed where it was intended to be and tape was used to indicate the position of the hole. 
+
+A drill was then used to create the hole in the upper flexible conduit.
 
 ![steppers_to_cnc_shield_3](./images/build/frame/steppers_to_cnc_shield_3.jpg)
 
@@ -1843,11 +1849,17 @@ Finally, a 3d-printed block was glued to the female USB-A connector and the back
 
 ![steppers_to_cnc_shield_6](./images/build/frame/steppers_to_cnc_shield_6.jpg)
 
+The Y-axis end-stop wires were inserted into the hole, followed by half of the wires coming from the Y-axis cable chain. The rest of the wires were inserted into the lower flexible conduit.
+
+To simplify the process, the cables going into the same conduit were taped together.
+
 ![steppers_to_cnc_shield_7](./images/build/frame/steppers_to_cnc_shield_7.jpg)
 
 ![steppers_to_cnc_shield_8](./images/build/frame/steppers_to_cnc_shield_8.jpg)
 
 ![steppers_to_cnc_shield_9](./images/build/frame/steppers_to_cnc_shield_9.jpg)
+
+The end of the conduits were then placed between the strain relief halves and the front-middle part of the box were carefully attached to the frame, locking the strain reliefs and the conduits in place.
 
 ![steppers_to_cnc_shield_10](./images/build/frame/steppers_to_cnc_shield_10.jpg)
 
@@ -1855,9 +1867,25 @@ Finally, a 3d-printed block was glued to the female USB-A connector and the back
 
 ### Connect stepper cables to CNC shield
 
-![steppers_to_cnc_shield_12](./images/build/frame/steppers_to_cnc_shield_12.jpg)
+To keep a good structure of the wires inside the small box, electrical crimp connectors and contact housings were used. This also reduced the risks of shortings and loose wires.
 
 ![steppers_to_cnc_shield_13](./images/build/frame/steppers_to_cnc_shield_13.jpg)
+
+![steppers_to_cnc_shield_18](./images/build/frame/steppers_to_cnc_shield_18.jpg)
+
+For each stepper, the wires were cut at an appropriate length to reach to its connection on the CNC shield. Each wire were stripped and twisted. An AWG22/24 crimp connector was then attached to the end of each wire using a crimping tool. A shrinking tube was shrunk around the wires to keep a good structure.
+
+The wires were then inserted and locked into a 1X4 contact housing. Make sure to insert the wires in the correct orinentation, as the crimp connector has a "lock" that interlocks with the contact housing.
+
+To know in which order to insert the wires, check the technical specification of your steppers. You should find something like this (given that you've bought bi-polar stepper motors):
+
+| A+    | A-    | B+  | B-   |
+|-------|-------|-----|------|
+| Black | Green | Red | Blue |
+
+**A** and **B** indicate the two different coils in the stepper motor and the colors are the colors of the wires. You want to connect the crimp connectors so that each coil's wires are next to each other: **A A B B**.
+
+![steppers_to_cnc_shield_12](./images/build/frame/steppers_to_cnc_shield_12.jpg)
 
 ![steppers_to_cnc_shield_14](./images/build/frame/steppers_to_cnc_shield_14.jpg)
 
@@ -1867,13 +1895,17 @@ Finally, a 3d-printed block was glued to the female USB-A connector and the back
 
 ![steppers_to_cnc_shield_17](./images/build/frame/steppers_to_cnc_shield_17.jpg)
 
-![steppers_to_cnc_shield_18](./images/build/frame/steppers_to_cnc_shield_18.jpg)
-
 ![steppers_to_cnc_shield_19](./images/build/frame/steppers_to_cnc_shield_19.jpg)
+
+This was done for all four steppers (X, Y, Z, A (mirrored Y)). Tape and a sharpie was used to indicate which contact housing beloning to which stepper. The contact housings were then connected to its connections on the CNC shield.
+
+Note that if any of the steppers are moving in the "wrong" way later on, you can just turn the connection 180 degrees and it will move the opposite way.
 
 ![steppers_to_cnc_shield_20](./images/build/frame/steppers_to_cnc_shield_20.jpg)
 
 ![steppers_to_cnc_shield_21](./images/build/frame/steppers_to_cnc_shield_21.jpg)
+
+Finally, two jumpers were attached to the blue and yellow column on the "Y row". This tells the Arduino to mirror the Y-stepper instructions to the stepper connected to the **A** connection.
 
 ![steppers_to_cnc_shield_22](./images/build/frame/steppers_to_cnc_shield_22.jpg)
 
