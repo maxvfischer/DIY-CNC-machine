@@ -1913,9 +1913,17 @@ Finally, two jumpers were attached to the blue and yellow column on the "Y row".
 
 ### Connect end-stops to CNC shield
 
+As with the stepper motor wires, electrical crimp connectors were used to keep a good structure in the small electornic box.
+
+For each end-stop, the two wires were cut at an appropriate length to reach to its connection on the CNC shield. Each wire were stripped and twisted. An AWG22/24 crimp connector was then attached to the end of each wire using a crimping tool. 
+
 ![endstops_to_cnc_shield_1](./images/build/frame/endstops_to_cnc_shield_1.jpg)
 
 ![endstops_to_cnc_shield_2](./images/build/frame/endstops_to_cnc_shield_2.jpg)
+
+As I didn't have access to any 1x2 contact housings, a shrinking tube was shrunk around each crimp connectors to reduce the risk of shorts.
+
+This was done for all end-stops (X+, X-, Y+, Y- and Z+). Tape and a sharpie was used to indicate which pair of wires beloning to which end-stop. The crimp connector pairs were then connected to its connections on the CNC shield.
 
 ![endstops_to_cnc_shield_3](./images/build/frame/endstops_to_cnc_shield_3.jpg)
 
@@ -1929,7 +1937,7 @@ Finally, two jumpers were attached to the blue and yellow column on the "Y row".
 
 Microstepping is a way to control the stepper motors in a smoother way and at a higher resolution, but usually at a lower speed and torque. 
 
-The 6 pins (M0, M1, M2) underneath the stepper drivers were used to set the microstepping for each motor. By shorting the pins in certain combinations, different type of microstepping can be achieved (**0** indicates no shorting, **1** indicates shorting):
+The 6 pins (M0, M1, M2) underneath each stepper driver were used to set the microstepping for each motor. By shorting the pins in certain combinations, different type of microstepping can be achieved (**0** indicates no shorting, **1** indicates shorting):
 
 | Microstepping | M0 | M1 | M2 |
 |---------------|----|----|----|
@@ -1948,6 +1956,14 @@ The 4 stepper drivers were carefully removed. The microstepping was set to `1/16
 
 ### Router cable management and connect to main power supply
 
+**NOTE: THIS PART INCLUDES WIRING OF HIGH VOLTAGE ELECTRICITY THAT CAN BE LETHAL IF NOT DONE PROPERLY. THE COLORS OF THE CABLES CAN VARY DEPENDING ON REGION/COUNTRY AND YOUR COMPONENTS/PINOUT NUMBERS MIGHT LOOK DIFFERENT. BEFORE YOU CONNECT THE POWER CORD TO THE POWER OUTLET, YOU MUST CONSULT WITH A LICENSED ELECTRICIAN TO MAKE SURE THAT EVERYTHING IS PROPERLY WIRED AND THAT IT IS IN LINE WITH YOUR LOCAL LEGISLATIONS.**
+
+As I wanted the emergency stop switch to kill the router as well, the router cable was inserted into the small electronic box to reach the emergency stop switch in the large electronic box.
+
+A round cable grommet was inserted in the left side of the small electronic box, aligned between the two main wire holes.
+
+The center of the hole was measured and drilled using a 8.5 mm drill. The cable grommet was then inserted and super glue was used to keep it in place.
+
 ![router_small_box_1](./images/build/frame/router_small_box_1.jpg)
 
 ![router_small_box_2](./images/build/frame/router_small_box_2.jpg)
@@ -1958,9 +1974,19 @@ The 4 stepper drivers were carefully removed. The microstepping was set to `1/16
 
 ![router_small_box_5](./images/build/frame/router_small_box_5.jpg)
 
+The router cable was then inserted into the cable grommet. Some ordinary soap was used to reduce the friction between the rubber cable grommet and the rubber cable.
+
+A cable tie was closed around the router cable on the inside of the box as a strain relief.
+
 ![router_small_box_6](./images/build/frame/router_small_box_6.jpg)
 
 ![router_small_box_7](./images/build/frame/router_small_box_7.jpg)
+
+![router_small_box_6_1](./images/build/frame/router_small_box_6_1.jpg)
+
+The large electronic box was opened once more and the router cable was inserted through the flexible conduit into the large electronic box. A cable clip was then used to position the router cable inside the small box.
+
+The small electronic box was then carefully closed. It's really important that you don't have to force it closed. If that's the case you need to move some cables for it to close smoothly.
 
 ![router_small_box_8](./images/build/frame/router_small_box_8.jpg)
 
@@ -1970,17 +1996,41 @@ The 4 stepper drivers were carefully removed. The microstepping was set to `1/16
 
 ![router_small_box_11](./images/build/frame/router_small_box_11.jpg)
 
-![router_small_box_12](./images/build/frame/router_small_box_12.jpg)
+The blue and brown wires going between the emergency stop switch and the 12V power supply were cut in the middle and stripped and twisted. The router cable and the wires inside were also stripped and twisted.
 
-![router_small_box_13](./images/build/frame/router_small_box_13.jpg)
+![router_small_box_12](./images/build/frame/router_small_box_12.jpg)
 
 ![router_small_box_14](./images/build/frame/router_small_box_14.jpg)
 
 ![router_small_box_15](./images/build/frame/router_small_box_15.jpg)
 
+![router_small_box_13](./images/build/frame/router_small_box_13.jpg)
+
+The three brown wires were inserted and locked into a 3-way Wago 221-413. The three blue wires were also inserted and locked into a 3-way Wago 221-413.
+
+The large electronic box was then carefully closed once more. It's really important that you don't have to force it closed. If that's the case you need to move some cables for it to close smoothly.
+
 ![router_small_box_16](./images/build/frame/router_small_box_16.jpg)
 
 ![router_small_box_17](./images/build/frame/router_small_box_17.jpg)
+
+![router_small_box_18](./images/build/frame/router_small_box_18.jpg)
+
+### Final test of electrical wiring
+
+The electrical wiring was tested by plugging in a C13 cable into the C14 socket and the C14 switch and emergency stop switch were turned on. But before this was done, I made sure that the router was turned off.
+
+The red LED should light up, both fans should rotate and the router should rotate when turned on.
+
+![test_electrical_wiring_1](./images/build/frame/test_electrical_wiring_1.jpg)
+
+![test_electrical_wiring_2](./images/build/frame/test_electrical_wiring_2.jpg)
+
+![test_electrical_wiring_3](./images/build/frame/test_electrical_wiring_3.jpg)
+
+![test_electrical_wiring_4](./images/build/frame/test_electrical_wiring_4.jpg)
+
+![test_electrical_wiring_5](./images/build/frame/test_electrical_wiring_5.jpg)
 
 ### Install CNC software (grbl) on Arduino Uno
 
