@@ -2119,4 +2119,16 @@ A new pop-up was opened and the `grbl` code was compile by clicking on the check
 
 ### Install G-Code sender
 
-G-Code is the 
+To be able to send G-Code instructions from the computer to `grbl` on the Arduino, a G-Code sender is needed. `grbl's` official list of recommended G-Code senders can be found here: [https://github.com/gnea/grbl/wiki/Using-Grbl](https://github.com/gnea/grbl/wiki/Using-Grbl)
+
+In this project a G-code sender called `Universal G-Code Sender (UGS)` was used. The program was downloaded from UGS's official website and the instructions were followed: 
+
+[https://winder.github.io/ugs_website/download/](https://winder.github.io/ugs_website/download/)
+
+After starting the program, you should see something like this:
+
+![gcode_sender_1](./images/build/frame/gcode_sender_1.jpg)
+
+To let UGS know where to connect to, the correct firmware and serial port were chosen.
+
+![gcode_sender_2](./images/build/frame/gcode_sender_2.jpg)
