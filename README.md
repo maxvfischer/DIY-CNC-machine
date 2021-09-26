@@ -2200,11 +2200,21 @@ The calculated travel resolutions were validated by moving each axis 10 mm in UG
 
 ![gcode_sender_12](./images/build/frame/gcode_sender_12.jpg)
 
-**Personal preferences**
+![gcode_sender_13](./images/build/frame/gcode_sender_13.jpg)
 
-* Disable homing cycle: `$22 = 1` -> `$22 = 0`
+##### Other configurations
+
+The homing cycle is when the CNC machine automatically moves all axises to it's limits to home itself before starting the job. I disabled this as I will manually jog the router to it's position:
+
+`$22 = 1` -> `$22 = 0`
+
+The X-axis and Y-axis minimum rates were increased to 1000:
+
 * X-axis maximum rate: `$110=500.000` -> `$110 = 1000.000`
 * Y-axis maximum rate: `$111=500.000` -> `$111 = 1000.000`
+
+The X-axis and Y-axis maximum travel were increased to 500:
+
 * X-axis maximum travel: `$130=200.000` -> `$130 = 500.000`
 * Y-axis maximum travel: `$131=200.000` -> `$131 = 500.000`
 
