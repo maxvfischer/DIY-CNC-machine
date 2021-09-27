@@ -8,7 +8,7 @@ It follows the first and second video quite strict, while only using the added v
 
 # Table of content
 1. [License](#license)
-2. [Parts (bill of materials)](#parts-(bill-of-materials))
+2. [Parts (bill of materials)](#parts-bill-of-materials)
 	1. [3d-printed parts](#3d-printed-parts)
 		1. [Left side plates](#left-side-plates)
 		2. [Right side plate](#right-side-plate)
