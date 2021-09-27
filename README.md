@@ -21,6 +21,52 @@ It follows the first and second video quite strict, while only using the added v
 		4. [Aluminium profiles](#aluminium-profiles)
 		5. [Threaded rods](#threaded-rods)
 		6. [Others](#others)
+3. [Build the CNC machine](#build-the-CNC-machine)
+	1. [Main frame](#main-frame)
+		1. [Drill holes in 900 mm profiles](#drill-holes-in-900-mm-profiles)
+		2. [Rails to 900 mm profiles](#rails-to-900-mm-profiles)
+		3. [Assemble upper and lower frames](#assemble-upper-and-lower-frames)
+		4. [Interlock upper and lower frames](#interlock-upper-and-lower-frames)
+	2. [Y-axis](#y-axis)
+		1. [Side plates to upper frame](#side-plates-to-upper-frame)
+		2. [Y-axis motors, idlers and pulleys to side plates](#y-axis-motors-idlers-and-pulleys-to-side-plates)
+		3. [Y-axis belt tensioners and end-stop mounts](#y-axis-belt-tensioners-and-end-stop-mounts)
+		4. [Y-axis HTD5M belts](#y-axis-htd5m-belts)
+	3. [X-axis and Z-axis](#x-axis-and-z-axis)
+		1. [Rails to bridge beams](#rails-to-bridge-beams)
+		2. [X-axis tensioner and end-stop mount to lower bridge beam](#x-axis-tensioner-and-end-stop-mount-to-lower-bridge-beam)
+		3. [Bridge beams to side plates](#bridge-beams-to-side-plates)
+		4. [Rod bearings to carriage](#rod-bearings-to-carriage)
+		5. [Carriage to bridge beams](#carriage-to-bridge-beams)
+		6. [X-axis motor, idlers and pulley to carriage](#x-axis-motor-idlers-and-pulley-to-carriage)
+		7. [X-axis HTD5M belt](#x-axis-htd5m-belt)
+		8. [Acme nut and rails to carriage slider](#acme-nut-and-rails-to-carriage-slider)
+		9. [Acme rod and vertical slider to carriage](#acme-rod-and-vertical-slider-to-carriage)
+		10. [Z motor mount and X-axis cable chain](#z-motor-mount-and-X-axis-cable-chain)
+		11. [Y-axis cable chain](#y-axis-cable-chain)
+		12. [Z stepper motor, pulleys and belt](#z-stepper-motor-pulleys-and-belt)
+	4. [Stepper motors and end-stops](#stepper-motors-and-end-stops)
+		1. [Extend stepper motor wires](#extend-stepper-motor-wires)
+			1. [Y-axis 1](#y-axis-1)
+			2. [Y-axis 2](#y-axis-2)
+			3. [X-axis](#x-axis)
+			4. [Z-axis](#z-axis)
+		2. [End-stops and end-stop wires](#end-stops-and-end-stop-wires)
+			1. [X-axis (max)](#x-axis-(max))
+			2. [X-axis (min)](#x-axis-(min))
+			3. [Y-axis (max)](#y-axis-(max))
+			4. [Y-axis (min)](#y-axis-(min))
+			5. [Z-axis (max)](#z-axis-(max))
+		3. [Stepper motor and end-stop cable management](#stepper-motor-and-end-stop-cable-management)
+			1. [Y-axis steppers and X-axis end-stops](#y-axis-steppers-and-x-axis-end-stops)
+			2. [X-axis stepper, Z-axis stepper and Z-axis end-stop](#x-axis-stepper-Z-axis-stepper-and-z-axis-end-stop)
+	5. [Router](#router)
+		1. [Attach router to carriage](#attach-router-to-carriage)
+		2. [Router cable management](#router-cable-management)
+	6. [Electronics boxes](#electronics-boxes)
+		1. [Small electronic box](#small-electronic-box)
+		2. [Large electronic box](#large-electronic-box)
+		3. 
 
 # License
 The following license is included when buying Ivan Miranda's blueprints of the CNC machine:
@@ -174,7 +220,7 @@ All the measurements, distances etc can be found in the main project Fusion 360 
 
 ## Main frame
 
-### Cut out holes in the 900 mm profiles
+### Drill holes in 900 mm profiles
 The main frame consists of two separate frames, the lower and the upper frame. The two frames are kept together using threaded rods, washers and nuts. To enable the threaded rods to slide through the aluminium profiles, holes needed to be drilled.
 
 First, a sharpie was used to indicate where all the holes were going. This was done by using a set square and a penn. A bradawl and a hammer were then used to make indentations at the center of the holes.
@@ -296,6 +342,8 @@ The 120 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts were the
 ![assemble_frames_11](./images/build/frame/assemble_frames_11.jpg)
 
 ![assemble_frames_13](./images/build/frame/assemble_frames_13.jpg)
+
+## Y-axis
 
 ### Side plates to upper frame
 
@@ -476,6 +524,8 @@ Make sure that the belt is not too loose and not too tight.
 ![attach_tensioners_and_belts_41](./images/build/frame/attach_tensioners_and_belts_41.jpg)
 
 Repeat on the other side.
+
+## X-axis and Z-axis
 
 ### Rails to bridge beams
 
@@ -910,7 +960,9 @@ The GT2 timing belt was looped around both timing pulleys and stretched. Before 
 
 ![attach_z_stepper_pulleys_belt_10](./images/build/frame/attach_z_stepper_pulleys_belt_10.jpg)
 
-### Extend and solder stepper motor cables
+## Stepper motors and end-stops
+
+### Extend stepper motor wires
 
 All 4 stepper motors (x2 Y-axis, x1 X-axis and x1 Z-axis) get their power and movement instructions from the Arduino + CNC shield that in a later step will be attached in the small electronic box. Therefore, the stepper motor cables needed to be extended to reach through the cable chains all the way to the front of the machine, where the small electronic box will be located.
 
@@ -1023,11 +1075,11 @@ The extended cables of the Z-axis stepper motor were cut at a length so that the
 
 ![solder_steppers_z_axis_9.jpg](./images/build/frame/solder_steppers_z_axis_10.jpg)
 
-### End-stops and end-stop cables
+### End-stops and end-stop wires
 
 End-stoppers are important, as they do not only enable you to home the CNC machine, but they also limit the CNC machine from moving past what is physically possible. When the end-stoppers are triggered, an alarm is fired and the machine automatically stops.
 
-The cables used for end-stops were 0.75 mm^2.
+The wires used for end-stops were 0.75 mm^2.
 
 #### X-axis (max)
 
@@ -1375,6 +1427,8 @@ A cable tie was used to strap the cable sock to the left side-plate.
 
 ![stepper_motor_cable_management_13_9](./images/build/frame/stepper_motor_cable_management_13_9.jpg)
 
+## Router
+
 ### Attach router to carriage
 
 A Makita RT0700C**J** trimming router was used as I was not able to get my hands on the Makita RT0700C that Ivan was recommending. To my knowledge, the RT0700C**J** is just an upgraded European version of the RT0700C, with the same dimensions.
@@ -1461,11 +1515,11 @@ The plug and socket were connected and strapped to the back of the X-axis cable 
 
 ![router_cable_management_24](./images/build/frame/router_cable_management_24.jpg)
 
-### Attach electronics boxes
+## Electronics boxes
 
 Two electronic boxes were attached to the front side of the CNC machine, a large box to encapsulate the power supply and a small box to encapsulate the Arduino and the CNC shield.
 
-#### Small electronic box
+### Small electronic box
 
 The small electronic box consisted of 4 parts. The two middle parts were clamped together on the front-left side of the frame, closest to the Y-axis cable chain. A finger was used to feel that the two parts were perfectly lined up.
 
@@ -1509,7 +1563,7 @@ The back-middle part was again clamped to the frame and aligned with the now att
 
 ![attach_small_electronic_box_16](./images/build/frame/attach_small_electronic_box_16.jpg)
 
-#### Large electronic box
+### Large electronic box
 
 As the small box, the large electronic box consisted of 4 parts. The two middle parts were clamped together to the right of the small box. A finger was used to feel that the two parts were perfectly lined up. 
 
@@ -1552,6 +1606,8 @@ The back-middle part was again clamped to the frame and aligned with the now att
 ![attach_large_electronic_box_14](./images/build/frame/attach_large_electronic_box_14.jpg)
 
 ![attach_large_electronic_box_15](./images/build/frame/attach_large_electronic_box_15.jpg)
+
+## Connect electronics
 
 ### Connect large electronic box
 
