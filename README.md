@@ -7,7 +7,20 @@ This guide goes through all the steps of building Ivan Miranda's 3d-printed CNC 
 It follows the first and second video quite strict, while only using the added vertical beams from the third video.
 
 # Table of content
-.....
+1. [License](#license)
+2. [Parts (bill of materials)](#parts-(bill-of-materials))
+	1. [3d-printed parts](#3d-printed-parts)
+		1. [Left side plates](#left-side-plates)
+		2. [Right side plate](#right-side-plate)
+		3. [Router](#router)
+		4. [Belt tensioners](#belt-tensioners)
+	2. [Other parts](#other-parts)
+		1. [Nuts](#nuts)
+		2. [Screws](#screws)
+		3. [Washers](#washers)
+		4. [Aluminium profiles](#aluminium-profiles)
+		5. [Threaded rods](#threaded-rods)
+		6. [Others](#others)
 
 # License
 The following license is included when buying Ivan Miranda's blueprints of the CNC machine:
@@ -20,7 +33,7 @@ files and credit me, we’re good. No DRM or anything, you are even allowed to r
 they’re kept free. Why buy this then? To support me and keep me encouraged to do more projects like this. 
 ```
 
-Ivan does an amazing job putting these DIY builds together. I've posted his STL-files in this repository to simplify the build, but PLEASE buy his blueprints here: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc). It's only $25 and helps him to continue build and share his awesome projects.
+Ivan does an amazing job putting these DIY builds together. I've posted his STL-files in this repository to simplify the build, but PLEASE buy his blueprints here: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc). It's only \$25 and helps him to continue build and share his awesome projects.
 
 TODO: ADD NEEDED TOOLS (multimeter etc).
 
@@ -116,7 +129,7 @@ All the parts below needs to be bought or cut out.
 | M3              | X      | ![m3_washers](./images/parts/washers_M3.jpg)                             | X                                      |
 | 10mm, 20mm, 2mm | X      | ![10_mm_20_mm_2_mm_washers](./images/parts/washers_10_mm_20_mm_2_mm.jpg) | X                                      |
 
-### Beams
+### Aluminium profiles
 All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles using a miter saw.
 
 | Type              | Amount | Image                                                                  | Used for                               |
