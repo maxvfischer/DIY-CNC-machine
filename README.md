@@ -66,7 +66,28 @@ It follows the first and second video quite strict, while only using the added v
 	6. [Electronics boxes](#electronics-boxes)
 		1. [Small electronic box](#small-electronic-box)
 		2. [Large electronic box](#large-electronic-box)
-		3. 
+	7. [Electrical wiring and connect components](#electrical-wiring-and-connect-components)
+		1. [Main power supply](#main-power-supply)
+		2. [Prepare power to steppers and connect fans and LED](#prepare-power-to-steppers-and-connect-fans-and-LED)
+		3. [Assemble stepper motor drivers and tune VRef](#assemble-stepper-motor-drivers-and-tune-vref)
+		4. [Attach Arduino and solder USB cable](#attach-arduino-and-solder-usb-cable)
+		5. [Stepper and end-stop cable management to small electronic box](#stepper-and-end-stop-cable-management-to-small-electronic-box)
+		6. [Connect steppers to CNC shield](#connect-steppers-to-cnc-shield)
+		7. [Connect end-stops to CNC shield](#connect-end-stops-to-cnc-shield)
+		8. [Set microstepping](#set-microstepping)
+		9. [Router cable management and connect to main power supply](#router-cable-management-and-connect-to-main-power-supply)
+		10. [Final test of electrical wiring](#final-test-of-electrical-wiring)
+	1. [Software](#software)
+		1. [Install CNC software (grbl) on Arduino Uno](#install-cnc-software-grbl-on-arduino-uno)
+			1. [Install Arduino Software (IDE)](#install-arduino-software-ide)
+			2. [Install GRBL](#install-grbl)
+		2. [G-Code sender](#g-code-sender)
+			1. [Install G-Code sender](#install-g-code-sender)
+			2. [Connect G-Code sender to GRBL](#connect-g-code-sender-to-grbl)
+			3. [Adjust GRBL configuration](#adjust-grbl-configuration)
+				1. [Enable end-stops/hard limits](#enable-end-stopshard-limits)
+				2. [Calculate and set travel resolutions](#calculate-and-set-travel-resolutions)
+				3. [Other configurations](#other-configurations)
 
 # License
 The following license is included when buying Ivan Miranda's blueprints of the CNC machine:
@@ -1607,9 +1628,9 @@ The back-middle part was again clamped to the frame and aligned with the now att
 
 ![attach_large_electronic_box_15](./images/build/frame/attach_large_electronic_box_15.jpg)
 
-## Connect electronics
+## Electrical wiring and connect components
 
-### Connect large electronic box
+### Main power supply
 
 **NOTE: THIS PART INCLUDES WIRING OF HIGH VOLTAGE ELECTRICITY THAT CAN BE LETHAL IF NOT DONE PROPERLY. THE COLORS OF THE CABLES CAN VARY DEPENDING ON REGION/COUNTRY AND YOUR COMPONENTS/PINOUT NUMBERS MIGHT LOOK DIFFERENT. BEFORE YOU CONNECT THE POWER CORD TO THE POWER OUTLET, YOU MUST CONSULT WITH A LICENSED ELECTRICIAN TO MAKE SURE THAT EVERYTHING IS PROPERLY WIRED AND THAT IT IS IN LINE WITH YOUR LOCAL LEGISLATIONS.**
 
@@ -1934,7 +1955,7 @@ The end of the conduits were then placed between the strain relief halves and th
 
 ![steppers_to_cnc_shield_11](./images/build/frame/steppers_to_cnc_shield_11.jpg)
 
-### Connect stepper cables to CNC shield
+### Connect steppers to CNC shield
 
 To keep a good structure of the wires inside the small box, electrical crimp connectors and contact housings were used. This also reduced the risks of shortings and loose wires.
 
@@ -2101,6 +2122,8 @@ The red LED should light up, both fans should rotate and the router should rotat
 
 ![test_electrical_wiring_5](./images/build/frame/test_electrical_wiring_5.jpg)
 
+## Software
+
 ### Install CNC software (grbl) on Arduino Uno
 
 The software used in this project to control the CNC machine is called `grbl`. It's an open source and high performance g-code-parser and CNC milling controller that can run on a straight Arduino Uno. To be able to install the software on the Arduino, an external computer was needed.
@@ -2114,7 +2137,7 @@ After starting the program, you should see something like this:
 
 ![install_software_1](./images/build/frame/install_software_1.jpg)
 
-#### Install `grbl`
+#### Install GRBL
 After installing the Arduino Software, the latest stable version of `grbl` was downloaded (as zip-format) from their official GitHub release page: 
 
 [https://github.com/gnea/grbl/releases](https://github.com/gnea/grbl/releases)
@@ -2200,7 +2223,7 @@ After starting the program, you should see something like this:
 
 ![gcode_sender_1](./images/build/frame/gcode_sender_1.jpg)
 
-#### Connect to G-Code sender
+#### Connect G-Code sender to GRBL
 
 To let UGS know where to connect to, the correct firmware (GRBL) and serial port (cu.usbmodem\<NUMBER>) were chosen. If you can't find the correct serial port, click the spinning arrows to refresh the ports.
 
@@ -2240,7 +2263,7 @@ After the alarm was triggered, UGS was reset by clicking `Soft reset` and `Unloc
 
 ![gcode_sender_9](./images/build/frame/gcode_sender_9.jpg)
 
-##### Calculate and update travel resolution
+##### Calculate and set travel resolutions
 
 The most important settings to adjust is the X-axis, Y-axis and Z-axis travel resolutions. These settings tells GRBL how many steps it should take to move one millimeter. The travel resolution depends on the stepper motor's steps per revolution, the microstepping, the teeth spacing and the number of teeth on the timing pulley (s).
 
