@@ -1,12 +1,12 @@
 ![main_gif](./images/main_gif.gif)
 
-This guide goes through all the steps of building Ivan Miranda's 3d-printed CNC machine and is a complement to Ivan's Youtube-videos:
+This guide goes through all the steps to build your own CNC machine from scratch. It includes a complete bill of material, STL-files for all the 3d-printed parts and detailed instructions of how everything comes together. It also includes instructions of how all the necessary open-source softwares are installed.
+
+The guide is based on Ivan Miranada's design and is a complement to Ivan's Youtube-videos:
 
 1. Original video: [https://www.youtube.com/watch?v=_atw3e0nIrg](https://www.youtube.com/watch?v=_atw3e0nIrg)
 2. Updates with geared stepper motors etc: [https://www.youtube.com/watch?v=qpjf5D3WngY](https://www.youtube.com/watch?v=qpjf5D3WngY)
 3. Updating to metal parts: [https://www.youtube.com/watch?v=RDnGvhdGFEY](https://www.youtube.com/watch?v=RDnGvhdGFEY)
-
-It follows the first and second video quite strict, while only using the added vertical beams from the third video.
 
 # Table of content
 1. [License](#license)
@@ -102,7 +102,7 @@ files and credit me, we’re good. No DRM or anything, you are even allowed to r
 they’re kept free. Why buy this then? To support me and keep me encouraged to do more projects like this. 
 ```
 
-Ivan does an amazing job putting these DIY builds together. I've posted his STL-files in this repository to simplify the build, but PLEASE buy his blueprints here: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc). It's only \$25 and helps him to continue build and share his awesome projects.
+Ivan does an amazing job putting these DIY builds together. I've posted his STL-files in this repository to simplify the build, but PLEASE buy his blueprints here: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc). It's only \$25 and helps him to continue build and share his awesome projects. Also, you will get access to a Discord channel that is really useful, where you can ask questions to a lot of people who have already built the machine.
 
 TODO: ADD NEEDED TOOLS (multimeter etc).
 
