@@ -65,7 +65,7 @@ The guide is based on Ivan Miranada's design and is a complement to Ivan's Youtu
 	5. [Router](#router)
 		1. [Attach router to carriage](#attach-router-to-carriage)
 		2. [Router cable management](#router-cable-management)
-	6. [Electronics boxes](#electronics-boxes)
+	6. [Electronic boxes](#electronic-boxes)
 		1. [Small electronic box](#small-electronic-box)
 		2. [Large electronic box](#large-electronic-box)
 	7. [Electrical wiring and connect components](#electrical-wiring-and-connect-components)
@@ -79,17 +79,20 @@ The guide is based on Ivan Miranada's design and is a complement to Ivan's Youtu
 		8. [Set microstepping](#set-microstepping)
 		9. [Router cable management and connect to main power supply](#router-cable-management-and-connect-to-main-power-supply)
 		10. [Final test of electrical wiring](#final-test-of-electrical-wiring)
-	1. [Software](#software)
-		1. [Install CNC software (grbl) on Arduino Uno](#install-cnc-software-grbl-on-arduino-uno)
-			1. [Install Arduino Software (IDE)](#install-arduino-software-ide)
-			2. [Install GRBL](#install-grbl)
-		2. [G-Code sender](#g-code-sender)
-			1. [Install G-Code sender](#install-g-code-sender)
-			2. [Connect G-Code sender to GRBL](#connect-g-code-sender-to-grbl)
-			3. [Adjust GRBL configuration](#adjust-grbl-configuration)
-				1. [Enable end-stops/hard limits](#enable-end-stopshard-limits)
-				2. [Calculate and set travel resolutions](#calculate-and-set-travel-resolutions)
-				3. [Other configurations](#other-configurations)
+	8. [Wasteboard](#wasteboard)
+		1. [Cut out wasteboard](#cut-out-wasteboard)
+		2. [Attach wasteboard to CNC](#attach-wasteboard-to-cnc)
+4. [Software](#software)
+	1. [Install CNC software (grbl) on Arduino Uno](#install-cnc-software-grbl-on-arduino-uno)
+		1. [Install Arduino Software (IDE)](#install-arduino-software-ide)
+		2. [Install GRBL](#install-grbl)
+	2. [G-Code sender](#g-code-sender)
+		1. [Install G-Code sender](#install-g-code-sender)
+		2. [Connect G-Code sender to GRBL](#connect-g-code-sender-to-grbl)
+		3. [Adjust GRBL configuration](#adjust-grbl-configuration)
+			1. [Enable end-stops/hard limits](#enable-end-stopshard-limits)
+			2. [Calculate and set travel resolutions](#calculate-and-set-travel-resolutions)
+			3. [Other configurations](#other-configurations)
 
 # License
 The following license is included when buying Ivan Miranda's blueprints of the CNC machine:
@@ -1538,7 +1541,7 @@ The plug and socket were connected and strapped to the back of the X-axis cable 
 
 ![router_cable_management_24](./images/build/frame/router_cable_management_24.jpg)
 
-## Electronics boxes
+## Electronic boxes
 
 Two electronic boxes were attached to the front side of the CNC machine, a large box to encapsulate the power supply and a small box to encapsulate the Arduino and the CNC shield.
 
