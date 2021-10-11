@@ -2124,6 +2124,34 @@ The red LED should light up, both fans should rotate and the router should rotat
 
 ![test_electrical_wiring_5](./images/build/frame/test_electrical_wiring_5.jpg)
 
+## Wasteboard
+
+### Cut out wasteboard
+
+The length and width of the CNC was measured and a 12 mm plywood was cut out using a vertical panel saw. If you don't have a vertical panel saw, a jigsaw or a circular saw works as well.
+
+![wasteboard_1](./images/build/frame/wasteboard_1.jpg)
+
+![wasteboard_2](./images/build/frame/wasteboard_2.jpg)
+
+![wasteboard_3](./images/build/frame/wasteboard_3.jpg)
+
+### Attach wasteboard to CNC
+
+The wasteboard was placed underneath the CNC machine. 7 3d-printed brackets, 14 3.5x20mm screws and 14 (15mm x 5mm x 1mm) washers were used to to keep the wasteboard in place.
+
+![wasteboard_4](./images/build/frame/wasteboard_4.jpg)
+
+![wasteboard_5](./images/build/frame/wasteboard_5.jpg)
+
+![wasteboard_7](./images/build/frame/wasteboard_7.jpg)
+
+![wasteboard_6](./images/build/frame/wasteboard_6.jpg)
+
+![wasteboard_8](./images/build/frame/wasteboard_8.jpg)
+
+![wasteboard_9](./images/build/frame/wasteboard_9.jpg)
+
 ## Software
 
 ### Install CNC software (grbl) on Arduino Uno
