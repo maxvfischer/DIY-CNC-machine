@@ -200,7 +200,8 @@ All the parts below needs to be 3d-printed. The tables include links to the STL-
 | OT_007   | USB lock                     | 1      | ![usb_lock](./images/3dprinted_parts/other/usb_lock.jpg)                                   | [USB\_LOCK.stl](./stl_files/other/USB_LOCK.stl)                                                       | Lock the USB female onto small electronic box | Redesign if other dimensions of USB female             |
 | OT_008   | Y-axis cable chain support 1 | 1      | ![y_cable_chain_support_1](./images/3dprinted_parts/other/y_cable_chain_support_1.jpg)     | [Y\_CHAIN\_BOTTOM\_BRACKET\_SUPPORT\_1.stl](./stl_files/other/Y_CHAIN_BOTTOM_BRACKET_SUPPORT_1.stl)   | Lock Y-axis cable chain to lower frame        | Redesign if holes on your cable chain differs          |
 | OT_009   | Y-axis cable chain support 2 | 1      | ![y_cable_chain_support_2.jpg](./images/3dprinted_parts/other/y_cable_chain_support_2.jpg) | [Y\_CHAIN\_BOTTOM\_BRACKET\_SUPPORT\_2.stl](./stl_files/other/Y_CHAIN_BOTTOM_BRACKET_SUPPORT_2.stl)   | Y-axis cable chain support                    |                                                        |
-| OT_010   | Z-axis end-stop trigger      | 1      | ![z_limit_trigger.jpg](./images/3dprinted_parts/other/z_limit_trigger.jpg)                 | [Z\_END\_STOP\_TRIGGER.stl](./stl_files/other/Z_END_STOP_TRIGGER.stl)                                 | Trigger Z-axis (+) end-stop                   |                                                        |
+| OT_010   | Z-axis end-stop trigger      | 1      | ![z_limit_trigger](./images/3dprinted_parts/other/z_limit_trigger.jpg)                 | [Z\_END\_STOP\_TRIGGER.stl](./stl_files/other/Z_END_STOP_TRIGGER.stl)                                 | Trigger Z-axis (+) end-stop                   |                                                        |
+| OT_011   | Rails support      | 3      | ![rails_support](./images/3dprinted_parts/other/rails_support.jpg)                 | [RAILS\_SUPPORT.stl](./stl_files/other/RAILS_SUPPORT.stl)                                 | Align the rails on the aluminium profiles                   |                       
 
 ## Other parts
 All the parts below needs to be bought or cut out.
@@ -354,7 +355,7 @@ Cutting fluid was then applied once more on the drilled holes and a M3 drill tap
 
 ![rails_main_frame_13](./images/build/frame/rails_main_frame_13.jpg)
 
-Finally, the rails were attached using 20 mm M3 screws.
+Finally, the rails were attached using 48 20 mm M3 screws.
 
 ![rails_main_frame_14](./images/build/frame/rails_main_frame_14.jpg)
 
