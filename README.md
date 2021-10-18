@@ -431,7 +431,7 @@ I had to redesign the left side plate and reprint it later in the build (after t
 
 ### Y-axis motors, idlers and pulleys to side plates
 
-Each idler were made up out of 1x idler blocker, 2x 60 mm fully threaded M8 screw, 6x 698zz bearings and 8x (10 mm x 8 mm x 2 mm) washers (2x closest to the idler blocker and 6x closest to the side plate). The idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
+Each idler were made up out of 1x idler blocker, 2x 60 mm fully threaded M8 screws, 6x 698zz bearings and 8x (10 mm x 8 mm x 2 mm) washers (2x closest to the idler blocker and 6x closest to the side plate). The idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_1.jpg)
 
@@ -485,7 +485,7 @@ The stepper motors were then inserted into the large holes on the side plates, f
 
 ### Y-axis belt tensioners and end-stop mounts
 
-Fixed belt tensioners were attached to the longer aluminium profiles of the upper frame using M5 screws. When aligning the fixed belt tensioners, make sure that the "belt opening" is pointing in the direction of the rails (one fixed belt tensioner for each rail). Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
+2x fixed belt tensioners were attached to the longer aluminium profiles of the upper frame using 4x M5 screws (2x for each fixed belt tensioner). When aligning the fixed belt tensioners, make sure that the "belt opening" is pointing in the direction of the rails (1x fixed belt tensioner for each rail). Also make sure that the fixed belt tensioners are positioned on the correct side of the rail (see images). Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
 
 ![attach_tensioners_and_belts_12](./images/build/frame/attach_tensioners_and_belts_12.jpg)
 
@@ -501,7 +501,7 @@ Fixed belt tensioners were attached to the longer aluminium profiles of the uppe
 
 ![attach_tensioners_and_belts_18](./images/build/frame/attach_tensioners_and_belts_18.jpg)
 
-The belt tension sliders were attached on the opposite side of the fixed belt tensioners, ontop of the aluminium profile. To get them aligned at the exact same place on both sides, a 100 mm distance was cut out and a flat support was clamped to the inner side of the profile. The same drill and tap size were used as for the fixed belt tensioners (4mm drill, M5 drill tap). Make sure that the belt tension sliders are pointing outwards.
+2x belt tension sliders were attached on the opposite side of the fixed belt tensioners, ontop of the aluminium profile, using 4x M5 screws. To get them aligned at the exact same place on both sides, a 100 mm distance was cut out and a flat support was clamped to the inner side of the profile. The same drill and tap size were used as for the fixed belt tensioners (4mm drill, M5 drill tap). Make sure that the belt tension sliders are pointing outwards.
 
 ![attach_tensioners_and_belts_19](./images/build/frame/attach_tensioners_and_belts_19.jpg)
 
@@ -521,7 +521,7 @@ The belt tension sliders were attached on the opposite side of the fixed belt te
 
 ![attach_tensioners_and_belts_27](./images/build/frame/attach_tensioners_and_belts_27.jpg)
 
-The end-stop mounts were then attached to the same side as the belt tension sliders using M5 screws, facing outwards and aligned with the rails. 
+2x end-stop mounts were then attached to the same side as the belt tension sliders using 4x M5 screws, facing outwards and aligned with the rails. The same drill and tap size were used as for the fixed belt tensioners (4mm drill, M5 drill tap).
 
 ![attach_tensioners_and_belts_1](./images/build/frame/attach_tensioners_and_belts_1.jpg)
 
@@ -545,7 +545,7 @@ The end-stop mounts were then attached to the same side as the belt tension slid
 
 ![attach_tensioners_and_belts_11](./images/build/frame/attach_tensioners_and_belts_11.jpg)
 
-The belt tensioners were loosely attached to the belt tension sliders using fully threaded M8 screws, M8 locknuts and (20mm x 10mm x 2mm) washers.
+The belt tensioners were loosely attached to the belt tension sliders using 2x 60 mm fully threaded M8 screws, 2x M8 locknuts and 2x (20mm x 10mm x 2mm) washers.
 
 ![attach_tensioners_and_belts_28](./images/build/frame/attach_tensioners_and_belts_28.jpg)
 
