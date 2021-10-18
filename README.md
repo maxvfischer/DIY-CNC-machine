@@ -250,7 +250,7 @@ All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles using 
 | Type      | Amount | Image                                                                | Used for                               |
 |-----------|--------|----------------------------------------------------------------------|----------------------------------------|
 | M5 140 mm | 2      | ![M5_140_mm_threaded_rod](./images/parts/threaded_rod_M5_140_mm.jpg) | Keep bridge beams together             |
-| M8 12 mm  | 8      | ![M8_120_mm_threaded_rod](./images/parts/threaded_rod_M8_120_mm.jpg) | Keep upper and lower frames together   |
+| M8 120 mm  | 8      | ![M8_120_mm_threaded_rod](./images/parts/threaded_rod_M8_120_mm.jpg) | Keep upper and lower frames together   |
 | M8 717 mm | 4      | ![M8_717_mm_threaded_rod](./images/parts/threaded_rod_M8_717_mm.jpg) | Keep frames together                   |
 
 ### Others
@@ -293,7 +293,7 @@ A 9 mm drill-bit and a bench drill was used to drill the holes straight through 
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_3.jpg)
 
-To be able to access the nuts and tight them with a socket wrench, some holes (facing outwards) needed to be enlarged. A sharpie was used to mark all the holes that needed to be enlarged.
+To be able to access the nuts and tight them with a socket wrench, some holes (facing outwards, see Fusion360 CAD file) needed to be enlarged. A sharpie was used to mark all the holes that needed to be enlarged.
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_4.jpg)
 
@@ -325,7 +325,7 @@ Before the upper and lower frames were assembled, two 600 mm MGN12H rails were a
 
 ![rails_main_frame_0](./images/build/frame/rails_main_frame_0.jpg)
 
-Three 3d-printed support tools were used to center the rails on the profiles. A 57 mm wood block were cut out and used to attach the rails at the same distance from the end of the profiles. The rails were then clamped to the profiles.
+3x 3d-printed support tools were used to center the rails on the profiles. A 57 mm wood block were cut out and used to attach the rails at the same distance from the end of the profiles on both sides. The rails were then clamped to the profiles.
 
 ![rails_main_frame_2](./images/build/frame/rails_main_frame_2.jpg)
 
@@ -355,7 +355,7 @@ Cutting fluid was then applied once more on the drilled holes and a M3 drill tap
 
 ![rails_main_frame_13](./images/build/frame/rails_main_frame_13.jpg)
 
-Finally, the rails were attached using 48 20 mm M3 screws.
+Finally, the rails were attached using 48x 20 mm M3 screws.
 
 ![rails_main_frame_14](./images/build/frame/rails_main_frame_14.jpg)
 
@@ -367,7 +367,7 @@ Finally, the rails were attached using 48 20 mm M3 screws.
 
 ### Assemble upper and lower frames
 
-The two frames were assembled using the longer 717 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts.
+The two frames were assembled using the 4x 717 mm M8 threaded rods, 8x (20mm, 10mm, 2mm) washers and 8x M8 lock nuts.
 
 The profiles were first placed in their correct place and clamps were used to keep the profiles aligned. I used two jointed spanners (one one each side) to lock everything in place, but you can also use two socket wrenches. Just make sure that the bits fit into the drilled holes.
 
@@ -387,13 +387,13 @@ The profiles were first placed in their correct place and clamps were used to ke
 
 ### Interlock upper and lower frames
 
-The upper and lower frames and the 80 mm vertical aluminium beams were first layed out in their correct place. The 803 mm horizontal bridge beams and clamps were then used to align the frames on top of each other.
+The upper and lower frames and the 8x 80 mm vertical aluminium beams were first layed out in their correct place. The 803 mm horizontal bridge beams (used later in the tutorial) and clamps were then used to align the frames on top of each other.
 
 ![assemble_frames_9](./images/build/frame/assemble_frames_9.jpg)
 
 ![assemble_frames_10](./images/build/frame/assemble_frames_10.jpg)
 
-The 120 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts were then used to interlock the upper and lower frames, with the 80 mm vertical aluminium profiles in between.
+8x 120 mm M8 threaded rods, 16x (20mm, 10mm, 2mm) washers and 16x M8 lock nuts were then used to interlock the upper and lower frames, with the 80 mm vertical aluminium profiles in between.
 
 ![assemble_frames_8](./images/build/frame/assemble_frames_8.jpg)
 
@@ -407,13 +407,13 @@ The 120 mm M8 threaded rods, (10mm, 20mm, 2mm) washers and M8 lock nuts were the
 
 ### Side plates to upper frame
 
-Before attaching the side plates, the MGN12H blocks were added back onto the rails, two on each side. Be careful when sliding them onto the rails, there are multiple small bearing balls that easily fall out of the blocks.
-
-The left and right side plates where then attached to the blocks using 20 mm M3 screws. Make sure to attach the plates on the correct side (see images below).
+Before attaching the side plates, the MGN12H blocks were added back onto the rails, 2x on each side. Be careful when sliding them onto the rails, there are multiple small bearing balls that easily fall out of the blocks.
 
 ![assemble_side_plates_1](./images/build/frame/assemble_side_plates_1.jpg)
 
 ![assemble_side_plates_2](./images/build/frame/assemble_side_plates_2.jpg)
+
+The left and right side plates where then attached to the blocks using 16x 20 mm M3 screws (8x on each side plate). Make sure to attach the plates on the correct side (see images below).
 
 I had to redesign the left side plate and reprint it later in the build (after the images were taken). Therefore, the left side plate seen in the upcoming images look a bit different than the one used (see next image for the left side plate used).
 
@@ -431,13 +431,13 @@ I had to redesign the left side plate and reprint it later in the build (after t
 
 ### Y-axis motors, idlers and pulleys to side plates
 
-Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 4 (10 mm x 8 mm x 2 mm) washers (1 closest to the idler blocker and 3 closest to the side plate). Two idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
+Each idler were made up out of 1x idler blocker, 2x 60 mm fully threaded M8 screw, 6x 698zz bearings and 8x (10 mm x 8 mm x 2 mm) washers (2x closest to the idler blocker and 6x closest to the side plate). The idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_1.jpg)
 
 ![attach_side_plate_motors_2](./images/build/frame/attach_side_plate_motors_2.jpg)
 
-As I designed and added the idler blocker later on in the build, some of the images doesn't have it and they also have 3 washers instead of 1 washer closest to the screw head. I left these images anyways in the guide so you can see how it looks when you attach the idlers, but please ignore the wrong number of washers. Also ignore all the other things around the idlers in the upcoming 2 images, they are taken later on in the build.
+As I designed and added the idler blocker later on in the build, some of the images doesn't have it and they also have 3x washers instead of 1x washer closest to the screw head. I left these images anyways in the guide so you can see how it looks when you attach the idlers, but please ignore the wrong number of washers. Also ignore all the other things around the idlers in the upcoming 2 images, they are taken later on in the build.
 
 ![attach_side_plate_motors_3_0](./images/build/frame/attach_side_plate_motors_3_0.jpg)
 
@@ -455,13 +455,13 @@ Should be idler blockers and a different number of washers in the upcoming image
 
 ![attach_side_plate_motors_7](./images/build/frame/attach_side_plate_motors_7.jpg)
 
-To attach the stepper motors to the side plates, the 4 M3 screws locking the gear box to the motor were removed. Save these as they will be used later on to attach the power supply and Arduino.
+To attach the stepper motors to the side plates, the 4x M3 screws locking the gear box to the motor were removed. Save these as they will be used later on to attach the power supply and Arduino to the electronic boxes.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_8.jpg)
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_9.jpg)
 
-The stepper motors were then inserted into the large holes on the side plates, facing inwards. 4 40 mm M3 screws and 4 M3 washers were used to lock each stepper motor to the side plates (I forgot to add the washers in the images below, therefore they're not visible). The motors should be attached so that the cables are facing in the direction of the two bridge beams (i.e. the longer vertical surface of the side plates).
+The stepper motors were then inserted into the large holes on the side plates, facing inwards. 4x 40 mm M3 screws and 4x M3 washers were used to lock each stepper motor to the side plates (I forgot to add the washers in the images below, therefore they're not visible). The motors should be attached so that the cables are facing in the direction of the two bridge beams (i.e. the longer vertical surface of the side plates).
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_10.jpg)
 
@@ -473,7 +473,7 @@ The stepper motors were then inserted into the large holes on the side plates, f
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_14.jpg)
 
-The HTD5M timing pulleys were attached to the motor shaft using set screws.
+1x HTD5M timing pulley was attached to each motor shaft using set screws.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_15.jpg)
 
