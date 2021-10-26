@@ -20,3 +20,11 @@
 | S14      | M5    | 60mm   | 2      | ![M5_60mm](./images/parts/consumables/screws/M5/M5_60mm.jpg)          |
 | S15      | M8    | 60mm   | 9      | ![M8_60mm](./images/parts/consumables/screws/M8/M8_60mm.jpg)          |
 | S16      | M8    | 80mm   | 2      | ![M8_80mm](./images/parts/consumables/screws/M8/M8_80mm.jpg)          |
+
+## Nuts
+
+| Item No. | Size | Amount | Image                                         |
+|----------|------|--------|-----------------------------------------------|
+| N01      | M4   | 11     | ![M4](./images/parts/consumables/nuts/M4.jpg) |
+| N02      | M5   | 14     | ![M5](./images/parts/consumables/nuts/M5.jpg) |
+| N03      | M8   | 35     | ![M8](./images/parts/consumables/nuts/M8.jpg) |
