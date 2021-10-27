@@ -1,6 +1,6 @@
 # Bill of material
 
-This page includes an aggregated overview (incl. images) of all the parts needed to build the CNC-machine. To get a better understanding of how the parts are used, check the following spreadsheet:
+This page includes an aggregated overview (incl. images) of all the parts needed to build the CNC-machine. To get a better understanding of how the parts are used (additional comments etc), check the following detailed spreadsheet:
 
 * [On Google drive](https://docs.google.com/spreadsheets/d/1VdnPilA22OfAh9a1y4Ft6c2xkio206Dzv85h7AX7CmQ/edit?usp=sharing)
 * [Bill\_of\_material.xlsx](./Bill_of_material.xlsx)
