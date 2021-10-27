@@ -2,7 +2,7 @@
 
 ![main_gif](./images/main_gif.gif)
 
-This guide goes through all the steps to build your own CNC machine from scratch. It includes a complete bill of materials (BOM), STL/OBJ-files for all the 3d-printed parts and detailed instructions of how you should assemble everything. It also includes instructions of how all the necessary open-source softwares are installed.
+This guide goes through all the steps to build your own CNC machine from scratch. It includes a complete bill of materials (BOM), STL/OBJ-files for all the 3d-printed parts and detailed instructions of how everything is assembled. It also includes instructions of how all the necessary open-source softwares are installed.
 
 The guide is based on Ivan Miranada's design and is a complement to Ivan's Youtube-videos:
 
