@@ -114,164 +114,17 @@ Ivan does an amazing job putting these DIY builds together. I've posted his STL-
 TODO: ADD NEEDED TOOLS (multimeter etc).
 
 # Parts (bill of materials)
-The following chapter goes through all the parts needed to build the CNC machine. There are two sub-sections:
 
-* `3d-printed parts` - All parts that you need to 3d-print
-* `Other parts` - All the parts that you need to buy
+**CLICK HERE TO OPEN THE BILL OF MATERIALS (BOM) MARKDOWN: [Bill of material](./BILLOFMATERIAL.md)**
 
-Each table includes:
+To simplify the build, I've created a separate markdown page with tables covering all parts needed to build the CNC-machine. The tables include a unique `Item No.` to easier refer to the parts in the guide. They also include images of all parts and .STL/.OBJ files of the parts that needs to be 3d-printed.
 
-* `Item no.` - Item number used to identify the part later in the guide
-* `Type` - Name of the part
-* `Amount` - Number of units needed
-* `Image` - Image of the part
-* `(STL link)` - Link to the stl-file if there is any
-* `Used for` - Where it's used in the CNC machine
+To get an even better understanding of how all the parts are used, I've created a detailed spreadsheet with comments:
 
-## 3d-printed parts
-All the parts below needs to be 3d-printed. The tables include links to the STL-files.
+* [On Google drive](https://docs.google.com/spreadsheets/d/1VdnPilA22OfAh9a1y4Ft6c2xkio206Dzv85h7AX7CmQ/edit?usp=sharing)
+* [Bill\_of\_material.xlsx](./Bill_of_material.xlsx)
 
-### Left side plates
-
-| Item no. | Type                             | Amount | Image                                                                                                             | STL link                                                                                                | Used for          | Comment |
-|----------|----------------------------------|--------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-------------------|---------|
-| LP_001   | Left side plate                  | 1      | ![left_plate](./images/3dprinted_parts/side_plates/left/left_plate.jpg)                                           | [LEFT\_PLATE.stl](./stl_files/side_plates/left/LEFT_PLATE.stl)                                          | Lock bridge beams | Redesign if holes on your cable chain differs |
-| LP_002   | Left side plate upper front clip | 1      | ![left_plate_upper_front_clip](./images/3dprinted_parts/side_plates/left/left_plate_upper_front_clip.jpg)         | [LEFT\_PLATE\_UPPER\_FRONT\_CLIP.stl](./stl_files/side_plates/left/LEFT_PLATE_UPPER_FRONT_CLIP.stl)     | Lock bridge beams |         |
-| LP_003   | Left side plate lower front clip | 1      | ![left_plate_lower_front_clip](./images/3dprinted_parts/side_plates/left/left_plate_lower_front_clip.jpg)         | [LEFT\_PLATE\_LOWER\_FRONT\_CLIP.stl](./stl_files/side_plates/left/LEFT\_PLATE\_LOWER\_FRONT\_CLIP.stl) | Lock bridge beams |         |
-| LP_004   | Left side plate back clip        | 1      | ![left_plate_back_plate_back_clip](./images/3dprinted_parts/side_plates/left/left_plate_back_plate_back_clip.jpg) | [LEFT\_PLATE\_BACK\_CLIP.stl](./stl_files/side_plates/left/LEFT_PLATE_BACK_CLIP.stl)                    | Lock bridge beams |         |
-
-### Right side plate
-
-| Item no. | Type                              | Amount | Image                                                                                                        | STL link                                                                                               | Used for          | Comment |
-|----------|-----------------------------------|--------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------|---------|
-| RP_001   | Right side plate                  | 1      | ![right_plate](./images/3dprinted_parts/side_plates/right/right_plate.jpg)                                   | [RIGHT\_PLATE.stl](./stl_files/side_plates/right/RIGHT_PLATE.stl)                                      | Lock bridge beams |         |
-| RP_002   | Right side plate upper front clip | 1      | ![right_plate_upper_front_clip](./images/3dprinted_parts/side_plates/right/right_plate_upper_front_clip.jpg) | [RIGHT\_PLATE\_UPPER\_FRONT\_CLIP.stl](./stl_files/side_plates/right/RIGHT_PLATE_UPPER_FRONT_CLIP.stl) | Lock bridge beams |         |
-| RP_003   | Right side plate lower front clip | 1      | ![right_plate_lower_front_clip](./images/3dprinted_parts/side_plates/right/right_plate_lower_front_clip.jpg) | [RIGHT\_PLATE\_LOWER\_FRONT\_CLIP.stl](./stl_files/side_plates/right/RIGHT_PLATE_LOWER_FRONT_CLIP.stl) | Lock bridge beams |         |
-| RP_004   | Right plate back clip             | 1      | ![right_plate_back_plate_back_clip](./images/3dprinted_parts/side_plates/right/right_plate_back_clip.jpg)    | [RIGHT\_PLATE\_BACK\_CLIP.stl](./stl_files/side_plates/right/RIGHT_PLATE_BACK_CLIP.stl)                | Lock bridge beams |         |
-
-### Router
-
-| Item no. | Type                     | Amount | Image                                                                                     | STL link                                                            | Used for                    | Comment                                       |
-|----------|--------------------------|--------|-------------------------------------------------------------------------------------------|---------------------------------------------------------------------|-----------------------------|-----------------------------------------------|
-| RO_001   | Carriage                 | 1      | ![carriage](./images/3dprinted_parts/router/carriage.jpg)                                 | [CARRIAGE.stl](./stl_files/router/CARRIAGE.stl)                     | Lock router in place        |                                               |
-| RO_002   | Router bracket           | 1      | ![router_bracket](./images/3dprinted_parts/router/router_bracket.jpg)                     | [ROUTER\_BRACKET.stl](./stl_files/router/ROUTER_BRACKET.stl)        | Lock router in place        |                                               |
-| RO_003   | Vaccum funnel            | 1      | ![vaccum_funnel](./images/3dprinted_parts/router/vaccum_funnel.jpg)                       | [VACUUM\_FUNNEL.stl](./stl_files/router/VACUUM_FUNNEL.stl)          | Lock vaccum close to router |                                               |
-| RO_004   | Vertical slider          | 1      | ![vertical_slider](./images/3dprinted_parts/router/vertical_slider.jpg)                   | [VERTICAL\_SLIDER.stl](./stl_files/router/VERTICAL\_SLIDER.stl)     | Vertical slider for router  |                                               |
-| RO_005   | Z motor mount            | 1      | ![z_motor_mount](./images/3dprinted_parts/router/z_motor_mount.jpg)                       | [Z\_MOTOR\_MOUNT.stl](./stl_files/router/Z_MOTOR_MOUNT.stl)         | Mount z motor to carriage   | Extend if GT2 belt is longer than 300 mm      |
-| RO_006   | Vaccum hose ring         | 1      | ![vaccum_hose_ring](./images/3dprinted_parts/router/vaccum_hose_ring.jpg)                 | [VACUUM\_HOSE\_RING.stl](./stl_files/router/VACUUM_HOSE_RING.stl)   | Lock vaccum to carriage     |                                               |
-| RO_007   | X-axis cable chain mount | 1      | ![x_axis_cable_chain_mount](./images/3dprinted_parts/router/x_axis_cable_chain_mount.jpg) | [CABLE\_CHAIN\_MOUNT.stl](./stl_files/router/CABLE_CHAIN_MOUNT.stl) | Lock x-axis cable chain     | Redesign if holes on your cable chain differs |
-
-### Belt tensioners
-
-| Item no. | Type                    | Amount | Image                                                                                                        | STL link                                                                                                       | Used for               | Comment |
-|----------|-------------------------|--------|--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------|---------|
-| BT_001   | Y axis left back clip   | 1      | ![y_axis_left_back_clip](./images/3dprinted_parts/belt_tensioner/y_axis_left/y_axis_left_back_clip.jpg)      | [Y\_AXIS\_LEFT\_BACK\_CLIP.stl](./stl_files/belt_tensioner/y_axis_left/Y_AXIS_LEFT_BACK_CLIP.stl)              | Lock left y-axis belt  |         |
-| BT_002   | Y axis left front clip  | 1      | ![y_axis_left_front_clip](./images/3dprinted_parts/belt_tensioner/y_axis_left/y_axis_left_front_clip.jpg)    | [Y\_AXIS\_LEFT\_FRONT\_CLIP.stl](./stl_files/belt_tensioner/y_axis_left/Y_AXIS_LEFT_FRONT_CLIP.stl)            | Lock left y-axis belt  |         |
-| BT_003   | Y axis left tensioner   | 1      | ![y_axis_left_tensioner](./images/3dprinted_parts/belt_tensioner/y_axis_left/y_axis_left_tensioner.jpg)      | [Y\_AXIS\_LEFT\_BELT\_TENSIONER.stl](./stl_files/belt_tensioner/y_axis_left/Y_AXIS_LEFT_BELT_TENSIONER.stl)    | Lock left y-axis belt  |         |
-| BT_004   | Y axis right back clip  | 1      | ![y_axis_right_back_clip](./images/3dprinted_parts/belt_tensioner/y_axis_right/y_axis_right_back_clip.jpg)   | [Y\_AXIS\_RIGHT\_BACK\_CLIP.stl](./stl_files/belt_tensioner/y_axis_right/Y_AXIS_RIGHT_BACK_CLIP.stl)           | Lock right y-axis belt |         |
-| BT_005   | Y axis right front clip | 1      | ![y_axis_right_front_clip](./images/3dprinted_parts/belt_tensioner/y_axis_right/y_axis_right_front_clip.jpg) | [Y\_AXIS\_RIGHT\_FRONT\_CLIP.stl](./stl_files/belt_tensioner/y_axis_right/Y_AXIS_RIGHT_FRONT_CLIP.stl)         | Lock right y-axis belt |         |
-| BT_006   | Y axis right tensioner  | 1      | ![y_axis_right_tensioner](./images/3dprinted_parts/belt_tensioner/y_axis_right/y_axis_right_tensioner.jpg)   | [Y\_AXIS\_RIGHT\_BELT\_TENSIONER.stl](./stl_files/belt_tensioner/y_axis_right/Y_AXIS_RIGHT_BELT_TENSIONER.stl) | Lock right y-axis belt |         |
-| BT_007   | X axis back clip        | 1      | ![x_axis_back_clip](./images/3dprinted_parts/belt_tensioner/x_axis/x_axis_back_clip.jpg)                     | [X\_AXIS\_BACK\_CLIP.stl](./stl_files/belt_tensioner/x_axis/X_AXIS_BACK_CLIP.stl)                              | Lock x-axis belt       |         |
-| BT_008   | X axis front clip       | 1      | ![x_axis_front_clip](./images/3dprinted_parts/belt_tensioner/x_axis/x_axis_front_clip.jpg)                   | [X\_AXIS\_FRONT\_CLIP.stl](./stl_files/belt_tensioner/x_axis/X_AXIS_FRONT_CLIP.stl)                            | Lock x-axis belt       |         |
-
-### Electronic boxes
-
-| Item no. | Type                                    | Amount | Image                                                                                                                                 | STL link                                                                            | Used for             | Comment                                     |
-|----------|-----------------------------------------|--------|---------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|----------------------|---------------------------------------------|
-| EB_001   | Large electronic box front panel        | 1      | ![large_electronic_box_front_panel](./images/3dprinted_parts/electronic_box_large/large_electronic_box_front_panel.jpg)               | [front\_panel.stl](./stl_files/electronic_box_large/front_panel.stl)                | Large electronic box | Redesign holes to fit your e-stop, fan etc  |
-| EB_002   | Large electronic box middle front panel | 1      | ![large_electronic_box_middle_front_panel](./images/3dprinted_parts/electronic_box_large/large_electronic_box_middle_front_panel.jpg) | [middle\_front\_panel.stl](./stl_files/electronic_box_large/middle_front_panel.stl) | Large electronic box |                                             |
-| EB_003   | Large electronic box middle back panel  | 1      | -                                                                                                                                     | [middle\_back\_panel.stl](./stl_files/electronic_box_large/middle_back_panel.stl)   | Large electronic box |                                             |
-| EB_004   | Large electronic box back panel         | 1      | ![large_electronic_box_back_panel](./images/3dprinted_parts/electronic_box_large/large_electronic_box_back_panel.jpg)                 | [back\_panel.stl](./stl_files/electronic_box_large/back_panel.stl)                  | Large electronic box | Redesign holes to fit your power supply     |
-| EB_005   | Small electronic box front panel        | 1      | ![small_electronic_box_front_panel](./images/3dprinted_parts/electronic_box_small/small_electronic_box_front_panel.jpg)               | [front\_panel.stl](./stl_files/electronic_box_small/front_panel.stl)                | Small electronic box | Redesign to fit your usb connection and fan |
-| EB_006   | Small electronic box middle front panel | 1      | ![small_electronic_box_middle_front_panel](./images/3dprinted_parts/electronic_box_small/small_electronic_box_middle_front_panel.jpg) | [middle\_front\_panel.stl](./stl_files/electronic_box_small/middle_front_panel.stl) | Small electronic box |                                             |
-| EB_007   | Small electronic box middle back panel  | 1      | ![small_electronic_box_middle_back_panel](./images/3dprinted_parts/electronic_box_small/small_electronic_box_middle_back_panel.jpg)   | [middle\_back\_panel.stl](./stl_files/electronic_box_small/middle_back_panel.stl)   | Small electronic box |                                             |
-| EB_008   | Small electronic box back panel         | 1      | ![small_electronic_box_back_panel](./images/3dprinted_parts/electronic_box_small/small_electronic_box_back_panel.jpg)                 | [back\_panel.stl](./stl_files/electronic_box_small/back_panel.stl)                  | Small electronic box |                                             |	
-
-### Other
-
-| Item no. | Type                         | Amount | Image                                                                                      | STL link                                                                                              | Used for                                      | Comment                                                |
-|----------|------------------------------|--------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------|--------------------------------------------------------|
-| OT_001   | Wasteboard bracket           | 7      | ![wasteboard_bracket](./images/3dprinted_parts/other/wasteboard_bracket.jpg)               | [BRACKET.stl](./stl_files/other/BRACKET.stl)                                                          | To interlock wasteboard and frame             | Redesign if not using 30x30mm aluminium profiles       |
-| OT_002   | Cable strain relief          | 8      | ![cable_strain_relief](./images/3dprinted_parts/other/cable_strain_relief.jpg)             | [CABLE\_STRAIN\_RELIEF.stl](./stl_files/other/CABLE_STRAIN_RELIEF.stl)                                | Strain relief cables conduit                  | Increase inner diameter if other size of cable conduit |
-| OT_003   | Y-axis end-stop mount (+)    | 1      | ![end_stop_y_axis_long](./images/3dprinted_parts/other/end_stop_y_axis_long.jpg)           | [Y\_AXIS\_ENDSTOP\_LIMIT\_SWITCH\_LONG.stl](./stl_files/other/Y_AXIS_ENDSTOP_LIMIT_SWITCH_LONG.stl)   | Mount Y-axis (+) end-stop                     | Redesign to gain an extra 10-20 mm in Y-axis           |
-| OT_004   | X-axis end-stop mount (+)    | 1      | ![end_stop_x_axis_thick](./images/3dprinted_parts/other/end_stop_x_axis_thick.jpg)         | [X\_AXIS\_ENDSTOP\_LIMIT\_SWITCH\_THICK.stl](./stl_files/other/X_AXIS_ENDSTOP_LIMIT_SWITCH_THICK.stl) | Mount X-axis (+) end-stop                     |                                                        |
-| OT_005   | End-stop mount               | 3      | ![end_stop](./images/3dprinted_parts/other/end_stop.jpg)                                   | [ENDSTOP\_LIMIT\_SWITCH.stl](./stl_files/other/ENDSTOP_LIMIT_SWITCH.stl)                              | Mount Y-axis (-) & X-axis (-) end-stops       |                                                        |
-| OT_006   | Idler block                  | 3      | ![idler_block](./images/3dprinted_parts/other/idler_block.jpg)                             | [IDLER\_BLOCK.stl](./stl_files/other/IDLER_BLOCK.stl)                                                 | Block HTD5M belt falling of idlers            |                                                        |
-| OT_007   | USB lock                     | 1      | ![usb_lock](./images/3dprinted_parts/other/usb_lock.jpg)                                   | [USB\_LOCK.stl](./stl_files/other/USB_LOCK.stl)                                                       | Lock the USB female onto small electronic box | Redesign if other dimensions of USB female             |
-| OT_008   | Y-axis cable chain support 1 | 1      | ![y_cable_chain_support_1](./images/3dprinted_parts/other/y_cable_chain_support_1.jpg)     | [Y\_CHAIN\_BOTTOM\_BRACKET\_SUPPORT\_1.stl](./stl_files/other/Y_CHAIN_BOTTOM_BRACKET_SUPPORT_1.stl)   | Lock Y-axis cable chain to lower frame        | Redesign if holes on your cable chain differs          |
-| OT_009   | Y-axis cable chain support 2 | 1      | ![y_cable_chain_support_2.jpg](./images/3dprinted_parts/other/y_cable_chain_support_2.jpg) | [Y\_CHAIN\_BOTTOM\_BRACKET\_SUPPORT\_2.stl](./stl_files/other/Y_CHAIN_BOTTOM_BRACKET_SUPPORT_2.stl)   | Y-axis cable chain support                    |                                                        |
-| OT_010   | Z-axis end-stop trigger      | 1      | ![z_limit_trigger](./images/3dprinted_parts/other/z_limit_trigger.jpg)                 | [Z\_END\_STOP\_TRIGGER.stl](./stl_files/other/Z_END_STOP_TRIGGER.stl)                                 | Trigger Z-axis (+) end-stop                   |                                                        |
-| OT_011   | Rails support      | 3      | ![rails_support](./images/3dprinted_parts/other/rails_support.jpg)                 | [RAILS\_SUPPORT.stl](./stl_files/other/RAILS_SUPPORT.stl)                                 | Align the rails on the aluminium profiles                   |                       
-
-## Other parts
-All the parts below needs to be bought or cut out.
-
-### Nuts
-
-| Type    | Amount | Image                                  | Used for                               |
-|---------|--------|----------------------------------------|----------------------------------------|
-| M3 nuts | X      | ![m3_nuts](./images/parts/nuts_M3.jpg) | X                                      |
-| M6 nuts | X      | ![m6_nuts](./images/parts/nuts_M6.jpg) | X                                      |
-| M8 nuts | X      | ![m8_nuts](./images/parts/nuts_M8.jpg) | X                                      |
-
-### Screws
-
-| Type     | Amount | Image                                                 | Used for                               |
-|----------|--------|-------------------------------------------------------|----------------------------------------|
-| M3 10 mm | X      | ![m3_10_mm_screws](./images/parts/screw_M3_10_mm.jpg) | X                                      |
-| M3 16 mm | X      | ![m3_16_mm_screws](./images/parts/screw_M3_16_mm.jpg) | X                                      |
-| M3 20 mm | X      | ![m3_20_mm_screws](./images/parts/screw_M3_20_mm.jpg) | X                                      |
-| M3 25 mm | X      | ![m3_25_mm_screws](./images/parts/screw_M3_25_mm.jpg) | X                                      |
-| M5 20 mm | X      | ![m5_20_mm_screws](./images/parts/screw_M5_20_mm.jpg) | X                                      |
-| M5 30 mm | X      | ![m5_30_mm_screws](./images/parts/screw_M5_30_mm.jpg) | X                                      |
-| M5 60 mm | X      | ![m5_60_mm_screws](./images/parts/screw_M5_60_mm.jpg) | X                                      |
-| M6 70 mm | X      | ![m6_70_mm_screws](./images/parts/screw_M6_70_mm.jpg) | X                                      |
-| M8 80 mm | X      | ![m8_80_mm_screws](./images/parts/screw_M8_80_mm.jpg) | X                                      |
-
-### Washers
-
-| Type            | Amount | Image                                                                    | Used for                               |
-|-----------------|--------|--------------------------------------------------------------------------|----------------------------------------|
-| M3              | X      | ![m3_washers](./images/parts/washers_M3.jpg)                             | X                                      |
-| 10mm, 20mm, 2mm | X      | ![10_mm_20_mm_2_mm_washers](./images/parts/washers_10_mm_20_mm_2_mm.jpg) | X                                      |
-
-### Aluminium profiles
-All beams where cut out from 30mm x 30 mm (2 mm thick) aluminium profiles using a miter saw.
-
-| Type              | Amount | Image                                                                  | Used for                               |
-|-------------------|--------|------------------------------------------------------------------------|----------------------------------------|
-| Vertical 80 mm    | 8      | ![beams_vertical_80_mm](./images/parts/beams_vertical_80_mm.jpg)       | X                                      |
-| Front/Back 677 mm | 4      | ![beams_front_back_677_mm](./images/parts/beams_front_back_677_mm.jpg) | X                                      |
-| Right/Left 900 mm | 4      | ![beams_right_left_900_mm](./images/parts/beams_right_left_900_mm.jpg) | X                                      |
-| Bridge 803 mm     | 3      | ![beams_bridge_803_mm](./images/parts/beams_bridge_803_mm.jpg)         | X                                      |
-
-### Threaded rods
-
-| Type      | Amount | Image                                                                | Used for                               |
-|-----------|--------|----------------------------------------------------------------------|----------------------------------------|
-| M5 140 mm | 2      | ![M5_140_mm_threaded_rod](./images/parts/threaded_rod_M5_140_mm.jpg) | Keep bridge beams together             |
-| M8 120 mm  | 8      | ![M8_120_mm_threaded_rod](./images/parts/threaded_rod_M8_120_mm.jpg) | Keep upper and lower frames together   |
-| M8 717 mm | 4      | ![M8_717_mm_threaded_rod](./images/parts/threaded_rod_M8_717_mm.jpg) | Keep frames together                   |
-
-### Others
-
-| Item no. | Type                             | Amount | Image                                                          | Used for                   |
-|----------|----------------------------------|--------|----------------------------------------------------------------|----------------------------|
-| OT_001   | NEMA17 1:19 geared stepper motor | 3      | ![NEMA17_geared](./images/parts/NEMA17_geared.jpg)             | Move X & Y axis            |
-| OT_002   | NEMA17 stepper motor             | 1      | ![NEMA17_no_gears](./images/parts/NEMA17_no_gears.jpg)         | Move Z axis                |
-| OT_003   | HTD5M 4 meter belt               | 1      | ![HTD5M_belt](./images/parts/HTD5M_belt.jpg)                   | Belt to move X & Y axis    |
-| OT_004   | HTD5M 12 teeth pulley            | 3      | ![HTD5M_pulley](./images/parts/HTD5M_pulley.jpg)               | Pulleys to move X & Y axis |
-| OT_005   | 2GT belt 300 mmm                 | 1      | ![2GT_belt_300_mm](./images/parts/2GT_belt_300_mm.jpg)         | Belt to move Z axis        |
-| OT_006   | 2GT 16 teeth pulley              | 1      | ![2GT_pulley_16_teeth](./images/parts/2GT_pulley_16_teeth.jpg) | Pulley to move Z axis      |
-| OT_007   | 2GT 60 teeth pulley              | 1      | ![2GT_pulley_60_teeth](./images/parts/2GT_pulley_60_teeth.jpg) | Pulley to move Z axis      |
-| OT_008   | Acme threaded rod 300 mm (8x8mm) | 1      | ![acme_threaded_rod](./images/parts/acme_threaded_rod.jpg)     | To move Z axis             |
-| OT_009   | Acme threaded rod nut            | 1      | ![acme_nut](./images/parts/acme_nut.jpg)                       | To move Z axis             |
-| OT_010   | KFL08 rod bearing                | 2      | ![KFL08_rod_bearing](./images/parts/KFL08_rod_bearing.jpg)     | To move Z axis             |
-| OT_011   | MGN12H rail 600 mm               | 4      | ![MGN12H_rail_600_mm](./images/parts/MGN12H_rail_600_mm.jpg)   | To move X & Y axis         |
-| OT_012   | MGN12H rail 200 mm               | 2      | ![MGN12H_rail_200_mm](./images/parts/MGN12H_rail_200_mm.jpg)   | To move Z axis             |
-| OT_013   | MGN12H block                     | 12     | ![MGN12H_rail_block](./images/parts/MGN12H_rail_block.jpg)     | To move all axis           |
-| OT_014   | Cable chain 1 meter              | 2      | ![cable_chain_1000_mm](./images/parts/cable_chain_1000_mm.jpg) | Encapsulate cables         |
-| OT_015   | 698zz bearing                    | 18     | ![698zz_bearing](./images/parts/698zz_bearing.jpg)             | Ilders for HTD5M belt      |
+**To be able to continue with the build, you need to buy and 3d-print all needed parts.**
 
 # Build the CNC machine
 This section covers how all the parts is put together to build the CNC machine. 
