@@ -110,7 +110,7 @@ To get an even better understanding of how all the parts are used, I've created 
 * [On Google drive](https://docs.google.com/spreadsheets/d/1VdnPilA22OfAh9a1y4Ft6c2xkio206Dzv85h7AX7CmQ/edit?usp=sharing)
 * [Bill\_of\_material.xlsx](./Bill_of_material.xlsx)
 
-**To be able to continue with the build, you need to buy and 3d-print all needed parts.**
+**To be able to continue with the build, you need to buy and 3d-print all needed parts found in the [bill of material](./BILLOFMATERIAL.md).**
 
 # Build the CNC machine
 This section covers how all the parts is put together to build the CNC machine. 
