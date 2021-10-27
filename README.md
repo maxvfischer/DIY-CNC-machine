@@ -101,7 +101,7 @@ Ivan does an amazing job putting these DIY builds together. I've posted his STL-
 
 **CLICK HERE TO OPEN THE BILL OF MATERIALS (BOM) MARKDOWN: [Bill of materials](./BILLOFMATERIAL.md)**
 
-To simplify the build, I've created a separate markdown page with tables covering all parts needed to build the CNC-machine. The tables include a unique `Item No.` to easier refer to the parts in the guide. They also include images of all parts and .STL/.OBJ files of the parts that needs to be 3d-printed.
+To simplify the build, I've created a separate markdown page with tables covering all parts needed to build the CNC-machine. The tables include a unique `Item No.` to easier refer to the parts in the guide. The tables also include images of all parts and .STL/.OBJ files of the parts that needs to be 3d-printed.
 
 To get an even better understanding of how all the parts are used, I've created a detailed spreadsheet with comments:
 
