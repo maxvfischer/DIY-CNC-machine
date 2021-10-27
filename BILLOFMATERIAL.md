@@ -75,6 +75,14 @@
 | E28      | USB A (male) to USB B (male)                                      | 1              | ![USB_A_to_USB_B](./images/parts/electronics/USB_A_to_USB_B.jpg)                               |
 | E29      | USB A PCB (female)                                                | 1              | ![usb_a_female](./images/parts/electronics/usb_a_female.jpg)                                   |
 
+## Threaded rods
+
+| Item No. | Size | Length | Amount | Image                                                                      |
+|----------|------|--------|--------|----------------------------------------------------------------------------|
+| T01      | M5   | 140mm  | 2      | ![threaded_rod_M5_140_mm](./images/parts/other/threaded_rod_M5_140_mm.jpg) |
+| T02      | M8   | 120mm  | 8      | ![threaded_rod_M8_120_mm](./images/parts/other/threaded_rod_M8_120_mm.jpg) |
+| T03      | M8   | 717mm  | 4      | ![threaded_rod_M8_717_mm](./images/parts/other/threaded_rod_M8_717_mm.jpg) |
+
 ## Other
 
 | Item No. | Type                                               | Amount | Image                                                                                              |
