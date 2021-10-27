@@ -1,5 +1,9 @@
 # Bill of material
 
+This page includes an aggregated overview (incl. images) of all the parts needed to build the CNC-machine. To get a better understanding of how the parts are used, check the following excel spreadsheet:
+
+TODO: Add spreadsheet.
+
 ## Screws
 
 | Item No. | Size  | Length | Amount | Image                                                                 |
@@ -111,3 +115,48 @@
 | O22      | MGN12H linear rail block                           | 12     | ![MGN12H_rail_block](./images/parts/other/MGN12H_rail_block.jpg)                                   |
 | O23      | Masking tape                                       | 1      | ![masking_tape](./images/parts/other/masking_tape.jpg)                                             |
 | O24      | Shrinking tubes                                    | NA     | ![shrinking_tubes](./images/parts/other/shrinking_tubes.jpg)                                       |
+
+## 3d-printed parts
+
+| Item No. | Type                                      | Amount | Image                                                                                                                                                   | STL-file | OBJ-file |
+|----------|-------------------------------------------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|----------|----------|
+| P01      | Back middle panel (large electronic box)  | 1      | Missing                                                                                                                                                 |          |          |
+| P02      | Back middle panel (small electronic box)  | 1      | ![back_middle_panel_small_electronic_box](./images/parts/3d-printed/electronic_boxes/small_electronic_box/back_middle_panel_small_electronic_box.jpg)   |          |          |
+| P03      | Back panel (large electronic box)         | 1      | ![back_panel_large_electronic_box](./images/parts/3d-printed/electronic_boxes/large_electronic_box/back_panel_large_electronic_box.jpg)                 |          |          |
+| P04      | Back panel (small electronic box)         | 1      | ![back_panel_small_electronic_box](./images/parts/3d-printed/electronic_boxes/small_electronic_box/back_panel_small_electronic_box.jpg)                 |          |          |
+| P05      | Cable chain mount                         | 1      | ![y_axis_cable_chain_mount](./images/parts/3d-printed/frame/y_axis_cable_chain_mount.jpg)                                                               |          |          |
+| P06      | Cable chain support                       | 1      | ![y_axis_cable_chain_support](./images/parts/3d-printed/frame/y_axis_cable_chain_support.jpg)                                                           |          |          |
+| P07      | Carriage                                  | 1      | ![carriage](./images/parts/3d-printed/other/carriage.jpg)                                                                                               |          |          |
+| P08      | End-stop mount (ordinary)                 | 3      | ![end_stop_mount_ordinary](./images/parts/3d-printed/other/end_stop_mount_ordinary.jpg)                                                                 |          |          |
+| P09      | End-stop mount (tall)                     | 1      | ![end_stop_mount_tall](./images/parts/3d-printed/other/end_stop_mount_tall.jpg)                                                                         |          |          |
+| P10      | End-stop mount (thick)                    | 1      | ![end_stop_mount_thick](./images/parts/3d-printed/other/end_stop_mount_thick.jpg)                                                                       |          |          |
+| P11      | Flexible conduit strain relief (halves)   | 8      | ![cable_strain_relief](./images/parts/3d-printed/other/cable_strain_relief.jpg)                                                                         |          |          |
+| P12      | Front middle panel (large electronic box) | 1      | ![front_middle_panel_large_electronic_box](./images/parts/3d-printed/electronic_boxes/large_electronic_box/front_middle_panel_large_electronic_box.jpg) |          |          |
+| P13      | Front middle panel (small electronic box) | 1      | ![front_middle_panel_small_electronic_box](./images/parts/3d-printed/electronic_boxes/small_electronic_box/front_middle_panel_small_electronic_box.jpg) |          |          |
+| P14      | Front panel (large electronic box)        | 1      | ![front_panel_large_electronic_box](./images/parts/3d-printed/electronic_boxes/large_electronic_box/front_panel_large_electronic_box.jpg)               |          |          |
+| P15      | Front panel (small electronic box)        | 1      | ![front_panel_small_electronic_box](./images/parts/3d-printed/electronic_boxes/small_electronic_box/front_panel_small_electronic_box.jpg)               |          |          |
+| P16      | Idler block                               | 3      | ![idler_block](./images/parts/3d-printed/other/idler_block.jpg)                                                                                         |          |          |
+| P17      | Left belt tension slider                  | 1      | ![y-axis_left_belt_tension_slider](./images/parts/3d-printed/belt_tensioners/y-axis_left_belt_tension_slider.jpg)                                       |          |          |
+| P18      | Left belt tensioner                       | 1      | ![y-axis_left_belt_tension](./images/parts/3d-printed/belt_tensioners/y-axis_left_belt_tension.jpg)                                                     |          |          |
+| P19      | Left fixed belt tensioner                 | 1      | ![y-axis_left_fixed_belt_tension](./images/parts/3d-printed/belt_tensioners/y-axis_left_fixed_belt_tension.jpg)                                         |          |          |
+| P20      | Left side plate                           | 1      | ![left_plate](./images/parts/3d-printed/side_plates/left_side_plates/left_plate.jpg)                                                                    |          |          |
+| P21      | Left side plate lower back clip           | 1      | ![left_side_plate_lower_back_clip](./images/parts/3d-printed/side_plates/left_side_plates/left_side_plate_lower_back_clip.jpg)                          |          |          |
+| P22      | Left side plate lower front clip          | 1      | ![left_side_plate_lower_front_clip](./images/parts/3d-printed/side_plates/left_side_plates/left_side_plate_lower_front_clip.jpg)                        |          |          |
+| P23      | Left side plate upper front clip          | 1      | ![left_side_plate_upper_front_clip](./images/parts/3d-printed/side_plates/left_side_plates/left_side_plate_upper_front_clip.jpg)                        |          |          |
+| P24      | Milling router bracket                    | 1      | ![router_bracket](./images/parts/3d-printed/other/router_bracket.jpg)                                                                                   |          |          |
+| P25      | Rail support                              | 3      | ![rails_support](./images/parts/3d-printed/other/rails_support.jpg)                                                                                     |          |          |
+| P26      | Right belt tension slider                 | 1      | ![y-axis_right_belt_tension_slider](./images/parts/3d-printed/belt_tensioners/y-axis_right_belt_tension_slider.jpg)                                     |          |          |
+| P27      | Right belt tensioner                      | 2      | ![y-axis_right_belt_tension](./images/parts/3d-printed/belt_tensioners/y-axis_right_belt_tension.jpg)                                                   |          |          |
+| P28      | Right fixed belt tensioner                | 2      | ![y-axis_right_fixed_belt_tension](./images/parts/3d-printed/belt_tensioners/y-axis_right_fixed_belt_tension.jpg)                                       |          |          |
+| P29      | Right side plate                          | 1      | ![right_plate](./images/parts/3d-printed/side_plates/right_side_plates/right_plate.jpg)                                                                 |          |          |
+| P30      | Right side plate lower back clip          | 1      | ![right_side_plate_lower_back_clip](./images/parts/3d-printed/side_plates/right_side_plates/right_side_plate_lower_back_clip.jpg)                       |          |          |
+| P31      | Right side plate lower front clip         | 1      | ![right_side_plate_lower_front_clip](./images/parts/3d-printed/side_plates/right_side_plates/right_side_plate_lower_front_clip.jpg)                     |          |          |
+| P32      | Right side plate upper front clip         | 1      | ![right_side_plate_upper_front_clip](./images/parts/3d-printed/side_plates/right_side_plates/right_side_plate_upper_front_clip.jpg)                     |          |          |
+| P33      | USB lock                                  | 1      | ![USB_A_female](./images/parts/3d-printed/other/USB_A_female.jpg)                                                                                       |          |          |
+| P34      | Vaccum funnel                             | 1      | ![vaccum_funnel](./images/parts/3d-printed/other/vaccum_funnel.jpg)                                                                                     |          |          |
+| P35      | Vaccum hose ring                          | 1      | ![vaccum_hose_ring](./images/parts/3d-printed/other/vaccum_hose_ring.jpg)                                                                               |          |          |
+| P36      | Vertical carriage slider                  | 1      | ![vertical_carriage_slider](./images/parts/3d-printed/other/vertical_carriage_slider.jpg)                                                               |          |          |
+| P37      | Wasteboard bracket                        | 7      | ![wasteboard_bracket.jpg](./images/parts/3d-printed/frame/wasteboard_bracket.jpg)                                                                       |          |          |
+| P38      | X-axis cable chain mount                  | 1      | ![x_axis_cable_chain_mount](./images/parts/3d-printed/other/x_axis_cable_chain_mount.jpg)                                                               |          |          |
+| P39      | Z-axis end-stop trigger                   | 1      | ![z_limit_trigger](./images/parts/3d-printed/other/z_limit_trigger.jpg)                                                                                 |          |          |
+| P40      | Z-axis stepper motor mount                | 1      | ![z_motor_mount](./images/parts/3d-printed/other/z_motor_mount.jpg)                                                                                     |          |          |
