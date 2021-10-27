@@ -1,5 +1,3 @@
-<center><h1>STILL WORK IN PROGRESS!</h1></center>
-
 ![main_gif](./images/main_gif.gif)
 
 This guide goes through all the steps to build your own CNC machine from scratch. It includes a complete bill of materials (BOM), STL/OBJ-files for all the 3d-printed parts and detailed instructions of how everything is assembled. It also includes instructions of how all the necessary open-source softwares are installed.
@@ -115,7 +113,13 @@ To get an even better understanding of how all the parts are used, I've created 
 # Build the CNC machine
 This section covers how all the parts is put together to build the CNC machine. 
 
-All the measurements, distances etc can be found in the main project Fusion 360 CAD design that is included when buying Ivan's blueprints. The blueprints can be bought here for just \$25: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc)
+All the measurements, distances and a complete overview of how everything comes together can be found in the main Fusion 360 CAD design. It can be downloaded here:
+
+* [fusion\_360\_cad\_files.f3z](./fusion_360_cad_files.f3z)
+
+Please note that the main Fusion 360 design is quite messy, which is one of the reasons why I've extracted the needed parts in a separate bill of materials.
+
+Fusion 360 is a CAD program developed by Autodesk. It's free for personal use and can be downloaded here: [https://www.autodesk.com/products/fusion-360/personal](https://www.autodesk.com/products/fusion-360/personal). After you've downloaded Fusion 360, import `fusion_360_cad_files.f3z` to load the main CAD design. This can also come in handy if you need to adjust some of the 3d-printed parts.
 
 ## Main frame
 
