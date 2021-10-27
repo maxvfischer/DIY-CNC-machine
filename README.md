@@ -99,8 +99,6 @@ they’re kept free. Why buy this then? To support me and keep me encouraged to 
 
 Ivan does an amazing job putting these DIY builds together. I've posted his STL-files in this repository to simplify the build, but PLEASE buy his blueprints here: [https://ivanmiranda.com/products/3d-printed-cnc](https://ivanmiranda.com/products/3d-printed-cnc). It's only \$25 and helps him to continue build and share his awesome projects. Also, you will get access to a Discord channel that is really useful, where you can ask questions to a lot of people who have already built the machine.
 
-TODO: ADD NEEDED TOOLS (multimeter etc).
-
 # Parts (bill of materials)
 
 **CLICK HERE TO OPEN THE BILL OF MATERIALS (BOM) MARKDOWN: [Bill of material](./BILLOFMATERIAL.md)**
