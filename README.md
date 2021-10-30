@@ -708,7 +708,7 @@ The Z motor mount (**P40**) and the X-axis cable chain mount (**P38**) were then
 
 ![assemble_carriage_30](./images/build/frame/assemble_carriage_30_1.jpg)
 
-They Z motor mount was then attached to the carriage using 2 80 mm M8 screws, 2 M8 nuts and 2 (20mm x 10mm x 2mm) washers. The vaccum mount was also inserted and attached to the right-side M8 screw. Please ignore the timing pulley attached to the acme rod in some of the images, it will be attached in a later step.
+They Z motor mount was then attached to the carriage using 2x 80mm M8 screws (**S16**), 2x M8 nuts (**N03**) and 1x (20mm x 10mm x 2mm) washers (**W04**). The vaccum mount was also inserted and attached to the right-side M8 screw. Please ignore the timing pulley attached to the acme rod in some of the images, it will be attached in a later step.
 
 ![assemble_carriage_30](./images/build/frame/assemble_carriage_30.jpg)
 
@@ -722,7 +722,7 @@ They Z motor mount was then attached to the carriage using 2 80 mm M8 screws, 2 
 
 ![assemble_carriage_35](./images/build/frame/assemble_carriage_35.jpg)
 
-A 1 meter cable chain were then clamped to the cable chain mount and to the back-side bridge beam. The carriage was then moved as far to the sides as possible. It's important that the chain doesn't touch any of the side plates when moved. In my case, I had to remove 3 links from the cable chain to get a good length of the chain.
+1x 1 meter cable chain (**O09**) were then clamped to the cable chain mount and to the back-side bridge beam. The carriage was then moved as far to the sides as possible. It's important that the chain doesn't touch any of the side plates when moved. In my case, I had to remove 3 links from the cable chain to get a good length of the chain.
 
 ![assemble_carriage_36](./images/build/frame/assemble_carriage_36.jpg)
 
@@ -734,7 +734,7 @@ A 1 meter cable chain were then clamped to the cable chain mount and to the back
 
 ![assemble_carriage_39](./images/build/frame/assemble_carriage_39.jpg)
 
-The Z motor mount and cable chain mount were then disassembled and the cable chain was properly attached to the cable chain mount using 2 25 mm M4 screws, 2 M4 nuts and 2 (8mm x 4mm x 0.5mm) washers.
+The Z motor mount and cable chain mount were then disassembled and the cable chain was properly attached to the cable chain mount using 2x 25mm M4 screws (**S10**), 2x M4 nuts (**N01**) and 2x (10mm x 5mm x 1mm) washers (**W01**).
 
 ![assemble_carriage_40](./images/build/frame/assemble_carriage_40.jpg)
 
@@ -754,13 +754,13 @@ The Z motor mount and cable chain mount were then assembled again and attached t
 
 ![assemble_carriage_47](./images/build/frame/assemble_carriage_47.jpg)
 
-The carriage was move all the way to the right side plate and the cable chain was clamped to the back-side bridge beam.
+The carriage was move all the way to the right side plate and the cable chain was clamped to the lower back bridge beam.
 
 ![assemble_carriage_48](./images/build/frame/assemble_carriage_48.jpg)
 
 ![assemble_carriage_49](./images/build/frame/assemble_carriage_49.jpg)
 
-A bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The cable chain was then attached to the bridge beam using 2 25 mm M4 screws.
+A bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The cable chain was then attached to the bridge beam using 2x 25 mm M4 screws (**S10**).
 
 ![assemble_carriage_50](./images/build/frame/assemble_carriage_50.jpg)
 
@@ -790,8 +790,7 @@ Finally, the X-axis belt was reattached and tightened.
 
 ### Y-axis cable chain
 
-The Y-axis cable chain was attached using two supports. The first support (with screw holes to attach the cable chain) was clamped to the left side of the lower frame and aligned with the last vertial beam. A bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The support was then attached to the lower frame using 2 20 mm M5 screws.
-
+The Y-axis cable chain (**O09**) was attached to the frame using 1x cable chain mount (**P05**) and 1x cable chain support (**P06**). The cable chain mount was clamped to the left side of the lower frame and aligned with the last vertial beam. A bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The cable chain mount was then attached to the lower frame using 2x 20 mm M5 screws (**S12**).
 
 ![assemble_cable_support_y_axis_1](./images/build/frame/assemble_cable_support_y_axis_1.jpg)
 
@@ -803,9 +802,9 @@ The Y-axis cable chain was attached using two supports. The first support (with 
 
 ![assemble_cable_support_y_axis_5](./images/build/frame/assemble_cable_support_y_axis_5.jpg)
 
-The second support was only attached to the lower frame for the cable chain to rest on. I aligned and attached it at the center between the second and third vertical beam. Make sure that it does not go below the bottom frame!
+The cable chain support was only attached to the lower frame for the cable chain to rest on. It was aligned and attached it at the center between the second and third vertical beam. Make sure that it does not go below the bottom frame!
 
-In the same way as the first support, a bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The support was then attached to the lower frame using 2 20 mm M5 screws.
+In the same way as the cable chain mount, a bradawl and a hammer were used to make indentations at the center of the two holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The support was then attached to the lower frame using 2x 20 mm M5 screws (**S12**).
 
 ![assemble_cable_support_y_axis_6](./images/build/frame/assemble_cable_support_y_axis_6.jpg)
 
@@ -821,7 +820,7 @@ In the same way as the first support, a bradawl and a hammer were used to make i
 
 ![assemble_cable_support_y_axis_11](./images/build/frame/assemble_cable_support_y_axis_11.jpg)
 
-The Y-axis cable chain was then attached to the left side plate and lower frame support using 4 25 mm M4 screws, 4 M4 nuts and 4 (8mm x 4mm x 0.5mm) washers.
+The Y-axis cable chain (**O09**) was then attached to the left side plate (**P20**) and lower frame support using 4x 25 mm M4 screws (**S10**), 4x M4 nuts (**N01**) and 4x (10mm x 5mm x 1mm) washers (**W01**).
 
 ![assemble_cable_support_y_axis_12](./images/build/frame/assemble_cable_support_y_axis_12.jpg)
 
@@ -837,9 +836,9 @@ The Y-axis cable chain was then attached to the left side plate and lower frame 
 
 ### Z stepper motor, pulleys and belt
 
-The NEMA17 stepper motor was attached to the Z-axis motor mount using 4 10mm M3 screws and 4 M3 washers. Make sure that the motor cable connector is pointing in the same direction as the opening of the X-axis cable chain.
+The non-geared NEMA17 stepper motor (**E11**) was attached to the Z-axis motor mount using 4x 8mm M3 screws (**S08**) and 4x M3 washers (**W06**). Make sure that the motor cable connector is pointing in the same direction as the opening of the X-axis cable chain.
 
-The smaller GT2 timing pulley was then attached to the motor shaft and the larger GT2 timing pulley was attached to the acme rod. Both were locked in place using set screws. Make sure that they line up. 
+1x 16 teeth GT2 timing pulley (**O15**) was then attached to the motor shaft and 1x 60 teeth GT2 timing pulley (**O16**) was attached to the acme rod. Both were locked in place using set screws. Make sure that they line up. 
 
 ![attach_z_stepper_pulleys_belt_1](./images/build/frame/attach_z_stepper_pulleys_belt_1.jpg)
 
@@ -853,7 +852,7 @@ The smaller GT2 timing pulley was then attached to the motor shaft and the large
 
 ![attach_z_stepper_pulleys_belt_6](./images/build/frame/attach_z_stepper_pulleys_belt_6.jpg)
 
-The GT2 timing belt was looped around both timing pulleys and stretched. Before tightning the M3 screws and locking the motor into place, make sure that the belt is not too loose and not too tight. 
+1x GT2 timing belt (**O14**) was looped around both timing pulleys and stretched. Before tightning the M3 screws and locking the motor into place, make sure that the belt is not too loose and not too tight. 
 
 ![attach_z_stepper_pulleys_belt_7](./images/build/frame/attach_z_stepper_pulleys_belt_7.jpg)
 
