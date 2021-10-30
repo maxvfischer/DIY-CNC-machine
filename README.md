@@ -126,7 +126,7 @@ Fusion 360 is a CAD program developed by Autodesk. It's free for personal use an
 ### Drill holes in 900 mm profiles
 The main frame consists of two separate frames, the lower and the upper frame. The two frames are kept together using threaded rods, washers and nuts. To enable the threaded rods to slide through the aluminium profiles, holes needed to be drilled.
 
-First, a sharpie was used to indicate where all the holes were going. This was done by using a set square and a penn. A bradawl and a hammer were then used to make indentations at the center of the holes.
+First, a sharpie was used to indicate where all the holes were going in the 900mm profiles (**O07**). This was done by using a set square and a penn. A bradawl and a hammer were then used to make indentations at the center of the holes.
 
 ![holes_main_frame_1](./images/build/frame/holes_main_frame_1.jpg)
 
@@ -160,7 +160,7 @@ The edges were finally smoothed out using a round metal file.
 
 ### Rails to 900 mm profiles
 
-Before the upper and lower frames were assembled, two 600 mm MGN12H rails were attached to the 900 mm aluminium profiles of the **upper** frame. They were attached to the sides facing outwards and above the three 80 mm vertical beams (connecting the lower and upper frame). A tip is to place all the profiles as they should go to make sure that you're attaching the rails to the correct faces (see the red boxes on the image below). Also, be very careful when removing the MGN12H blocks from the rails.
+Before the upper and lower frames were assembled, two 600 mm MGN12H rails (**O21**) were attached to the 900 mm aluminium profiles (**O07**) of the **upper** frame. They were attached to the sides facing outwards and above the three 80 mm vertical beams (connecting the lower and upper frame). A tip is to place all the profiles as they should go to make sure that you're attaching the rails to the correct faces (see the red boxes on the image below). Also, be very careful when removing the MGN12H blocks (**O22**) from the rails.
 
 ![attach_rails_to_beams_2](./images/build/frame/attach_rails_to_beams_2.jpg)
 
@@ -168,7 +168,7 @@ Before the upper and lower frames were assembled, two 600 mm MGN12H rails were a
 
 ![rails_main_frame_0](./images/build/frame/rails_main_frame_0.jpg)
 
-3x 3d-printed support tools were used to center the rails on the profiles. A 57 mm wood block were cut out and used to attach the rails at the same distance from the end of the profiles on both sides. The rails were then clamped to the profiles.
+3x 3d-printed support tools (**P25**) were used to center the rails on the profiles. A 57 mm wood block were cut out and used to attach the rails at the same distance from the end of the profiles on both sides. The rails were then clamped to the profiles.
 
 ![rails_main_frame_2](./images/build/frame/rails_main_frame_2.jpg)
 
@@ -198,7 +198,7 @@ Cutting fluid was then applied once more on the drilled holes and a M3 drill tap
 
 ![rails_main_frame_13](./images/build/frame/rails_main_frame_13.jpg)
 
-Finally, the rails were attached using 48x 20 mm M3 screws.
+Finally, the rails were attached using 48x 16 mm M3 screws (**S03**).
 
 ![rails_main_frame_14](./images/build/frame/rails_main_frame_14.jpg)
 
@@ -210,7 +210,7 @@ Finally, the rails were attached using 48x 20 mm M3 screws.
 
 ### Assemble upper and lower frames
 
-The two frames were assembled using the 4x 717 mm M8 threaded rods, 8x (20mm, 10mm, 2mm) washers and 8x M8 lock nuts.
+The two frames were assembled using the 4x 717 mm M8 threaded rods (**T03**), 8x (20mm, 10mm, 2mm) washers (**W04**) and 8x M8 lock nuts (**N03**).
 
 The profiles were first placed in their correct place and clamps were used to keep the profiles aligned. I used two jointed spanners (one one each side) to lock everything in place, but you can also use two socket wrenches. Just make sure that the bits fit into the drilled holes.
 
@@ -230,13 +230,13 @@ The profiles were first placed in their correct place and clamps were used to ke
 
 ### Interlock upper and lower frames
 
-The upper and lower frames and the 8x 80 mm vertical aluminium beams were first layed out in their correct place. The 803 mm horizontal bridge beams (used later in the tutorial) and clamps were then used to align the frames on top of each other.
+The upper and lower frames and the 8x 80 mm vertical aluminium beams (**O06**) were first layed out in their correct place. The 803 mm horizontal bridge beams (used later in the tutorial) (**O05**) and clamps were then used to align the frames on top of each other.
 
 ![assemble_frames_9](./images/build/frame/assemble_frames_9.jpg)
 
 ![assemble_frames_10](./images/build/frame/assemble_frames_10.jpg)
 
-8x 120 mm M8 threaded rods, 16x (20mm, 10mm, 2mm) washers and 16x M8 lock nuts were then used to interlock the upper and lower frames, with the 80 mm vertical aluminium profiles in between.
+8x 120 mm M8 threaded rods (**T02**), 16x (20mm, 10mm, 2mm) washers (**W04**) and 16x M8 lock nuts (**N03**) were then used to interlock the upper and lower frames, with the 80 mm vertical aluminium profiles in between.
 
 ![assemble_frames_8](./images/build/frame/assemble_frames_8.jpg)
 
@@ -250,13 +250,13 @@ The upper and lower frames and the 8x 80 mm vertical aluminium beams were first 
 
 ### Side plates to upper frame
 
-Before attaching the side plates, the MGN12H blocks were added back onto the rails, 2x on each side. Be careful when sliding them onto the rails, there are multiple small bearing balls that easily fall out of the blocks.
+Before attaching the side plates, the MGN12H blocks (**O22**) were added back onto the rails, 2x on each side. Be careful when sliding them onto the rails, there are multiple small bearing balls that easily fall out of the blocks.
 
 ![assemble_side_plates_1](./images/build/frame/assemble_side_plates_1.jpg)
 
 ![assemble_side_plates_2](./images/build/frame/assemble_side_plates_2.jpg)
 
-The left and right side plates where then attached to the blocks using 16x 20 mm M3 screws (8x on each side plate). Make sure to attach the plates on the correct side (see images below).
+The left (**P20**) and right (**P29**) side plates where then attached to the blocks using 16x 20 mm M3 screws (**S04**) (8x on each side plate). Make sure to attach the plates on the correct side (see images below).
 
 I had to redesign the left side plate and reprint it later in the build (after the images were taken). Therefore, the left side plate seen in the upcoming images look a bit different than the one used (see next image for the left side plate used).
 
@@ -274,7 +274,7 @@ I had to redesign the left side plate and reprint it later in the build (after t
 
 ### Y-axis motors, idlers and pulleys to side plates
 
-Each idler were made up out of 1x idler blocker, 2x 60 mm fully threaded M8 screws, 6x 698zz bearings and 8x (10 mm x 8 mm x 2 mm) washers (2x closest to the idler blocker and 6x closest to the side plate). The idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
+Each idler were made up out of 1x idler blocker (**P16**), 2x 60 mm fully threaded M8 screws (**S15**), 6x 698zz bearings (**O01**) and 8x (15 mm x 8.5 mm x 1.5mm) washers (**W03**) (2x closest to the idler blocker and 6x closest to the side plate). The idlers were then attached to each side plate using two M8 nuts (**N03**). Make sure that the bearings are spinning freely.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_1.jpg)
 
@@ -298,13 +298,13 @@ Should be idler blockers and a different number of washers in the upcoming image
 
 ![attach_side_plate_motors_7](./images/build/frame/attach_side_plate_motors_7.jpg)
 
-To attach the stepper motors to the side plates, the 4x M3 screws locking the gear box to the motor were removed. Save these as they will be used later on to attach the power supply and Arduino to the electronic boxes.
+To attach the stepper motors to the side plates, the 4x M3 screws (**S07**) locking the gear box to the motor were removed. Save these as they will be used later on to attach the power supply and Arduino to the electronic boxes.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_8.jpg)
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_9.jpg)
 
-The stepper motors were then inserted into the large holes on the side plates, facing inwards. 4x 40 mm M3 screws and 4x M3 washers were used to lock each stepper motor to the side plates (I forgot to add the washers in the images below, therefore they're not visible). The motors should be attached so that the cables are facing in the direction of the two bridge beams (i.e. the longer vertical surface of the side plates).
+The 2x geared stepper motors (**E18**) were then inserted into the large holes on the side plates, facing inwards. 4x 40 mm M3 screws (**S06**) and 4x M3 washers (**W05**) were used to lock each stepper motor to the side plates (I forgot to add the washers in the images below, therefore they're not visible). The motors should be attached so that the cables are facing in the direction of the two bridge beams (i.e. the longer vertical surface on the side plates).
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_10.jpg)
 
@@ -316,7 +316,7 @@ The stepper motors were then inserted into the large holes on the side plates, f
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_14.jpg)
 
-1x HTD5M timing pulley was attached to each motor shaft using set screws.
+1x HTD5M timing pulley (**O18**) was attached to each motor shaft using set screws.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_15.jpg)
 
@@ -328,7 +328,7 @@ The stepper motors were then inserted into the large holes on the side plates, f
 
 ### Y-axis belt tensioners and end-stop mounts
 
-2x fixed belt tensioners were attached to the longer aluminium profiles of the upper frame using 4x M5 screws (2x for each fixed belt tensioner). When aligning the fixed belt tensioners, make sure that the "belt opening" is pointing in the direction of the rails (1x fixed belt tensioner for each rail). Also make sure that the fixed belt tensioners are positioned on the correct side of the rail (see images). Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
+2x fixed belt tensioners (**P19**, **P28**) were attached to the longer aluminium profiles of the upper frame using 4x 20mm M5 screws (**S12**) (2x for each fixed belt tensioner). When aligning the fixed belt tensioners, make sure that the "belt opening" is pointing in the direction of the rails (1x fixed belt tensioner for each rail). Also make sure that the fixed belt tensioners are positioned on the correct side of the rail (see images). Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
 
 ![attach_tensioners_and_belts_12](./images/build/frame/attach_tensioners_and_belts_12.jpg)
 
@@ -344,7 +344,7 @@ The stepper motors were then inserted into the large holes on the side plates, f
 
 ![attach_tensioners_and_belts_18](./images/build/frame/attach_tensioners_and_belts_18.jpg)
 
-2x belt tension sliders were attached on the opposite side of the fixed belt tensioners, ontop of the aluminium profile, using 4x M5 screws. To get them aligned at the exact same place on both sides, a 100 mm distance was cut out and a flat support was clamped to the inner side of the profile. The same drill and tap size were used as for the fixed belt tensioners (4mm drill, M5 drill tap). Make sure that the belt tension sliders are pointing outwards.
+2x belt tension sliders (**P17**, **P26**) were attached on the opposite side of the fixed belt tensioners, ontop of the aluminium profile, using 4x 20mm M5 screws (**S12**). To get them aligned at the exact same place on both sides, a 100 mm distance was cut out and a flat support was clamped to the inner side of the profile. The same drill and tap size were used as for the fixed belt tensioners (4mm drill, M5 drill tap). Make sure that the belt tension sliders are pointing outwards.
 
 ![attach_tensioners_and_belts_19](./images/build/frame/attach_tensioners_and_belts_19.jpg)
 
@@ -364,7 +364,7 @@ The stepper motors were then inserted into the large holes on the side plates, f
 
 ![attach_tensioners_and_belts_27](./images/build/frame/attach_tensioners_and_belts_27.jpg)
 
-2x end-stop mounts were then attached to the same side as the belt tension sliders using 4x M5 screws, facing outwards and aligned with the rails. The same drill and tap size were used as for the fixed belt tensioners (4mm drill, M5 drill tap).
+2x end-stop mounts (**P08**) were then attached to the same side as the belt tension sliders using 4x 20mm M5 screws (**S12**), facing outwards and aligned with the rails. The same drill and tap size were used as for the fixed belt tensioners (4mm drill, M5 drill tap).
 
 ![attach_tensioners_and_belts_1](./images/build/frame/attach_tensioners_and_belts_1.jpg)
 
@@ -388,7 +388,7 @@ The stepper motors were then inserted into the large holes on the side plates, f
 
 ![attach_tensioners_and_belts_11](./images/build/frame/attach_tensioners_and_belts_11.jpg)
 
-The belt tensioners were loosely attached to the belt tension sliders using 2x 60 mm fully threaded M8 screws, 2x M8 locknuts and 2x (20mm x 10mm x 2mm) washers.
+The belt tensioners (**P18**, **P27**) were loosely attached to the belt tension sliders using 2x 60 mm fully threaded M8 screws (**S15**), 2x M8 nuts(**N03**) and 2x (20mm x 10mm x 2mm) washers (**W04**).
 
 ![attach_tensioners_and_belts_28](./images/build/frame/attach_tensioners_and_belts_28.jpg)
 
@@ -396,7 +396,7 @@ The belt tensioners were loosely attached to the belt tension sliders using 2x 6
 
 ### Y-axis HTD5M belts
 
-The HTD5M belt was first inserted into one of the fixed belt tensioners using a flat screw driver. It was then stretched along the aluminium profile, below the first idler, around the timing pulley, below the second idler and all the way to the belt tensioner.
+The HTD5M belt (**O17**) was first inserted into one of the fixed belt tensioners using a flat screw driver. It was then stretched along the aluminium profile, below the first idler, around the timing pulley, below the second idler and all the way to the belt tensioner.
 
 ![attach_tensioners_and_belts_30](./images/build/frame/attach_tensioners_and_belts_30.jpg)
 
@@ -408,7 +408,7 @@ The HTD5M belt was first inserted into one of the fixed belt tensioners using a 
 
 ![attach_tensioners_and_belts_34](./images/build/frame/attach_tensioners_and_belts_34.jpg)
 
-A scissor was used to cut the belt at an appropriate length. The loose end was then inserted into the belt tensioner using a flat screw driver and the belt was stretched by tightning the M8 locknut.
+A scissor was used to cut the belt at an appropriate length. The loose end was then inserted into the belt tensioner using a flat screw driver and the belt was stretched by tightning the M8 nut.
 
 ![attach_tensioners_and_belts_35](./images/build/frame/attach_tensioners_and_belts_35.jpg)
 
@@ -432,7 +432,7 @@ Repeat on the other side.
 
 ### Rails to bridge beams
 
-The last two 600 mm MGN12H rails were attached to two of the 803 mm aluminium bridge beams (used for the X-axis). First, the MGN12H blocks were carefully removed from the rails.
+The last two 600 mm MGN12H rails (**O21**) were attached to two of the 803 mm aluminium bridge beams (**O05**, used for the X-axis). First, the MGN12H blocks (**O22**) were carefully removed from the rails.
 
 ![attach_rails_to_beams_1](./images/build/frame/attach_rails_to_beams_1.jpg)
 
@@ -440,7 +440,7 @@ The last two 600 mm MGN12H rails were attached to two of the 803 mm aluminium br
 
 The same 100 mm distance used to align the belt tension sliders were used to align the rails. Because they will be off center by 3 mm, make sure that you later attach the bridge beams to the side plates in a way so the rails line up. 
 
-The same 3d-printed support tools used to align the rails on the 900 mm aluminium profiles were used here as well. Everything was clamped into position. A bradawl and a hammer were used to make indentations and a 2 mm drill and a M3 drill tap was used to make the screw holes.
+The same 3d-printed support tools (**P25**) used to align the rails on the 900 mm aluminium profiles were used here as well. Everything was clamped into position. A bradawl and a hammer were used to make indentations and a 2 mm drill and a M3 drill tap was used to make the screw holes.
 
 ![attach_rails_to_beams_3](./images/build/frame/attach_rails_to_beams_3.jpg)
 
@@ -460,7 +460,7 @@ The same 3d-printed support tools used to align the rails on the 900 mm aluminiu
 
 ![attach_rails_to_beams_11](./images/build/frame/attach_rails_to_beams_11.jpg)
 
-The rails were finally attached using 20 mm M3 screws and the rail blocks were gently slided back onto the rails.
+The rails were finally attached using 16 mm M3 screws (**S03**) and the MGN12H  rail blocks (**O22**) were gently slided back onto the rails.
 
 ![attach_rails_to_beams_12](./images/build/frame/attach_rails_to_beams_12.jpg)
 
@@ -472,7 +472,7 @@ The rails were finally attached using 20 mm M3 screws and the rail blocks were g
 
 ### X-axis tensioner and end-stop mount to lower bridge beam
 
-The fixed tensioner and end-stop mount were attached to the lower bridge beam in the same fashion as on the 900 mm aluminium profiles, using M5 screws. When aligning the fixed tensioner, make sure that the "belt opening" is pointing in the direction of the rail. A bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
+The fixed tensioner (**P28**) and end-stop mount (**P08**) were attached to the lower bridge beam in the same fashion as on the 900 mm aluminium profiles, using 4x 20mm M5 screws (**S12**). When aligning the fixed tensioner, make sure that the "belt opening" is pointing in the direction of the rail. A bradawl and a hammer were used to make indentations at the center of the holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap.
 
 ![attach_tensioners_to_beams_1](./images/build/frame/attach_tensioners_to_beams_1.jpg)
 
@@ -500,7 +500,7 @@ The fixed tensioner and end-stop mount were attached to the lower bridge beam in
 
 ### Bridge beams to side plates
 
-All three bridge beams were then inserted into the slots on the side plates. Make sure that the two beams with the rails are on top of each other, with the rails pointing outwards. Also, make sure that you insert them in the correct orientation, so that the rails are lined up (due to the rails being 3 mm off center).
+All three bridge beams (**O05**) were then inserted into the slots on the side plates. Make sure that the two beams with the rails are on top of each other, with the rails pointing outwards. Also, make sure that you insert them in the correct orientation, so that the rails are lined up (due to the rails being 3 mm off center).
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_1.jpg)
 
@@ -510,7 +510,7 @@ All three bridge beams were then inserted into the slots on the side plates. Mak
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_4.jpg)
 
-When the bridge beams were aligned, the blockers were placed in their correct place and a sharpie was used to mark the center of the holes to be drilled. Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes.
+When the bridge beams were aligned, the blocker clips (**P21**, **P22**, **P23**, **P30**, **P31**, **P32**) were placed in their correct place and a sharpie was used to mark the center of the holes to be drilled. Similar to before, a bradawl and a hammer were used to make indentations at the center of the holes.
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_5.jpg)
 
@@ -526,7 +526,7 @@ A 7 mm drill bit was used to drill the holes. As these holes were going straight
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_10.jpg)
 
-The bridge beams were then inserted into the slots on the side plates once more, along with all the blockers. A 140 mm threaded M5 rod was inserted through the bottom two beams and a 60 mm M5 screws was inserted through the top bridge beam. It was all tightened using M5 nuts.
+The bridge beams were then inserted into the slots on the side plates once more, along with all the blocker clips. 2x 140 mm threaded M5 rod (**T01**) was inserted through the bottom two beams and 2x 60 mm M5 (**S14**) screws was inserted through the top bridge beam. It was all tightened using M5 nuts (**N02**).
 
 ![attach_beams_to_side_plates_1](./images/build/frame/attach_beams_to_side_plates_11.jpg)
 
@@ -544,7 +544,7 @@ The bridge beams were then inserted into the slots on the side plates once more,
 
 ### Rod bearings to carriage
 
-Before attaching the carriage to the bridge beams, two KFL08 rod bearings were attached on the top and the bottom of the carriage (inside) using 20 mm M5 screws and M5 locknuts. A tip is to temporarily use the acme rod (used in an upcoming step) to vertically align the two bearings.
+Before attaching the carriage (**P07**) to the bridge beams, two KFL08 rod bearings (**O19**) were attached on the top and the bottom of the carriage (inside) using 4x 20 mm M5 screws (**S12**) and 4x M5 nuts (**N02**). A tip is to temporarily use the acme rod (used in an upcoming step) to vertically align the two bearings.
 
 ![assemble_carriage_1](./images/build/frame/assemble_carriage_1.jpg)
 
@@ -558,7 +558,7 @@ Before attaching the carriage to the bridge beams, two KFL08 rod bearings were a
 
 ### Carriage to bridge beams
 
-The carriage was attached to the four MGN12H blocks on the bridge beams, using 25 mm M3 screws.
+The carriage was attached to the 4x MGN12H blocks (**O22**) on the bridge beams, using 16x 25 mm M3 screws (**S05**).
 
 ![attach_carriage_to_beams_1](./images/build/frame/attach_carriage_to_beams_1.jpg)
 
@@ -570,7 +570,7 @@ The carriage was attached to the four MGN12H blocks on the bridge beams, using 2
 
 ### X-axis motor, idlers and pulley to carriage
 
-Each idler were made up out of one 60 mm fully threaded M8 screw, 3 698zz bearings and 4 (10 mm x 8 mm x 2 mm) washers (1 closest to the idler blocker and 3 closest to the side plate). Two idlers were then attached to each side plate using two M8 nuts. Make sure that the bearings are spinning freely.
+Each idler were made up out of 1x 60 mm fully threaded M8 screw (**S15**), 3x 698zz bearings (**O01**) and 4x (15 mm x 8.5 mm x 1.5mm) washers (**W03**) (1 closest to the idler blocker and 3 closest to the side plate). 2x idlers were then attached to each side plate using 2x M8 nuts (**N03**). Make sure that the bearings are spinning freely.
 
 ![attach_side_plate_motors_1](./images/build/frame/attach_side_plate_motors_1.jpg)
 
@@ -588,7 +588,7 @@ Should be idler blockers and a different number of washers in the upcoming image
 
 ![attach_idlers_motor_to_carriage_5](./images/build/frame/attach_idlers_motor_to_carriage_5.jpg)
 
-To attach the stepper motor to the carriage, the 4 M3 screws locking the gear box to the motor were removed.
+To attach the stepper motor to the carriage, the 4x M3 screws locking the gear box to the motor were removed.
 
 ![attach_idlers_motor_to_carriage_6](./images/build/frame/attach_idlers_motor_to_carriage_6.jpg)
 
@@ -596,7 +596,7 @@ To attach the stepper motor to the carriage, the 4 M3 screws locking the gear bo
 
 ![attach_idlers_motor_to_carriage_8](./images/build/frame/attach_idlers_motor_to_carriage_8.jpg)
 
-The stepper motor was then inserted into the large hole on the carriage, facing towards the bridge beams/idlers. 4 40 mm M3 screws and 4 M3 washers were used to lock the stepper motor onto the carriage. The motor should be attached so that the cables are facing upwards.
+The stepper motor was then inserted into the large hole on the carriage, facing towards the bridge beams/idlers. 4x 40 mm M3 screws (**S06**) and 4x M3 washers (**W05**) were used to lock the stepper motor onto the carriage. The motor should be attached so that the cables are facing upwards.
 
 ![attach_idlers_motor_to_carriage_9](./images/build/frame/attach_idlers_motor_to_carriage_9.jpg)
 
@@ -604,7 +604,7 @@ The stepper motor was then inserted into the large hole on the carriage, facing 
 
 ![attach_idlers_motor_to_carriage_11](./images/build/frame/attach_idlers_motor_to_carriage_11.jpg)
 
-The HTD5M timing pulley was attached to the motor shaft using set screws.
+1x HTD5M timing pulley (**O18**) was attached to the motor shaft using set screws.
 
 ![attach_idlers_motor_to_carriage_12](./images/build/frame/attach_idlers_motor_to_carriage_12.jpg)
 
@@ -612,9 +612,9 @@ The HTD5M timing pulley was attached to the motor shaft using set screws.
 
 ### X-axis HTD5M belt
 
-The HTD5M belt was first inserted into the fixed belt tensioner using a flat screw driver. It was then stretched along the aluminium profile, below the first idler, around the timing pulley, below the second idler and all the way to the other side.
+The HTD5M belt (**O17**) was first inserted into the fixed belt tensioner using a flat screw driver. It was then stretched along the aluminium profile, below the first idler, around the timing pulley, below the second idler and all the way to the other side.
 
-The belt was cut at an appropriate length and inserted into the belt tensioner using a flat screw driver.
+The belt was cut at an appropriate length and inserted into the belt tensioner (**P27**) using a flat screw driver.
 
 ![attach_x_axis_belt_1](./images/build/frame/attach_x_axis_belt_1.jpg)
 
@@ -626,7 +626,7 @@ The belt was cut at an appropriate length and inserted into the belt tensioner u
 
 ![attach_x_axis_belt_5](./images/build/frame/attach_x_axis_belt_5.jpg)
 
-The belt tensioner was then attached to the side plate using a fully threaded M8 screw, a M8 locknut and a (20mm x 10mm x 2mm) washer. The M8 screw in the image is not fully threaded as I lost the one I was suppose to use and had to use another one, so please ignore :)
+The belt tensioner was then attached to the side plate using 1x 60mm fully threaded M8 screw (**S15**), 1x M8 nut (**N03**) and 1x (20mm x 10mm x 2mm) washer (**W04**). The M8 screw in the image is not fully threaded as I lost the one I was suppose to use and had to use another one, so please ignore :)
 
 ![attach_x_axis_belt_6](./images/build/frame/attach_x_axis_belt_6.jpg)
 
@@ -638,7 +638,7 @@ Make sure that the belt is not too loose and not too tight.
 
 ### Acme nut and rails to carriage slider
 
-An acme nut was inserted from the outside, into the the center hole at the top of the vertical carriage slider. It was locked in place using 4 25 mm M3 screws.
+1x acme nut (**O03**) was inserted from the outside, into the the center hole at the top of the vertical carriage slider (**P36**). It was locked in place using 4x 25mm M3 screws (**S05**).
 
 ![assemble_carriage_6](./images/build/frame/assemble_carriage_6_0.jpg)
 
@@ -648,7 +648,7 @@ An acme nut was inserted from the outside, into the the center hole at the top o
 
 ![assemble_carriage_8](./images/build/frame/assemble_carriage_8.jpg)
 
-The two smaller 200 mm MGN12H rails were then attached to the back of the vertical carriage slider. First, the MGN12H blocks were carefully removed from each rail. After that, the rails were screwed in place on the back of the vertical carriage slider using 20 mm M3 screws. The MGN12H blocks were then slided back on and each end were blocked using tape. 
+2x smaller 200 mm MGN12H rails (**O20**) were then attached to the back of the vertical carriage slider. First, the MGN12H blocks (**O22**) were carefully removed from each rail. After that, the rails were screwed in place on the back of the vertical carriage slider using 16x 20 mm M3 screws (**S04**). The MGN12H blocks were then slided back on and each end were blocked using tape. 
 
 ![assemble_carriage_9](./images/build/frame/assemble_carriage_9.jpg)
 
@@ -662,7 +662,7 @@ The two smaller 200 mm MGN12H rails were then attached to the back of the vertic
 
 ### Acme rod and vertical slider to carriage
 
-To attach the vertical slider to the carriage, 25 mm M3 screws were first inserted into the holes on the carriage. You might need to "open up" the holes using a narrow tool (depending on the direction you 3d-printed the carriage).
+To attach the vertical slider to the carriage, 16x 25 mm M3 screws (**S05**) were first inserted into the holes on the carriage. You might need to "open up" the holes using a narrow tool (depending on the direction you 3d-printed the carriage).
 
 ![assemble_carriage_17](./images/build/frame/assemble_carriage_17.jpg)
 
@@ -670,7 +670,7 @@ To attach the vertical slider to the carriage, 25 mm M3 screws were first insert
 
 ![assemble_carriage_19](./images/build/frame/assemble_carriage_19.jpg)
 
-The acme rod was then inserted through the two KFL08 rod bearings and the acme nut, and the set screws on the bearings were tightened.
+1x acme rod (**O02**) was then inserted through the two KFL08 rod bearings and the acme nut, and the set screws on the bearings were tightened.
 
 ![assemble_carriage_14](./images/build/frame/assemble_carriage_14.jpg)
 
@@ -678,7 +678,7 @@ The acme rod was then inserted through the two KFL08 rod bearings and the acme n
 
 ![assemble_carriage_16](./images/build/frame/assemble_carriage_16.jpg)
 
-The vertical slider was finally attached to the carriage by attaching the 25 mm M3 screws to the MGN12H blocks on the vertical slider.
+The vertical slider was finally attached to the carriage by attaching the previously mentioned 16x 25 mm M3 screws (**S05**) to the MGN12H blocks on the vertical slider.
 
 ![assemble_carriage_20](./images/build/frame/assemble_carriage_20.jpg)
 
@@ -686,11 +686,11 @@ The vertical slider was finally attached to the carriage by attaching the 25 mm 
 
 ### Z motor mount and X-axis cable chain
 
-The first step was to find a good length of the X-axis cable chain. To simplify this process, the X-axis belt was removed to easier move the carriage along the X-axis.
+The first step was to find a good length of the X-axis cable chain (**O09**). To simplify this process, the X-axis belt was removed to easier move the carriage along the X-axis.
 
 ![assemble_carriage_22](./images/build/frame/assemble_carriage_22.jpg)
 
-The Z motor mount and the X-axis cable chain mount were then assembled using 3 25 mm M4 screws, 3 M4 nuts and 3 (8mm x 4mm x 0.5mm) washers.
+The Z motor mount (**P40**) and the X-axis cable chain mount (**P38**) were then attached using 3x 25 mm M4 screws (**S10**), 3x M4 nuts (**N01**) and 3x (10mm x 5mm x 1mm) washers (**W01**).
 
 ![assemble_carriage_23](./images/build/frame/assemble_carriage_23.jpg)
 
