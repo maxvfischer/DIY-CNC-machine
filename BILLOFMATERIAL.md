@@ -163,4 +163,4 @@ This page includes an aggregated overview (incl. images) of all the parts needed
 | O23 | Masking tape                                       | 1      | ![masking_tape](./images/parts/other/masking_tape.jpg)                                             |
 | O24 | Shrinking tubes                                    | NA     | ![shrinking_tubes](./images/parts/other/shrinking_tubes.jpg)                                       |
 | O25 | Cable grommet                                      | 1      | ![cable_grommet](./images/parts/other/cable_grommet.jpg)                                           |
-| O26 | Plywood (approx. 1500x1500mm)                      | 1      | ![plywood](./images/parts/other/plywood.jpg)                                                       |
+| O26 | Plywood (approx. 12x1500x1500mm)                   | 1      | ![plywood](./images/parts/other/plywood.jpg)                                                       |
