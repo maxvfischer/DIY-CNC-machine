@@ -1933,7 +1933,7 @@ The 4 stepper drivers were carefully removed. The microstepping was set to `1/16
 
 As I wanted the emergency stop switch to kill the router as well, the router cable was inserted into the small electronic box to reach the emergency stop switch in the large electronic box.
 
-A round cable grommet was inserted in the left side of the small electronic box, aligned between the two main wire holes.
+A round cable grommet (**O25**) was inserted in the left side of the small electronic box, aligned between the two main wire holes.
 
 The center of the hole was measured and drilled using a 8.5 mm drill. The cable grommet was then inserted and super glue was used to keep it in place.
 
@@ -1949,7 +1949,7 @@ The center of the hole was measured and drilled using a 8.5 mm drill. The cable 
 
 The router cable was then inserted into the cable grommet. Some ordinary soap was used to reduce the friction between the rubber cable grommet and the rubber cable.
 
-A cable tie was closed around the router cable on the inside of the box as a strain relief.
+A cable tie (**O11**) was closed around the router cable on the inside of the box as a strain relief.
 
 ![router_small_box_6](./images/build/frame/router_small_box_6.jpg)
 
@@ -1957,7 +1957,7 @@ A cable tie was closed around the router cable on the inside of the box as a str
 
 ![router_small_box_6_1](./images/build/frame/router_small_box_6_1.jpg)
 
-The large electronic box was opened once more and the router cable was inserted through the flexible conduit into the large electronic box. A cable clip was then used to position the router cable inside the small box.
+The large electronic box was opened once more and the router cable was inserted through the flexible conduit into the large electronic box. A cable clip (**O10**) was then used to position the router cable inside the small box.
 
 The small electronic box was then carefully closed. It's really important that you don't have to force it closed. If that's the case you need to move some cables for it to close smoothly.
 
@@ -1979,7 +1979,7 @@ The blue and brown wires going between the emergency stop switch and the 12V pow
 
 ![router_small_box_13](./images/build/frame/router_small_box_13.jpg)
 
-The three brown wires were inserted and locked into a 3-way Wago 221-413. The three blue wires were also inserted and locked into a 3-way Wago 221-413.
+The three brown wires were inserted and locked into a 3-way Wago 221-413 (**E07**). The three blue wires were also inserted and locked into a 3-way Wago 221-413 (**E07**).
 
 The large electronic box was then carefully closed once more. It's really important that you don't have to force it closed. If that's the case you need to move some cables for it to close smoothly.
 
@@ -1991,7 +1991,7 @@ The large electronic box was then carefully closed once more. It's really import
 
 ### Final test of electrical wiring
 
-The electrical wiring was tested by plugging in a C13 cable into the C14 socket and the C14 switch and emergency stop switch were turned on. But before this was done, I made sure that the router was turned off.
+The electrical wiring was tested by plugging in a C13 cable (**E30**) into the C14 socket and the C14 switch and emergency stop switch were turned on. But before this was done, I made sure that the router was turned off.
 
 The red LED should light up, both fans should rotate and the router should rotate when turned on.
 
@@ -2009,7 +2009,7 @@ The red LED should light up, both fans should rotate and the router should rotat
 
 ### Cut out wasteboard
 
-The length and width of the CNC was measured and a 12 mm plywood was cut out using a vertical panel saw. If you don't have a vertical panel saw, a jigsaw or a circular saw works as well.
+The length and width of the CNC was measured and a 12 mm plywood (**O26**) was cut out using a vertical panel saw. If you don't have a vertical panel saw, a jigsaw or a circular saw works as well.
 
 ![wasteboard_1](./images/build/frame/wasteboard_1.jpg)
 
@@ -2019,7 +2019,7 @@ The length and width of the CNC was measured and a 12 mm plywood was cut out usi
 
 ### Attach wasteboard to CNC
 
-The wasteboard was placed underneath the CNC machine. 7 3d-printed brackets, 14 3.5x20mm screws and 14 (15mm x 5mm x 1mm) washers were used to to keep the wasteboard in place.
+The wasteboard was placed underneath the CNC machine. 7x 3d-printed wasteboard brackets (**P37**), 14x 3.5x20mm screws (**S01**) and 14x (15mm x 5mm x 1mm) washers (**W02**) were used to to keep the wasteboard in place.
 
 ![wasteboard_4](./images/build/frame/wasteboard_4.jpg)
 
@@ -2081,7 +2081,7 @@ You should see a pop-up similar to this:
 
 The unzipped `grbl` directory was opened and the folder `grbl` was chosen. After choosing the folder, a text below the editor appeared stating `Library added to your libraries. Check "Include library" menu`.
 
-A USB cable was connected to the USB on the small electronic box.
+A USB cable was connected to the USB connection on the small electronic box.
 
 Next, connect the Arduino to your computer.
 
@@ -2150,7 +2150,7 @@ UGS was then connected to the Arduino by clicking on plug/socket icon in the top
 
 ### Adjust GRBL configuration
 
-The GRBL configuration enables you to adjust important settings, such as the maximum mm/min rates for different axises and if the end-stops should be used. A full description of all settings can be found here:
+The GRBL configuration enables you to adjust important settings, such as the maximum mm/min rates for different axes and if the end-stops should be used. A full description of all settings can be found here:
 
 [https://github.com/gnea/grbl/blob/master/doc/markdown/settings.md](https://github.com/gnea/grbl/blob/master/doc/markdown/settings.md) (Sep 26, 2021)
 
@@ -2176,7 +2176,7 @@ After the alarm was triggered, UGS was reset by clicking `Soft reset` and `Unloc
 
 #### Calculate and set travel resolutions
 
-The most important settings to adjust is the X-axis, Y-axis and Z-axis travel resolutions. These settings tells GRBL how many steps it should take to move one millimeter. The travel resolution depends on the stepper motor's steps per revolution, the microstepping, the teeth spacing and the number of teeth on the timing pulley (s).
+The most important settings to adjust is the X-axis, Y-axis and Z-axis travel resolutions. These settings tells GRBL how many steps it should take to move one millimeter. The travel resolution depends on the stepper motor's steps per revolution, the microstepping, the teeth spacing and the number of teeth on the timing pulley(s).
 
 The following equation was used to calculate the travel resolution (steps/mm) for each stepper:
 
@@ -2221,5 +2221,10 @@ The X-axis and Y-axis maximum travel were increased to 500:
 * X-axis maximum travel: `$130=200.000` -> `$130 = 500.000`
 * Y-axis maximum travel: `$131=200.000` -> `$131 = 500.000`
 
+## Final notes
+I have a couple of things I want to improve with this build:
 
+* [ ] Build a wasteboard using wasteboard clamps
+* [ ] Design a dust shoe
 
+![cnc_top_gif](./images/cnc_top_gif.gif)
