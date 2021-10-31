@@ -1701,13 +1701,13 @@ One small heatsink was attached to each DRV8825 stepper driver (**E16**).
 
 Before the stepper motors were connected to the CNC shield, the stepper motor drivers' VRef needed to be tuned. The VRef regulates the voltage from the stepper driver to the stepper motor. If the VRefs are set to high, it can damage the stepper motors by supplying to much voltage.
 
-The CNC shield was first attached to the Arduino Uno.
+The CNC shield (**E10**) was first attached to the Arduino Uno (**E09**).
 
 ![vref_stepper_drivers_3](./images/build/frame/vref_stepper_drivers_3.jpg)
 
 ![vref_stepper_drivers_4](./images/build/frame/vref_stepper_drivers_4.jpg)
 
-The four stepper drivers were then attached to the CNC shield, one for each axis (X, Y, Z) and one for the mirrored Y-axis (A). The stepper drivers were inserted so that the "EN" pins on the stepper drivers aligned with the EN female input on the CNC shield.
+The four stepper drivers were then attached to the CNC shield, one for each axis (X, Y, Z) and one for the mirrored Y-axis (A). The stepper drivers were inserted so that the "EN" pins on the stepper drivers aligned with the EN female terminal on the CNC shield.
 
 ![vref_stepper_drivers_5](./images/build/frame/vref_stepper_drivers_5.jpg)
 
@@ -1715,14 +1715,14 @@ The four stepper drivers were then attached to the CNC shield, one for each axis
 
 ![vref_stepper_drivers_7](./images/build/frame/vref_stepper_drivers_7.jpg)
 
-A USB cable was connected to the Arduino Uno and to a computer to supply the Arduino with power. 
+A USB cable (**E28**) was connected to the Arduino Uno and to a computer to supply the Arduino with power. 
 
 The power wires connected to the 12v power supply were connected to the CNC shield:
 
 * Red cable -> **+**
 * Black cable -> **-**
 
-Power was then added to the system by inserting a C13 cable into the C14 connector on the front panel of the large electronic box.
+Power was then added to the system by inserting the C13 cable (**E30**) into the C14 connector on the front panel of the large electronic box.
 
 ![vref_stepper_drivers_8](./images/build/frame/vref_stepper_drivers_8.jpg)
 
@@ -1747,7 +1747,7 @@ To measure the VRef of each stepper driver, the red test probe was connected to 
 
 ### Attach Arduino and solder USB cable
 
-The CNC shield was removed from the Arduino and the Arduino was attached to the back plate of the small electronic box using the small M3 screws unscrewed from the geared stepper motors. The USB cable was left inserted in the Arduino, as there was no space to insert it afterwards.
+The CNC shield was removed from the Arduino and the Arduino was attached to the back plate of the small electronic box using the 4x 5mm M3 screws (**S07**) unscrewed from the geared stepper motors. The USB cable was left inserted in the Arduino, as there was no space to insert it afterwards.
 
 ![arduino_and_usb_1](./images/build/frame/arduino_and_usb_1.jpg)
 
@@ -1768,7 +1768,7 @@ Each wire was stripped and twisted.
 
 ![arduino_and_usb_3_1](./images/build/frame/arduino_and_usb_3_1.jpg)
 
-A female USB-A was inserted into the front plate of the small electronic box. By using a soldering iron, solder/filler metal was first added to each pin on the female USB-A before attaching the wires, to simplify the soldering. 
+A female USB-A (**E29**) was inserted into the front plate of the small electronic box. By using a soldering iron, solder/filler metal was first added to each pin on the female USB-A before attaching the wires, to simplify the soldering. 
 
 ![arduino_and_usb_4](./images/build/frame/arduino_and_usb_4.jpg)
 
@@ -1792,7 +1792,7 @@ When the correct pin-wire-mapping was found, the wires were soldered one by one,
 
 ![arduino_and_usb_10](./images/build/frame/arduino_and_usb_10.jpg)
 
-Finally, a 3d-printed block was glued to the female USB-A connector and the back of the front panel to lock it into place.
+Finally, a 3d-printed block (**P33**) was glued to the female USB-A connector and the back of the front panel to lock it into place.
 
 ![arduino_and_usb_11](./images/build/frame/arduino_and_usb_11.jpg)
 
@@ -1804,13 +1804,13 @@ Finally, a 3d-printed block was glued to the female USB-A connector and the back
 
 ### Stepper and end-stop cable management to small electronic box
 
-The CNC shield was attached to the Arduino and 6 3d-printed strain relief halves were inserted into the holes on the sides of the small electronic box.
+The CNC shield was attached to the Arduino and 6x 3d-printed strain relief halves (**P11**) were inserted into the holes on the sides of the small electronic box.
 
 ![steppers_to_cnc_shield_1](./images/build/frame/steppers_to_cnc_shield_1.jpg)
 
 ![steppers_to_cnc_shield_2](./images/build/frame/steppers_to_cnc_shield_2.jpg)
 
-Two flexible conduits were cut out to reach between the end of the Y-axis cable chain and the two holes in the small box. A hole was then drilled in the upper flexible conduit for the Y-axis end-stop wires. To do this, the upper flexible conduit was placed where it was intended to be and tape was used to indicate the position of the hole. 
+Two flexible conduits (**O13**) were cut out to reach between the end of the Y-axis cable chain and the two holes in the small box. A hole was then drilled in the upper flexible conduit for the Y-axis end-stop wires to enter. To do this, the upper flexible conduit was placed where it was intended to be and tape was used to indicate the position of the hole. 
 
 A drill was then used to create the hole in the upper flexible conduit.
 
@@ -1822,7 +1822,7 @@ A drill was then used to create the hole in the upper flexible conduit.
 
 ![steppers_to_cnc_shield_6](./images/build/frame/steppers_to_cnc_shield_6.jpg)
 
-The Y-axis end-stop wires were inserted into the hole, followed by half of the wires coming from the Y-axis cable chain. The rest of the wires were inserted into the lower flexible conduit.
+The Y-axis end-stop (+ and -) wires were inserted into the hole, followed by half of the wires coming from the Y-axis cable chain. The rest of the wires were inserted into the lower flexible conduit.
 
 To simplify the process, the cables going into the same conduit were taped together.
 
@@ -1832,7 +1832,7 @@ To simplify the process, the cables going into the same conduit were taped toget
 
 ![steppers_to_cnc_shield_9](./images/build/frame/steppers_to_cnc_shield_9.jpg)
 
-The end of the conduits were then placed between the strain relief halves and the front-middle part of the box were carefully attached to the frame, locking the strain reliefs and the conduits in place.
+The end of the conduits were then placed between the strain relief halves and the front-middle part of the box were carefully attached to the frame again, locking the strain reliefs and the flexible conduits in place.
 
 ![steppers_to_cnc_shield_10](./images/build/frame/steppers_to_cnc_shield_10.jpg)
 
@@ -1840,7 +1840,7 @@ The end of the conduits were then placed between the strain relief halves and th
 
 ### Connect steppers to CNC shield
 
-To keep a good structure of the wires inside the small box, electrical crimp connectors and contact housings were used. This also reduced the risks of shortings and loose wires.
+To keep a good structure of the wires inside the small box, electrical crimp sleeves (**E15**) and contact housings (**E13**) were used. This also reduced the risks of shortings and loose wires.
 
 ![steppers_to_cnc_shield_13](./images/build/frame/steppers_to_cnc_shield_13.jpg)
 
@@ -1848,7 +1848,7 @@ To keep a good structure of the wires inside the small box, electrical crimp con
 
 For each stepper, the wires were cut at an appropriate length to reach to its connection on the CNC shield. Each wire were stripped and twisted. An AWG22/24 crimp connector was then attached to the end of each wire using a crimping tool. A shrinking tube (**O24**) was shrunk around the wires to keep a good structure.
 
-The wires were then inserted and locked into a 1X4 contact housing. Make sure to insert the wires in the correct orinentation, as the crimp connector has a "lock" that interlocks with the contact housing.
+The wires were then inserted and locked into a 1X4 contact housing (**E13**). Make sure to insert the wires in the correct orinentation, as the crimp connector has a "lock" that interlocks with the contact housing.
 
 To know in which order to insert the wires, check the technical specification of your steppers. You should find something like this (given that you've bought bi-polar stepper motors):
 
@@ -1872,13 +1872,13 @@ To know in which order to insert the wires, check the technical specification of
 
 This was done for all four steppers (X, Y, Z, A (mirrored Y)). Tape and a sharpie was used to indicate which contact housing beloning to which stepper. The contact housings were then connected to its connections on the CNC shield.
 
-Note that if any of the steppers are moving in the "wrong" way later on, you can just turn the connection 180 degrees and it will move the opposite way.
+Note that if any of the steppers are moving in the "wrong" direction later on, you can just turn the connection 180 degrees and it will move the opposite way.
 
 ![steppers_to_cnc_shield_20](./images/build/frame/steppers_to_cnc_shield_20.jpg)
 
 ![steppers_to_cnc_shield_21](./images/build/frame/steppers_to_cnc_shield_21.jpg)
 
-Finally, two jumpers were attached to the blue and yellow column on the "Y row". This tells the Arduino to mirror the Y-stepper instructions to the stepper connected to the **A** connection.
+Finally, two jumpers (**E19**) were attached to the blue and yellow column on the "Y row". This tells the Arduino to mirror the Y-stepper instructions to the stepper connected to the **A** connection.
 
 ![steppers_to_cnc_shield_22](./images/build/frame/steppers_to_cnc_shield_22.jpg)
 
@@ -1888,13 +1888,13 @@ Finally, two jumpers were attached to the blue and yellow column on the "Y row".
 
 As with the stepper motor wires, electrical crimp connectors were used to keep a good structure in the small electornic box.
 
-For each end-stop, the two wires were cut at an appropriate length to reach to its connection on the CNC shield. Each wire were stripped and twisted. An AWG22/24 crimp connector was then attached to the end of each wire using a crimping tool. 
+For each end-stop, the two wires were cut at an appropriate length to reach to its connection on the CNC shield. Each wire were stripped and twisted. An AWG22/24 crimp connector (**E15**) was then attached to the end of each wire using a crimping tool. 
 
 ![endstops_to_cnc_shield_1](./images/build/frame/endstops_to_cnc_shield_1.jpg)
 
 ![endstops_to_cnc_shield_2](./images/build/frame/endstops_to_cnc_shield_2.jpg)
 
-As I didn't have access to any 1x2 contact housings, a shrinking tube (**O24**) was shrunk around each crimp connectors to reduce the risk of shorts.
+As I didn't have access to any 1x2 contact housings (**E12**), a shrinking tube (**O24**) was shrunk around each crimp connectors to reduce the risk of shorts.
 
 This was done for all end-stops (X+, X-, Y+, Y- and Z+). Tape and a sharpie was used to indicate which pair of wires beloning to which end-stop. The crimp connector pairs were then connected to its connections on the CNC shield.
 
@@ -1921,7 +1921,7 @@ The 6 pins (M0, M1, M2) underneath each stepper driver were used to set the micr
 | 1/16          | 0  | 0  | 1  |
 | 1/32          | 1  | 0  | 1  |
 
-The 4 stepper drivers were carefully removed. The microstepping was set to `1/16` for each motor by shorting the two `M2` pins using jumpers. The stepper drivers were then carefully inserted back again.
+The 4 stepper drivers were carefully removed. The microstepping was set to `1/16` for each motor by shorting the two `M2` pins using jumpers (**E19**). The stepper drivers were then carefully inserted back again.
 
 ![set_microstepping_1](./images/build/frame/set_microstepping_1.jpg)
 
