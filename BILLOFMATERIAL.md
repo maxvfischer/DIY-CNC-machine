@@ -110,7 +110,7 @@ This page includes an aggregated overview (incl. images) of all the parts needed
 | E13      | C-GRID III contact housing, 2.54mm (1X4)                          | 4              | ![contact_housing](./images/parts/electronics/contact_housing.jpg)                             |
 | E14      | C14 terminal                                                      | 1              | ![c14_terminal](./images/parts/electronics/c14_terminal.jpg)                                   |
 | E15      | Crimp sleeve C-GRID III AWG 22/24                                 | 26             | ![crimp_sleeve](./images/parts/electronics/crimp_sleeve.jpg)                                   |
-| E16      | DRB8825 stepper drivers                                           | 4              | ![stepper_drivers](./images/parts/electronics/stepper_drivers.jpg)                             |
+| E16      | DRV8825 stepper drivers                                           | 4              | ![stepper_drivers](./images/parts/electronics/stepper_drivers.jpg)                             |
 | E17      | Emergency stop switch (KJD17B)                                    | 1              | ![emergency_stop_switch](./images/parts/electronics/emergency_stop_switch.jpg)                 |
 | E18      | Geared (19:1) bipolar stepper motor (Nema 17, 8mm shaft diameter) | 3              | ![NEMA17_geared](./images/parts/electronics/NEMA17_geared.jpg)                                 |
 | E19      | Jumpers                                                           | 6              | ![jumpers](./images/parts/electronics/jumpers.jpg)                                             |
