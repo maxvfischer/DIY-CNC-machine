@@ -866,22 +866,22 @@ The non-geared NEMA17 stepper motor (**E11**) was attached to the Z-axis motor m
 
 ### Extend stepper motor wires
 
-All 4 stepper motors (x2 Y-axis, x1 X-axis and x1 Z-axis) get their power and movement instructions from the Arduino + CNC shield that in a later step will be attached in the small electronic box. Therefore, the stepper motor cables needed to be extended to reach through the cable chains all the way to the front of the machine, where the small electronic box will be located.
+All 4 stepper motors (2x Y-axis, 1x X-axis and 1x Z-axis) get their power and movement instructions from the Arduino + CNC shield that in a later step will be attached in the small electronic box. Therefore, the stepper motor cables needed to be extended to reach through the cable chains all the way to the front of the machine, where the small electronic box will be located.
 
-AWG22 cables of matching colors were used when increasing the length of the stepper motor cables. The same process was used for all the motors:
+AWG22 cables (**E08**) of matching colors were used when increasing the length of the stepper motor cables. The same process was used for all the motors:
 
-1. The amount of cables needed to reach all the way to the electronic box was approximated and cut. Make sure to have an extra ~300 mm of cables from the point where the cables exits the Y-axis cable chain, as this will be needed to reach the small electronic box.
-2. The ends of the stepper cables and the AWG22 cables were stripped using a wire stripper.
-3. The colors of the stepper cables and the AWG22 cables were matched up and the stripped ends of the cables were twisted around each other.
-4. The twisted cables where then locked in a steady position by a "third hand".
-5. Soldering grease was applied to the twisted cables and the cables were soldered together.
-6. 4 shrinking tubes (one per cable) were shrunk around the now soldered twisted cables, covering the soldering.
+1. The amount of wires needed to reach all the way to the electronic box was approximated and cut. Make sure to have an extra ~300 mm wire from the point where the wires exits the Y-axis cable chain, as this will be needed to reach the small electronic box.
+2. The ends of the original stepper wires and the extra AWG22 wires were stripped using a wire stripper.
+3. The colors of the original stepper wires and the extra AWG22 wires were matched up and the stripped ends of the wires were twisted around each other.
+4. The twisted wires where then locked in a steady position by a "third hand".
+5. Soldering grease was applied to the twisted wires and the wires were soldered together.
+6. 4 shrinking tubes (one per cable) were shrunk around the now soldered twisted wires, covering the soldering.
 7. A handful of larger shrinking tubes were shrunk around all 4 wires to keep them together.
-8. Finally, the cables were marked using tape and a penn, indicating which stepper motor the cables belonged to. This is important as it will help a lot later on, when the stepper motors are connected to the Arduino.
+8. Finally, the wires were marked using tape and a penn, indicating which stepper motor the wires belonged to. This is important as it will help a lot later on, when the stepper motors are connected to the Arduino.
 
 #### Y-axis 1
 
-The extended cables of the first Y-axis stepper motor were cut at a length so that they reached through the lower front bridge beam (see red arrow on the next image) and through the Y-axis cable chain going to the front of the CNC machine.
+The extended wires of the first Y-axis stepper motor were cut at a length so that they reached through the lower front bridge beam (see red arrow on the next image) and through the Y-axis cable chain going to the front of the CNC machine.
 
 ![solder_steppers_y_axis_1](./images/build/frame/solder_steppers_y_axis_1.jpg)
 
@@ -907,7 +907,7 @@ The extended cables of the first Y-axis stepper motor were cut at a length so th
 
 #### Y-axis 2
 
-The extended cables of the second Y-axis stepper motor were cut at a length so that they reached through the Y-axis cable chain going to the front of the CNC machine.
+The extended wires of the second Y-axis stepper motor were cut at a length so that they reached through the Y-axis cable chain going to the front of the CNC machine.
 
 ![solder_steppers_y_axis_11](./images/build/frame/solder_steppers_y_axis_11.jpg)
 
@@ -931,9 +931,9 @@ The extended cables of the second Y-axis stepper motor were cut at a length so t
 
 #### X-axis
 
-I ran out of AWG22 cables when soldering the X-axis stepper motor cables, therefore you will see different type of cables in the upcoming images. Because of this, I had to insert the shrinking tubes before I soldered the cables. Please disregard this and follow the previous instructions.
+I ran out of AWG22 wires when soldering the X-axis stepper motor cables, therefore you will see different type of cables in the upcoming images. Because of this, I had to insert the shrinking tubes before I soldered the cables. Please disregard this and follow the previous instructions.
 
-The extended cables of the X-axis stepper motor were cut at a length so that they reached up and behind the Z-axis stepper motor, through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine.
+The extended wire of the X-axis stepper motor were cut at a length so that they reached up and behind the Z-axis stepper motor, through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine.
 
 ![solder_steppers_x_axis_1.jpg](./images/build/frame/solder_steppers_x_axis_1.jpg)
 
@@ -953,9 +953,9 @@ The extended cables of the X-axis stepper motor were cut at a length so that the
 
 #### Z-axis
 
-The non-geared NEMA17 motor used for the Z-axis had a removable cable, in contrast to the 1:19 geared NEMA17 motors that had non-removable cables. The first step was therefore to connect the cables to the NEMA17 motor and cut of the connector on the other side using a scissor. Otherwise, the same procedure was followed as for the other motors.
+The non-geared NEMA17 motor used for the Z-axis had removable wires, in contrast to the 1:19 geared NEMA17 motors that had non-removable wires. The first step was therefore to connect the wires to the NEMA17 motor and cut of the connector on the other side using a scissor. Otherwise, the same procedure was followed as for the other motors.
 
-The extended cables of the Z-axis stepper motor were cut at a length so that they reached through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine.
+The extended wires of the Z-axis stepper motor were cut at a length so that they reached through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine.
 
 ![solder_steppers_z_axis_1.jpg](./images/build/frame/solder_steppers_z_axis_1.jpg)
 
@@ -979,13 +979,13 @@ The extended cables of the Z-axis stepper motor were cut at a length so that the
 
 ### End-stops and end-stop wires
 
-End-stoppers are important, as they do not only enable you to home the CNC machine, but they also limit the CNC machine from moving past what is physically possible. When the end-stoppers are triggered, an alarm is fired and the machine automatically stops.
+End-stops are important, as they do not only enable you to home the CNC machine, but they also limit the CNC machine from moving past what is physically possible. When the end-stops are triggered, an alarm is fired and the machine automatically stops.
 
-The wires used for end-stops were 0.75 mm^2.
+The wires used for end-stops were 0.75 mm^2 (**E03**).
 
 #### X-axis (max)
 
-A microswitch was attached to the X-axis max end-stop mount using 2 10mm M3 screws.
+A microswitch (**E21**) was attached to the thick X-axis (+) end-stop mount (**P10**) using 2x 12mm M3 screws (**S02**).
 
 ![attach_endstoppers_x_axis_1](./images/build/frame/attach_endstoppers_x_axis_1.jpg)
 
@@ -1003,7 +1003,7 @@ Please ignore the flexible conduit/hose in the next two images, it will be added
 
 ![attach_endstoppers_x_axis_7](./images/build/frame/attach_endstoppers_x_axis_7.jpg)
 
-The end-stop mount was then clamped to the upper bridge beam and a small drill (-2 mm) was used to carefully make indentations at the center of the holes. The end-stop mount was then removed. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The end-stop mount was then attached to the upper bridge beam using 2 40 mm M5 screws.
+The end-stop mount was then clamped to the upper bridge beam and a small drill (-2 mm) was used to carefully make indentations at the center of the holes. The end-stop mount was then removed. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The end-stop mount was then attached to the upper bridge beam using 2x 40 mm M5 screws (**S13**).
 
 ![attach_endstoppers_x_axis_8](./images/build/frame/attach_endstoppers_x_axis_8.jpg)
 
@@ -1023,7 +1023,7 @@ The end-stop mount was then clamped to the upper bridge beam and a small drill (
 
 ![attach_endstoppers_x_axis_16](./images/build/frame/attach_endstoppers_x_axis_16.jpg)
 
-One black and one red 0.75 mm^2 cable were cut out at a length so that they reached from the X-axis max end-stop to the right side plate, through the top bridge beam and through the Y-axis cable chain to the front of the CNC machine. A handful of shrinking tubes were shrunk around the cables to keep them together.
+One black and one red 0.75 mm^2 wire (**E03**) were cut out at a length so that they reached from the X-axis max end-stop to the right side plate, through the top bridge beam and through the Y-axis cable chain to the front of the CNC machine. A handful of shrinking tubes (**O24**) were shrunk around the wires to keep them together.
 
 ![attach_endstoppers_x_axis_17](./images/build/frame/attach_endstoppers_x_axis_17.jpg)
 
@@ -1031,7 +1031,7 @@ One black and one red 0.75 mm^2 cable were cut out at a length so that they reac
 
 ![attach_endstoppers_x_axis_19](./images/build/frame/attach_endstoppers_x_axis_19.jpg)
 
-One end of the cables were taped together and inserted through the upper bridge beam to the side plate on the other side.
+One end of the wires were taped together and inserted through the upper bridge beam to the side plate on the other side.
 
 ![attach_endstoppers_x_axis_20](./images/build/frame/attach_endstoppers_x_axis_20.jpg)
 
@@ -1039,7 +1039,7 @@ One end of the cables were taped together and inserted through the upper bridge 
 
 ![attach_endstoppers_x_axis_22](./images/build/frame/attach_endstoppers_x_axis_22.jpg)
 
-A flexible conduit/hose was then cut out and the other side of the cables were inserted through the conduit. The flexible conduit was then inserted ~50 mm into the upper bridge beam and the other side was attached to the outside of the upper bridge beam using cable ties.
+A flexible conduit/hose (**O13**) was then cut out and the other side of the cables were inserted through the conduit. The flexible conduit was then inserted ~50 mm into the upper bridge beam and the other side was attached to the outside of the upper bridge beam using cable ties (**O11**).
 
 ![attach_endstoppers_x_axis_23](./images/build/frame/attach_endstoppers_x_axis_23.jpg)
 
@@ -1047,7 +1047,7 @@ A flexible conduit/hose was then cut out and the other side of the cables were i
 
 ![attach_endstoppers_x_axis_25](./images/build/frame/attach_endstoppers_x_axis_25.jpg)
 
-The end of the cables were stripped and twisted. Two 2.8 mm spade connectors were then attached to the stripped cables using a plier. The red cable were then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
+The end of the wires were stripped and twisted. Two 2.8 mm spade connectors (**E25**) were then attached to the stripped wires using a plier. The red wire was then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
 
 ![attach_endstoppers_x_axis_26](./images/build/frame/attach_endstoppers_x_axis_26.jpg)
 
@@ -1059,13 +1059,13 @@ The end of the cables were stripped and twisted. Two 2.8 mm spade connectors wer
 
 ![attach_endstoppers_x_axis_30](./images/build/frame/attach_endstoppers_x_axis_30.jpg)
 
-Finally, the open end of the cables were marked using tape and a penn, indicating which end-stop the cables belonged to. This is important as it will help a lot later on, when the end-stops are connected to the Arduino.
+Finally, the open end of the wires were marked using tape (**O23**) and a penn, indicating which end-stop the cables belonged to. This is important as it will help a lot later on, when the end-stops are connected to the Arduino.
 
 ![attach_endstoppers_x_axis_31](./images/build/frame/attach_endstoppers_x_axis_31.jpg)
 
 #### X-axis (min)
 
-A microswitch was attached to the X-axis min end-stop mount using 2 10mm M3 screws.
+A microswitch (**E21**) was attached to the X-axis end-stop (-) mount (**P08**) using 2x 12mm M3 screws (**S02**).
 
 ![attach_endstoppers_x_axis_32_0](./images/build/frame/attach_endstoppers_x_axis_32_0.jpg)
 
@@ -1073,7 +1073,7 @@ A microswitch was attached to the X-axis min end-stop mount using 2 10mm M3 scre
 
 ![attach_endstoppers_x_axis_32_2](./images/build/frame/attach_endstoppers_x_axis_32_2.jpg)
 
-One black and one red 0.75 mm^2 cable were cut out at a length so that they reached from the X-axis min end-stop, around the left side plate, through the Y-axis cable chain to the front of the CNC machine. A handful of shrinking tubes were shrunk around the cables to keep them together.
+One black and one red 0.75 mm^2 wire (**E03**) were cut out at a length so that they reached from the X-axis end-stop (-), around the left side plate, through the Y-axis cable chain to the front of the CNC machine. A handful of shrinking tubes (**O24**) were shrunk around the wires to keep them together.
 
 ![attach_endstoppers_x_axis_32](./images/build/frame/attach_endstoppers_x_axis_32.jpg)
 
@@ -1081,9 +1081,9 @@ One black and one red 0.75 mm^2 cable were cut out at a length so that they reac
 
 ![attach_endstoppers_x_axis_34](./images/build/frame/attach_endstoppers_x_axis_34.jpg)
 
-The end of the cables were stripped and twisted. Two 2.8 mm spade connectors were then attached to the stripped cables using a plier. The red cable were then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
+The end of the wires were stripped and twisted. Two 2.8 mm spade connectors (**E25**) were then attached to the stripped wires using a plier. The red wire was then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
 
-The cables were initially strapped around the lower front bridge beam (seen in the first two images), but as it turned out it blocked the belt tensioner. So they were instead strapped around the M8 tensioner screw, using a cable tie. 
+The wires were initially strapped around the lower front bridge beam (seen in the first two images), but as it turned out it blocked the belt tensioner. So they were instead strapped around the M8 tensioner screw, using a cable tie (**O11**). 
 
 ![attach_endstoppers_x_axis_36](./images/build/frame/attach_endstoppers_x_axis_36.jpg)
 
@@ -1091,13 +1091,13 @@ The cables were initially strapped around the lower front bridge beam (seen in t
 
 ![attach_endstoppers_x_axis_38](./images/build/frame/attach_endstoppers_x_axis_38.jpg)
 
-Finally, the open end of the cables were marked using tape and a penn, indicating which end-stop the cables belonged to.
+Finally, the open end of the wires were marked using tape and a penn, indicating which end-stop the cables belonged to.
 
 ![attach_endstoppers_x_axis_39](./images/build/frame/attach_endstoppers_x_axis_39.jpg)
 
 #### Y-axis (max)
 
-The Y-axis max end-stop mount was clamped to the inner side of the upper frame and a sharpie was used to indicate the center of the holes. Note that this end-stop mount can probably be redesigned to gain an extra ~10 mm of Y-axis movement, something I will probably do in the future.
+The tall Y-axis end-stop (+) mount (**P09**) was clamped to the inner side of the upper frame and a sharpie was used to indicate the center of the holes. Note that this end-stop mount can probably be redesigned to gain an extra ~10 mm of Y-axis movement, something I will probably do in the future.
 
 ![attach_endstoppers_y_axis_1](./images/build/frame/attach_endstoppers_y_axis_1.jpg)
 
@@ -1107,7 +1107,7 @@ The Y-axis max end-stop mount was clamped to the inner side of the upper frame a
 
 ![attach_endstoppers_y_axis_4](./images/build/frame/attach_endstoppers_y_axis_4.jpg)
 
-A bradawl and a hammer were then used to make indentations at the center of the holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The end-stop mount was then attached to the inside of the upper frame using 2 20 mm M5 screws.
+A bradawl and a hammer were then used to make indentations at the center of the holes. Cutting fluid was applied and a 4 mm drill was used to drill the holes, followed by a M5 drill tap. The end-stop mount was then attached to the inside of the upper frame using 2x 20 mm M5 screws (**S12**).
 
 ![attach_endstoppers_y_axis_5](./images/build/frame/attach_endstoppers_y_axis_5.jpg)
 
@@ -1125,7 +1125,7 @@ A bradawl and a hammer were then used to make indentations at the center of the 
 
 ![attach_endstoppers_y_axis_12](./images/build/frame/attach_endstoppers_y_axis_12.jpg)
 
-One black and one red 0.75 mm^2 cable were cut out at a length so that they reached from the Y-axis max end-stop and through the 900 mm aluminium profile of the upper frame to the front of the CNC machine.
+One black and one red 0.75 mm^2 wire (**E03**) were cut out at a length so that they reached from the Y-axis end-stop (+) and through the 900 mm aluminium profile of the upper frame to the front of the CNC machine.
 
 ![attach_endstoppers_y_axis_13](./images/build/frame/attach_endstoppers_y_axis_13.jpg)
 
@@ -1133,7 +1133,7 @@ One black and one red 0.75 mm^2 cable were cut out at a length so that they reac
 
 ![attach_endstoppers_y_axis_15](./images/build/frame/attach_endstoppers_y_axis_15.jpg)
 
-A microswitch was attached to the Y-axis max end-stop mount using 2 10mm M3 screws.
+A microswitch (**E21**) was attached to the tall Y-axis end-stop (+) mount using 2x 12mm M3 screws (**S02**).
 
 ![attach_endstoppers_y_axis_17](./images/build/frame/attach_endstoppers_y_axis_17.jpg)
 
@@ -1141,7 +1141,7 @@ A microswitch was attached to the Y-axis max end-stop mount using 2 10mm M3 scre
 
 ![attach_endstoppers_y_axis_19](./images/build/frame/attach_endstoppers_y_axis_19.jpg)
 
-A flexible conduit/hose was then cut out and the cables were inserted through the conduit. The flexible conduit was then inserted ~50 mm into the 900 mm aluminium profile of the upper frame. The other side was bent around and attached to the outside of the upper frame using cable ties.
+A flexible conduit/hose (**O13**) was then cut out and the wires were inserted through the conduit. The flexible conduit was then inserted ~50 mm into the 900 mm aluminium profile of the upper frame. The other side was bent around and attached to the outside of the upper frame using cable ties (**O11**).
 
 ![attach_endstoppers_y_axis_20](./images/build/frame/attach_endstoppers_y_axis_20.jpg)
 
@@ -1149,19 +1149,19 @@ A flexible conduit/hose was then cut out and the cables were inserted through th
 
 ![attach_endstoppers_y_axis_22](./images/build/frame/attach_endstoppers_y_axis_22.jpg)
 
-The end of the cables were stripped and twisted. Two 2.8 mm spade connectors were then attached to the stripped cables using a plier. The red cable were then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
+The end of the wires were stripped and twisted. Two 2.8 mm spade connectors (**E25**) were then attached to the stripped wires using a plier. The red wire was then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
 
 ![attach_endstoppers_y_axis_23](./images/build/frame/attach_endstoppers_y_axis_23.jpg)
 
 ![attach_endstoppers_y_axis_24](./images/build/frame/attach_endstoppers_y_axis_24.jpg)
 
-Finally, the open end of the cables were marked using tape and a penn, indicating which end-stop the cables belonged to.
+Finally, the open end of the wires were marked using tape and a penn, indicating which end-stop the cables belonged to.
 
 ![attach_endstoppers_y_axis_16](./images/build/frame/attach_endstoppers_y_axis_16.jpg)
 
 #### Y-axis (min)
 
-A microswitch was attached to the Y-axis min end-stop mount using 2 10mm M3 screws.
+A microswitch (**E21**) was attached to the Y-axis end-stop (-) mount (**P08**) using 2x 12mm M3 screws (**S02**).
 
 ![attach_endstoppers_y_axis_25](./images/build/frame/attach_endstoppers_y_axis_25.jpg)
 
@@ -1169,9 +1169,9 @@ A microswitch was attached to the Y-axis min end-stop mount using 2 10mm M3 scre
 
 ![attach_endstoppers_y_axis_27](./images/build/frame/attach_endstoppers_y_axis_27.jpg)
 
-One black and one red 0.75 mm^2 cable were cut out at a length so that they reached from the Y-axis min end-stop and to the front of the CNC machine.
+One black and one red 0.75 mm^2 wire (**E03**) were cut out at a length so that they reached from the Y-axis end-stop (-) and to the front of the CNC machine.
 
-The end of the cables were stripped and twisted. Two 2.8 mm spade connectors were then attached to the stripped cables using a plier. The red cable were then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
+The end of the wires were stripped and twisted. Two 2.8 mm spade connectors (**E25**) were then attached to the stripped wires using a plier. The red wire were then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
 
 ![attach_endstoppers_y_axis_28](./images/build/frame/attach_endstoppers_y_axis_28.jpg)
 
@@ -1181,7 +1181,7 @@ The end of the cables were stripped and twisted. Two 2.8 mm spade connectors wer
 
 ![attach_endstoppers_y_axis_31](./images/build/frame/attach_endstoppers_y_axis_31.jpg)
 
-A flexible conduit/hose was cut out and the cables were inserted through the conduit. The flexible conduit was attached to the outside of the upper frame using cable ties.
+A flexible conduit/hose (**O13**) was cut out and the wires were inserted through the conduit. The flexible conduit was attached to the outside of the upper frame using cable ties (**O11**).
 
 ![attach_endstoppers_y_axis_33](./images/build/frame/attach_endstoppers_y_axis_33.jpg)
 
@@ -1191,13 +1191,15 @@ A flexible conduit/hose was cut out and the cables were inserted through the con
 
 ![attach_endstoppers_y_axis_35](./images/build/frame/attach_endstoppers_y_axis_35.jpg)
 
+Finally, the open end of the wires were marked using tape and a penn, indicating which end-stop the cables belonged to.
+
 #### Z-axis (max)
 
-The main purpose of the Z-axis max end-stop is, apart from homing the machine, to limit the CNC machine from moving past what the length of the rails allow. As the MGN12H blocks contains a lot of small bearing balls, there's a high risk of them falling out if the blocks move past the rail.
+The main purpose of the Z-axis end-stop (+) is, apart from homing the machine, to limit the CNC machine from moving past what the length of the rails allow. As the MGN12H blocks contains a lot of small bearing balls, there's a high risk of them falling out if the blocks move past the rail.
 
-To reduce the complexity and amount of cables, I chose not to include a Z-axis min end-stop, as you are likely to mill straight through your waste board before there's a risk of moving past the Z-axis min limit. But if you want to add a Z-axis min end-stop, just repeat the process in this section with the new switch flipped around.
+To reduce the complexity and amount of wires, I chose not to include a Z-axis end-stop (-), as you are likely to mill straight through your waste board before there's a risk of moving past the Z-axis min limit. But if you want to add a Z-axis min end-stop, just repeat the process in this section with the new switch flipped around.
 
-First, the carriage was moved upwards to its maximum point, where the blocks are just about to move past the rails. The Z-axis end-stop trigger was then pressed against the outside of the vertical carriage slider and a sharpie was used to mark the center of the holes.
+First, the vertical carriage slider was moved upwards to its maximum point, where the MGN12H blocks are just about to move past the limit of the rails. The Z-axis end-stop trigger (**P39**) was then pressed against the outside of the vertical carriage slider and a sharpie was used to mark the center of the holes.
 
 ![attach_endstoppers_z_axis_1](./images/build/frame/attach_endstoppers_z_axis_1.jpg)
 
@@ -1205,7 +1207,7 @@ First, the carriage was moved upwards to its maximum point, where the blocks are
 
 ![attach_endstoppers_z_axis_3](./images/build/frame/attach_endstoppers_z_axis_3.jpg)
 
-A 2.5 mm drill was used to drill the holes into the vertical carriage slider. A tip is to mark the drill depth needed using tape. The Z-axis end-stop trigger was then attached to the vertical carriage slider using 2 10 mm M3 screws.
+A 2.5 mm drill was used to drill the holes into the vertical carriage slider. A tip is to mark the drill depth needed using tape. The Z-axis end-stop trigger was then attached to the vertical carriage slider using 2x 12 mm M3 screws (**S02**).
 
 ![attach_endstoppers_z_axis_4](./images/build/frame/attach_endstoppers_z_axis_4.jpg)
 
@@ -1215,13 +1217,13 @@ A 2.5 mm drill was used to drill the holes into the vertical carriage slider. A 
 
 ![attach_endstoppers_z_axis_7](./images/build/frame/attach_endstoppers_z_axis_7.jpg)
 
-A microswitch was pressed against the carriage and positioned and aligned to be triggered by the current state of the Z-axis end-stop trigger.
+A microswitch (**E21**) was pressed against the carriage and positioned and aligned to be triggered by the maximum state of the Z-axis end-stop trigger.
 
 ![attach_endstoppers_z_axis_8](./images/build/frame/attach_endstoppers_z_axis_8.jpg)
 
 ![attach_endstoppers_z_axis_9](./images/build/frame/attach_endstoppers_z_axis_9.jpg)
 
-A 2.5 mm drill was used to drill the first hole into the carriage and the microswitch was attached to the carriage using 1 10 mm M3 screw. After the microswitch was locked into position, the second hole was drilled and the second 10 mm M3 screw was attached.
+A 2.5 mm drill was used to drill the first hole into the carriage and the microswitch was attached to the carriage using 1x 12 mm M3 screw (**S02**). After the microswitch was locked into position, the second hole was drilled and the second 12 mm M3 screw (**S02**) was attached.
 
 ![attach_endstoppers_z_axis_10](./images/build/frame/attach_endstoppers_z_axis_10.jpg)
 
@@ -1229,7 +1231,7 @@ A 2.5 mm drill was used to drill the first hole into the carriage and the micros
 
 ![attach_endstoppers_z_axis_12](./images/build/frame/attach_endstoppers_z_axis_12.jpg)
 
-One black and one red 0.75 mm^2 cable were cut at a length so that they reached over the top bridge beam, through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine. A handful of shrinking tubes were shrunk around the cables to keep them together.
+One black and one red 0.75 mm^2 wire (**E03**) were cut at a length so that they reached over the top bridge beam, through the X-axis cable chain and through the Y-axis cable chain to the front of the CNC machine. A handful of shrinking tubes (**O24**) were shrunk around the wires to keep them together.
 
 ![attach_endstoppers_z_axis_13](./images/build/frame/attach_endstoppers_z_axis_13.jpg)
 
@@ -1237,7 +1239,7 @@ One black and one red 0.75 mm^2 cable were cut at a length so that they reached 
 
 ![attach_endstoppers_z_axis_15](./images/build/frame/attach_endstoppers_z_axis_15.jpg)
 
-The end of the cables were stripped and twisted. Two 2.8 mm spade connectors were then attached to the stripped cables using a plier. The red cable were then attached to C (Common terminal) pinout on the end-stop and the black cable was connected to the NO (Normally Open) pinout.
+The end of the wires were stripped and twisted. Two 2.8 mm spade connectors (**E25**) were then attached to the stripped wires using a plier. The red wire was then attached to C (Common terminal) pinout on the end-stop and the black wire was connected to the NO (Normally Open) pinout.
 
 ![attach_endstoppers_z_axis_16](./images/build/frame/attach_endstoppers_z_axis_16.jpg)
 
@@ -1245,9 +1247,9 @@ The end of the cables were stripped and twisted. Two 2.8 mm spade connectors wer
 
 ![attach_endstoppers_z_axis_18](./images/build/frame/attach_endstoppers_z_axis_18.jpg)
 
-The cables were strapped around the M8 screw keeping the Z motor mount attached to the carriage, using a cable tie.
+The wires were strapped around the M8 screw keeping the Z motor mount attached to the carriage, using a cable tie (**O11**).
 
-Finally, the open end of the cables were marked using tape and a penn, indicating which end-stop the cables belonged to.
+Finally, the open end of the wires were marked using tape and a penn, indicating which end-stop the cables belonged to.
 
 ![attach_endstoppers_z_axis_19](./images/build/frame/attach_endstoppers_z_axis_19.jpg)
 
@@ -1255,11 +1257,11 @@ Finally, the open end of the cables were marked using tape and a penn, indicatin
 
 ### Stepper motor and end-stop cable management
 
-To keep a nice structure of all the cables, cable socks and flexible conduits/hoses were used.
+To keep a nice structure of all the wires, braided cable sleeves (**O08**) and flexible conduits/hoses (**O13**) were used.
 
 #### Y-axis steppers and X-axis end-stops
 
-First, the cables from the right-side Y-axis stepper motor were inserted into a small flexible conduit and pushed through the lower bridge beam closest to the carriage.
+First, the wires from the right-side Y-axis stepper motor were inserted into a small flexible conduit and pushed through the lower bridge beam closest to the carriage.
 
 ![stepper_motor_cable_management_1](./images/build/frame/stepper_motor_cable_management_1.jpg)
 
@@ -1267,7 +1269,7 @@ First, the cables from the right-side Y-axis stepper motor were inserted into a 
 
 ![stepper_motor_cable_management_4](./images/build/frame/stepper_motor_cable_management_4.jpg)
 
-The cables from the two Y-axis steppers and the two X-axis end-stops were bundled together into the same cable sock. 
+The wires from the two geared Y-axis stepper motors and the two X-axis end-stops were bundled together into the same cable sleeve. 
 
 ![stepper_motor_cable_management_6](./images/build/frame/stepper_motor_cable_management_6.jpg)
 
@@ -1279,9 +1281,9 @@ The cables from the two Y-axis steppers and the two X-axis end-stops were bundle
 
 ![stepper_motor_cable_management_6_3](./images/build/frame/stepper_motor_cable_management_6_3.jpg)
 
-To simplify pushing the cables through the cable chain, the cables were taped together, leaving no loose ends to get stuck in the chain. This was needed as the cables were longer than the cable sock (to reach all the way to the small electronic box in the front of the CNC machine).
+To simplify pushing the wires and the cable sleeve through the cable chain, the wires were taped together, leaving no loose ends to get stuck in the cable chain. This was needed as the wires were longer than the cable sleeve (to reach all the way to the small electronic box in the front of the CNC machine).
 
-A cable tie was used to close the entrence of the cable sock.
+A cable tie (**O11**) was used to close the entrence of the cable sleeve.
 
 ![stepper_motor_cable_management_6_4](./images/build/frame/stepper_motor_cable_management_6_4.jpg)
 
@@ -1291,7 +1293,7 @@ A cable tie was used to close the entrence of the cable sock.
 
 #### X-axis stepper, Z-axis stepper and Z-axis end-stop
 
-First, the cables from the X-axis stepper motor were inserted into a flexible conduit. The conduit was then bent over the upper bridge beam, strapped to the vaccum mount and Z motor mount, and then pushed behind the Z-axis stepper motor.
+First, the wires from the X-axis stepper motor were inserted into a flexible conduit (**O13**). The conduit was then bent over the upper bridge beam, strapped to the vaccum mount and Z motor mount, and then pushed behind the Z-axis stepper motor.
 
 ![stepper_motor_cable_management_9](./images/build/frame/stepper_motor_cable_management_9.jpg)
 
@@ -1301,11 +1303,11 @@ First, the cables from the X-axis stepper motor were inserted into a flexible co
 
 ![stepper_motor_cable_management_12](./images/build/frame/stepper_motor_cable_management_12.jpg)
 
-The cables from the X-axis stepper, Z-axis stepper and the Z-axis end-stop were bundled together into the same cable sock. The cable sock was cut at a length so that it reached through the X-axis cable chain, around the left side-plate and through the Y-axis cable chain.
+The wires from the X-axis stepper, Z-axis stepper and the Z-axis end-stop were bundled together into the same cable sleeve. The cable sleeve was cut at a length so that it reached through the X-axis cable chain, around the left side-plate and through the Y-axis cable chain.
 
-To simplify pushing the cables through the cable chains, the cables were taped together, leaving no loose ends to get stuck in the cable chains. This was needed as the cables were longer than the cable sock (to reach all the way to the small electronic box in the front of the CNC machine).
+To simplify pushing the wires through the cable chains, the wires were taped together, leaving no loose ends to get stuck in the cable chains. This was needed as the wires were longer than the cable sleeve (to reach all the way to the small electronic box in the front of the CNC machine).
 
-A cable tie was used to close the entrence of the cable sock.
+A cable tie (**O11**) was used to close the entrence of the cable sock.
 
 ![stepper_motor_cable_management_13](./images/build/frame/stepper_motor_cable_management_13.jpg)
 
@@ -1325,7 +1327,7 @@ A cable tie was used to close the entrence of the cable sock.
 
 ![stepper_motor_cable_management_13_8](./images/build/frame/stepper_motor_cable_management_13_8.jpg)
 
-A cable tie was used to strap the cable sock to the left side-plate.
+A cable tie (**O11**) was used to strap the cable sleeve to the left side-plate.
 
 ![stepper_motor_cable_management_13_9](./images/build/frame/stepper_motor_cable_management_13_9.jpg)
 
@@ -1333,9 +1335,9 @@ A cable tie was used to strap the cable sock to the left side-plate.
 
 ### Attach router to carriage
 
-A Makita RT0700C**J** trimming router was used as I was not able to get my hands on the Makita RT0700C that Ivan was recommending. To my knowledge, the RT0700C**J** is just an upgraded European version of the RT0700C, with the same dimensions.
+A Makita RT0700CJ (**E20**) trimming router was used as I was not able to get my hands on the Makita RT0700C that Ivan is using. To my knowledge, the RT0700CJ is just an upgraded European version of the RT0700C, with the same dimensions.
 
-The trimming router was locked in place by using the router bracket, 4 40 mm M5 screws, 4 M5 nuts and 4 (10mm x 5mm x 1mm) washers.
+The trimming router was locked in place by using the router bracket (**P24**), 4x 40mm M5 screws (**S13**), 4x M5 nuts (**N02**) and 4x (10mm x 5mm x 1mm) washers (**W01**).
 
 ![attach_router_to_carriage_1](./images/build/frame/attach_router_to_carriage_1.jpg)
 
@@ -1353,11 +1355,11 @@ The trimming router was locked in place by using the router bracket, 4 40 mm M5 
 
 **NOTE: THIS PART INCLUDES WIRING OF HIGH VOLTAGE ELECTRICITY THAT CAN BE LETHAL IF NOT DONE PROPERLY. THE COLORS OF THE CABLES CAN VARY DEPENDING ON REGION/COUNTRY AND YOUR COMPONENTS/PINOUT NUMBERS MIGHT LOOK DIFFERENT. BEFORE YOU CONNECT THE POWER CORD TO THE POWER OUTLET, YOU MUST CONSULT WITH A LICENSED ELECTRICIAN TO MAKE SURE THAT EVERYTHING IS PROPERLY WIRED AND THAT IT IS IN LINE WITH YOUR LOCAL LEGISLATIONS.**
 
-To be able to easily replace the trimming router in the future, a power plug and socket were added.
+To be able to easily replace the trimming router in the future, a power plug (**E04**) and socket were added (**E05**).
 
 ![router_cable_management_23](./images/build/frame/router_cable_management_23.jpg)
 
-First, the power cord was cut and stripped at an appropriate length to reach behind the X-axis cable chain mount. A flexible conduit was cut out at an appropriate length and the power cord closest to the router was inserted into the conduit. The end of the power cord and the inside wires were then stripped and twisted.
+First, the router's power cord was cut and stripped at an appropriate length to reach behind the X-axis cable chain mount. A flexible conduit (**O13**) was cut out at an appropriate length and the power cord closest to the router was inserted into the conduit. The end of the power cord and the inside wires were then stripped and twisted.
 
 ![router_cable_management_1](./images/build/frame/router_cable_management_1.jpg)
 
@@ -1377,7 +1379,7 @@ The power plug was opened up and the wires were connected. The built-in strain r
 
 ![router_cable_management_8](./images/build/frame/router_cable_management_8.jpg)
 
-The rest of the power cord was inserted through the Y-axis cable chain, around the left side-plate (under the cable tie) and through the X-axis cable chain. Getting the power cord through the X-axis cable chain was quite tricky due to the friction of the rubber cable. A cable tie was therefore attached to the top of the cable and used to pull the cable through the cable chain.
+The rest of the power cord was inserted through the Y-axis cable chain, around the left side plate (under the cable tie) and through the X-axis cable chain. Getting the power cord through the X-axis cable chain was quite tricky due to the friction of the rubber cable. A cable tie (**O11**) was therefore attached to the top of the cable and used to pull the cable through the cable chain.
 
 ![router_cable_management_9](./images/build/frame/router_cable_management_9.jpg)
 
@@ -1411,7 +1413,7 @@ The power socket was opened and the wires were attached to the terminals inside.
 
 ![router_cable_management_22](./images/build/frame/router_cable_management_22.jpg)
 
-The plug and socket were connected and strapped to the back of the X-axis cable chain mount using cable ties. The flexible conduit with the router power cord inside was strapped to the stepper motor conduit. Make sure that it doesn't touch and drag along the upper bridge beam.
+The plug and socket were connected and strapped to the back of the X-axis cable chain mount using cable ties (**O11**). The flexible conduit with the router power cord inside was strapped to the stepper motor flexible conduit using cable ties (**O11**). Make sure that it doesn't touch and drag along the upper bridge beam.
 
 ![router_cable_management_23](./images/build/frame/router_cable_management_23.jpg)
 
@@ -1423,9 +1425,9 @@ Two electronic boxes were attached to the front side of the CNC machine, a large
 
 ### Small electronic box
 
-The small electronic box consisted of 4 parts. The two middle parts were clamped together on the front-left side of the frame, closest to the Y-axis cable chain. A finger was used to feel that the two parts were perfectly lined up.
+The small electronic box consisted of 4 parts (**P02**, **P04**, **P13**, **P15**). The two middle parts were clamped together on the front-left side of the frame, closest to the Y-axis cable chain. A finger was used to feel that the two parts were perfectly lined up.
 
-Make sure to have enought space on the left side of the box for the all the stepper wires, end-stop wires and router power cable to enter the box (the vertical beam might block if you attach it too far to the left). Also make sure that the two holes are pointing to the left.
+Make sure to have enought space on the left side of the box for the all the stepper motor wires, end-stop wires and router power cable to enter the box (the vertical beam might block if you attach it too far to the left). Also make sure that the two holes are pointing to the left.
 
 ![attach_small_electronic_box_1](./images/build/frame/attach_small_electronic_box_1.jpg)
 
@@ -1433,7 +1435,7 @@ Make sure to have enought space on the left side of the box for the all the step
 
 ![attach_small_electronic_box_3](./images/build/frame/attach_small_electronic_box_3.jpg)
 
-The front-middle part was attached first. A small 2 mm drill was used to make indentations at the center of the holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The front-middle and front part was then attached to the frame using 4 40 mm M4 screws.
+The front-middle part (**P13**) was attached first. A small 2 mm drill was used to make indentations at the center of the holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The front-middle and front part was then attached to the frame using 4x 40mm M4 screws (**S11**).
 
 ![attach_small_electronic_box_4](./images/build/frame/attach_small_electronic_box_4.jpg)
 
@@ -1449,9 +1451,9 @@ The front-middle part was attached first. A small 2 mm drill was used to make in
 
 ![attach_small_electronic_box_10](./images/build/frame/attach_small_electronic_box_10.jpg)
 
-To attach the back-middle part, the whole CNC machine had to be pushed partly over the edge of the working table to be able to drill on the inside of the frame. It was then firmly clamped to the table.
+To attach the back-middle part (**P02**), the whole CNC machine had to be pushed partly over the edge of the working table to be able to drill on the inside of the frame. The machine was firmly clamped to the table.
 
-The back-middle part was again clamped to the frame and aligned with the now attached front-middle part. A small 2 mm drill was used to make indentations at the center of the holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The back-middle and back part was then attached to the frame using 4 25 mm M4 screws.
+The back-middle part was again clamped to the frame and aligned with the now attached front-middle part. A small 2 mm drill was used to make indentations at the center of the holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The back-middle and back part was then attached to the frame using 4x 25mm M4 screws (**S10**).
 
 ![attach_small_electronic_box_11](./images/build/frame/attach_small_electronic_box_11.jpg)
 
@@ -1467,15 +1469,15 @@ The back-middle part was again clamped to the frame and aligned with the now att
 
 ### Large electronic box
 
-As the small box, the large electronic box consisted of 4 parts. The two middle parts were clamped together to the right of the small box. A finger was used to feel that the two parts were perfectly lined up. 
+As the small box, the large electronic box consisted of 4 parts (**P01**, **P03**, **P12**, **P14**). The two middle parts were clamped together to the right of the small box. A finger was used to feel that the two parts were perfectly lined up. 
 
-Make sure that there is enough space between the boxes to fit a wasteboard locking part. Also make sure that the hole is pointing to the left.
+Make sure that the hole is pointing to the left.
 
 ![attach_large_electronic_box_1](./images/build/frame/attach_large_electronic_box_1.jpg)
 
 ![attach_large_electronic_box_1_1](./images/build/frame/attach_large_electronic_box_1_1.jpg)
 
-The front-middle part was attached first. A small 2 mm drill was used to make indentations at the center of the holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The front-middle and front part was then attached to the frame using 4 40 mm M4 screws.
+The front-middle part (**P12**) was attached first. A small 2 mm drill was used to make indentations at the center of the holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The front-middle and front part was then attached to the frame using 4x 40mm M4 screws (**S11**).
 
 ![attach_large_electronic_box_2](./images/build/frame/attach_large_electronic_box_2.jpg)
 
@@ -1491,9 +1493,9 @@ The front-middle part was attached first. A small 2 mm drill was used to make in
 
 ![attach_large_electronic_box_8](./images/build/frame/attach_large_electronic_box_8.jpg)
 
-To attach the back-middle part, the whole CNC machine had to be pushed partly over the edge of the working table to be able to drill on the inside of the frame. It was then firmly clamped to the table.
+To attach the back-middle part (**P01**), the whole CNC machine had to be pushed partly over the edge of the working table to be able to drill on the inside of the frame. The machine was firmly clamped to the table.
 
-The back-middle part was again clamped to the frame and aligned with the now attached front-middle part. A small 2 mm drill was used to make indentations at the center of the holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The back-middle and back part was then attached to the frame using 4 25 mm M4 screws.
+The back-middle part was again clamped to the frame and aligned with the now attached front-middle part. A small 2 mm drill was used to make indentations at the center of the holes. Cutting fluid was applied and a 3 mm drill was used to drill the holes, followed by a M4 drill tap. The back-middle and back part was then attached to the frame using 4x 25mm M4 screws (**S10**).
 
 ![attach_large_electronic_box_9](./images/build/frame/attach_large_electronic_box_9.jpg)
 
@@ -1517,7 +1519,7 @@ The back-middle part was again clamped to the frame and aligned with the now att
 
 The large electronic box was detached from the frame.
 
-The 200W power supply was then attached to the back panel of the larger electronic box using the small M3 screws unscrewed from the geared stepper motors.
+The 200W power supply (**E02**) was then attached to the back panel of the larger electronic box using 4x 5mm M3 screws (**S07**) unscrewed from the geared stepper motors.
 
 ![connect_main_electronic_box_1](./images/build/frame/connect_main_electronic_box_1.jpg)
 
@@ -1525,7 +1527,7 @@ The 200W power supply was then attached to the back panel of the larger electron
 
 ![connect_main_electronic_box_3](./images/build/frame/connect_main_electronic_box_3.jpg)
 
-The C14 connector and the emergency stop switch were inserted into the holes on the front plate of the large electronic box. 
+The C14 connector/terminal (**E14**) and the emergency stop switch (**E17**) were inserted into the holes on the front plate of the large electronic box. 
 
 ![connect_main_electronic_box_4](./images/build/frame/connect_main_electronic_box_4.jpg)
 
@@ -1533,7 +1535,7 @@ The C14 connector and the emergency stop switch were inserted into the holes on 
 
 ![connect_main_electronic_box_6](./images/build/frame/connect_main_electronic_box_6.jpg)
 
-A small brown wire was cut out and the ends were stripped and twisted. Two 4.8 mm spade connectors were then attached to the stripped wire using a plier. The space connectors were connected between **10** and **1A** on the back side of the C14 connector.
+A small brown/red wire (**E06**) was cut out and the ends were stripped and twisted. Two 4.8 mm spade connectors (**E26**) were then attached to the stripped wire using a plier. The space connectors were connected between **10** and **1A** on the back side of the C14 connector.
 
 ![connect_main_electronic_box_7](./images/build/frame/connect_main_electronic_box_7.jpg)
 
@@ -1543,7 +1545,7 @@ A small brown wire was cut out and the ends were stripped and twisted. Two 4.8 m
 
 ![connect_main_electronic_box_10](./images/build/frame/connect_main_electronic_box_10.jpg)
 
-A longer brown wire was cut out to reach between **L** on the C14 connector and **13** on the emergency stop switch. The ends were stripped and twisted. A 4.8 mm spade connector was attached to the side connected to the C14 connector and a 6.3 mm space connector was attached to the side connected to the emergency stop switch. The spade connectors were then connected.
+A longer brown wire was cut out to reach between **L** on the C14 connector and **13** on the emergency stop switch. The ends were stripped and twisted. A 4.8 mm spade connector (**E26**) was attached to the side connected to the C14 connector and a 6.3 mm space connector (**E27**) was attached to the side connected to the emergency stop switch. The spade connectors were then connected.
 
 ![connect_main_electronic_box_11](./images/build/frame/connect_main_electronic_box_11.jpg)
 
@@ -1555,13 +1557,13 @@ Two short and one longer blue wire were cut out at an appropriate length and the
 
 ![connect_main_electronic_box_14](./images/build/frame/connect_main_electronic_box_14.jpg)
 
-Two 4.8 mm spade connector were attached to one of the sides of each shorter wire and the other sides were inserted and locked into a 3-way Wago 221-413.
+Two 4.8 mm spade connector (**E26**) were attached to one of the sides of each shorter wire and the other sides were inserted and locked into 1x 3-way Wago 221-413 (**E07**).
 
 ![connect_main_electronic_box_15](./images/build/frame/connect_main_electronic_box_15.jpg)
 
 ![connect_main_electronic_box_16](./images/build/frame/connect_main_electronic_box_16.jpg)
 
-A 6.3 mm space connector was attached to one side of the longer blue wire and the other side were inserted and locked into the 3-way Wago 221-413.
+A 6.3 mm space connector (**E27**) was attached to one side of the longer blue wire and the other side were inserted and locked into the 3-way Wago 221-413 (**E07**).
 
 I didn't have access to matching colors of all the spade connectors, so I followed the appropriate color scheme of the wires instead. So please ignore if there's a mismatch between the wire color and the spade connector color in the upcoming images.
 
@@ -1573,7 +1575,7 @@ The shorter blue wires were connected to **N** and **XX** on the C14 connector. 
 
 ![connect_main_electronic_box_19](./images/build/frame/connect_main_electronic_box_19.jpg)
 
-One brown and one blue wire were cut out to reach between the emergency stop switch and the power supply's input terminals. The ends of the wires were stripped and twisted. Two 6.3 mm space connectors were attached to one side of the wires and two ring terminals were attached to the other side. The blue wire's spade connector was connected to **24** on the emergency stop switch. The brown wire's spade connector was connected to **14** on the emergency stop switch.
+One brown and one blue wire were cut out to reach between the emergency stop switch and the power supply's input terminals. The ends of the wires were stripped and twisted. Two 6.3 mm space connectors (**E27**) were attached to one side of the wires and 2x M4 ring terminals (**E24**) were attached to the other side. The blue wire's spade connector was connected to **24** on the emergency stop switch. The brown wire's spade connector was connected to **14** on the emergency stop switch.
 
 ![connect_main_electronic_box_20](./images/build/frame/connect_main_electronic_box_20.jpg)
 
@@ -1581,13 +1583,13 @@ One brown and one blue wire were cut out to reach between the emergency stop swi
 
 ![connect_main_electronic_box_22](./images/build/frame/connect_main_electronic_box_22.jpg)
 
-A small green/yellow wire was cut out to reach between the C14 connector and the power supply's input terminals. The end of the wire was stripped and twisted, a 4.8 mm spade connector was attached to one side and a ring terminal was attached to the other side. The spade connector was then attached to **⏚** (ground) on the C14 connector.
+A small green/yellow wire was cut out to reach between the C14 connector and the power supply's input terminals. The end of the wire was stripped and twisted, a 4.8 mm spade connector (**E26**) was attached to one side and 1x M4 ring terminal (**E24**) was attached to the other side. The spade connector was then attached to **⏚** (ground) on the C14 connector.
 
 ![connect_main_electronic_box_23](./images/build/frame/connect_main_electronic_box_23.jpg)
 
 ![connect_main_electronic_box_24](./images/build/frame/connect_main_electronic_box_24.jpg)
 
-The three ring terminals were then connected to the power supply's input terminals in the following way:
+The three M4 ring terminals were then connected to the power supply's input terminals in the following way:
 
 * Brown -> AC/L
 * Blue -> AC/N
@@ -1597,11 +1599,11 @@ The three ring terminals were then connected to the power supply's input termina
 
 ![connect_main_electronic_box_26](./images/build/frame/connect_main_electronic_box_26.jpg)
 
-Power was connected to the C14 connector (read [this](#connect-main-electronic-box) note before connecting the power) and a multimeter was used to verify that the power supply outputted 12V. The multimeter was also used to verify that the C14 connector worked properly (cut power when using the switch) and that the emergency stop switch worked propertly (cut power when pushed. Also that it remains off when C14 connector is switched off and on again).
+Power was connected to the C14 connector (read [this](#connect-main-electronic-box) note before connecting the power) and a multimeter was used to verify that the power supply outputted 12V. The multimeter was also used to verify that the C14 connector worked properly (cut power when using the switch) and that the emergency stop switch worked propertly (cut power when pushed. Also that the emegency stop switch remains off when C14 connector is switched off and on again).
 
 ![connect_main_electronic_box_26](./images/build/frame/connect_main_electronic_box_24_1.jpg)
 
-The emergency stop switch was attached to the front plate using two 20 mm M4 screws, two M4 nuts and two (9 mm, 4 mm, 1 mm) washers.
+The emergency stop switch was attached to the front plate using 2x 18mm M4 screws (**S09**), 2x M4 nuts (**N01**) and two (9 mm, 4.5 mm, 1 mm) washers (**W07**).
 
 ![connect_main_electronic_box_27](./images/build/frame/connect_main_electronic_box_27.jpg)
 
@@ -1615,7 +1617,7 @@ The C14 connector was attached to the front plate using super glue. A cloth was 
 
 ![connect_main_electronic_box_28_3](./images/build/frame/connect_main_electronic_box_28_3.jpg)
 
-Shrink tubes were cut out at an appropriate length, one for each spade connector. Each spade connector was then temporarily removed and inserted into its shrink tube, before attached back again. The shrink tubes were then shrunk around all the spade connectors.
+Shrink tubes (**O24**) were cut out at an appropriate length, one for each spade connector. Each spade connector was then temporarily removed and inserted into its shrink tube, before attached back again. The shrink tubes were then shrunk around all the spade connectors.
 
 ![connect_main_electronic_box_29](./images/build/frame/connect_main_electronic_box_29.jpg)
 
@@ -1627,7 +1629,7 @@ Shrink tubes were cut out at an appropriate length, one for each spade connector
 
 ### Prepare power to steppers and connect fans and LED
 
-To prepare the power for the stepper motors, one black and one red wire were cut out (approx. 300 mm long) to reach between the 12V terminals on the power supply and the small electronic box containing the Arduino and CNC shield. One side of each wire was then stripped and twisted, and ring terminals were attached. 
+To prepare the power for the stepper motors, one black and one red wire (**E03**) were cut out (approx. 300 mm long) to reach between the 12V terminals on the power supply and the small electronic box containing the Arduino and CNC shield. One side of each wire was then stripped and twisted, and 2x M3 ring terminals (**E23**) were attached. 
 
 The red wire was connected to the **V+** and the black wire was connected to **V-**.
 
@@ -1637,7 +1639,7 @@ The red wire was connected to the **V+** and the black wire was connected to **V
 
 ![connect_main_electronic_box_35](./images/build/frame/connect_main_electronic_box_35.jpg)
 
-A 40x40 mm 12V fan was attached to the back side of the large electronic box's front panel, using 4 10 mm M3 screws. The fan was attached to blow air out of the box.
+A 40x40 mm 12V fan (**E01**) was attached to the back side of the large electronic box's front panel, using 4x 12 mm M3 screws (**S02**). The fan was attached to blow air out of the box.
 
 ![attach_fans_led_1](./images/build/frame/attach_fans_led_1.jpg)
 
@@ -1645,7 +1647,7 @@ A 40x40 mm 12V fan was attached to the back side of the large electronic box's f
 
 ![attach_fans_led_3](./images/build/frame/attach_fans_led_3.jpg)
 
-A 12V red LED was inserted into the small ~8 mm hole on the front of the large electronic box's front panel.
+A 12V red LED (**E22**) was inserted into the small ~8 mm hole on the front of the large electronic box's front panel.
 
 ![attach_fans_led_4](./images/build/frame/attach_fans_led_4.jpg)
 
@@ -1653,7 +1655,7 @@ A 12V red LED was inserted into the small ~8 mm hole on the front of the large 
 
 ![attach_fans_led_6](./images/build/frame/attach_fans_led_6.jpg)
 
-The second 40x40 mm 12V fan was attached to the back side of the small electronic box's front panel, using 4 10 mm M3 screws. A short flexible conduit reaching between the two eletronic boxces was cut out and the wires from the fan were inserted through it.
+The second 40x40 mm 12V fan (**E01**) was attached to the back side of the small electronic box's front panel, using 4x 12 mm M3 screws (**S02**). A short flexible conduit (**O13**) reaching between the two eletronic boxes was cut out and the wires from the fan were inserted through it.
 
 ![attach_fans_led_7](./images/build/frame/attach_fans_led_7.jpg)
 
@@ -1663,7 +1665,7 @@ The second 40x40 mm 12V fan was attached to the back side of the small electroni
 
 ![attach_fans_led_9](./images/build/frame/attach_fans_led_9_1.jpg)
 
-The loose wires of the two fans and the LED were stripped and twisted together, black together and red together. Then all three black wires were attached into the same ring terminal and all three red wires were attached into the same ring terminal.
+The loose wires of the two fans and the LED were stripped and twisted together, black together and red together. Then all three black wires were attached into the same M3 ring terminal (**E23**) and all three red wires were attached into the same M3 ring terminal (**E23**).
 
 ![attach_fans_led_10](./images/build/frame/attach_fans_led_10.jpg)
 
@@ -1671,15 +1673,15 @@ The loose wires of the two fans and the LED were stripped and twisted together, 
 
 ![attach_fans_led_11](./images/build/frame/attach_fans_led_12.jpg)
 
-The red wires (red ring terminal) were finally connected to the **V+** and the black wires (blue ring terminal) were connected to **V-**.
+The red wires (red ring terminal) were finally connected to the **V+** and the black wires (blue ring terminal) were connected to **V-** on the 12V power supply.
 
 ![attach_fans_led_13](./images/build/frame/attach_fans_led_13.jpg)
 
-The 12V power wires intended for the stepper motors were inserted through the same short flexible conduit as the fan wires.
+The red and black 12V power wires intended for the stepper motors were inserted through the same short flexible conduit as the fan wires.
 
 ![attach_fans_led_14](./images/build/frame/attach_fans_led_14.jpg)
 
-Two 3d-printed strain relief halves were inserted into the hole on the side of the large electronic box facing the small electronic box. The large box was then carefully closed and attached to the upper and lower frame again. It's really important that you don't have to force it closed. If that's the case you need to move some cables for it to close smoothly.
+2x 3d-printed strain relief halves (**P11**) were inserted into the hole on the side of the large electronic box facing the small electronic box. The large box was then carefully closed and attached to the upper and lower frame again. It's really important that you don't have to force it closed. If that's the case you need to move some cables for it to close smoothly.
 
 ![attach_fans_led_15](./images/build/frame/attach_fans_led_15.jpg)
 
@@ -1691,7 +1693,7 @@ Two 3d-printed strain relief halves were inserted into the hole on the side of t
 
 ### Assemble stepper motor drivers and tune VRef
 
-One small heatsink was attached to each DRV8825 stepper driver.
+One small heatsink was attached to each DRV8825 stepper driver (**E16**).
 
 ![vref_stepper_drivers_1](./images/build/frame/vref_stepper_drivers_1.jpg)
 
@@ -1772,7 +1774,7 @@ A female USB-A was inserted into the front plate of the small electronic box. By
 
 ![arduino_and_usb_4](./images/build/frame/arduino_and_usb_4_1.jpg)
 
-4 small shrink tubes were cut out and the wires were inserted into the shrink tubes. 
+4 small shrink tubes (**O24**) were cut out and the wires were inserted into the shrink tubes. 
 
 ![arduino_and_usb_7](./images/build/frame/arduino_and_usb_7.jpg)
 
@@ -1844,7 +1846,7 @@ To keep a good structure of the wires inside the small box, electrical crimp con
 
 ![steppers_to_cnc_shield_18](./images/build/frame/steppers_to_cnc_shield_18.jpg)
 
-For each stepper, the wires were cut at an appropriate length to reach to its connection on the CNC shield. Each wire were stripped and twisted. An AWG22/24 crimp connector was then attached to the end of each wire using a crimping tool. A shrinking tube was shrunk around the wires to keep a good structure.
+For each stepper, the wires were cut at an appropriate length to reach to its connection on the CNC shield. Each wire were stripped and twisted. An AWG22/24 crimp connector was then attached to the end of each wire using a crimping tool. A shrinking tube (**O24**) was shrunk around the wires to keep a good structure.
 
 The wires were then inserted and locked into a 1X4 contact housing. Make sure to insert the wires in the correct orinentation, as the crimp connector has a "lock" that interlocks with the contact housing.
 
@@ -1892,7 +1894,7 @@ For each end-stop, the two wires were cut at an appropriate length to reach to i
 
 ![endstops_to_cnc_shield_2](./images/build/frame/endstops_to_cnc_shield_2.jpg)
 
-As I didn't have access to any 1x2 contact housings, a shrinking tube was shrunk around each crimp connectors to reduce the risk of shorts.
+As I didn't have access to any 1x2 contact housings, a shrinking tube (**O24**) was shrunk around each crimp connectors to reduce the risk of shorts.
 
 This was done for all end-stops (X+, X-, Y+, Y- and Z+). Tape and a sharpie was used to indicate which pair of wires beloning to which end-stop. The crimp connector pairs were then connected to its connections on the CNC shield.
 
