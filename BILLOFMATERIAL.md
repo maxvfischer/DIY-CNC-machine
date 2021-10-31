@@ -136,29 +136,30 @@ This page includes an aggregated overview (incl. images) of all the parts needed
 
 ## Other
 
-| Item No. | Type                                               | Amount | Image                                                                                              |
-|----------|----------------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
-| O01      | 698zz bearing                                      | 18     | ![698zz_bearing](./images/parts/other/698zz_bearing.jpg)                                           |
-| O02      | Acme threaded rod (300 mm long, 8x8mm)             | 1      | ![acme_threaded_rod](./images/parts/other/acme_threaded_rod.jpg)                                   |
-| O03      | Acme threaded rod nut (8x8mm)                      | 1      | ![acme_nut](./images/parts/other/acme_nut.jpg)                                                     |
-| O04      | Aluminium profiles (677x30x30 mm)                  | 4      | ![aluminium_profiles_677mm_30mm_30mm](./images/parts/other/aluminium_profiles_677mm_30mm_30mm.jpg) |
-| O05      | Aluminium profiles (803x30x30 mm)                  | 3      | ![aluminium_profiles_803mm_30mm_30mm](./images/parts/other/aluminium_profiles_803mm_30mm_30mm.jpg) |
-| O06      | Aluminium profiles (80x30x30 mm)                   | 8      | ![aluminium_profiles_80mm_30mm_30mm](./images/parts/other/aluminium_profiles_80mm_30mm_30mm.jpg)   |
-| O07      | Aluminium profiles (900x30x30 mm)                  | 4      | ![aluminium_profiles_900mm_30mm_30mm](./images/parts/other/aluminium_profiles_900mm_30mm_30mm.jpg) |
-| O08      | Braided cable sleeve (20mm)                        | 5m     | ![cable_sleeve](./images/parts/other/cable_sleeve.jpg)                                             |
-| O09      | Cable chain (1m long, 30x15mm inner dimensions)    | 2      | ![cable_chain](./images/parts/other/cable_chain.jpg)                                               |
-| O10      | Cable clip                                         | 1      | ![cable_clip](./images/parts/other/cable_clip.jpg)                                                 |
-| O11      | Cable ties                                         | ~30    | ![cable_ties](./images/parts/other/cable_ties.jpg)                                                 |
-| O12      | Flat end mill                                      | NA     | ![flat_end_mills](./images/parts/other/flat_end_mills.jpg)                                         |
-| O13      | Flexible conduit                                   | 2m     | ![cable_conduit](./images/parts/other/cable_conduit.jpg)                                           |
-| O14      | GT2 belt (6mm belt width, 300mm long)              | 1      | ![2GT_belt_300_mm](./images/parts/other/2GT_belt_300_mm.jpg)                                       |
-| O15      | GT2 pulley (16 teeth, 5mm bore, 6mm belt width)    | 1      | ![2GT_pulley_16_teeth](./images/parts/other/2GT_pulley_16_teeth.jpg)                               |
-| O16      | GT2 pulley (60 teeth, 8mm bore, 6mm belt width)    | 1      | ![2GT_pulley_60_teeth](./images/parts/other/2GT_pulley_60_teeth.jpg)                               |
-| O17      | HTD5M belt (15mm width)                            | 4m     | ![HTD5M_belt](./images/parts/other/HTD5M_belt.jpg)                                                 |
-| O18      | HTD5M pulley (12 teeth, 8mm bore, 15mm belt width) | 3      | ![HTD5M_pulley](./images/parts/other/HTD5M_pulley.jpg)                                             |
-| O19      | KFL08 rod bearing (8mm)                            | 2      | ![KFL08_rod_bearing](./images/parts/other/KFL08_rod_bearing.jpg)                                   |
-| O20      | MGN12H linear rail (200mm)                         | 2      | ![MGN12H_rail_200_mm](./images/parts/other/MGN12H_rail_200_mm.jpg)                                 |
-| O21      | MGN12H linear rail (600mm)                         | 4      | ![MGN12H_rail_600_mm](./images/parts/other/MGN12H_rail_600_mm.jpg)                                 |
-| O22      | MGN12H linear rail block                           | 12     | ![MGN12H_rail_block](./images/parts/other/MGN12H_rail_block.jpg)                                   |
-| O23      | Masking tape                                       | 1      | ![masking_tape](./images/parts/other/masking_tape.jpg)                                             |
-| O24      | Shrinking tubes                                    | NA     | ![shrinking_tubes](./images/parts/other/shrinking_tubes.jpg)                                       |
+|     | Type                                               | Amount | Image                                                                                              |
+|-----|----------------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
+| O01 | 698zz bearing                                      | 18     | ![698zz_bearing](./images/parts/other/698zz_bearing.jpg)                                           |
+| O02 | Acme threaded rod (300 mm long, 8x8mm)             | 1      | ![acme_threaded_rod](./images/parts/other/acme_threaded_rod.jpg)                                   |
+| O03 | Acme threaded rod nut (8x8mm)                      | 1      | ![acme_nut](./images/parts/other/acme_nut.jpg)                                                     |
+| O04 | Aluminium profiles (677x30x30 mm)                  | 4      | ![aluminium_profiles_677mm_30mm_30mm](./images/parts/other/aluminium_profiles_677mm_30mm_30mm.jpg) |
+| O05 | Aluminium profiles (803x30x30 mm)                  | 3      | ![aluminium_profiles_803mm_30mm_30mm](./images/parts/other/aluminium_profiles_803mm_30mm_30mm.jpg) |
+| O06 | Aluminium profiles (80x30x30 mm)                   | 8      | ![aluminium_profiles_80mm_30mm_30mm](./images/parts/other/aluminium_profiles_80mm_30mm_30mm.jpg)   |
+| O07 | Aluminium profiles (900x30x30 mm)                  | 4      | ![aluminium_profiles_900mm_30mm_30mm](./images/parts/other/aluminium_profiles_900mm_30mm_30mm.jpg) |
+| O08 | Braided cable sleeve (20mm)                        | 5m     | ![cable_sleeve](./images/parts/other/cable_sleeve.jpg)                                             |
+| O09 | Cable chain (1m long, 30x15mm inner dimensions)    | 2      | ![cable_chain](./images/parts/other/cable_chain.jpg)                                               |
+| O10 | Cable clip                                         | 1      | ![cable_clip](./images/parts/other/cable_clip.jpg)                                                 |
+| O11 | Cable ties                                         | ~30    | ![cable_ties](./images/parts/other/cable_ties.jpg)                                                 |
+| O12 | Flat end mill                                      | NA     | ![flat_end_mills](./images/parts/other/flat_end_mills.jpg)                                         |
+| O13 | Flexible conduit                                   | 2m     | ![cable_conduit](./images/parts/other/cable_conduit.jpg)                                           |
+| O14 | GT2 belt (6mm belt width, 300mm long)              | 1      | ![2GT_belt_300_mm](./images/parts/other/2GT_belt_300_mm.jpg)                                       |
+| O15 | GT2 pulley (16 teeth, 5mm bore, 6mm belt width)    | 1      | ![2GT_pulley_16_teeth](./images/parts/other/2GT_pulley_16_teeth.jpg)                               |
+| O16 | GT2 pulley (60 teeth, 8mm bore, 6mm belt width)    | 1      | ![2GT_pulley_60_teeth](./images/parts/other/2GT_pulley_60_teeth.jpg)                               |
+| O17 | HTD5M belt (15mm width)                            | 4m     | ![HTD5M_belt](./images/parts/other/HTD5M_belt.jpg)                                                 |
+| O18 | HTD5M pulley (12 teeth, 8mm bore, 15mm belt width) | 3      | ![HTD5M_pulley](./images/parts/other/HTD5M_pulley.jpg)                                             |
+| O19 | KFL08 rod bearing (8mm)                            | 2      | ![KFL08_rod_bearing](./images/parts/other/KFL08_rod_bearing.jpg)                                   |
+| O20 | MGN12H linear rail (200mm)                         | 2      | ![MGN12H_rail_200_mm](./images/parts/other/MGN12H_rail_200_mm.jpg)                                 |
+| O21 | MGN12H linear rail (600mm)                         | 4      | ![MGN12H_rail_600_mm](./images/parts/other/MGN12H_rail_600_mm.jpg)                                 |
+| O22 | MGN12H linear rail block                           | 12     | ![MGN12H_rail_block](./images/parts/other/MGN12H_rail_block.jpg)                                   |
+| O23 | Masking tape                                       | 1      | ![masking_tape](./images/parts/other/masking_tape.jpg)                                             |
+| O24 | Shrinking tubes                                    | NA     | ![shrinking_tubes](./images/parts/other/shrinking_tubes.jpg)                                       |
+| O25 | Cable grommet                                      | 1      | ![cable_grommet](./images/parts/other/cable_grommet.jpg)                                           |
