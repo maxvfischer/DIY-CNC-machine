@@ -83,6 +83,7 @@ The guide is based on Ivan Miranada's design and is a complement to Ivan's Youtu
 			1. [Enable end-stops/hard limits](#enable-end-stopshard-limits)
 			2. [Calculate and set travel resolutions](#calculate-and-set-travel-resolutions)
 			3. [Other configurations](#other-configurations)
+5. [Final notes](#final-notes)
 
 # License
 The following license is included when buying Ivan Miranda's blueprints of the CNC machine:
