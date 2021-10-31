@@ -8,6 +8,12 @@ The guide is based on Ivan Miranada's design and is a complement to Ivan's Youtu
 2. Updates with geared stepper motors etc: [https://www.youtube.com/watch?v=qpjf5D3WngY](https://www.youtube.com/watch?v=qpjf5D3WngY)
 3. Updating to metal parts: [https://www.youtube.com/watch?v=RDnGvhdGFEY](https://www.youtube.com/watch?v=RDnGvhdGFEY)
 
+If you have any questions, feel free to contact me on LinkedIn: [https://www.linkedin.com/in/max-fischer-92997281/](https://www.linkedin.com/in/max-fischer-92997281/) 
+
+or
+
+![contact](./contact.png)
+
 ![cnc_top_gif](./images/cnc_top_gif.gif)
 
 # Table of content
