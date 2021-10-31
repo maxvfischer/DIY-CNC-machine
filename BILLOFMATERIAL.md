@@ -124,6 +124,7 @@ This page includes an aggregated overview (incl. images) of all the parts needed
 | E27      | Spade connector (6.3mm)                                           | 4              | ![spade_connector_6-3mm](./images/parts/electronics/spade_connector_6-3mm.jpg)                 |
 | E28      | USB A (male) to USB B (male)                                      | 1              | ![USB_A_to_USB_B](./images/parts/electronics/USB_A_to_USB_B.jpg)                               |
 | E29      | USB A PCB (female)                                                | 1              | ![usb_a_female](./images/parts/electronics/usb_a_female.jpg)                                   |
+| E30      | C13 cable                                                         | 1              | ![c13_cable](./images/parts/electronics/c13_cable.jpg)                                         |
 
 ## Threaded rods
 
