@@ -5,7 +5,7 @@ This page includes an aggregated overview (incl. images) of all the parts needed
 * [On Google drive](https://docs.google.com/spreadsheets/d/1VdnPilA22OfAh9a1y4Ft6c2xkio206Dzv85h7AX7CmQ/edit?usp=sharing)
 * [Bill\_of\_material.xlsx](./Bill_of_material.xlsx)
 
-The 3d-printed parts were printed using:
+The 3d-printed parts were printed in standard PLA using:
 
 * 30% infill
 * 4 top solid horizontal layers
