@@ -5,6 +5,15 @@ This page includes an aggregated overview (incl. images) of all the parts needed
 * [On Google drive](https://docs.google.com/spreadsheets/d/1VdnPilA22OfAh9a1y4Ft6c2xkio206Dzv85h7AX7CmQ/edit?usp=sharing)
 * [Bill\_of\_material.xlsx](./Bill_of_material.xlsx)
 
+The 3d-printed parts were printed using:
+
+* 30% infill
+* 4 top solid horizontal layers
+* 4 bottom solid horizontal layers
+* 4 perimeters
+
+The complete PrusaSlicer config used can be found here: [prusa\_slicer\_config.ini](./prusa_slicer_config.ini)
+
 ## 3d-printed parts
 
 | Item No. | Type                                      | Amount | Image                                                                                                                                                   | STL-file                                                                                                                         | OBJ-file                                                                                                                         |
