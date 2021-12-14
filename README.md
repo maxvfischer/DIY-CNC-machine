@@ -16,6 +16,19 @@ or
 
 ![cnc_top_gif](./images/cnc_top_gif.gif)
 
+---
+
+**Featured on**
+
+* Hackernews (#2): [https://news.ycombinator.com/item?id=29096954](https://news.ycombinator.com/item?id=29096954)
+* Console open-source newsletter: [https://console.substack.com/p/console-83](https://console.substack.com/p/console-83)
+* Hackaday's blog: [https://hackaday.com/2021/11/05/diy-cnc-uses-lots-of-3d-printed-parts/](https://hackaday.com/2021/11/05/diy-cnc-uses-lots-of-3d-printed-parts/)
+* Hackaday's podcast (~25:30): [https://open.spotify.com/episode/2YuxrVAgbQvVTjcUljJ3rj?si=lkp1L061R7ix6WkA7s1ieA](https://open.spotify.com/episode/2YuxrVAgbQvVTjcUljJ3rj?si=lkp1L061R7ix6WkA7s1ieA)
+* Arduino's official blog: [https://blog.arduino.cc/2021/11/03/learn-how-to-build-your-own-massive-3d-printed-cnc-router/](https://blog.arduino.cc/2021/11/03/learn-how-to-build-your-own-massive-3d-printed-cnc-router/)
+* Weekly robotics newsletter: [https://weeklyrobotics.com/weekly-robotics-168](https://weeklyrobotics.com/weekly-robotics-168)
+
+---
+
 # Table of content
 1. [License](#license)
 2. [Parts (bill of materials)](#parts-bill-of-materials)
