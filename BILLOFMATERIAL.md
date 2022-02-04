@@ -77,6 +77,7 @@ The complete PrusaSlicer config used can be found here: [prusa\_slicer\_config.i
 | S12      | M5    | 20mm   | 26     | ![M5_20mm](./images/parts/consumables/screws/M5/M5_20mm.jpg)          |
 | S13      | M5    | 40mm   | 6      | ![M5_40mm](./images/parts/consumables/screws/M5/M5_40mm.jpg)          |
 | S14      | M5    | 60mm   | 2      | ![M5_60mm](./images/parts/consumables/screws/M5/M5_60mm.jpg)          |
+| S17      | M5    | 80mm   | 1      | ![M5_80mm](./images/parts/consumables/screws/M5/M5_80mm.jpg)          |
 | S15      | M8    | 60mm   | 9      | ![M8_60mm](./images/parts/consumables/screws/M8/M8_60mm.jpg)          |
 | S16      | M8    | 80mm   | 2      | ![M8_80mm](./images/parts/consumables/screws/M8/M8_80mm.jpg)          |
 
@@ -85,7 +86,7 @@ The complete PrusaSlicer config used can be found here: [prusa\_slicer\_config.i
 | Item No. | Size | Amount | Image                                         |
 |----------|------|--------|-----------------------------------------------|
 | N01      | M4   | 11     | ![M4](./images/parts/consumables/nuts/M4.jpg) |
-| N02      | M5   | 14     | ![M5](./images/parts/consumables/nuts/M5.jpg) |
+| N02      | M5   | 15     | ![M5](./images/parts/consumables/nuts/M5.jpg) |
 | N03      | M8   | 35     | ![M8](./images/parts/consumables/nuts/M8.jpg) |
 
 ## Washers
@@ -173,3 +174,4 @@ The complete PrusaSlicer config used can be found here: [prusa\_slicer\_config.i
 | O24 | Shrinking tubes                                    | NA     | ![shrinking_tubes](./images/parts/other/shrinking_tubes.jpg)                                       |
 | O25 | Cable grommet                                      | 1      | ![cable_grommet](./images/parts/other/cable_grommet.jpg)                                           |
 | O26 | Plywood (approx. 12x1500x1500mm)                   | 1      | ![plywood](./images/parts/other/plywood.jpg)                                                       |
+| O27 | Brush                                              | 0.5m   | ![dust_shoe](./images/parts/other/dust_shoe.jpg)                                                   |
